@@ -1113,10 +1113,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section {
 audio,canvas,video {
     display: inline-block;
     *display: inline;
+    width: 90%;
     *zoom:1}
-video {
-max-width: 1280px;
-}
+
 audio:not([controls]) {
     display: none
 }
@@ -4163,7 +4162,7 @@ a.reversefootnote:hover {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    max-width: 1280px
+    max-width: 100%
 }
 
 .responsive-video-container iframe,.responsive-video-container object,.responsive-video-container embed {
