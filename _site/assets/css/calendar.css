@@ -249,6 +249,9 @@
 .track-workshop {
     background-color: #b7f5bd;
     color: #000;
+}.track-gallery {
+    background-color: #f5b7b7;
+    color: #000;
 }
 .track-workshop a{    
     color: #000 !important;
