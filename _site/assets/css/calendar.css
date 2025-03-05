@@ -249,11 +249,14 @@
 .track-workshop {
     background-color: #b7f5bd;
     color: #000;
-}.track-gallery {
-    background-color: #ff0000;
-    color: #000;
 }
 .track-workshop a{    
+    color: #000 !important;
+}
+.track-gallery {
+    background-color: #ff0000;
+    color: #000;
+}.track-gallery a{
     color: #000 !important;
 }
 
