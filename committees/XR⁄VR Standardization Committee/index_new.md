@@ -214,7 +214,7 @@ title_separator: "|"
     
     .std-member-grid.std-advisors-grid {
         grid-template-columns: repeat(2, 1fr);
-        max-width: 700px;
+        max-width: 1700px;
     }
     
     .std-member-card-simple {
