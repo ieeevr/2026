@@ -348,7 +348,7 @@ title_separator: "|"
 
 <div class="std-committee-section" id="standardization-committee">
     <div class="std-committee-content">
-        <img src="images/logo.png" alt="XRStand Logo" style="position: fixed; top: 0px; left: -140px; width: 500px; height: 180px;">
+        <img src="images/logo.png" alt="XRStand Logo" style="position: fixed; top: 0px; left: -140px; width: 500px; height: 180px; display:none">
         <h2>XR/VR Standardization Committee</h2>
         <div class="std-conference-subtitle">IEEE VR 2026 · Daegu, Korea</div>
         <!-- <img src="images/logo.png" alt="IEEE VR 2026 Logo" style="display: block; margin: 0 auto 40px; max-width: 200px; opacity: 0.9;"> -->
