@@ -199,12 +199,16 @@ title_separator: "|"
     }
     
     .std-member-grid.std-chairs-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         max-width: 1200px;
     }
+
+
+
+
     
     .std-member-grid.std-members-grid {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         max-width: 1400px;
     }
     
@@ -297,7 +301,7 @@ title_separator: "|"
         overflow: hidden;
         transition: max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;
         text-align: justify;
-        font-size: 0.7em;
+        font-size: clamp(13px, 2.5vw, 14.5px);
         color: #4a5568;
         line-height: 1.7;
         padding: 0 15px;
