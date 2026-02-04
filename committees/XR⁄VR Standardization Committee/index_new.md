@@ -186,7 +186,7 @@ title_separator: "|"
     
     .std-topic-card p {
         margin: 0;
-       font-size: clamp(15px,2.5vw,17px);
+       font-size: clamp(15px,2.5vw,16px);
         line-height: 1.6;
         opacity: 0.95;
     }
@@ -274,7 +274,7 @@ title_separator: "|"
         color: white;
         border: none;
         border-radius: 25px;
-        font-size: clamp(14px, 2.5vw, 17px);
+        font-size: clamp(14px, 2.5vw, 16px);
         font-weight: 600;
         cursor: pointer;
         transition: all 0.3s ease;
