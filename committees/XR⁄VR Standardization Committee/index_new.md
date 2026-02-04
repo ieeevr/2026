@@ -58,7 +58,7 @@ title_separator: "|"
         color: #2d3748;
         margin-top: 60px;
         margin-bottom: 30px;
-        font-size: 1.8em;
+        font-size:clamp(20px, 2.5vw, 28px);
         font-weight: 700;
         padding-bottom: 15px;
         border-bottom: 3px solid #00D4AA;
@@ -180,13 +180,13 @@ title_separator: "|"
     
     .std-topic-card h5 {
         margin: 0 0 10px 0;
-        font-size: 1.2em;
+        font-size: clamp(16px,2.5vw,18px);
         font-weight: 600;
     }
     
     .std-topic-card p {
         margin: 0;
-        font-size: 0.95em;
+       font-size: clamp(15px,2.5vw,17px);
         line-height: 1.6;
         opacity: 0.95;
     }
@@ -245,14 +245,14 @@ title_separator: "|"
     
     .std-member-name {
         font-weight: 700;
-        font-size: 1.15em;
+        font-size: clamp(14px, 2.5vw, 17px);
         color: #2d3748;
         margin: 15px 0 8px 0;
     }
     
     .std-member-affiliation {
         color: #718096;
-        font-size: 0.95em;
+        font-size: clamp(14px, 2.5vw, 17px);
         font-style: italic;
         margin-bottom: 15px;
         line-height: 1.5;
@@ -270,7 +270,7 @@ title_separator: "|"
         color: white;
         border: none;
         border-radius: 25px;
-        font-size: 0.9em;
+        font-size: clamp(14px, 2.5vw, 17px);
         font-weight: 600;
         cursor: pointer;
         transition: all 0.3s ease;
