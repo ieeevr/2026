@@ -401,7 +401,7 @@ title_separator: "|"
     <h3>Committee Chairs</h3>
     <div class="std-member-grid std-chairs-grid">
         <div class="std-member-card-simple">
-            <img src="images/Yahya%20Hmaiti.jpg" alt="Yahya Hmaiti" class="std-member-photo">
+            <img src="images/Yahya Hmaiti.jpg" alt="Yahya Hmaiti" class="std-member-photo">
             <div class="std-member-name">Yahya (Yohan) Hmaiti</div>
             <div class="std-member-affiliation">University of Central Florida, USA</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
@@ -440,7 +440,7 @@ title_separator: "|"
         </div>
         
         <div class="std-member-card-simple">
-            <img src="images/Ryosuke%20Ichikari.jpg" alt="Ryosuke Ichikari" class="std-member-photo">
+            <img src="images/Ryosuke Ichikari.jpg" alt="Ryosuke Ichikari" class="std-member-photo">
             <div class="std-member-name">Ryosuke Ichikari</div>
             <div class="std-member-affiliation">AIST, Japan</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
