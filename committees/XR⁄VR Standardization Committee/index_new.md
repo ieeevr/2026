@@ -36,7 +36,7 @@ title_separator: "|"
     .std-committee-section h2 {
         color: #2d3748;
         margin-bottom: 15px;
-        font-size: 2.5em;
+        font-size: clamp(22px, 2.5vw, 35px);
         font-weight: 700;
         text-align: center;
         background: linear-gradient(135deg, #00D4AA 0%, #1e2875 100%);
@@ -48,7 +48,7 @@ title_separator: "|"
     .std-conference-subtitle {
         text-align: center;
         color: #00D4AA;
-        font-size: 1.3em;
+        font-size: clamp(17px, 2.5vw, 25px);
         font-weight: 600;
         margin-bottom: 40px;
         letter-spacing: 1px;
