@@ -1,3 +1,10 @@
+---
+layout: ieeevr-default
+title: "XR/VR Standardization Committee"
+subtitle: "IEEE VR 2026"
+title_separator: "|"
+---
+
 <!-- IEEE VR 2026 Standardization Committee Section -->
 <!-- Modern, visually appealing design with panel information -->
 
@@ -29,7 +36,7 @@
     .std-committee-section h2 {
         color: #2d3748;
         margin-bottom: 15px;
-        font-size: 2.5em;
+        font-size: clamp(22px, 2.5vw, 35px);
         font-weight: 700;
         text-align: center;
         background: linear-gradient(135deg, #00D4AA 0%, #1e2875 100%);
@@ -41,7 +48,7 @@
     .std-conference-subtitle {
         text-align: center;
         color: #00D4AA;
-        font-size: 1.3em;
+        font-size: clamp(17px, 2.5vw, 25px);
         font-weight: 600;
         margin-bottom: 40px;
         letter-spacing: 1px;
@@ -51,7 +58,7 @@
         color: #2d3748;
         margin-top: 60px;
         margin-bottom: 30px;
-        font-size: 1.8em;
+        font-size:clamp(20px, 2.5vw, 28px);
         font-weight: 700;
         padding-bottom: 15px;
         border-bottom: 3px solid #00D4AA;
@@ -60,7 +67,7 @@
     .std-committee-email {
         text-align: center;
         margin: 30px 0 40px 0;
-        font-size: 1.2em;
+       font-size: clamp(17px, 2.5vw, 18px);
     }
     
     .std-email-link {
@@ -93,15 +100,19 @@
         border-radius: 15px;
         border-left: 5px solid #00D4AA;
         margin-bottom: 50px;
-        line-height: 1.8;
+        line-height: 1.5;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     }
     
     .std-intro p {
         color: #4a5568;
-        font-size: 1.05em;
+        font-size: clamp(15px,2.5vw,17px);
         margin: 0;
     }
+
+.page__content p {font-size: clamp(15px,2.5vw,17px);}
+
+
     
     /* Panel Section */
     .std-panel-section {
@@ -133,7 +144,7 @@
     
     .std-panel-section h4 {
         margin: 0;
-        font-size: 1.8em;
+       font-size: clamp(20px, 2.5vw, 28px);
         font-weight: 700;
     }
     
@@ -169,13 +180,13 @@
     
     .std-topic-card h5 {
         margin: 0 0 10px 0;
-        font-size: 1.2em;
+        font-size: clamp(16px,2.5vw,18px);
         font-weight: 600;
     }
     
     .std-topic-card p {
         margin: 0;
-        font-size: 0.95em;
+       font-size: clamp(15px,2.5vw,16px);
         line-height: 1.6;
         opacity: 0.95;
     }
@@ -188,18 +199,22 @@
     }
     
     .std-member-grid.std-chairs-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         max-width: 1200px;
     }
+
+
+
+
     
     .std-member-grid.std-members-grid {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         max-width: 1400px;
     }
     
     .std-member-grid.std-advisors-grid {
         grid-template-columns: repeat(2, 1fr);
-        max-width: 700px;
+        max-width: 1700px;
     }
     
     .std-member-card-simple {
@@ -234,14 +249,14 @@
     
     .std-member-name {
         font-weight: 700;
-        font-size: 1.15em;
+        font-size: clamp(14px, 2.5vw, 17px);
         color: #2d3748;
         margin: 15px 0 8px 0;
     }
     
     .std-member-affiliation {
         color: #718096;
-        font-size: 0.95em;
+        font-size: clamp(14px, 2.5vw, 17px);
         font-style: italic;
         margin-bottom: 15px;
         line-height: 1.5;
@@ -259,7 +274,7 @@
         color: white;
         border: none;
         border-radius: 25px;
-        font-size: 0.9em;
+        font-size: clamp(14px, 2.5vw, 16px);
         font-weight: 600;
         cursor: pointer;
         transition: all 0.3s ease;
@@ -286,7 +301,7 @@
         overflow: hidden;
         transition: max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;
         text-align: justify;
-        font-size: 0.7em;
+        font-size: clamp(13px, 2.5vw, 14.5px);
         color: #4a5568;
         line-height: 1.7;
         padding: 0 15px;
@@ -333,7 +348,7 @@
 
 <div class="std-committee-section" id="standardization-committee">
     <div class="std-committee-content">
-        <img src="images/logo.png" alt="XRStand Logo" style="position: fixed; top: 0px; left: -140px; width: 500px; height: 180px;">
+        <img src="images/logo.png" alt="XRStand Logo" style="position: fixed; top: 0px; left: -140px; width: 500px; height: 180px; display:none">
         <h2>XR/VR Standardization Committee</h2>
         <div class="std-conference-subtitle">IEEE VR 2026 · Daegu, Korea</div>
         <!-- <img src="images/logo.png" alt="IEEE VR 2026 Logo" style="display: block; margin: 0 auto 40px; max-width: 200px; opacity: 0.9;"> -->
@@ -351,7 +366,7 @@
         <div class="std-intro">
             <p>The IEEE VR 2026 Standardization Committee strengthens connections between academia, industry, and Standards Developing Organizations (SDOs), communicating perspectives and insights from the research community to advance standardization efforts in Virtual Reality, Augmented Reality, and Mixed Reality technologies. Building on the foundation established at ISMAR 2024 (<a href="https://www.youtube.com/watch?v=xDF59FpiB_s" style="color: #1e2875; text-decoration: underline;">Learn More</a>) and 2025 (<a href="https://www.youtube.com/watch?v=6TGDVTBICNc" style="color: #1e2875; text-decoration: underline;">Learn More</a>), this committee focuses on standardization efforts in Virtual Reality, Augmented Reality, and Mixed Reality technologies.</p>
             
-            <p style="margin-top: 20px; padding: 20px; background: white; border-radius: 10px; border-left: 5px solid #00D4AA; font-weight: 600; font-size: 1.1em;">
+            <p style="margin-top: 20px; padding: 20px; background: white; border-radius: 10px; border-left: 5px solid #00D4AA; font-weight: 600;">
                 📋 <strong>For more information about upcoming activities, please check:</strong> <span style="color: #1e2875;">TBD</span>
             </p>
         </div>
@@ -394,7 +409,7 @@
     <h3>Committee Chairs</h3>
     <div class="std-member-grid std-chairs-grid">
         <div class="std-member-card-simple">
-            <img src="images/Yahya%20Hmaiti.jpg" alt="Yahya Hmaiti" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/Yahya Hmaiti.jpg" alt="Yahya Hmaiti" class="std-member-photo">
             <div class="std-member-name">Yahya (Yohan) Hmaiti</div>
             <div class="std-member-affiliation">University of Central Florida, USA</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
@@ -407,7 +422,7 @@
         </div>
 
         <div class="std-member-card-simple">
-            <img src="images/jenshuo.jpg" alt="Jen-Shuo Liu" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/jenshuo.jpg" alt="Jen-Shuo Liu" class="std-member-photo">
             <div class="std-member-name">Jen-Shuo Liu</div>
             <div class="std-member-affiliation">Columbia University, USA</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
@@ -420,7 +435,7 @@
         </div>
 
         <div class="std-member-card-simple">
-            <img src="images/SeonjiKim.jpg" alt="Seonji Kim" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/SeonjiKim.jpg" alt="Seonji Kim" class="std-member-photo">
             <div class="std-member-name">Seonji Kim</div>
             <div class="std-member-affiliation">KAIST, South Korea</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
@@ -433,7 +448,7 @@
         </div>
         
         <div class="std-member-card-simple">
-            <img src="images/Ryosuke%20Ichikari.jpg" alt="Ryosuke Ichikari" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/Ryosuke Ichikari.jpg" alt="Ryosuke Ichikari" class="std-member-photo">
             <div class="std-member-name">Ryosuke Ichikari</div>
             <div class="std-member-affiliation">AIST, Japan</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
@@ -449,31 +464,31 @@
     <h3>Committee Members</h3>
     <div class="std-member-grid std-members-grid">
         <div class="std-member-card-simple">
-            <img src="images/abolghasem.jpg" alt="Abolghasem Sadeghi-Niaraki" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/abolghasem.jpg" alt="Abolghasem Sadeghi-Niaraki" class="std-member-photo">
             <div class="std-member-name">Abolghasem Sadeghi-Niaraki</div>
             <div class="std-member-affiliation">Sejong University, South Korea</div>
         </div>
         
         <div class="std-member-card-simple">
-            <img src="images/mykola.png" alt="Mykola Maslych" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/mykola.png" alt="Mykola Maslych" class="std-member-photo">
             <div class="std-member-name">Mykola Maslych</div>
             <div class="std-member-affiliation">University of Central Florida, USA</div>
         </div>
         
         <div class="std-member-card-simple">
-            <img src="images/jeanbotev.png" alt="Jean Botev" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/jeanbotev.png" alt="Jean Botev" class="std-member-photo">
             <div class="std-member-name">Jean Botev</div>
             <div class="std-member-affiliation">University of Luxembourg, Luxembourg</div>
         </div>
         
         <div class="std-member-card-simple">
-            <img src="images/SeoYoungKang.jpg" alt="Seoyoung Kang" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/SeoYoungKang.jpg" alt="Seoyoung Kang" class="std-member-photo">
             <div class="std-member-name">Seoyoung Kang</div>
             <div class="std-member-affiliation">KAIST, South Korea</div>
         </div>
         
         <div class="std-member-card-simple">
-            <img src="images/DooyoungKim.jpg" alt="Dooyoung Kim" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/DooyoungKim.jpg" alt="Dooyoung Kim" class="std-member-photo">
             <div class="std-member-name">Dooyoung Kim</div>
             <div class="std-member-affiliation">KAIST, South Korea</div>
         </div>
@@ -482,13 +497,13 @@
     <h3>Committee Advisors</h3>
     <div class="std-member-grid std-advisors-grid">
         <div class="std-member-card-simple">
-            <img src="images/Takeshi%20Kurata.jpg" alt="Takeshi Kurata" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/Takeshi%20Kurata.jpg" alt="Takeshi Kurata" class="std-member-photo">
             <div class="std-member-name">Takeshi Kurata</div>
             <div class="std-member-affiliation">AIST, Japan</div>
         </div>
         
         <div class="std-member-card-simple">
-            <img src="images/Christine%20Perey.jpeg" alt="Christine Perey" class="std-member-photo">
+            <img src="/2026/committees/XR⁄VR Standardization Committee/images/Christine%20Perey.jpeg" alt="Christine Perey" class="std-member-photo">
             <div class="std-member-name">Christine Perey</div>
             <div class="std-member-affiliation">Spime Wrangler, Switzerland</div>
         </div>
