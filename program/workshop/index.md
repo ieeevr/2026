@@ -490,7 +490,7 @@ title_separator: "|"
               </dl>
               <dl>
                 <dt>Website</dt>
-                <dd>Closed workshop</dd>
+                <dd>https://meta.kaist.ac.kr/p/hss-xr26</dd>
               </dl>
             </div>
           </div>
