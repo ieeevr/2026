@@ -255,7 +255,7 @@ title_separator: "|"
 <dl>
   <dt><span><i class="fa fa-quora mr10"></i>Important Information for Paper Authors</span><i class="material-icons">keyboard_arrow_down</i></dt>
   <dd>
-    <p class="taj">At least one author per accepted contribution published in the IEEE Digital Library (main conference paper/workshop paper/poster/research demo/3DUI contest) must be registered as an <b>AUTHOR</b> to the FULL conference (from Saturday 21 to Wednesday 25) at the rate of full Member/Non-Member registration regardless of whether or not he/she is a student.</p>
+    <p class="taj">At least one author per accepted contribution published in the IEEE Digital Library (main conference paper/TVCG paper/workshop paper/poster/research demo/3DUI contest) must be registered as an <b>AUTHOR</b> to the FULL conference (from Saturday 21 to Wednesday 25) at the rate of full Member/Non-Member registration regardless of whether or not he/she is a student.</p>
     <ul class="lss-dot">
       <li>The registration deadline for authors is <b>February 15th</b>, 2026.</li>
       <li>Author registrations are not refundable and must be processed no later than <b>February 15</b>, 2026 for their work to be included in the conference program and publications.</li>
