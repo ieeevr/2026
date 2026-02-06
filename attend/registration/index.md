@@ -261,7 +261,8 @@ title_separator: "|"
       <li>Author registrations are not refundable and must be processed no later than <b>February 15</b>, 2026 for their work to be included in the conference program and publications.</li>
       <li>Author registration requires a submission ID.</li>
       <li>To register, open the Registration form linked above. Under the Classification section, select “Paper Author”.</li>
-      <li>Each author registration is valid for TWO accepted contributions (if applicable).</li>
+      <li>Each author registration is valid for <strong style="color:#ff6600">TWO</strong> accepted contributions (if applicable).</li>
+      <li>Additional accepted contributions may be registered with a supplementary fee of <strong style="color:#ff6600">KRW 900,000</strong> per contribution.</li>
     </ul>
   </dd>
 </dl>
