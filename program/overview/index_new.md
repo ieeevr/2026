@@ -566,7 +566,7 @@ th, td {
         <td class="time-col">15:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 8<br>
           (15:00-16:00)</td>
-        <td rowspan="2" class="type-workshop">Panel<br>
+        <td rowspan="2" class="type-workshop">Panel Session<br>
           (15:00-16:30)</td>
       </tr>
       <tr>
