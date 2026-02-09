@@ -183,7 +183,6 @@ th, td {
       <tr>
         <td class="time-col">12:30</td>
         <td colspan="2" class="type-empty"></td>
-        <td class="type-lunch">&nbsp;</td>
       </tr>
       <tr>
         <td class="time-col">13:00</td>
@@ -301,7 +300,7 @@ th, td {
     <tr>
       <td class="time-col">12:30</td>
       <td rowspan="3"></td>
-      <td colspan="3" rowspan="3" class="type-lunch">Lunch (Not Catered)</td>
+      <td colspan="2" rowspan="3" class="type-lunch">Lunch (Not Catered)</td>
     </tr>
     <tr>
       <td class="time-col">13:00</td>
