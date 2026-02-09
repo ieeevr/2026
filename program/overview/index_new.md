@@ -85,7 +85,7 @@ th, td {
 	font-weight: bold;
 } /* 리셉션/디너 */
 .type-workshop {
-	background-color: #e9d9e5;
+	background-color:#e9dfe7;
 	color: #000;
 } /* 워크숍/세션 */
 .type-empty {
@@ -145,7 +145,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="3" class="reg-col">Registration</td>
+        <td colspan="3" ></td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
@@ -261,7 +261,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-      <td colspan="3" class="reg-col">Registration</td>
+      <td colspan="3" ></td>
     </tr>
     <tr>
       <td class="time-col">08:30</td>
@@ -375,7 +375,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="2" class="reg-col">Registration</td>
+        <td colspan="2" ></td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
@@ -504,7 +504,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="3" class="reg-col">Registration</td>
+        <td colspan="3" ></td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
@@ -642,7 +642,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="3" class="reg-col">Registration</td>
+        <td colspan="3" ></td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
