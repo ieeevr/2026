@@ -266,7 +266,7 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">08:30</td>
-      <td rowspan="9" class="type-workshop">Workshops<br>
+      <td rowspan="8" class="type-workshop">Workshops<br>
         (08:30-12:30)</td>
       <td rowspan="3" class="type-tuto">Tutorials<br>
         (08:30-10:00)</td>
@@ -274,10 +274,10 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">09:00</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">09:30</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">10:00</td>
       <td colspan="2" class="type-break">Break (Catered)</td>
@@ -290,27 +290,28 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">11:00</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">11:30</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">12:00</td>
       <td colspan="2" class="type-empty"></td>
     </tr>
     <tr>
       <td class="time-col">12:30</td>
+      <td rowspan="3"></td>
       <td colspan="3" rowspan="3" class="type-lunch">Lunch (Not Catered)</td>
     </tr>
     <tr>
       <td class="time-col">13:00</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">13:30</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">14:00</td>
-      <td rowspan="9" class="type-workshop">Workshops<br>
+      <td rowspan="8" class="type-workshop">Workshops<br>
         (14:00-18:00)</td>
       <td rowspan="3" class="type-tuto">Tutorials<br>
         (14:00-15:30)</td>
@@ -318,10 +319,10 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">14:30</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">15:00</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">15:30</td>
       <td colspan="2" class="type-break">Break (Catered)</td>
@@ -334,16 +335,17 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">16:30</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">17:00</td>
-    </tr>
+      </tr>
     <tr>
       <td class="time-col">17:30</td>
       <td colspan="3" rowspan="2" >&nbsp;</td>
     </tr>
     <tr>
       <td class="time-col">18:00</td>
+      <td >&nbsp;</td>
     </tr>
     </tbody>
   <tbody>
