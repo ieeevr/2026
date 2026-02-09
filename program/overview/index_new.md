@@ -112,7 +112,7 @@ th, td {
 	color: #000;
 }
 
-.type-Paralle {
+.type-Parallel{
 	background-color: #E2E2C7  ;
 	color: #000;
 }
