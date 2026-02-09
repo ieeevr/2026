@@ -30,7 +30,6 @@ table {
 	min-width: 600px;
 	table-layout: fixed;
 	margin-bottom: 0; /* 마진은 .table-scroll에서 제어 */
-	font-size:0.9rem
 }
 th, td {
 	border: 1px solid #888;
@@ -38,6 +37,7 @@ th, td {
 	text-align: center;
 	word-wrap: break-word;
 	vertical-align: middle;
+	font-size:0.9rem
 }
 /* 헤더 스타일 */
 .day-header {
@@ -51,6 +51,7 @@ th, td {
 	background-color: #D9E1F2;
 	font-weight: bold;
 	height: 30px;
+	font-size: 0.6rem
 }
 /* 컬럼 스타일 */
 .time-col {
@@ -62,7 +63,6 @@ th, td {
 	background-color: #D9D9D9;
 	font-weight: bold;
 	color: #444;
-	font-size: 0.6rem
 }
 /* 세션 타입별 컬러 */
 .type-break {
