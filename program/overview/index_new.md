@@ -67,8 +67,8 @@ th, td {
 }
 /* 세션 타입별 컬러 */
 .type-break {
-	background-color: #E2EFDA;
-	color: #385723;
+	background-color: #f3f3f3;
+	color: #000;
 } /* 휴식 */
 .type-lunch {
 	background-color: #f3f3f3;
@@ -85,7 +85,7 @@ th, td {
 	font-weight: bold;
 } /* 리셉션/디너 */
 .type-workshop {
-	background-color: #FFE6F9;
+	background-color: #e5d3e1;
 	color: #000;
 } /* 워크숍/세션 */
 .type-empty {
