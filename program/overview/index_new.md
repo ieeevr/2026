@@ -118,7 +118,7 @@ th, td {
 }
 </style>
 
-<h3>Day 1: Mar. 21 (Sat)</h3>
+<h3>Day 1: Saturday, March 21</h3>
 <div class="table-scroll">
   <table>
     <colgroup>
@@ -232,7 +232,7 @@ th, td {
     </tbody>
   </table>
 </div>
-<h3>Day 2: Mar. 22 (Sun)</h3>
+<h3>Day 2: Sunday, March 22</h3>
 <div class="table-scroll">
   <table>
   <tbody>
@@ -351,7 +351,7 @@ th, td {
   </tbody>
   </table>
 </div>
-<h3>Day 3: Mar. 23 (Mon)</h3>
+<h3>Day 3: Monday Marvh 23</h3>
 <div class="table-scroll">
   <table>
     <colgroup>
@@ -476,7 +476,7 @@ th, td {
     </tbody>
   </table>
 </div>
-<h3>Day 4: Mar. 24 (Tue)</h3>
+<h3>Day 4: Tuesday, March 24</h3>
 <div class="table-scroll">
   <table>
     <colgroup>
@@ -612,7 +612,7 @@ th, td {
     </tbody>
   </table>
 </div>
-<h3>Day 5: Mar. 25 (Wed)</h3>
+<h3>Day 5: Wednesnday, March 25</h3>
 <div class="table-scroll">
   <table>
     <colgroup>
