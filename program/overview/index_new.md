@@ -351,7 +351,7 @@ th, td {
   </tbody>
   </table>
 </div>
-<h3>Day 3: Monday Marvh 23</h3>
+<h3>Day 3: Monday, March 23</h3>
 <div class="table-scroll">
   <table>
     <colgroup>
