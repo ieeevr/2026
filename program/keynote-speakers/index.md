@@ -123,7 +123,7 @@ title_separator: "|"
   <div class="ks-modal-content">
     <div class="ks-modal-header-bar"> <span style="font-weight: bold; color: #666;">Speaker Detail</span> <span class="ks-close" onClick="closeKsModal('modal3')">&times;</span> </div>
     <div class="ks-modal-scroll-area">
-      <div class="ks-modal-profile"> <img src="/2026/assets/images/k_sp_02.png" class="ks-modal-photo">
+      <div class="ks-modal-profile"> <img src="/2026/assets/images/k_sp_03.png" class="ks-modal-photo">
         <h2 class="ks-modal-name">Tomasz Bednarz</h2>
         <p class="ks-modal-affil">NVIDIA</p>
         <div class="ks-modal-talk">Physical AI for the Next Wave of Industrial Digitalization</div>
