@@ -85,7 +85,7 @@ th, td {
 	font-weight: bold;
 } /* 리셉션/디너 */
 .type-workshop {
-	background-color: #e5d3e1;
+	background-color: #e9d9e5;
 	color: #000;
 } /* 워크숍/세션 */
 .type-empty {
