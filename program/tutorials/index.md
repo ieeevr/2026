@@ -12,8 +12,8 @@ title_separator: "|"
       <tr>
         <th rowspan="2">IEEE VR 2026<br>
           Tutorials</th>
-        <th colspan="3">March 21 (Sat) Day</th>
-        <th colspan="2">March 22 (Sun)</th>
+        <th colspan="3">Saturday, March 21</th>
+        <th colspan="2">Sunday, March 22</th>
       </tr>
       <tr>
         <th>Room 1 (325A)</th>
@@ -160,7 +160,7 @@ title_separator: "|"
 </div>
 <div class="new_workshop" >
   <section class="accordion-wrap">
-    <h2 class="accordion-title">Day: Saturday 21 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
+    <h2 class="accordion-title">Day: Saturday, March 21(Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
     <ul class="accordion-list">
       <li class="accordion-item">
         <button class="accordion-header">
@@ -523,7 +523,7 @@ title_separator: "|"
     </ul>
   </section>
   <section class="accordion-wrap">
-    <h2 class="accordion-title">Day: Sunday 22 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
+    <h2 class="accordion-title">Day: Sunday, March 22(Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
     <ul class="accordion-list">
       <li class="accordion-item">
         <button class="accordion-header">
