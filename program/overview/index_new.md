@@ -363,7 +363,7 @@ th, td {
     <tbody>
       <tr>
         <td class="time-col">08:00</td>
-        <td rowspan="38" class="reg-col">R<br>
+        <td rowspan="37" class="reg-col">R<br>
         e<br>
         g<br>
         i<br>
@@ -381,27 +381,26 @@ th, td {
         <td class="time-col">08:30</td>
         <td rowspan="2" class="type-keynote">Opening & Awards<br>
           (08:30-09:30)</td>
-        <td rowspan="2" ></td>
+        <td rowspan="5" ></td>
       </tr>
       <tr>
         <td class="time-col">09:00</td>
       </tr>
       <tr>
         <td class="time-col">09:30</td>
-        <td colspan="2" class="type-break">Break / Research Demos, Posters</td>
+        <td class="type-break">Break</td>
       </tr>
       <tr>
         <td class="time-col">10:00</td>
         <td rowspan="2" class="type-keynote">Keynote 1<br>
           (10:00-11:00)</td>
-        <td rowspan="2">&nbsp;</td>
       </tr>
       <tr>
         <td class="time-col">10:30</td>
       </tr>
       <tr>
         <td class="time-col">11:00</td>
-        <td class="type-break">Break (Catered)</td>
+        <td class="type-break">Break</td>
         <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
@@ -414,14 +413,12 @@ th, td {
         <td class="time-col">12:00</td>
       </tr>
       <tr>
-        <td rowspan="2" class="time-col">12:30</td>
-        <td rowspan="4" class="type-lunch">Lunch (Not Catered) </td>
-      </tr>
-      <tr>
-        <td rowspan="3" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td class="time-col">12:30</td>
+        <td rowspan="3" class="type-lunch">Lunch (Not Catered) </td>
       </tr>
       <tr>
         <td class="time-col">13:00</td>
+        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">13:30</td>
@@ -492,7 +489,7 @@ th, td {
     <tbody>
       <tr>
         <td class="time-col">08:00</td>
-        <td rowspan="41" class="reg-col">R<br>
+        <td rowspan="40" class="reg-col">R<br>
         e<br>
         g<br>
         i<br>
@@ -523,7 +520,7 @@ th, td {
         <td class="time-col">10:00</td>
         <td colspan="2" rowspan="2" class="type-keynote">Keynote 2<br>
           (10:00-11:00)</td>
-        <td rowspan="6">&nbsp;</td>
+        <td rowspan="6"></td>
       </tr>
       <tr>
         <td class="time-col">10:30</td>
@@ -541,14 +538,12 @@ th, td {
         <td class="time-col">12:00</td>
       </tr>
       <tr>
-        <td rowspan="2" class="time-col">12:30</td>
-        <td colspan="2" rowspan="4" class="type-lunch">Lunch (Not Catered) </td>
-      </tr>
-      <tr>
-        <td rowspan="3" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td class="time-col">12:30</td>
+        <td colspan="2" rowspan="3" class="type-lunch">Lunch (Not Catered) </td>
       </tr>
       <tr>
         <td class="time-col">13:00</td>
+        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">13:30</td>
@@ -566,7 +561,7 @@ th, td {
         <td class="time-col">15:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 8<br>
           (15:00-16:00)</td>
-        <td rowspan="2" class="type-workshop">Panel Session<br>
+        <td rowspan="3" class="type-workshop">Panel Session<br>
           (15:00-16:30)</td>
       </tr>
       <tr>
@@ -574,7 +569,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">16:00</td>
-        <td colspan="2" class="type-break">Break</td>
+        <td class="type-break">Break</td>
         <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
@@ -630,7 +625,7 @@ th, td {
     <tbody>
       <tr>
         <td class="time-col">08:00</td>
-        <td rowspan="34" class="reg-col">R<br>
+        <td rowspan="33" class="reg-col">R<br>
         e<br>
         g<br>
         i<br>
@@ -662,7 +657,7 @@ th, td {
         <td class="time-col">10:00</td>
         <td colspan="2" rowspan="2" class="type-keynote">Keynote 3<br>
           (10:00-11:00)</td>
-        <td rowspan="6">&nbsp;</td>
+        <td rowspan="6"></td>
       </tr>
       <tr>
         <td class="time-col">10:30</td>
@@ -680,14 +675,12 @@ th, td {
         <td class="time-col">12:00</td>
       </tr>
       <tr>
-        <td rowspan="2" class="time-col">12:30</td>
-        <td colspan="2" rowspan="4" class="type-lunch">Lunch (Not Catered) </td>
-      </tr>
-      <tr>
-        <td rowspan="3" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td class="time-col">12:30</td>
+        <td colspan="2" rowspan="3" class="type-lunch">Lunch (Not Catered) </td>
       </tr>
       <tr>
         <td class="time-col">13:00</td>
+        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">13:30</td>
@@ -714,16 +707,16 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">16:30</td>
         <td colspan="2" rowspan="3" class="type-Welcome">Closing & Awards <br>
           (16:30-17:30)</td>
-        <td rowspan="3" ></td>
       </tr>
       <tr>
         <td class="time-col">17:00</td>
+        <td rowspan="2" ></td>
       </tr>
       <tr>
         <td class="time-col">17:30</td>
