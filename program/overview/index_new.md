@@ -104,7 +104,7 @@ th, td {
 	color: #000;
 }
 .type-Research {
-	background-color: #EEFFE8;
+	background-color: #e5f1e1;
 	color: #000;
 }
 .type-Welcome {
@@ -402,7 +402,7 @@ th, td {
       <tr>
         <td class="time-col">11:00</td>
         <td class="type-break">Break (Catered)</td>
-        <td class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">11:30</td>
@@ -418,7 +418,7 @@ th, td {
         <td rowspan="4" class="type-lunch">Lunch (Not Catered) </td>
       </tr>
       <tr>
-        <td rowspan="3" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td rowspan="3" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">13:00</td>
@@ -517,7 +517,7 @@ th, td {
       <tr>
         <td class="time-col">09:30</td>
         <td colspan="2" class="type-break">Break</td>
-        <td>Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">10:00</td>
@@ -575,7 +575,7 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td colspan="2" class="type-break">Break</td>
-        <td>Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">16:30</td>
