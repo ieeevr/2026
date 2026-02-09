@@ -30,6 +30,7 @@ table {
 	min-width: 600px;
 	table-layout: fixed;
 	margin-bottom: 0; /* 마진은 .table-scroll에서 제어 */
+	font-size:0.9rem
 }
 th, td {
 	border: 1px solid #888;
@@ -60,9 +61,8 @@ th, td {
 .reg-col {
 	background-color: #D9D9D9;
 	font-weight: bold;
-	writing-mode: vertical-rl;
-	transform: rotate(180deg);
 	color: #444;
+	font-size: 0.6rem
 }
 /* 세션 타입별 컬러 */
 .type-break {
@@ -144,7 +144,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="3" class="type-empty">&nbsp;</td>
+        <td colspan="3" class="reg-col">Registration</td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
@@ -247,8 +247,8 @@ th, td {
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2" class="time-col">08:00</td>
-      <td rowspan="40" class="reg-col">R<br>
+      <td class="time-col">08:00</td>
+      <td rowspan="39" class="reg-col">R<br>
         e<br>
         g<br>
         i<br>
@@ -260,10 +260,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-      <td colspan="3" class="type-empty"></td>
-    </tr>
-    <tr>
-      <td colspan="3" class="type-empty"></td>
+      <td colspan="3" class="reg-col">Registration</td>
     </tr>
     <tr>
       <td class="time-col">08:30</td>
@@ -377,7 +374,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="2" class="type-empty"></td>
+        <td colspan="2" class="reg-col">Registration</td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
@@ -506,7 +503,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="3" class="type-empty"></td>
+        <td colspan="3" class="reg-col">Registration</td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
@@ -547,7 +544,7 @@ th, td {
         <td colspan="2" rowspan="4" class="type-lunch">Lunch (Not Catered) </td>
       </tr>
       <tr>
-        <td rowspan="3"class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td rowspan="3" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">13:00</td>
@@ -644,7 +641,7 @@ th, td {
         i<br>
         o<br>
         n</td>
-        <td colspan="3" class="type-empty"></td>
+        <td colspan="3" class="reg-col">Registration</td>
       </tr>
       <tr>
         <td class="time-col">08:30</td>
@@ -658,7 +655,7 @@ th, td {
       <tr>
         <td class="time-col">09:30</td>
         <td colspan="2" class="type-break">Break</td>
-        <td>Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td  class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">10:00</td>
@@ -722,17 +719,17 @@ th, td {
         <td class="time-col">16:30</td>
         <td colspan="2" rowspan="3" class="type-Welcome">Closing & Awards <br>
           (16:30-17:30)</td>
-        <td rowspan="2" ></td>
+        <td rowspan="3" ></td>
       </tr>
       <tr>
         <td class="time-col">17:00</td>
       </tr>
       <tr>
         <td class="time-col">17:30</td>
-        <td ></td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 
