@@ -37,7 +37,7 @@ th, td {
 	text-align: center;
 	word-wrap: break-word;
 	vertical-align: middle;
-	font-size:0.9rem
+	font-size:0.7rem
 }
 /* 헤더 스타일 */
 .day-header {
@@ -58,6 +58,7 @@ th, td {
 	background-color: #F2F2F2;
 	font-weight: bold;
 	color: #333;
+	font-size:0.5rem
 }
 .reg-col {
 	background-color: #D9D9D9;
@@ -730,6 +731,7 @@ th, td {
     </tbody>
   </table>
 </div>
+
 
 
 
