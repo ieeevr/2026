@@ -186,7 +186,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">13:00</td>
-        <td colspan="4" rowspan="2" class="type-lunch">Lunch (Not Catered)</td>
+        <td colspan="3" rowspan="2" class="type-lunch">Lunch (Not Catered)</td>
       </tr>
       <tr>
         <td class="time-col">13:30</td>
