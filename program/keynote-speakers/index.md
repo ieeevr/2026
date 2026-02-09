@@ -121,7 +121,7 @@ title_separator: "|"
 
 <div id="modal3" class="ks-modal">
   <div class="ks-modal-content">
-    <div class="ks-modal-header-bar"> <span style="font-weight: bold; color: #666;">Speaker Detail</span> <span class="ks-close" onClick="closeKsModal('modal2')">&times;</span> </div>
+    <div class="ks-modal-header-bar"> <span style="font-weight: bold; color: #666;">Speaker Detail</span> <span class="ks-close" onClick="closeKsModal('modal3')">&times;</span> </div>
     <div class="ks-modal-scroll-area">
       <div class="ks-modal-profile"> <img src="/2026/assets/images/k_sp_02.png" class="ks-modal-photo">
         <h2 class="ks-modal-name">Tomasz Bednarz</h2>
