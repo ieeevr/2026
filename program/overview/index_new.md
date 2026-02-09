@@ -406,7 +406,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td rowspan="2" class="type-workshop">Parallel Sessions 1<br>
+        <td rowspan="2" class="type-keynote">Parallel Sessions 1<br>
           (11:30-12:30)</td>
         <td rowspan="3" ></td>
       </tr>
@@ -428,7 +428,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td rowspan="2" class="type-workshop">Parallel Sessions 2<br>
+        <td rowspan="2" class="type-keynote">Parallel Sessions 2<br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -437,7 +437,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-workshop">Parallel Sessions 3<br>
+        <td rowspan="2" class="type-keynote">Parallel Sessions 3<br>
           (15:00-16:00)</td>
       </tr>
       <tr>
@@ -450,7 +450,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">16:30</td>
-        <td rowspan="2" class="type-workshop">Parallel Sessions 4<br>
+        <td rowspan="2" class="type-keynote">Parallel Sessions 4<br>
           (16:30-17:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -534,7 +534,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-workshop">Parallel Sessions 6<br>
+        <td colspan="2" rowspan="2" class="type-keynote">Parallel Sessions 6<br>
           (11:30-12:30)</td>
       </tr>
       <tr>
@@ -555,7 +555,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-workshop">Parallel Sessions 7<br>
+        <td colspan="2" rowspan="2" class="type-keynote">Parallel Sessions 7<br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -564,7 +564,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-workshop">Parallel Sessions 8<br>
+        <td rowspan="2" class="type-keynote">Parallel Sessions 8<br>
           (15:00-16:00)</td>
         <td rowspan="2" class="type-workshop">Panel<br>
           (15:00-16:30)</td>
@@ -579,7 +579,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">16:30</td>
-        <td colspan="2" rowspan="2" class="type-workshop">Parallel Sessions 9<br>
+        <td colspan="2" rowspan="2" class="type-keynote">Parallel Sessions 9<br>
           (16:30-17:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -673,7 +673,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-workshop">Parallel Sessions 11<br>
+        <td colspan="2" rowspan="2" class="type-keynote">Parallel Sessions 11<br>
           (11:30-12:30)</td>
       </tr>
       <tr>
@@ -694,7 +694,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-workshop">Parallel Sessions 12<br>
+        <td colspan="2" rowspan="2" class="type-keynote">Parallel Sessions 12<br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -703,7 +703,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-workshop">Parallel Sessions 13<br>
+        <td rowspan="2" class="type-keynote">Parallel Sessions 13<br>
           (15:00-16:00)</td>
         <td rowspan="3" class="type-workshop">Panel Session<br>
           (15:00-16:30)</td>
