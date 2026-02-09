@@ -71,8 +71,8 @@ th, td {
 	color: #385723;
 } /* 휴식 */
 .type-lunch {
-	background-color: #FFF2CC;
-	color: #9C5700;
+	background-color: #f3f3f3;
+	color: #000;
 } /* 점심 */
 .type-keynote {
 	background-color: #E4DFEC;
@@ -446,7 +446,7 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td>Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
+        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">16:30</td>
