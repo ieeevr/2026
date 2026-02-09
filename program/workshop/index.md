@@ -8,7 +8,7 @@ title_separator: "|"
 <section itemprop="text">
   <div class="new_workshop">
     <section class="accordion-wrap">
-      <h2 class="accordion-title">Day: Saturday 21 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
+      <h2 class="accordion-title">Day: Saturday, March 21 (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
       <ul class="accordion-list">
         <li class="accordion-item">
           <button class="accordion-header">
@@ -301,7 +301,7 @@ title_separator: "|"
       </ul>
     </section>
     <section class="accordion-wrap">
-      <h2 class="accordion-title">Day: Sunday 22 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
+      <h2 class="accordion-title">Day: Sunday March, 22  (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
       <ul class="accordion-list">
         <li class="accordion-item">
           <button class="accordion-header">
