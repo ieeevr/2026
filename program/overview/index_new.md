@@ -167,9 +167,9 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:30</td>
-        <td rowspan="3" class="type-tuto">Tutorials<br>
+        <td rowspan="4" class="type-tuto">Tutorials<br>
           (10:30-12:00)</td>
-        <td rowspan="3" class="type-doct">Doctoral Consortium</td>
+        <td rowspan="4" class="type-doct">Doctoral Consortium</td>
       </tr>
       <tr>
         <td class="time-col">11:00</td>
@@ -179,14 +179,15 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">12:00</td>
-        <td colspan="2" class="type-empty"></td>
       </tr>
       <tr>
         <td class="time-col">12:30</td>
-        <td colspan="3" rowspan="3" class="type-lunch">Lunch (Not Catered)</td>
+        <td colspan="2" class="type-empty"></td>
+        <td class="type-lunch">&nbsp;</td>
       </tr>
       <tr>
         <td class="time-col">13:00</td>
+        <td colspan="4" rowspan="2" class="type-lunch">Lunch (Not Catered)</td>
       </tr>
       <tr>
         <td class="time-col">13:30</td>
