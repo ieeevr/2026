@@ -11,7 +11,7 @@ title_separator: "|"
     width: 100%;
     margin-bottom: 20px;
     box-sizing: border-box;
-    padding: 5px 20px;
+    padding: 5px 20px 20px;
     background-color: #fff;
     border-radius: 12px;   
     border: 1px solid #eee;
