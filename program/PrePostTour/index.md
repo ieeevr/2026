@@ -25,10 +25,16 @@ title_separator: "|"
     }
 
     .tour_box_00 {
-        width: calc(50% - 20px);
-        margin-bottom: 0;
+       width: calc(50% - 50px);
+       margin: 0 auto;
     }
 }
+.page__content h2 {
+    width: 100%;
+}
+h1{    
+    width: 100%;
+    margin: 0 1rem;}
 </style>
 <section itemprop="text">
   <div class="new_workshop">
