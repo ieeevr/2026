@@ -178,6 +178,7 @@ title_separator: "|"
             <dl>
               <dt>Organizers</dt>
               <dd>Insun Cho - University of San Francisco</dd>
+              <dd>June Lee - University of San Francisco</dd>
             </dl>
             <dl>
               <dt>Target Audience</dt>
