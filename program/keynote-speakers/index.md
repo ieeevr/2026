@@ -63,7 +63,7 @@ title_separator: "|"
   
   <div class="ks-list-item"> <img src="/2026/assets/images/k_sp_03.png" class="ks-thumb" alt="Tomasz Bednarz, NVIDIA">
     <div class="ks-info">
-      <h2>Tomasz Bednarz</h2>
+      <h2>Dr. Tomasz Bednarz</h2>
       <div class="affiliation">Director, Strategic Researcher Engagement, NVIDIA</div>
       <div class="talk-title">Physical AI for the Next Wave of Industrial Digitalization</div>
     </div>
@@ -124,7 +124,7 @@ title_separator: "|"
     <div class="ks-modal-header-bar"> <span style="font-weight: bold; color: #666;">Speaker Detail</span> <span class="ks-close" onClick="closeKsModal('modal3')">&times;</span> </div>
     <div class="ks-modal-scroll-area">
       <div class="ks-modal-profile"> <img src="/2026/assets/images/k_sp_03.png" class="ks-modal-photo">
-        <h2 class="ks-modal-name">Tomasz Bednarz</h2>
+        <h2 class="ks-modal-name">Dr. Tomasz Bednarz</h2>
         <p class="ks-modal-affil">Director, Strategic Researcher Engagement, NVIDIA</p>
         <div class="ks-modal-talk">Physical AI for the Next Wave of Industrial Digitalization</div>
       </div>
