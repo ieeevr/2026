@@ -47,6 +47,9 @@ title_separator: "|"
 h1{    
     width: 100%;
     margin: 0 1rem;}
+h1 + dl.tour_box_00 {
+    margin-left: 1rem;
+}    
 </style>
 <section itemprop="text">
   <div class="new_workshop">
