@@ -65,14 +65,14 @@ h1 + dl.tour_box_00 {
   <div class="new_workshop">
     <section class="accordion-wrap">
       <h2 class="accordion-title">Friday, March 20 : 13:30–18:30 (5 hrs)</h2>
-      <h1>Art & Cooking Course</h1>
+      <h1>Art & Campust Course</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_001.jpg"></dt>
         <dd>Kansong Art Museum</dd>
       </dl>
       <dl class="tour_box_00">
-        <dt><img src="/2026/assets/images/tour_002.jpg"></dt>
-        <dd>Hands-on Korean Cooking Experience</dd>
+        <dt><img src="/2026/assets/images/tour_002_1.jpg"></dt>
+        <dd>Kyungpook National University Campus Tour</dd>
       </dl>
       <h1>Gyeongju Course</h1>
       <dl class="tour_box_00">
@@ -85,7 +85,7 @@ h1 + dl.tour_box_00 {
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_005.jpg"></dt>
-        <dd>Donggung Palace and Wolji Pond</dd>
+        <dd>Donggung Palace and<br/>Wolji Pond</dd>
       </dl>
     </section>
   </div>
@@ -101,7 +101,7 @@ h1 + dl.tour_box_00 {
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_007.jpg"></dt>
-        <dd>Donghwasa Templ</dd>
+        <dd>Donghwasa Temple</dd>
       </dl>
       <h1>Gyeongju Course</h1>
       <dl class="tour_box_00">
