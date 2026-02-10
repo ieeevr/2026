@@ -45,11 +45,17 @@ title_separator: "|"
     width: 100%;
 }
 h1{    
-    width: 100%;
-    margin: 0 1rem;}
+    width: inherit;
+    margin: 1rem;}
 h1 + dl.tour_box_00 {
     margin-left: 1rem;
 }    
+@media screen and (max-width: 600px) {
+
+.accordion-title {
+    font-size: 1rem;
+}
+}
 </style>
 <section itemprop="text">
   <div class="new_workshop">
