@@ -30,6 +30,9 @@ title_separator: "|"
     margin-bottom: 2rem;
     padding-bottom: 1rem;
 }
+.page__content dd {
+    margin-left: 0;
+}
 @media (min-width: 768px) {
     .accordion-wrap {
         display: flex;
