@@ -65,7 +65,7 @@ h1 + dl.tour_box_00 {
   <div class="new_workshop">
     <section class="accordion-wrap">
       <h2 class="accordion-title">Friday, March 20 : 13:30–18:30 (5 hrs)</h2>
-      <h1>Art & Campust Course</h1>
+      <h1>Art & Campus Course</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_001.jpg"></dt>
         <dd>Kansong Art Museum</dd>
