@@ -26,6 +26,9 @@ title_separator: "|"
     padding-top: 0.7rem;
     font-weight: bold;
 }
+.new_workshop .accordion-wrap {
+    margin-bottom: 2rem;
+}
 @media (min-width: 768px) {
     .accordion-wrap {
         display: flex;
