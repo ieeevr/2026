@@ -28,6 +28,7 @@ title_separator: "|"
 }
 .new_workshop .accordion-wrap {
     margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 @media (min-width: 768px) {
     .accordion-wrap {
@@ -37,8 +38,7 @@ title_separator: "|"
     }
 
     .tour_box_00 {
-       width: calc(50% - 50px);
-       margin: 0 auto;
+       width: calc(31% - 10px);
     }
 }
 .page__content h2 {
