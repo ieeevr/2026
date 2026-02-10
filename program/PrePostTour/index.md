@@ -17,6 +17,15 @@ title_separator: "|"
     border: 1px solid #eee;
 }
 
+.tour_box_00 dt img {
+    border-radius: 20px;   
+}
+.tour_box_00 dd {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.7rem;
+    font-weight: bold;
+}
 @media (min-width: 768px) {
     .accordion-wrap {
         display: flex;
