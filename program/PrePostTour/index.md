@@ -11,14 +11,14 @@ title_separator: "|"
     width: 100%;
     margin-bottom: 20px;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 5px 20px;
     background-color: #fff;
     border-radius: 12px;   
     border: 1px solid #eee;
 }
 
 .tour_box_00 dt img {
-    border-radius: 20px;   
+    border-radius: 12px;   
 }
 .tour_box_00 dd {
     text-align: center;
