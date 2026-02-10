@@ -46,10 +46,11 @@ title_separator: "|"
 }
 .page__content h2 {
     width: 100%;
+    margin-bottom: 1rem;
 }
 h1{    
     width: inherit;
-    margin: 1rem;}
+    margin: 0;}
 h1 + dl.tour_box_00 {
     margin-left: 1rem;
 }    
