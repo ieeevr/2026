@@ -149,9 +149,9 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">08:30</td>
-        <td rowspan="9" class="type-workshop">Workshops<br>
+        <td rowspan="9" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
           (08:30-12:30)</td>
-        <td rowspan="3" class="type-tuto">Tutorials<br>
+        <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
           (08:30-10:00)</td>
         <td rowspan="3" class="type-doct">Doctoral Consortium</td>
       </tr>
@@ -167,7 +167,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:30</td>
-        <td rowspan="4" class="type-tuto">Tutorials<br>
+        <td rowspan="4" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
           (10:30-12:00)</td>
         <td rowspan="4" class="type-doct">Doctoral Consortium</td>
       </tr>
@@ -193,9 +193,9 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td rowspan="8" class="type-workshop">Workshops<br>
+        <td rowspan="8" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
           (14:00-18:00)</td>
-        <td rowspan="3" class="type-tuto">Tutorials<br>
+        <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
           (14:00-15:30)</td>
         <td rowspan="3" class="type-doct">Doctoral Consortium</td>
       </tr>
@@ -211,7 +211,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">16:00</td>
-        <td rowspan="3" class="type-tuto">Tutorials<br>
+        <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
           (16:00-17:30)</td>
         <td rowspan="3" class="type-doct">Doctoral Consortium</td>
       </tr>
@@ -265,9 +265,9 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">08:30</td>
-      <td rowspan="8" class="type-workshop">Workshops<br>
+      <td rowspan="8" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
         (08:30-12:30)</td>
-      <td rowspan="3" class="type-tuto">Tutorials<br>
+      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
         (08:30-10:00)</td>
       <td rowspan="3" class="type-Future">Future Faculty Forum</td>
     </tr>
@@ -283,7 +283,7 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">10:30</td>
-      <td rowspan="3" class="type-tuto">Tutorials<br>
+      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
         (10:30-12:00)</td>
       <td rowspan="3" class="type-Future">Future Faculty Forum</td>
     </tr>
@@ -310,9 +310,9 @@ th, td {
       </tr>
     <tr>
       <td class="time-col">14:00</td>
-      <td rowspan="8" class="type-workshop">Workshops<br>
+      <td rowspan="8" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
         (14:00-18:00)</td>
-      <td rowspan="3" class="type-tuto">Tutorials<br>
+      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
         (14:00-15:30)</td>
       <td rowspan="3" class="type-Future">Future Faculty Forum</td>
     </tr>
@@ -328,7 +328,7 @@ th, td {
     </tr>
     <tr>
       <td class="time-col">16:00</td>
-      <td rowspan="3" class="type-tuto">Tutorials<br>
+      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
         (16:00-17:30)</td>
       <td rowspan="3" class="type-Future">Future Faculty Forum</td>
     </tr>
