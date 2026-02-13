@@ -16,7 +16,7 @@ title_separator: "|"
 </script>
 <p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3; display:none">This content is currently being updated.</p>
 <div>
-    <h1>Diversity, Equity, Inclusion, and Accessibility Grants<div class="floatRight"><span class="deia"></span></div></h1>    
+    <h1 style="font-size: 1.2rem">Diversity, Equity, Inclusion, and Accessibility Grants<div class="floatRight"><span class="deia"></span></div></h1>    
     <p>
         <strong style="color: black">IEEE VR 2026: The 33<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
         <br>
