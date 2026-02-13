@@ -69,7 +69,7 @@ title_separator: "|"
     <div class="ks-modal-scroll-area">
       <div class="ks-modal-profile"> 
         <h2 class="ks-modal-name">Future Conference Formats: Balancing Knowledge Dissemination, Socialising and Environmental Impacts</h2>
-        <p class="ks-modal-affil"></p>
+        <p class="ks-modal-affil">Tuesday, March 24</p>
         <div class="ks-modal-talk"></div>
       </div>
       <div class="ks-section-title">Presentation</div>
@@ -141,7 +141,7 @@ Anthony Steed is Head of the Virtual Environments and Computer Graphics group in
     <div class="ks-modal-scroll-area">
       <div class="ks-modal-profile">
         <h2 class="ks-modal-name">Standardization in XR/VR: Challenges and Priorities Beyond Terminology</h2>
-        <p class="ks-modal-affil"></p>
+        <p class="ks-modal-affil">Wednesday, March 25</p>
         <div class="ks-modal-talk"></div>
       </div>
       <div class="ks-section-title">Presentation</div>
