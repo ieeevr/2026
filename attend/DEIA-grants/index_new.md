@@ -54,13 +54,11 @@ title_separator: "|"
     </ul>    
     <h2>Application Guidelines and Process</h2>
     <p>
-        The deadline for application is the <strong>15th of January, 2026</strong> . The deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00, no matter where the submitter is located. Recipients of DEIA Grants will be informed by the 29th of January 2026. 
+        The application deadline is <strong>Wednesday, February 25, at 23:59:59 AoE (Anywhere on Earth, GMT/UTC−12:00)</strong>, regardless of the applicant’s location.
+Recipients of the DEIA Grants will be notified by <strong>Wednesday, March 4.</strong>
     </p>
     <p>
-        Given that we have a limited number of grants, you will need to submit an updated copy of your CV (1 page) and justify why you are applying for this grant in  the registration form. 
-    </p>
-    <p>
-        Interested individuals may apply via <a href="https://forms.gle/KWvWbjiJcoRAnuda7" target="_blank">this Google Form</a>.
+       Given the limited number of grants available, interested individuals are kindly requested to complete and submit the application form via <a href="https://forms.gle/KWvWbjiJcoRAnuda7" target="_blank">the Google Form</a>.
     </p>
     <h2>Data Protection and Retention</h2>
     <p>
