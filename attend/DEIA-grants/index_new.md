@@ -60,7 +60,7 @@ title_separator: "|"
         Given that we have a limited number of grants, you will need to submit an updated copy of your CV (1 page) and justify why you are applying for this grant in  the registration form. 
     </p>
     <p>
-        Interested individuals may apply via <a href="https://forms.gle/KWvWbjiJcoRAnuda7">this Google Form</a>.
+        Interested individuals may apply via <a href="https://forms.gle/KWvWbjiJcoRAnuda7" target="_blank">this Google Form</a>.
     </p>
     <h2>Data Protection and Retention</h2>
     <p>
