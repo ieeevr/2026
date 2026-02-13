@@ -72,7 +72,7 @@ title_separator: "|"
     </p--> 
     <h2>Mentoring Opportunities</h2>
     <p>
-        Eligible researchers are also encouraged to <a href="https://forms.gle/KWvWbjiJcoRAnuda7" target="_blank">apply for a Mentorship Program</a> , which is a great opportunity for newcomers to the conference to connect with more senior participants.
+        Eligible researchers are also encouraged to <a href="https://forms.gle/KWvWbjiJcoRAnuda7" target="_blank">apply for a Mentorship Program</a>(March 6 deadline), which is a great opportunity for newcomers to the conference to connect with more senior participants.
     </p>   
     <h2>Questions?</h2>
     <p>
