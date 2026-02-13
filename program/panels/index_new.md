@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Keynote Speakers"
+title: "Panels"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
