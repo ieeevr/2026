@@ -568,7 +568,7 @@ th, td {
         <td class="time-col">15:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 8<br>
           (15:00-16:00)</td>
-        <td rowspan="3" class="type-workshop">Panel Session<br>
+        <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
       </tr>
       <tr>
@@ -708,7 +708,7 @@ th, td {
         <td class="time-col">15:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 13<br>
           (15:00-16:00)</td>
-        <td rowspan="3" class="type-workshop">Panel Session<br>
+        <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
       </tr>
       <tr>
