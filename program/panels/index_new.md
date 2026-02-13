@@ -46,7 +46,7 @@ title_separator: "|"
   <div class="ks-list-item">
     <div class="ks-info">
       <h2>Future Conference Formats: Balancing Knowledge Dissemination, Socialising and Environmental Impacts</h2>
-      <div class="affiliation"></div>
+      <div class="affiliation">Tuesday, March 24</div>
       <div class="talk-title"></div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal1')">More</button>
@@ -54,7 +54,7 @@ title_separator: "|"
   <div class="ks-list-item">
     <div class="ks-info">
       <h2>Standardization in XR/VR: Challenges and Priorities Beyond Terminology</h2>
-      <div class="affiliation"></div>
+      <div class="affiliation">Wednesday, March 25</div>
       <div class="talk-title"></div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal2')">More</button>
