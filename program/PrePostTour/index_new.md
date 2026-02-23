@@ -90,6 +90,11 @@ h1{
 }
 h1 + dl.tour_box_00 {
     margin-left: 1rem;
+}
+.tour_box_00 {
+    width: 90%;
+    margin: 0.5rem auto;
+}
 }    
 @media screen and (max-width: 600px) {
     .accordion-title {
