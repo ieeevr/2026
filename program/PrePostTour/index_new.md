@@ -67,6 +67,9 @@ title_separator: "|"
     border-color: #262189;
     color: #fff;
 }
+.green_03 tbody td {
+    vertical-align: top;
+} 
 @media (min-width: 768px) {
     .accordion-wrap {
         display: flex;
