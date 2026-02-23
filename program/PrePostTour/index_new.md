@@ -248,7 +248,7 @@ h1 + dl.tour_box_00 {
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_002_1.jpg" alt="Kyungpook National University"></dt>
         <dd>
-            Kyungpook National University<br/>Campus
+            Kyungpook National University Campus
             <button class="more-btn" onclick="openTourModal('knu')">MORE</button>
         </dd>
       </dl>
