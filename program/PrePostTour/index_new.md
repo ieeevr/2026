@@ -163,6 +163,54 @@ h1 + dl.tour_box_00 {
     margin-bottom: 1rem;
 }
 </style>
+<table class="green_03" >
+  <colgroup>
+  <col width="10%">
+  <col width="22.5%">
+  <col width="22.5%">
+  <col width="22.5%">
+  <col width="22.5%">
+  </colgroup>
+  <tbody>
+    <tr >
+      <th >Date</th>
+      <td  colspan="2">Friday, March 20</td>
+      <td  colspan="2">Thursday, March 26</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td colspan="2">13:30-18:30 (5hr.)</td>
+      <td colspan="2">09:00-15:00 (6hr.)</td>
+    </tr>
+    <tr>
+      <th>Course</th>
+      <td><strong>Daegu A</strong><br> 
+        Kyungpook National University Campus<br/>
+      Kansong Art Museum </td>
+      <td><strong>Gyeongju</strong><br/>
+        Bulguksa Temple<br/>
+        Seokguram Grotto<br/>
+      Gyeongju National Museum </td>
+      <td><strong>Daegu B</strong><br/>
+        Palgongsan Mountain<br/>
+      Donghwasa Temple</td>
+      <td><strong>Andong</strong><br/>
+        Hahoe Folk Village<br/>
+      Byeongsanseowon Confucian Academy</td>
+    </tr>
+    <tr>
+      <th>Fee</th>
+      <td>KRW 20,000​</td>
+      <td>KRW 20,000</td>
+      <td>KRW 30,000</td>
+      <td>KRW 30,000</td>
+    </tr>
+  </tbody>
+</table>
+<p class="mt20 mb20">※ The tour is subject to cancellation if the number of registered participants is fewer than 10.</p>
+<div class="tac mt20 mb50">
+<a href="https://forms.gle/WRgQ3YaC8VXcLwgE7" class="btn btn-large btn-blue" target="_blank">Reservation</a>
+</div>
 
 <section itemprop="text">
   <div class="new_workshop">
