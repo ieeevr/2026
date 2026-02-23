@@ -356,7 +356,7 @@ const tourData = {
         text: `<p>Donghwasa Temple is one of the most historic Buddhist temples in Daegu, located on the southern slopes of Palgongsan Mountain. Founded in the 5th century during the Silla Dynasty, the temple is surrounded by beautiful forests and seasonal landscapes. It is especially known for the towering Tongil Yaksa Buddha (Great Medicine Buddha), symbolizing peace and healing. Visitors can experience traditional Korean temple architecture, serene walking paths, and seasonal lantern festivals. Donghwasa offers a peaceful retreat where history, spirituality, and nature come together.</p>`
     },
     "hahoe": {
-        title: "Andong Hahoe Folk Village<br/>(UNESCO World Heritage Site)",
+        title: "Andong Hahoe Folk Village(UNESCO World Heritage Site)",
         images: ["/2026/assets/images/tour_009.jpg"],
         text: `<p>Andong Hahoe Folk Village is one of Korea’s most well-preserved historic villages and a designated UNESCO World Heritage Site. Located along the scenic Nakdong River, the village dates back over 600 years to the Joseon Dynasty. It remains home to descendants of the Ryu clan, maintaining a living tradition rather than serving as a museum display.</p>
                <p>Visitors can explore elegant tile-roofed aristocratic homes alongside traditional thatched houses of commoners. The village layout reflects traditional Korean geomancy (pungsu), harmonizing architecture with nature.</p>
@@ -364,7 +364,7 @@ const tourData = {
                <p>The site provides a rare opportunity to experience authentic Korean heritage in its original setting. This visit offers participants a meaningful cultural immersion beyond the conference venue.</p>`
     },
     "byeongsanseowon": {
-        title: "Byeongsanseowon Confucian Academy<br/>(UNESCO World Heritage Site)",
+        title: "Byeongsanseowon Confucian Academy(UNESCO World Heritage Site)",
         images: ["/2026/assets/images/tour_011.jpg"],
         text: `<p>Byeongsanseowon Confucian Academy is a beautifully preserved 17th-century private Confucian academy located near Hahoe Village. It was established to honor the great Confucian scholar Ryu Seong-ryong, a prominent statesman of the Joseon Dynasty. The academy served as a center for education, scholarship, and moral cultivation during Korea’s classical period. Its architecture is admired for its elegant wooden structures and open lecture halls.</p>
                <p>The iconic Mandaeru Pavilion overlooks the Nakdong River, offering breathtaking panoramic views. The spatial composition reflects Confucian philosophy, emphasizing harmony, hierarchy, and balance. Recognized as part of the UNESCO-listed “Seowon, Korean Neo-Confucian Academies,” it represents Korea’s intellectual heritage. Visitors can experience the tranquil atmosphere once used for study and reflection by scholars. The academy’s natural surroundings enhance its sense of calm and contemplation.</p>
