@@ -37,9 +37,9 @@ title_separator: "|"
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 5px 15px;
+    padding: 3px 10px;
     border-radius: 20px;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     cursor: pointer;
     transition: background-color 0.2s;
 }
@@ -52,6 +52,19 @@ title_separator: "|"
 }
 .page__content dd {
     margin-left: 0;
+}
+.tac {
+    text-align: center;
+}
+.btn-large {
+    padding: 15px 45px;
+    font-size: 1.200em;
+    line-height: 1.3em;
+}
+.btn-blue {
+    background-color: #262189;
+    border-color: #262189;
+    color: #fff;
 }
 @media (min-width: 768px) {
     .accordion-wrap {
