@@ -283,7 +283,7 @@ h1 + dl.tour_box_00 {
         </dd>
       </dl>
       <dl class="tour_box_00">
-        <dt><img src="/2026/assets/images/tour_007.jpg" alt="Donghwasa Temple"></dt>
+        <dt><img src="/2026/assets/images/tour_007_01.jpg" alt="Donghwasa Temple"></dt>
         <dd>
             Donghwasa Temple
             <button class="more-btn" onclick="openTourModal('donghwasa')">MORE</button>
@@ -362,7 +362,7 @@ const tourData = {
     },
     "donghwasa": {
         title: "Donghwasa Temple",
-        images: ["/2026/assets/images/tour_007.jpg"],
+        images: ["/2026/assets/images/tour_007_01.jpg", "/2026/assets/images/tour_007.jpg"],
         text: `<p>Donghwasa Temple is one of the most historic Buddhist temples in Daegu, located on the southern slopes of Palgongsan Mountain. Founded in the 5th century during the Silla Dynasty, the temple is surrounded by beautiful forests and seasonal landscapes. It is especially known for the towering Tongil Yaksa Buddha (Great Medicine Buddha), symbolizing peace and healing. Visitors can experience traditional Korean temple architecture, serene walking paths, and seasonal lantern festivals. Donghwasa offers a peaceful retreat where history, spirituality, and nature come together.</p>`
     },
     "hahoe": {
