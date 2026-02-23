@@ -176,6 +176,9 @@ h1 + dl.tour_box_00 {
     margin-bottom: 1rem;
 }
 </style>
+
+
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Tour Program</p>
 <table class="green_03" >
   <colgroup>
   <col width="10%">
@@ -221,7 +224,7 @@ h1 + dl.tour_box_00 {
   </tbody>
 </table>
 <p class="mt20 mb20">※ The tour is subject to cancellation if the number of registered participants is fewer than 10.</p>
-<div class="tac mt20 mb50">
+<div class="tac mt20 mb80">
 <a href="https://forms.gle/WRgQ3YaC8VXcLwgE7" class="btn btn-large btn-blue" target="_blank">Reservation</a>
 </div>
 
@@ -230,7 +233,7 @@ h1 + dl.tour_box_00 {
     <section class="accordion-wrap">
       <h2 class="accordion-title">Friday, March 20 : 13:30–18:30 (5 hrs)</h2>
       
-      <h1>Art & Campus Course</h1>
+      <h1>Daegu A</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_001.jpg" alt="Kansong Art Museum"></dt>
         <dd>
@@ -241,7 +244,7 @@ h1 + dl.tour_box_00 {
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_002_1.jpg" alt="Kyungpook National University"></dt>
         <dd>
-            Kyungpook National University<br/>Campus Tour
+            Kyungpook National University<br/>Campus
             <button class="more-btn" onclick="openTourModal('knu')">MORE</button>
         </dd>
       </dl>
@@ -254,7 +257,13 @@ h1 + dl.tour_box_00 {
             <button class="more-btn" onclick="openTourModal('bulguksa')">MORE</button>
         </dd>
       </dl>
-      <dl class="tour_box_00">
+       <dl class="tour_box_00">
+        <dt><img src="/2026/assets/images/tour_008.jpg" alt="Gyeongju National Museum"></dt>
+        <dd>
+            Gyeongju National Museum
+            <button class="more-btn" onclick="openTourModal('gyeongju_museum')">MORE</button>
+        </dd>
+      <!--dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_004.jpg" alt="Seokguram Grotto"></dt>
         <dd>
             Seokguram Grotto
@@ -265,7 +274,7 @@ h1 + dl.tour_box_00 {
         <dd>
             Donggung Palace and<br/>Wolji Pond
         </dd>
-      </dl>
+      </dl-->
     </section>
   </div>
 </section>
@@ -275,7 +284,7 @@ h1 + dl.tour_box_00 {
     <section class="accordion-wrap">
       <h2 class="accordion-title">Thursday, March 26 : 09:00–15:00 (6 hrs)</h2>
       
-      <h1>Palgongsan Course</h1>
+      <h1>Daegu B</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_006.jpg" alt="Palgongsan Mountain"></dt>
         <dd>
@@ -291,7 +300,7 @@ h1 + dl.tour_box_00 {
         </dd>
       </dl>
 
-      <h1>Gyeongju Course</h1>
+      <!--h1>Gyeongju Course</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_003.jpg" alt="Bulguksa Temple"></dt>
         <dd>
@@ -311,7 +320,7 @@ h1 + dl.tour_box_00 {
             Gyeongju National Museum
             <button class="more-btn" onclick="openTourModal('gyeongju_museum')">MORE</button>
         </dd>
-      </dl>
+      </dl-->
 
       <h1>Andong Course</h1>
       <dl class="tour_box_00">
@@ -322,13 +331,13 @@ h1 + dl.tour_box_00 {
         </dd>
       </dl>
       <dl class="tour_box_00">
-        <dt><img src="/2026/assets/images/tour_010.jpg" alt="Bongjeongsa Temple"></dt>
+        <dt><img src="/2026/assets/images/tour_010_01.jpg" alt="Bongjeongsa Temple"></dt>
         <dd>
             Bongjeongsa Temple
         </dd>
       </dl>
       <dl class="tour_box_00">
-        <dt><img src="/2026/assets/images/tour_011.jpg" alt="Byeongsanseowon Confucian Academy"></dt>
+        <dt><img src="/2026/assets/images/tour_011.jpg" alt="Byeongsanseowon<br/>Confucian Academy"></dt>
         <dd>
             Byeongsanseowon Confucian Academy
             <button class="more-btn" onclick="openTourModal('byeongsanseowon')">MORE</button>
