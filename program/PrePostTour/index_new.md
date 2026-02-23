@@ -55,6 +55,7 @@ title_separator: "|"
 }
 .tac {
     text-align: center;
+    margin-bottom: 2rem;
 }
 .btn-large {
     padding: 15px 45px;
@@ -224,7 +225,7 @@ h1 + dl.tour_box_00 {
   </tbody>
 </table>
 <p class="mt20 mb20">※ The tour is subject to cancellation if the number of registered participants is fewer than 10.</p>
-<div class="tac mt20 mb80">
+<div class="tac mt20">
 <a href="https://forms.gle/WRgQ3YaC8VXcLwgE7" class="btn btn-large btn-blue" target="_blank">Reservation</a>
 </div>
 
@@ -263,6 +264,7 @@ h1 + dl.tour_box_00 {
             Gyeongju National Museum
             <button class="more-btn" onclick="openTourModal('gyeongju_museum')">MORE</button>
         </dd>
+        </dl>
       <!--dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_004.jpg" alt="Seokguram Grotto"></dt>
         <dd>
@@ -370,7 +372,7 @@ const tourData = {
     },
     "kansong": {
         title: "Kansong Art Museum",
-        images: ["/2026/assets/images/tour_001.jpg"],
+        images: ["/2026/assets/images/tour_001.jpg"], ["/2026/assets/images/tour_001_01.jpg"],
         text: `<p>Kansong Art Museum carries forward the legacy of Chun Hyungpil (pen name Kansong), a symbolic figure in the preservation of Korea’s modern cultural heritage. Through diverse curated exhibitions and educational programs that connect tradition and modernity, the museum promotes the identity and artistic value of Korean culture to both domestic and international audiences.</p>
                <p>In particular, a special exhibition will be held from February 13 to May 31, 2026, in collaboration with DGIST CVLAB and Kansong Art Museum Daegu. This exhibition reinterprets Miindo (Portrait of a Beauty), one of the most iconic works of traditional Korean painting, through artificial intelligence (AI) technologies. By integrating traditional art with cutting-edge technology, the exhibition aims to offer a new and immersive cultural experience.</p>
                <p>One of the main programs is the “Style Crossover Exhibition,” which utilizes AI-based style transfer technology. Masterpieces of world art are recreated in the distinctive Miindo painting style, while Miindo itself is transformed into the styles of Western classical paintings, providing a unique visual dialogue that transcends the boundaries between Eastern and Western art traditions.</p>
