@@ -137,8 +137,9 @@ h1{
 }
 .tour-modal-header h3 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #333;
+    font-weight:bold
 }
 .tour-modal-close {
     background: none;
