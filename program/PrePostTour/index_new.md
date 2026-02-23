@@ -8,8 +8,8 @@ title_separator: "|"
 <style>
 .tour_box_00 {
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0.5rem auto 20px auto;
     box-sizing: border-box;
     padding: 5px 20px 20px;
     background-color: #fff;
@@ -70,16 +70,6 @@ title_separator: "|"
 .green_03 tbody td {
     vertical-align: top;
 } 
-@media (min-width: 768px) {
-    .accordion-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    .tour_box_00 {
-       width: calc(31% - 10px);
-    }
-}
 .page__content h2 {
     width: 100%;
     margin-bottom: 1rem;
@@ -88,16 +78,26 @@ h1{
     width: inherit;
     margin: 0 1rem;
 }
-h1 + dl.tour_box_00 {
-    margin-left: 1rem;
-}
-.tour_box_00 {
-    width: 90%;
-    margin: 0.5rem auto;
-} 
+
 @media screen and (max-width: 600px) {
     .accordion-title {
         font-size: 1rem;
+    }
+}
+
+/* 데스크탑 레이아웃 (반드시 모바일 스타일보다 아래에 위치해야 함) */
+@media (min-width: 768px) {
+    .accordion-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .tour_box_00 {
+       width: calc(31% - 10px);
+       margin: 0 0 20px 0;
+    }
+    h1 + dl.tour_box_00 {
+        margin-left: 1rem;
     }
 }
 
@@ -185,7 +185,6 @@ h1 + dl.tour_box_00 {
 }
 </style>
 
-
 <p class="big_title" style="padding-bottom:0; margin-bottom:0">Tour Program</p>
 <table class="green_03" >
   <colgroup>
@@ -208,19 +207,19 @@ h1 + dl.tour_box_00 {
     </tr>
     <tr>
       <th>Course</th>
-      <td><strong>Daegu A</strong><br> 
+      <td><strong>Daegu A</strong><br>
         Kyungpook National University Campus<br/>
-      Kansong Art Museum </td>
+        Kansong Art Museum </td>
       <td><strong>Gyeongju</strong><br/>
         Bulguksa Temple<br/>
         Seokguram Grotto<br/>
-      Gyeongju National Museum </td>
+        Gyeongju National Museum </td>
       <td><strong>Daegu B</strong><br/>
         Palgongsan Mountain<br/>
-      Donghwasa Temple</td>
+        Donghwasa Temple</td>
       <td><strong>Andong</strong><br/>
         Hahoe Folk Village<br/>
-      Byeongsanseowon Confucian Academy</td>
+        Byeongsanseowon Confucian Academy</td>
     </tr>
     <tr>
       <th>Fee</th>
@@ -232,46 +231,38 @@ h1 + dl.tour_box_00 {
   </tbody>
 </table>
 <p class="mt20 mb20">※ The tour is subject to cancellation if the number of registered participants is fewer than 10.</p>
-<div class="tac mt20">
-<a href="https://forms.gle/WRgQ3YaC8VXcLwgE7" class="btn btn-large btn-blue" target="_blank">Reservation</a>
-</div>
+<div class="tac mt20"> <a href="https://forms.gle/WRgQ3YaC8VXcLwgE7" class="btn btn-large btn-blue" target="_blank">Reservation</a> </div>
 
 <section itemprop="text">
   <div class="new_workshop">
     <section class="accordion-wrap">
       <h2 class="accordion-title">Friday, March 20 : 13:30–18:30 (5 hrs)</h2>
-      
       <h1>Daegu A</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_001.jpg" alt="Kansong Art Museum"></dt>
-        <dd>
-            Kansong Art Museum
-            <button class="more-btn" onclick="openTourModal('kansong')">MORE</button>
+        <dd> Kansong Art Museum
+          <button class="more-btn" onclick="openTourModal('kansong')">MORE</button>
         </dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_002_1.jpg" alt="Kyungpook National University"></dt>
-        <dd>
-            Kyungpook National University Campus
-            <button class="more-btn" onclick="openTourModal('knu')">MORE</button>
+        <dd> Kyungpook National University Campus
+          <button class="more-btn" onclick="openTourModal('knu')">MORE</button>
         </dd>
       </dl>
-
       <h1>Gyeongju Course</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_003.jpg" alt="Bulguksa Temple"></dt>
-        <dd>
-            Bulguksa Temple
-            <button class="more-btn" onclick="openTourModal('bulguksa')">MORE</button>
+        <dd> Bulguksa Temple
+          <button class="more-btn" onclick="openTourModal('bulguksa')">MORE</button>
         </dd>
       </dl>
-       <dl class="tour_box_00">
+      <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_008.jpg" alt="Gyeongju National Museum"></dt>
-        <dd>
-            Gyeongju National Museum
-            <button class="more-btn" onclick="openTourModal('gyeongju_museum')">MORE</button>
+        <dd> Gyeongju National Museum
+          <button class="more-btn" onclick="openTourModal('gyeongju_museum')">MORE</button>
         </dd>
-        </dl>
+      </dl>
     </section>
   </div>
 </section>
@@ -280,42 +271,34 @@ h1 + dl.tour_box_00 {
   <div class="new_workshop">
     <section class="accordion-wrap">
       <h2 class="accordion-title">Thursday, March 26 : 09:00–15:00 (6 hrs)</h2>
-      
       <h1>Daegu B</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_006.jpg" alt="Palgongsan Mountain"></dt>
-        <dd>
-            Palgongsan Mountain
-            <button class="more-btn" onclick="openTourModal('palgongsan')">MORE</button>
+        <dd> Palgongsan Mountain
+          <button class="more-btn" onclick="openTourModal('palgongsan')">MORE</button>
         </dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_007_01.jpg" alt="Donghwasa Temple"></dt>
-        <dd>
-            Donghwasa Temple
-            <button class="more-btn" onclick="openTourModal('donghwasa')">MORE</button>
+        <dd> Donghwasa Temple
+          <button class="more-btn" onclick="openTourModal('donghwasa')">MORE</button>
         </dd>
       </dl>
-
       <h1>Andong Course</h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_009.jpg" alt="Hahoe Folk Village"></dt>
-        <dd>
-            Hahoe Folk Village
-            <button class="more-btn" onclick="openTourModal('hahoe')">MORE</button>
+        <dd> Hahoe Folk Village
+          <button class="more-btn" onclick="openTourModal('hahoe')">MORE</button>
         </dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_010_01.jpg" alt="Bongjeongsa Temple"></dt>
-        <dd>
-            Bongjeongsa Temple
-        </dd>
+        <dd> Bongjeongsa Temple </dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_011.jpg" alt="Byeongsanseowon<br/>Confucian Academy"></dt>
-        <dd>
-            Byeongsanseowon Confucian Academy
-            <button class="more-btn" onclick="openTourModal('byeongsanseowon')">MORE</button>
+        <dd> Byeongsanseowon Confucian Academy
+          <button class="more-btn" onclick="openTourModal('byeongsanseowon')">MORE</button>
         </dd>
       </dl>
     </section>
@@ -323,16 +306,16 @@ h1 + dl.tour_box_00 {
 </section>
 
 <div class="tour-modal-overlay" id="tourModal" onclick="closeTourModal(event)">
-    <div class="tour-modal-content" onclick="event.stopPropagation()">
-        <div class="tour-modal-header">
-            <h3 id="modalTitle">Title</h3>
-            <button class="tour-modal-close" onclick="closeTourModal()">&times;</button>
-        </div>
-        <div class="tour-modal-body">
-            <div class="tour-modal-images" id="modalImages"></div>
-            <div class="tour-modal-text" id="modalText"></div>
-        </div>
+  <div class="tour-modal-content" onclick="event.stopPropagation()">
+    <div class="tour-modal-header">
+      <h3 id="modalTitle">Title</h3>
+      <button class="tour-modal-close" onclick="closeTourModal()">&times;</button>
     </div>
+    <div class="tour-modal-body">
+      <div class="tour-modal-images" id="modalImages"></div>
+      <div class="tour-modal-text" id="modalText"></div>
+    </div>
+  </div>
 </div>
 
 <script>
