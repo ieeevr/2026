@@ -239,7 +239,7 @@ h1{
     </tr>
   </tbody>
 </table>
-<div class="tac mt20"> <a href="https://forms.gle/hnwB7ZNngYs7KM4s5" class="btn btn-large btn-blue" target="_blank">Reservation</a> </div>
+<div class="tac mt20"> <a href="https://forms.gle/aLbYwtVzAejWDLj38" class="btn btn-large btn-blue" target="_blank">Reservation</a> </div>
 <p class="tac mt20 mb20">※ The tour is subject to cancellation if the number of registered participants is fewer than 10.</p>
 <section itemprop="text">
   <div class="new_workshop">
