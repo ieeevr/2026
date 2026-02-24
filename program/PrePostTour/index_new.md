@@ -166,11 +166,15 @@ h1{
     border-radius: 8px;
     object-fit: cover;
 }
-.tour-modal-images.img-count-1 img { width: 100%; max-width: 500px; }
-.tour-modal-images.img-count-2 img { width: calc(50% - 5px); }
+.tour-modal-images.img-count-1 img,
+.tour-modal-images.img-count-2 img { 
+    width: calc(50% - 5px); 
+}
 .tour-modal-images.img-count-3 img { width: calc(33.333% - 7px); }
 
 @media (max-width: 600px) {
+    /* 수정됨: 모바일에서는 1개, 2개, 3개 모두 꽉 차게(100%) 나오도록 변경 */
+    .tour-modal-images.img-count-1 img,
     .tour-modal-images.img-count-2 img,
     .tour-modal-images.img-count-3 img {
         width: 100%;
