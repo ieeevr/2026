@@ -13,7 +13,7 @@ title_separator: "|"
     box-sizing: border-box;
     padding: 5px 20px 20px;
     background-color: #fff;
-    border-radius: 12px;   
+    border-radius: 12px;    
     border: 1px solid #eee;
     position: relative;
 }
@@ -85,7 +85,6 @@ h1{
     }
 }
 
-/* 데스크탑 레이아웃 (반드시 모바일 스타일보다 아래에 위치해야 함) */
 @media (min-width: 768px) {
     .accordion-wrap {
         display: flex;
@@ -101,7 +100,6 @@ h1{
     }
 }
 
-/* Modal CSS */
 .tour-modal-overlay {
     display: none;
     position: fixed;
@@ -165,7 +163,6 @@ h1{
     border-radius: 8px;
     object-fit: cover;
 }
-/* Handle 1~3 images */
 .tour-modal-images.img-count-1 img { width: 100%; max-width: 500px; }
 .tour-modal-images.img-count-2 img { width: calc(50% - 5px); }
 .tour-modal-images.img-count-3 img { width: calc(33.333% - 7px); }
@@ -185,9 +182,8 @@ h1{
     margin-bottom: 1rem;
 }
 </style>
-
-<p class="big_title" style="padding-bottom:0; margin-bottom:0">Tour Program</p>
-<table class="green_03" >
+<p class="big_title" style="padding-bottom:0; margin-bottom:0"> Pre/Post Tour</p>
+<table class="green_03" style="display:none">
   <colgroup>
   <col width="10%">
   <col width="22.5%">
@@ -231,81 +227,92 @@ h1{
     </tr>
   </tbody>
 </table>
+<div class="tac mt20"> <a href="https://forms.gle/hnwB7ZNngYs7KM4s5" class="btn btn-large btn-blue" target="_blank">Reservation</a> </div>
 <p class="mt20 mb20">※ The tour is subject to cancellation if the number of registered participants is fewer than 10.</p>
-<div class="tac mt20"> <a href="https://forms.gle/WRgQ3YaC8VXcLwgE7" class="btn btn-large btn-blue" target="_blank">Reservation</a> </div>
-
 <section itemprop="text">
   <div class="new_workshop">
     <section class="accordion-wrap">
       <h2 class="accordion-title">Friday, March 20 : 13:30–18:30 (5 hrs)</h2>
-      <h1>Daegu A</h1>
+      <h1>Daegu A
+        <button class="more-btn" onclick="openTourModal('daegu_a')">MORE</button>
+      </h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_001.jpg" alt="Kansong Art Museum"></dt>
-        <dd> Kansong Art Museum
-          <button class="more-btn" onclick="openTourModal('kansong')">MORE</button>
-        </dd>
+        <dd> Kansong Art Museum </dd>
+      </dl>
+      <dl class="tour_box_00">
+        <dt><img src="/2026/assets/images/tour_001_01_1.jpg" alt="Kansong Art Museum"></dt>
+        <dd>Kansong Art Museum<br>
+          “Style Crossover Exhibition” </dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_002_1.jpg" alt="Kyungpook National University"></dt>
-        <dd> Kyungpook National University Campus
-          <button class="more-btn" onclick="openTourModal('knu')">MORE</button>
+        <dd> Kyungpook National University Campus 
         </dd>
       </dl>
-      <h1>Gyeongju Course</h1>
+      <h1>Gyeongju Course <button class="more-btn" onclick="openTourModal('gyeongju')">MORE</button></h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_003.jpg" alt="Bulguksa Temple"></dt>
         <dd> Bulguksa Temple
-          <button class="more-btn" onclick="openTourModal('bulguksa')">MORE</button>
+           
         </dd>
+      </dl>
+       <dl class="tour_box_00">
+        <dt><img src="/2026/assets/images/tour_003_01.jpg" alt="Bulguksa Temple"></dt>
+        <dd>Cheongungyo (Blue Cloud Bridge)<br>
+and Baegungyo (White Cloud Bridge)</dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_008.jpg" alt="Gyeongju National Museum"></dt>
         <dd> Gyeongju National Museum
-          <button class="more-btn" onclick="openTourModal('gyeongju_museum')">MORE</button>
         </dd>
       </dl>
     </section>
   </div>
 </section>
-
 <section itemprop="text">
   <div class="new_workshop">
     <section class="accordion-wrap">
       <h2 class="accordion-title">Thursday, March 26 : 09:00–15:00 (6 hrs)</h2>
-      <h1>Daegu B</h1>
-      <dl class="tour_box_00">
-        <dt><img src="/2026/assets/images/tour_006.jpg" alt="Palgongsan Mountain"></dt>
-        <dd> Palgongsan Mountain
-          <button class="more-btn" onclick="openTourModal('palgongsan')">MORE</button>
-        </dd>
-      </dl>
+      <h1>Daegu B   <button class="more-btn" onclick="openTourModal('daegu_b')">MORE</button></h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_007_01.jpg" alt="Donghwasa Temple"></dt>
         <dd> Donghwasa Temple
-          <button class="more-btn" onclick="openTourModal('donghwasa')">MORE</button>
         </dd>
       </dl>
-      <h1>Andong Course</h1>
+       
+      <dl class="tour_box_00">
+        <dt><img src="/2026/assets/images/tour_006.jpg" alt="Palgongsan Mountain"></dt>
+        <dd>Great Medicine Buddha<br>
+Palgongsan Mountain<br>
+of Donghwasa Temple</dd>
+      </dl>
+       
+        <dl class="tour_box_00">
+        <dt><img src="/2026/assets/images/tour_006_0001.jpg" alt="Palgongsan Mountain"></dt>
+        <dd> Palgongsan Mountain
+         
+        </dd>
+      </dl>
+       
+      <h1>Andong Course   <button class="more-btn" onclick="openTourModal('andong')">MORE</button></h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_009.jpg" alt="Hahoe Folk Village"></dt>
         <dd> Hahoe Folk Village
-          <button class="more-btn" onclick="openTourModal('hahoe')">MORE</button>
         </dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_010_01.jpg" alt="Bongjeongsa Temple"></dt>
-        <dd> Bongjeongsa Temple </dd>
+        <dd>Hahoe Byeolsingut Talnori</dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_011.jpg" alt="Byeongsanseowon<br/>Confucian Academy"></dt>
         <dd> Byeongsanseowon Confucian Academy
-          <button class="more-btn" onclick="openTourModal('byeongsanseowon')">MORE</button>
         </dd>
       </dl>
     </section>
   </div>
 </section>
-
 <div class="tour-modal-overlay" id="tourModal" onclick="closeTourModal(event)">
   <div class="tour-modal-content" onclick="event.stopPropagation()">
     <div class="tour-modal-header">
@@ -318,56 +325,51 @@ h1{
     </div>
   </div>
 </div>
-
 <script>
 const tourData = {
-    "knu": {
-        title: "Kyungpook National University Campus",
-        images: ["/2026/assets/images/tour_002_1.jpg"],
-        text: `<p>Founded in 1946, Kyungpook National University (KNU) is one of Korea’s leading national universities, recognized for its excellence in research, education, and global collaboration. Located in Daegu, KNU plays a central role in regional innovation and academic development.</p>
-               <p>As part of the campus tour, participants will explore three of the university’s key cultural and academic institutions. The KNU Library, with a total floor area of approximately 41,500 square meters (12,555 pyeong) and a collection of over 3.5 million volumes, is one of the representative university libraries in Korea, serving as a major academic resource hub. The KNU Museum houses 6,938 artifacts, including seven nationally designated treasures, as well as more than 40,000 excavated cultural properties. Beyond preservation, the museum actively engages the local community through special exhibitions, archaeological field visits, lectures, and cultural education programs. The KNU Art Museum, the first officially registered art museum in the region, presents diverse exhibitions ranging from curated shows reflecting contemporary art trends to experimental works by emerging artists. Through collaboration with regional institutions, it continues to expand the social and cultural significance of art while serving as a platform for education and research.</p>`
-    },
-    "kansong": {
-        title: "Kansong Art Museum",
-        images: ["/2026/assets/images/tour_001.jpg", "/2026/assets/images/tour_001_01_1.jpg"],
-        text: `<p>Kansong Art Museum carries forward the legacy of Chun Hyungpil (pen name Kansong), a symbolic figure in the preservation of Korea’s modern cultural heritage. Through diverse curated exhibitions and educational programs that connect tradition and modernity, the museum promotes the identity and artistic value of Korean culture to both domestic and international audiences.</p>
+    "daegu_a": {
+        title: "Daegu A Course",
+        images: ["/2026/assets/images/tour_001.jpg", "/2026/assets/images/tour_001_01_1.jpg", "/2026/assets/images/tour_002_1.jpg"],
+        text: `<h3>Kansong Art Museum</h3>
+               <p>Kansong Art Museum carries forward the legacy of Chun Hyungpil (pen name Kansong), a symbolic figure in the preservation of Korea’s modern cultural heritage. Through diverse curated exhibitions and educational programs that connect tradition and modernity, the museum promotes the identity and artistic value of Korean culture to both domestic and international audiences.</p>
                <p>In particular, a special exhibition will be held from February 13 to May 31, 2026, in collaboration with DGIST CVLAB and Kansong Art Museum Daegu. This exhibition reinterprets Miindo (Portrait of a Beauty), one of the most iconic works of traditional Korean painting, through artificial intelligence (AI) technologies. By integrating traditional art with cutting-edge technology, the exhibition aims to offer a new and immersive cultural experience.</p>
                <p>One of the main programs is the “Style Crossover Exhibition,” which utilizes AI-based style transfer technology. Masterpieces of world art are recreated in the distinctive Miindo painting style, while Miindo itself is transformed into the styles of Western classical paintings, providing a unique visual dialogue that transcends the boundaries between Eastern and Western art traditions.</p>
                <p>In addition, the “Moving Miindo” section brings dynamic life to traditionally static classical paintings through digital technology, creating an immersive experience in which figures appear to move and breathe.</p>
-               <p>Furthermore, an interactive “AI Portrait Experience Booth” allows AI to analyze visitors’ facial features in real time and generate personalized portraits rendered in a traditional Korean painting style, offering participants the opportunity to become the subject of a classical artwork themselves.</p>`
+               <p>Furthermore, an interactive “AI Portrait Experience Booth” allows AI to analyze visitors’ facial features in real time and generate personalized portraits rendered in a traditional Korean painting style, offering participants the opportunity to become the subject of a classical artwork themselves.</p>
+               <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
+               <h3>Kyungpook National University Campus</h3>
+               <p>Founded in 1946, Kyungpook National University (KNU) is one of Korea’s leading national universities, recognized for its excellence in research, education, and global collaboration. Located in Daegu, KNU plays a central role in regional innovation and academic development.</p>
+               <p>As part of the campus tour, participants will explore three of the university’s key cultural and academic institutions. The KNU Library, with a total floor area of approximately 41,500 square meters (12,555 pyeong) and a collection of over 3.5 million volumes, is one of the representative university libraries in Korea, serving as a major academic resource hub. The KNU Museum houses 6,938 artifacts, including seven nationally designated treasures, as well as more than 40,000 excavated cultural properties. Beyond preservation, the museum actively engages the local community through special exhibitions, archaeological field visits, lectures, and cultural education programs. The KNU Art Museum, the first officially registered art museum in the region, presents diverse exhibitions ranging from curated shows reflecting contemporary art trends to experimental works by emerging artists. Through collaboration with regional institutions, it continues to expand the social and cultural significance of art while serving as a platform for education and research.</p>`
     },
-    "bulguksa": {
-        title: "Bulguksa Temple",
-        images: ["/2026/assets/images/tour_003.jpg"],
-        text: `<p>Bulguksa Temple is one of Korea’s most celebrated Buddhist temples and a UNESCO World Heritage Site. Originally built in the 8th century during the Silla Dynasty, it represents the pinnacle of ancient Korean Buddhist architecture. The temple is famous for its elegant stone pagodas, Dabotap and Seokgatap, which symbolize harmony and balance. Surrounded by serene mountain landscapes, Bulguksa offers visitors a profound sense of history, spirituality, and artistic beauty. It is an essential stop for anyone exploring the cultural heritage of Gyeongju.</p>`
+    "gyeongju": {
+        title: "Gyeongju Course",
+        images: ["/2026/assets/images/tour_003.jpg", "/2026/assets/images/tour_008.jpg"],
+        text: `<h3>Bulguksa Temple</h3>
+               <p>Bulguksa Temple is one of Korea’s most celebrated Buddhist temples and a UNESCO World Heritage Site. Originally built in the 8th century during the Silla Dynasty, it represents the pinnacle of ancient Korean Buddhist architecture. The temple is famous for its elegant stone pagodas, Dabotap and Seokgatap, which symbolize harmony and balance. Surrounded by serene mountain landscapes, Bulguksa offers visitors a profound sense of history, spirituality, and artistic beauty. It is an essential stop for anyone exploring the cultural heritage of Gyeongju.</p>
+               <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
+               <h3>Gyeongju National Museum</h3>
+               <p>Gyeongju National Museum showcases the rich cultural legacy of the ancient Silla Kingdom. The museum houses an extensive collection of artifacts, including royal gold crowns, Buddhist sculptures, and ceramics. One of its most iconic treasures is the Emille Bell, a masterpiece of bronze casting from the 8th century. Through its exhibitions, visitors can gain a deeper understanding of Korea’s classical civilization and artistic achievements. The museum provides a meaningful cultural experience that complements visits to nearby historic sites.</p>`
     },
-    "gyeongju_museum": {
-        title: "Gyeongju National Museum",
-        images: ["/2026/assets/images/tour_008.jpg"],
-        text: `<p>Gyeongju National Museum showcases the rich cultural legacy of the ancient Silla Kingdom. The museum houses an extensive collection of artifacts, including royal gold crowns, Buddhist sculptures, and ceramics. One of its most iconic treasures is the Emille Bell, a masterpiece of bronze casting from the 8th century. Through its exhibitions, visitors can gain a deeper understanding of Korea’s classical civilization and artistic achievements. The museum provides a meaningful cultural experience that complements visits to nearby historic sites.</p>`
+    "daegu_b": {
+        title: "Daegu B Course",
+        images: ["/2026/assets/images/tour_007_01.jpg", "/2026/assets/images/tour_007.jpg", "/2026/assets/images/tour_006.jpg"],
+        text: `<h3>Donghwasa Temple</h3>
+               <p>Donghwasa Temple is one of the most historic Buddhist temples in Daegu, located on the southern slopes of Palgongsan Mountain. Founded in the 5th century during the Silla Dynasty, the temple is surrounded by beautiful forests and seasonal landscapes. It is especially known for the towering Tongil Yaksa Buddha (Great Medicine Buddha), symbolizing peace and healing. Visitors can experience traditional Korean temple architecture, serene walking paths, and seasonal lantern festivals. Donghwasa offers a peaceful retreat where history, spirituality, and nature come together.</p>
+               <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
+               <h3>Palgongsan Mountain</h3>
+               <p>Palgongsan Mountain, embracing Daegu like a folding screen, is a beloved natural landmark admired by local citizens and visitors alike. Rising to 1,193 meters above sea level, it offers a peaceful refuge where weary shoulders can rest amid its lush green forests. Designated as a National Park, Palgongsan Mountain is recognized for its outstanding natural beauty and ecological value. The mountain is also a place of wisdom, preserving countless stories, historical relics, and cultural heritage sites. Visitors can enjoy a refreshing hike to the famous Gatbawi Rock while making a wish, or take a relaxing stroll through the Sky Garden, surrounded by breathtaking scenery.</p>`
     },
-    "palgongsan": {
-        title: "Palgongsan Mountain",
-        images: ["/2026/assets/images/tour_006.jpg"],
-        text: `<p>Palgongsan Mountain, embracing Daegu like a folding screen, is a beloved natural landmark admired by local citizens and visitors alike. Rising to 1,193 meters above sea level, it offers a peaceful refuge where weary shoulders can rest amid its lush green forests. Designated as a National Park, Palgongsan Mountain is recognized for its outstanding natural beauty and ecological value. The mountain is also a place of wisdom, preserving countless stories, historical relics, and cultural heritage sites. Visitors can enjoy a refreshing hike to the famous Gatbawi Rock while making a wish, or take a relaxing stroll through the Sky Garden, surrounded by breathtaking scenery.</p>`
-    },
-    "donghwasa": {
-        title: "Donghwasa Temple",
-        images: ["/2026/assets/images/tour_007_01.jpg", "/2026/assets/images/tour_007.jpg"],
-        text: `<p>Donghwasa Temple is one of the most historic Buddhist temples in Daegu, located on the southern slopes of Palgongsan Mountain. Founded in the 5th century during the Silla Dynasty, the temple is surrounded by beautiful forests and seasonal landscapes. It is especially known for the towering Tongil Yaksa Buddha (Great Medicine Buddha), symbolizing peace and healing. Visitors can experience traditional Korean temple architecture, serene walking paths, and seasonal lantern festivals. Donghwasa offers a peaceful retreat where history, spirituality, and nature come together.</p>`
-    },
-    "hahoe": {
-        title: "Andong Hahoe Folk Village(UNESCO World Heritage Site)",
-        images: ["/2026/assets/images/tour_009.jpg"],
-        text: `<p>Andong Hahoe Folk Village is one of Korea’s most well-preserved historic villages and a designated UNESCO World Heritage Site. Located along the scenic Nakdong River, the village dates back over 600 years to the Joseon Dynasty. It remains home to descendants of the Ryu clan, maintaining a living tradition rather than serving as a museum display.</p>
+    "andong": {
+        title: "Andong Course",
+        images: ["/2026/assets/images/tour_009.jpg", "/2026/assets/images/tour_011.jpg"],
+        text: `<h3>Andong Hahoe Folk Village(UNESCO World Heritage Site)</h3>
+               <p>Andong Hahoe Folk Village is one of Korea’s most well-preserved historic villages and a designated UNESCO World Heritage Site. Located along the scenic Nakdong River, the village dates back over 600 years to the Joseon Dynasty. It remains home to descendants of the Ryu clan, maintaining a living tradition rather than serving as a museum display.</p>
                <p>Visitors can explore elegant tile-roofed aristocratic homes alongside traditional thatched houses of commoners. The village layout reflects traditional Korean geomancy (pungsu), harmonizing architecture with nature.</p>
                <p>Hahoe is especially famous for its traditional mask dance drama (Hahoe Byeolsingut Talnori), a cultural performance with satirical and ritual elements. Walking through the village offers insight into Confucian social order and clan-based community life. Ancient trees, open courtyards, and river cliffs create a serene and timeless atmosphere.</p>
-               <p>The site provides a rare opportunity to experience authentic Korean heritage in its original setting. This visit offers participants a meaningful cultural immersion beyond the conference venue.</p>`
-    },
-    "byeongsanseowon": {
-        title: "Byeongsanseowon Confucian Academy(UNESCO World Heritage Site)",
-        images: ["/2026/assets/images/tour_011.jpg"],
-        text: `<p>Byeongsanseowon Confucian Academy is a beautifully preserved 17th-century private Confucian academy located near Hahoe Village. It was established to honor the great Confucian scholar Ryu Seong-ryong, a prominent statesman of the Joseon Dynasty. The academy served as a center for education, scholarship, and moral cultivation during Korea’s classical period. Its architecture is admired for its elegant wooden structures and open lecture halls.</p>
+               <p>The site provides a rare opportunity to experience authentic Korean heritage in its original setting. This visit offers participants a meaningful cultural immersion beyond the conference venue.</p>
+               <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
+               <h3>Byeongsanseowon Confucian Academy(UNESCO World Heritage Site)</h3>
+               <p>Byeongsanseowon Confucian Academy is a beautifully preserved 17th-century private Confucian academy located near Hahoe Village. It was established to honor the great Confucian scholar Ryu Seong-ryong, a prominent statesman of the Joseon Dynasty. The academy served as a center for education, scholarship, and moral cultivation during Korea’s classical period. Its architecture is admired for its elegant wooden structures and open lecture halls.</p>
                <p>The iconic Mandaeru Pavilion overlooks the Nakdong River, offering breathtaking panoramic views. The spatial composition reflects Confucian philosophy, emphasizing harmony, hierarchy, and balance. Recognized as part of the UNESCO-listed “Seowon, Korean Neo-Confucian Academies,” it represents Korea’s intellectual heritage. Visitors can experience the tranquil atmosphere once used for study and reflection by scholars. The academy’s natural surroundings enhance its sense of calm and contemplation.</p>
                <p>This destination offers conference participants a deeper understanding of Korea’s philosophical and educational traditions.</p>`
     }
