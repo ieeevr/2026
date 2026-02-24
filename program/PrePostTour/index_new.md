@@ -272,8 +272,10 @@ h1{
       </dl>
        <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_003_01.jpg" alt="Bulguksa Temple"></dt>
-        <dd>Cheongungyo (Blue Cloud Bridge)<br>
-and Baegungyo (White Cloud Bridge)</dd>
+        <dd>Cheongungyo<br>
+        (Blue Cloud Bridge)<br>
+and Baegungyo<br>
+(White Cloud Bridge)</dd>
       </dl>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_008.jpg" alt="Gyeongju National Museum"></dt>
