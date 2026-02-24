@@ -107,7 +107,7 @@ h1{
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
     background: rgba(0,0,0,0.6);
-    z-index: 10000;
+    z-index: 111111;
     justify-content: center;
     align-items: center;
     padding: 20px;
