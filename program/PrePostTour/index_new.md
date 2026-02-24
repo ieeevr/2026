@@ -289,7 +289,7 @@ and Baegungyo (White Cloud Bridge)</dd>
       <h2 class="accordion-title">Thursday, March 26 : 09:00–15:00 (6 hrs)</h2>
       <h1>Daegu B   <button class="more-btn" onClick="openTourModal('daegu_b')">MORE</button></h1>
       <dl class="tour_box_00">
-        <dt><img src="/2026/assets/images/tour_007_01.jpg" alt="Donghwasa Temple"></dt>
+        <dt><img src="/2026/assets/images/tour_007_01_1.jpg" alt="Donghwasa Temple"></dt>
         <dd> Donghwasa Temple
         </dd>
       </dl>
@@ -380,7 +380,7 @@ const tourData = {
         title: "Daegu B",
         text: `<h3>Donghwasa Temple</h3>
                <div class="tour-modal-images img-count-2">
-                 <img src="https://ieeevr.org/2026/assets/images/tour_007_01.jpg" alt="Donghwasa Temple">
+                 <img src="https://ieeevr.org/2026/assets/images/tour_007_01_1.jpg" alt="Donghwasa Temple">
                  <img src="https://ieeevr.org/2026/assets/images/tour_006.jpg" alt="Donghwasa Temple Buddha">
                </div>
                <p>Donghwasa Temple is one of the most historic Buddhist temples in Daegu, located on the southern slopes of Palgongsan Mountain. Founded in the 5th century during the Silla Dynasty, the temple is surrounded by beautiful forests and seasonal landscapes. It is especially known for the towering Tongil Yaksa Buddha (Great Medicine Buddha), symbolizing peace and healing. Visitors can experience traditional Korean temple architecture, serene walking paths, and seasonal lantern festivals. Donghwasa offers a peaceful retreat where history, spirituality, and nature come together.</p>
