@@ -55,7 +55,6 @@ title_separator: "|"
 }
 .tac {
     text-align: center;
-    margin-bottom: 2rem;
 }
 .btn-large {
     padding: 15px 45px;
