@@ -19,9 +19,7 @@ title_separator: "|"
         justify-content: space-between;
         padding: 20px;
         border: 1px solid #ddd;
-        max-width: 800px;
         margin: 0 auto;
-        font-family: sans-serif;
     }
 
     .info_content {
@@ -36,14 +34,13 @@ title_separator: "|"
     }
 
     .info_label {
-        font-size: 1.1rem;
+       
         color: #333;
-        width: 220px;
+        width: 50%;
     }
 
     .info_value {
         font-weight: bold;
-        font-size: 1.2rem;
         color: #000;
         text-align: right;
         flex: 1;
@@ -179,7 +176,7 @@ title_separator: "|"
         </span>
     </span>
     <span class="qr_section">
-        <img src="/2026/asset/images/codeof_QR.gif" alt="QR Code">
+        <img src="/2026/assets/images/codeof_QR.gif" alt="QR Code">
     </span>
 </p>
 
