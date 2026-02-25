@@ -36,8 +36,8 @@ title_separator: "|"
     content: "" !important;
 }
 </style>
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3; display:none">This content is currently being updated.</p>
+<div style="">
 <h1>Student Volunteers <span id="studentvolunteers"></span> </h1>
 <div>	
 	<ul>
@@ -98,4 +98,3 @@ title_separator: "|"
 	</ul>
 </div>
 </div>
-
