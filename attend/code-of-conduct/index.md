@@ -36,13 +36,13 @@ title_separator: "|"
     .info_label {
        
         color: #333;
-        width: 50%;
+        width: 40%;
     }
 
     .info_value {
         font-weight: bold;
         color: #000;
-        text-align: right;
+        text-align: left;
         flex: 1;
     }
 
