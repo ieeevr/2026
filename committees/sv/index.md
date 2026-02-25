@@ -63,15 +63,15 @@ title_separator: "|"
 <li><span class="bold">Bowon Kim</span> – <i>KAIST</i></li>
 <li><span class="bold">Byungmin Kim</span> – <i>Korea University</i></li>
 <li><span class="bold">DongHoon Kim</span> – <i>Utah State University</i></li>
-<li><span class="bold">Jinwoo Lee</span> – <i>KAIST</i></li>
 <li><span class="bold">Juhwan Kim</span> – <i>University of Ulsan.</i></li>
 <li><span class="bold">Min-yung Kim</span> – <i>KAIST</i></li>
 <li><span class="bold">Minchae Kim</span> – <i>Korea University</i></li>
 <li><span class="bold">Taeyeon kim</span> – <i>University of Calgary</i></li>
-<li><span class="bold">KIM Yeonghoon (김영훈)</span> – <i>Ritsumeikan University</i></li>
+<li><span class="bold">Yeonghoon kim</span> – <i>Ritsumeikan University</i></li>
 <li><span class="bold">Ripan Kumar Kundu</span> – <i>University of Missouri-Columbia</i></li>
 <li><span class="bold">Kaylee Lai</span> – <i>University of Utah</i></li>
 <li><span class="bold">Chaeyoung Lee</span> – <i>Seoul National University</i></li>
+<li><span class="bold">Jinwoo Lee</span> – <i>KAIST</i></li>
 <li><span class="bold">Jungsoo Lee</span> – <i>Korea Advanced Institute of Science and Technology</i></li>
 <li><span class="bold">Carlos LIEVANO</span> – <i>Université Paris Saclay</i></li>
 <li><span class="bold">Ana Lucia Manrique De La Torre Ugarte</span> – <i>ISM University of Management and Economics</i></li>
