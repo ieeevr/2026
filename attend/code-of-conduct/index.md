@@ -10,6 +10,108 @@ title_separator: "|"
     content: "" !important;
 }
 </style>
+
+<style>
+    .box_deco_01 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        border: 1px solid #ddd;
+        max-width: 800px;
+        margin: 0 auto;
+        font-family: sans-serif;
+    }
+
+    .info_content {
+        flex: 1;
+        min-width: 300px;
+    }
+
+    .info_row {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: baseline;
+    }
+
+    .info_label {
+        font-size: 1.1rem;
+        color: #333;
+        width: 220px;
+    }
+
+    .info_value {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #000;
+        text-align: right;
+        flex: 1;
+    }
+
+    .info_value a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .phone_number {
+        display: block;
+        margin-top: 5px;
+        letter-spacing: 1px;
+    }
+
+    .qr_section {
+        padding-left: 20px;
+        border-left: 1px solid #eee;
+        margin-left: 20px;
+    }
+
+    .qr_section img {
+        width: 120px;
+        height: 120px;
+        display: block;
+    }
+
+    @media (max-width: 600px) {
+        .box_deco_01 {
+            flex-direction: column;
+            text-align: center;
+        }
+        .info_row {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .info_label {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .info_value {
+            width: 100%;
+            text-align: center;
+        }
+        .qr_section {
+            border-left: none;
+            margin-left: 0;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript">
     $(document).ready(function(){
 		var email = ""; 
@@ -42,7 +144,9 @@ title_separator: "|"
     <p>
         As a conference that aims to share ideas and freedom of thought and expression, it is essential that the conference takes place in an environment that recognizes the inherent worth of every person by being respectful of all. All communication should be appropriate for a professional audience including people of many different backgrounds. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers. In addition, attendees are subject to the <i class="far fa-file-pdf"></i> <a href="{{"/assets/attend/ieee_code_of_conduct.pdf" | relative_url }}" target="_blank">IEEE Code of Ethics</a>.
     </p>
-    <p>
+ <h2>Reporting a Breach of the Code of Conduct</h2>
+   
+	<p>
         If you wish to report a breach of the code of conduct this can be done via email to:
         <ul>
             <li> 
@@ -56,6 +160,31 @@ title_separator: "|"
             </li>
         </ul>
         <p>All reports will only be sent to the authorized people and will be treated confidentially.</p>
+        <p>You can also report conduct issues directly the IEEE CS Committee to Assist in Reporting Ethics & Conduct Violations (CS Assist) or the IEEE Ethics Reporting Line.</p>
+
+
+
+		<p class="box_deco_01">
+    <span class="info_content">
+        <span class="info_row">
+            <span class="info_label">CS Assist committee:</span>
+            <span class="info_value"><a href="mailto:assist@computer.org">assist@computer.org</a></span>
+        </span>
+        <span class="info_row">
+            <span class="info_label">IEEE Ethics Reporting Line:</span>
+            <span class="info_value">
+                <a href="https://www.ieee-ethics-reporting.org" target="_blank">www.ieee-ethics-reporting.org</a>
+                <span class="phone_number">+1.888.359.6323</span>
+            </span>
+        </span>
+    </span>
+    <span class="qr_section">
+        <img src="/2026/asset/images/codeof_QR.gif" alt="QR Code">
+    </span>
+</p>
+
+
+		
     </p>
 
     <h2>IEEE Computer Society Open Conference Statement</h2>
