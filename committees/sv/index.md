@@ -66,8 +66,8 @@ title_separator: "|"
 <li><span class="bold">Juhwan Kim</span> – <i>University of Ulsan.</i></li>
 <li><span class="bold">Min-yung Kim</span> – <i>KAIST</i></li>
 <li><span class="bold">Minchae Kim</span> – <i>Korea University</i></li>
-<li><span class="bold">Taeyeon kim</span> – <i>University of Calgary</i></li>
-<li><span class="bold">Yeonghoon kim</span> – <i>Ritsumeikan University</i></li>
+<li><span class="bold">Taeyeon Kim</span> – <i>University of Calgary</i></li>
+<li><span class="bold">Yeonghoon Kim</span> – <i>Ritsumeikan University</i></li>
 <li><span class="bold">Ripan Kumar Kundu</span> – <i>University of Missouri-Columbia</i></li>
 <li><span class="bold">Kaylee Lai</span> – <i>University of Utah</i></li>
 <li><span class="bold">Chaeyoung Lee</span> – <i>Seoul National University</i></li>
