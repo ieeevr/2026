@@ -171,10 +171,10 @@ th, td {
 .session-name-title { font-size: 1.4rem; font-weight: bold; color: #066569; margin: 5px 0; display: block; }
 .session-chair-text { font-size: 0.9rem; margin-bottom: 15px; color: #444; }
 
-.paper-block { padding: 12px 0 12px 15px; font-size: 0.95rem; line-height: 1.6; text-indent: -12px;       /* 첫 줄을 왼쪽으로 당김 (내어쓰기) */
+.paper-block { padding: 12px 0 12px 15px; font-size: 0.8rem; line-height: 1.6; text-indent: -12px;       /* 첫 줄을 왼쪽으로 당김 (내어쓰기) */
     word-break: keep-all;}
 .paper-title-text { font-weight: bold; color: #000; }
-.author-list-text { font-size: 0.85rem; color: #555; display: block; margin-top: 4px; }
+.author-list-text { font-size: 0.8rem; color: #555; display: block; margin-top: 4px; }
 
 .div-light { border: 0; border-top: 1px solid #eee; margin: 10px 0; }
 .div-heavy { border: 0; border-top: 3px solid #066569; margin: 30px 0; }
