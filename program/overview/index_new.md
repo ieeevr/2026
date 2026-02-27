@@ -170,7 +170,7 @@ th, td {
 .session-name-title { font-size: 1.4rem; font-weight: bold; color: #066569; margin: 5px 0; display: block; }
 .session-chair-text { font-size: 0.9rem; margin-bottom: 15px; color: #444; }
 
-.paper-block { padding: 10px 0 10px 20px; font-size: 0.95rem; line-height: 1.6; text-indent: -12px;       /* 첫 줄을 왼쪽으로 당김 (내어쓰기) */
+.paper-block { padding: 10px 0 10px 20px; font-size: 0.8rem; line-height: 1.6; text-indent: -12px;       /* 첫 줄을 왼쪽으로 당김 (내어쓰기) */
     word-break: keep-all;}
 	.paper-item {
     text-indent: -15px;      /* 첫 줄(기호)을 왼쪽으로 당김 */
@@ -178,7 +178,7 @@ th, td {
     display: block;          /* 각 줄을 독립된 블록으로 취급 */
 }
 .paper-title-text { font-weight: bold; color: #000; }
-.author-list-text { font-size: 0.85rem; color: #555; display: block; margin-top: 4px; }
+.author-list-text { font-size: 0.8rem; color: #555; display: block; margin-top: 4px; }
 
 .div-light { border: 0; border-top: 1px solid #eee; margin: 10px 0; }
 .div-heavy { border: 0; border-top: 3px solid #066569; margin: 30px 0; }
@@ -2454,7 +2454,7 @@ function openSessModal(psNum) {
         <div class="paper-block">
             <span class="paper-item">· Paper ID: ${paper.id}</span>
             <span class="paper-item">· Paper Title: <span class="paper-title-text">${paper.title}</span></span>
-            <span class="paper-item" style="color: #555; font-size: 0.85rem;">
+            <span class="paper-item" style="color: #555; font-size: 0.8rem;">
                 · Author List: ${paper.authors}
             </span>
         </div>
