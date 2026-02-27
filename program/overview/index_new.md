@@ -171,7 +171,8 @@ th, td {
 .session-name-title { font-size: 1.4rem; font-weight: bold; color: #066569; margin: 5px 0; display: block; }
 .session-chair-text { font-size: 0.9rem; margin-bottom: 15px; color: #444; }
 
-.paper-block { padding: 12px 0; font-size: 0.95rem; line-height: 1.6; }
+.paper-block { padding: 12px 0 12px 15px; font-size: 0.95rem; line-height: 1.6; text-indent: -12px;       /* 첫 줄을 왼쪽으로 당김 (내어쓰기) */
+    word-break: keep-all;}
 .paper-title-text { font-weight: bold; color: #000; }
 .author-list-text { font-size: 0.85rem; color: #555; display: block; margin-top: 4px; }
 
@@ -796,18 +797,6 @@ th, td {
     </tbody>
   </table>
 </div>
-
-
-
-<div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
-    <div class="modal-content" onclick="event.stopPropagation()">
-        <span class="modal-close" onclick="closeModal()">&times;</span>
-        <div id="modalBody"></div>
-    </div>
-</div>
-
-
-
 <script>
 /**
  * 엑셀 데이터 통합 객체 (psData)
@@ -2454,8 +2443,8 @@ function openSessModal(psNum) {
             content += `
                 <div class="paper-block">
                     · Paper ID: ${paper.id}<br>
-                    · Paper Title: <span class="paper-title-text">${paper.title}</span><br>
-                    <span class="author-list-text">· Author List: ${paper.authors}</span>
+        · Paper Title: <span class="paper-title-text">${paper.title}</span><br>
+        <span class="author-list-text">· Author List: ${paper.authors}</span>
                 </div>
             `;
             if (pIdx < sess.papers.length - 1) {
