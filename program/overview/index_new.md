@@ -170,8 +170,13 @@ th, td {
 .session-name-title { font-size: 1.4rem; font-weight: bold; color: #066569; margin: 5px 0; display: block; }
 .session-chair-text { font-size: 0.9rem; margin-bottom: 15px; color: #444; }
 
-.paper-block { padding: 12px 0 12px 15px; font-size: 0.95rem; line-height: 1.6; text-indent: -12px;       /* 첫 줄을 왼쪽으로 당김 (내어쓰기) */
+.paper-block { padding: 10px 0 10px 20px; font-size: 0.95rem; line-height: 1.6; text-indent: -12px;       /* 첫 줄을 왼쪽으로 당김 (내어쓰기) */
     word-break: keep-all;}
+	.paper-item {
+    text-indent: -15px;      /* 첫 줄(기호)을 왼쪽으로 당김 */
+    margin-bottom: 2px;
+    display: block;          /* 각 줄을 독립된 블록으로 취급 */
+}
 .paper-title-text { font-weight: bold; color: #000; }
 .author-list-text { font-size: 0.85rem; color: #555; display: block; margin-top: 4px; }
 
@@ -469,7 +474,8 @@ th, td {
       <tr>
         <td class="time-col">11:30</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 1<br>
-          (11:30-12:30)<br><button class="view-btn" onclick="openSessModal(1)">view</button></td>
+          (11:30-12:30)<br>
+          <button class="view-btn" onclick="openSessModal(1)">view</button></td>
         <td rowspan="3" ></td>
       </tr>
       <tr>
@@ -797,13 +803,10 @@ th, td {
   </table>
 </div>
 <div id="modalOverlay" class="modal-overlay" onclick="closeModal()">
-    <div class="modal-content" onclick="event.stopPropagation()">
-        <span class="modal-close" onclick="closeModal()">&times;</span>
-        <div id="modalBody">
-            </div>
-    </div>
+  <div class="modal-content" onclick="event.stopPropagation()"> <span class="modal-close" onclick="closeModal()">&times;</span>
+    <div id="modalBody"> </div>
+  </div>
 </div>
-
 <script>
 /**
  * 엑셀 데이터 통합 객체 (psData)
@@ -2447,17 +2450,19 @@ function openSessModal(psNum) {
         `;
 
         sess.papers.forEach((paper, pIdx) => {
-            content += `
-                <div class="paper-block">
-                    · Paper ID: ${paper.id}<br>
-        · Paper Title: <span class="paper-title-text">${paper.title}</span><br>
-        <span class="author-list-text">· Author List: ${paper.authors}</span>
-                </div>
-            `;
-            if (pIdx < sess.papers.length - 1) {
-                content += `<hr class="div-light">`;
-            }
-        });
+    content += `
+        <div class="paper-block">
+            <span class="paper-item">· Paper ID: ${paper.id}</span>
+            <span class="paper-item">· Paper Title: <span class="paper-title-text">${paper.title}</span></span>
+            <span class="paper-item" style="color: #555; font-size: 0.85rem;">
+                · Author List: ${paper.authors}
+            </span>
+        </div>
+    `;
+    if (pIdx < sess.papers.length - 1) {
+        content += `<hr class="div-light">`;
+    }
+});
 
         content += `</div>`;
         
@@ -2476,4 +2481,4 @@ function closeModal() {
     document.getElementById("modalOverlay").style.display = "none";
     document.body.style.overflow = "auto";
 }
-</script>
+</script> 
