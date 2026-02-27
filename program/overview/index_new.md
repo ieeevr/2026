@@ -496,7 +496,8 @@ th, td {
       <tr>
         <td class="time-col">14:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 2<br>
-          (14:00-15:00)</td>
+          (14:00-15:00)<br>
+          <button class="view-btn" onclick="openSessModal(2)">view</button></td>
         <td rowspan="4" ></td>
       </tr>
       <tr>
@@ -505,7 +506,8 @@ th, td {
       <tr>
         <td class="time-col">15:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 3<br>
-          (15:00-16:00)</td>
+          (15:00-16:00)<br>
+          <button class="view-btn" onclick="openSessModal(3)">view</button></td>
       </tr>
       <tr>
         <td class="time-col">15:30</td>
@@ -519,7 +521,8 @@ th, td {
       <tr>
         <td class="time-col">16:30</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 4<br>
-          (16:30-17:30)</td>
+          (16:30-17:30)<br>
+          <button class="view-btn" onclick="openSessModal(4)">view</button></td>
         <td rowspan="2" ></td>
       </tr>
       <tr>
@@ -577,7 +580,8 @@ th, td {
       <tr>
         <td class="time-col">08:30</td>
         <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 5<br>
-          (08:30-09:30)</td>
+          (08:30-09:30)<br>
+          <button class="view-btn" onclick="openSessModal(5)">view</button></td>
         <td rowspan="2"></td>
       </tr>
       <tr>
@@ -605,7 +609,8 @@ th, td {
       <tr>
         <td class="time-col">11:30</td>
         <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 6<br>
-          (11:30-12:30)</td>
+          (11:30-12:30)<br>
+          <button class="view-btn" onclick="openSessModal(6)">view</button></td>
       </tr>
       <tr>
         <td class="time-col">12:00</td>
@@ -625,7 +630,8 @@ th, td {
       <tr>
         <td class="time-col">14:00</td>
         <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 7<br>
-          (14:00-15:00)</td>
+          (14:00-15:00)<br>
+          <button class="view-btn" onclick="openSessModal(7)">view</button></td>
         <td rowspan="4" ></td>
       </tr>
       <tr>
@@ -634,7 +640,8 @@ th, td {
       <tr>
         <td class="time-col">15:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 8<br>
-          (15:00-16:00)</td>
+          (15:00-16:00)<br>
+          <button class="view-btn" onclick="openSessModal(8)">view</button></td>
         <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
       </tr>
@@ -650,7 +657,8 @@ th, td {
       <tr>
         <td class="time-col">16:30</td>
         <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 9<br>
-          (16:30-17:30)</td>
+          (16:30-17:30)<br>
+          <button class="view-btn" onclick="openSessModal(9)">view</button></td>
         <td rowspan="2" ></td>
       </tr>
       <tr>
@@ -717,7 +725,8 @@ th, td {
       <tr>
         <td class="time-col">08:30</td>
         <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 10<br>
-          (08:30-09:30)</td>
+          (08:30-09:30)<br>
+          <button class="view-btn" onclick="openSessModal(10)">view</button></td>
         <td rowspan="2" ></td>
       </tr>
       <tr>
@@ -745,7 +754,8 @@ th, td {
       <tr>
         <td class="time-col">11:30</td>
         <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 11<br>
-          (11:30-12:30)</td>
+          (11:30-12:30)<br>
+          <button class="view-btn" onclick="openSessModal(11)">view</button></td>
       </tr>
       <tr>
         <td class="time-col">12:00</td>
@@ -765,7 +775,8 @@ th, td {
       <tr>
         <td class="time-col">14:00</td>
         <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 12<br>
-          (14:00-15:00)</td>
+          (14:00-15:00)<br>
+          <button class="view-btn" onclick="openSessModal(12)">view</button></td>
         <td rowspan="4" ></td>
       </tr>
       <tr>
@@ -774,7 +785,8 @@ th, td {
       <tr>
         <td class="time-col">15:00</td>
         <td rowspan="2" class="type-Parallel">Parallel Sessions 13<br>
-          (15:00-16:00)</td>
+          (15:00-16:00)<br>
+          <button class="view-btn" onclick="openSessModal(13)">view</button></td>
         <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
       </tr>
