@@ -796,6 +796,18 @@ th, td {
     </tbody>
   </table>
 </div>
+
+
+
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+
+
 <script>
 /**
  * 엑셀 데이터 통합 객체 (psData)
