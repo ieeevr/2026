@@ -55,7 +55,7 @@ th:nth-child(3) { width: 70%; }
 }
 
 .type-Parallel {
-    background-color: #E2E2C7;
+    background-color: #fffff4;
     color: #000;
     transition: background 0.2s;
     text-align: left;
