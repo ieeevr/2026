@@ -5,6 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <link rel="stylesheet" href="style.css?version=2026">
+<h1 id="resources">Workshops</h1>
 <section itemprop="text">
   <div class="new_workshop">
     <section class="accordion-wrap">
