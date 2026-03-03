@@ -286,7 +286,7 @@ title_separator: "|"
   </h2>
   <ul>
     <li><span class="bold">Seokhee Jeon</span> – <i>Kyung Hee University, Republic of Korea</i></li>
-    <li><span class="bold">Seongkook Heo</span> – <i>University of Virginia, USA</i></li>
+    <li><span class="bold">Seongkook Heo</span> – <i>UNIST, Republic of Korea</i></li>
     <li><span class="bold">Manuela Chessa</span> – <i>University of Genoa, Italy</i></li>
   </ul>
 </div>
