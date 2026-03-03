@@ -11,8 +11,7 @@ title_separator: "|"
 h3 {
 	margin-top: 1rem;
 	margin-bottom: 0.5rem;
-    font-size: 1.3em;
-    color: #066569;
+    font-size: 1em;
     border-bottom: 1px solid #066569;
 }
 /* 2. 가로 스크롤을 위한 래퍼(Wrapper) 스타일 정의 */
@@ -127,7 +126,7 @@ th, td {
     color: #066569;
 }
 </style>
-
+<h1 id="resources">Program Overview</h1>
 <h3>Day 1: Saturday, March 21</h3>
 <div class="table-scroll">
   <table>
