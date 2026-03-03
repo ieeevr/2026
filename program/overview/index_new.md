@@ -116,7 +116,7 @@ th, td {
 }
 
 .type-Parallel a {
-    color: #000;
+    color: #e70087;
     text-decoration: underline;
     font-weight: bold;
     transition: color 0.2s;
