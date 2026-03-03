@@ -50,7 +50,7 @@ th:nth-child(3) { width: 70%; }
     background-color: #F2F2F2;
     font-weight: bold;
     color: #333;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.4;
 }
 
@@ -88,7 +88,7 @@ th:nth-child(3) { width: 70%; }
 }
 
 .session-id-tag {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     color: #777;
     font-weight: normal;
 }
@@ -109,7 +109,7 @@ th:nth-child(3) { width: 70%; }
 
 .paper-block {
     padding: 12px 0;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     line-height: 1.6;
 }
 
@@ -128,7 +128,7 @@ th:nth-child(3) { width: 70%; }
 
 /* 기존 display: block; margin-top 속성은 paper-item에서 관리하므로 제거/수정합니다 */
 .author-list-text {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #555;
 }
 .div-light {
