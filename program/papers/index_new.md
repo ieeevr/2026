@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Program Overview"
+title: "Papers"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
@@ -12,8 +12,7 @@ html {
 h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
-    font-size: 1.4em;
-    color: #066569;
+    font-size: 1em;
     border-bottom: 2px solid #066569;
     padding-bottom: 5px;
 }
@@ -148,6 +147,9 @@ th:nth-child(3) { width: 70%; }
 <div id="session-details"></div>
 
 <script>
+<h1 id="resources">Papers</h1>
+
+    
 const psData = {
   "1": [
     { "id": 1, "name": "Projection displays / spatial AR", "chair": "", "papers": [ { "id": "P1012", "title": "Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector", "authors": "Takahiro Okamoto: The University of Osaka; Masaki Takeuchi: The University of Osaka; Masataka Sawayama: Hokkaido University; Daisuke Iwai: The University of Osaka" }, { "id": "P1828", "title": "High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array", "authors": "Kotaro Fujimura: The University of Osaka; Hiroki Kusuyama: The University of Osaka; Masaki Takeuchi: The University of Osaka; Daisuke Iwai: The University of Osaka" }, { "id": "P1060", "title": "DiffPC: Diffusion-Based Projector Photometric Compensation", "authors": "Yuxi Wang: Hangzhou Dianzi University; Haibin Ling: Westlake University; Bingyao Huang: Southwest University" }, { "id": "P1124", "title": "Setup-Independent Full Projector Compensation", "authors": "Haibo Li: Southwest university; Qingyue Deng: Southwest University; Jijiang Li: Southwest university; Haibin Ling: Westlake University; Bingyao Huang: Southwest University" }, { "id": "P1036", "title": "ProCap: Projection-Aware Captioning for Spatial Augmented Reality", "authors": "Zimo Cao: Southwest University; Yuchen Deng: Southwest University; Haibin Ling: Westlake University; Bingyao Huang: Southwest University" } ] },
