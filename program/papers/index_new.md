@@ -142,12 +142,12 @@ th:nth-child(3) { width: 70%; }
     margin: 30px 0;
 }
 </style>
+<h1 id="resources">Papers</h1>
 
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
 
 <script>
-<h1 id="resources">Papers</h1>
 
     
 const psData = {
