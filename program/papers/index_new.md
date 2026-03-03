@@ -35,16 +35,16 @@ table {
 
 th, td {
     border: 1px solid #888;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     word-wrap: break-word;
     vertical-align: middle;
-    font-size: 0.85rem;
+    font-size: 0.7rem;
 }
 
-th:nth-child(1) { width: 25%; }
-th:nth-child(2) { width: 15%; }
-th:nth-child(3) { width: 60%; }
+th:nth-child(1) { width: 20%; }
+th:nth-child(2) { width: 10%; }
+th:nth-child(3) { width: 70%; }
 
 .time-col {
     background-color: #F2F2F2;
