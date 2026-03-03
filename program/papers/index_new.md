@@ -54,8 +54,8 @@ th:nth-child(3) { width: 70%; }
 }
 
 .type-Parallel {
-    background-color: #fffff4;
-    color: #000;
+    background-color: #f2fbff;
+    color: #2c7fa8;
     transition: background 0.2s;
     text-align: left;
 }
@@ -231,20 +231,20 @@ const psData = {
 };
 
 const scheduleMeta = [
-  { day: "Monday, 23 March", times: [
+  { day: "Monday, March 23", times: [
       { time: "11:30 - 12:30", ps: "1" },
       { time: "14:00 - 15:00", ps: "2" },
       { time: "15:00 - 16:00", ps: "3" },
       { time: "16:30 - 17:30", ps: "4" }
   ]},
-  { day: "Tuesday, 24 March", times: [
+  { day: "Tuesday, March 24", times: [
       { time: "08:30 - 09:30", ps: "5" },
       { time: "10:00 - 11:00", ps: "6" },
       { time: "14:00 - 15:00", ps: "7" },
       { time: "15:00 - 16:00", ps: "8" },
       { time: "16:30 - 17:30", ps: "9" }
   ]},
-  { day: "Wednesday, 25 March", times: [
+  { day: "Wednesday, March 25", times: [
       { time: "08:30 - 09:30", ps: "10" },
       { time: "11:30 - 12:30", ps: "11" },
       { time: "14:00 - 15:00", ps: "12" },
