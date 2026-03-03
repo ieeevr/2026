@@ -650,7 +650,7 @@ title_separator: "|"
           <div class="accordion-content-inner">
             <dl>
               <dt>Organizers</dt>
-              <dd> Dr. Ali Haskins Lisle - University of Central Florida<br>
+              <dd>Dr. Ali Haskins  - University of Central Florida<br>
                 Corey Clements - University of Central Florida<br>
                 Dr. John T. Murray - University of Central Florida<br>
                 Dr. Gerd Bruder - University of Central Florida<br>
