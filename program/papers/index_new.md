@@ -35,48 +35,47 @@ table {
 
 th, td {
     border: 1px solid #888;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
     word-wrap: break-word;
     vertical-align: middle;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
+
+th:nth-child(1) { width: 25%; }
+th:nth-child(2) { width: 15%; }
+th:nth-child(3) { width: 60%; }
 
 .time-col {
     background-color: #F2F2F2;
     font-weight: bold;
     color: #333;
-    font-size: 0.75rem;
-    width: 15%;
+    font-size: 0.8rem;
+    line-height: 1.4;
 }
 
 .type-Parallel {
     background-color: #E2E2C7;
     color: #000;
     transition: background 0.2s;
+    text-align: left;
 }
 
 .type-Parallel:hover {
     background-color: #d1d1b5;
 }
 
-.type-empty {
-    background-color: #FFFFFF;
-}
-
 .session-link {
     text-decoration: none;
-    color: #000;
+    color: #066569;
     display: block;
     width: 100%;
     height: 100%;
+    font-weight: bold;
 }
 
-.session-link strong {
-    color: #066569;
-    font-size: 0.85rem;
-    display: block;
-    margin-bottom: 4px;
+.session-link:hover {
+    text-decoration: underline;
 }
 
 #session-details {
@@ -255,26 +254,24 @@ document.addEventListener("DOMContentLoaded", function() {
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<h3>${dayInfo.day}</h3>`;
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<thead><tr><th class="time-col">Time</th><th>Track 1</th><th>Track 2</th><th>Track 3</th><th>Track 4</th></tr></thead><tbody>`;
+        tablesHTML += `<thead><tr><th class="time-col">Parallel Session & Time</th><th>Session ID</th><th>Session Name</th></tr></thead><tbody>`;
 
         detailsHTML += `<h3>${dayInfo.day} - Session Details</h3>`;
 
         dayInfo.times.forEach(slot => {
-            tablesHTML += `<tr><td class="time-col">${slot.time}</td>`;
-            
             const sessions = psData[slot.ps];
             
-            for(let i = 0; i < 4; i++) {
-                if (sessions && sessions[i]) {
-                    const sess = sessions[i];
-                    tablesHTML += `
-                        <td class="type-Parallel">
-                            <a href="#session-${sess.id}" class="session-link">
-                                <strong>ID: ${sess.id}</strong>
-                                ${sess.name}
-                            </a>
-                        </td>
-                    `;
+            if (sessions && sessions.length > 0) {
+                sessions.forEach((sess, index) => {
+                    tablesHTML += `<tr>`;
+                    
+                    if (index === 0) {
+                        tablesHTML += `<td class="time-col" rowspan="${sessions.length}">${slot.ps}<br>${slot.time}</td>`;
+                    }
+                    
+                    tablesHTML += `<td>${sess.id}</td>`;
+                    tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">${sess.name}</a></td>`;
+                    tablesHTML += `</tr>`;
 
                     detailsHTML += `
                         <div id="session-${sess.id}" class="session-container">
@@ -297,12 +294,15 @@ document.addEventListener("DOMContentLoaded", function() {
                         }
                     });
 
-                    detailsHTML += `</div><hr class="div-heavy">`;
-                } else {
-                    tablesHTML += `<td class="type-empty"></td>`;
-                }
+                    detailsHTML += `</div>`;
+                    
+                    if (index < sessions.length - 1) {
+                        detailsHTML += `<hr class="div-heavy">`;
+                    }
+                });
+                
+                detailsHTML += `<hr class="div-heavy">`;
             }
-            tablesHTML += `</tr>`;
         });
         tablesHTML += `</tbody></table></div>`;
     });
