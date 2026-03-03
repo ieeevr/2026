@@ -113,18 +113,24 @@ th:nth-child(3) { width: 70%; }
     line-height: 1.6;
 }
 
+/* --- 새로 추가하는 부분 --- */
+.paper-item {
+    padding-left: 14px;  /* 기호 크기만큼 왼쪽 여백을 줌 */
+    text-indent: -14px;  /* 첫 줄만 기호 위치로 당김 (내어쓰기) */
+    margin-bottom: 4px;
+}
+/* ------------------------ */
+
 .paper-title-text {
     font-weight: bold;
     color: #000;
 }
 
+/* 기존 display: block; margin-top 속성은 paper-item에서 관리하므로 제거/수정합니다 */
 .author-list-text {
     font-size: 0.85rem;
     color: #555;
-    display: block;
-    margin-top: 4px;
 }
-
 .div-light {
     border: 0;
     border-top: 1px solid #eee;
@@ -281,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <hr class="div-light">
                     `;
 
-                    sess.papers.forEach((paper, pIdx) => {
+                   sess.papers.forEach((paper, pIdx) => {
                         detailsHTML += `
                             <div class="paper-block">
                                 · Paper ID: ${paper.id}<br>
