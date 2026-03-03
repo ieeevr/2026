@@ -61,7 +61,7 @@ th:nth-child(3) { width: 70%; }
 }
 
 .type-Parallel:hover {
-    background-color: #d1d1b5;
+    background-color: #9dcde4;
 }
 
 .session-link {
