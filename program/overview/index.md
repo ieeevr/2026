@@ -607,7 +607,7 @@ th, td {
       </tr>
       <tr>
         <td colspan="3" rowspan="7" class="type-Welcome">Gala Dinner<br>
-          (18:30-21:00)</td>
+          (18:00-21:00)</td>
       </tr>
       <tr>
          <td class="time-col">18:30</td>
