@@ -274,7 +274,7 @@ b, strong {
 	background-color: #FFF;
 	border-radius: 7px;
 	padding: 25px;
-	color: #066569;
+	color: #262188;
 }
 .ieeevrmsgboxInsideNoColor { /* Any boxes with the theme-primary color as background */
 	background-color: #FFF;
@@ -285,7 +285,7 @@ b, strong {
 	background-color: #fbedb5;
 	border-radius: 7px;
 	padding: 25px;
-	color: #066569;
+	color: #262188;
 }
 .ieeevrmsgboxHR {
 	width: 50% !important;
@@ -352,7 +352,7 @@ b, strong {
 	display: table;
 }
 .registration-table thead tr {
-	background-color: #066569;
+	background-color: #262188;
 	color: #ffffff;
 }
 .registration-table th, .registration-table td {
@@ -366,7 +366,7 @@ b, strong {
 	text-align: left;
 }
 .registration-table th {
-	background: #066569;
+	background: #262188;
 	color: #fff;
 	vertical-align: bottom;
 }
@@ -414,7 +414,7 @@ b, strong {
 	display: table;
 }
 .f3-table thead tr {
-	background-color: #066569;
+	background-color: #262188;
 	color: #ffffff;
 }
 .f3-table th, .f3-table td {
@@ -422,7 +422,7 @@ b, strong {
 	text-align: left;
 }
 .f3-table th {
-	background: #066569;
+	background: #262188;
 	color: #fff;
 	vertical-align: bottom;
 }
@@ -441,7 +441,7 @@ b, strong {
 	display: table;
 }
 .program-table thead tr {
-	background-color: #066569;
+	background-color: #262188;
 	color: #ffffff;
 }
 .program-table th, .program-table td {
@@ -449,7 +449,7 @@ b, strong {
 	vertical-align: top;
 }
 .program-table th {
-	background: #066569;
+	background: #262188;
 	color: #fff;
 }
 /* End Index */
@@ -492,7 +492,7 @@ b, strong {
 }
  @media (hover: hover) and (pointer: fine) {
 #myBtnTop:hover {
-	background-color: #066569;
+	background-color: #262188;
 	color: #fff;
 }
 }
@@ -1042,13 +1042,13 @@ img {
 * Accordian Styling
 *************************/ 
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-	border: 1px solid #066569;
-	background: #066569;
+	border: 1px solid #262188;
+	background: #262188;
 	font-weight: normal;
 	color: #ffffff;
 }
 .ui-icon-background, .ui-state-active .ui-icon-background {
-	border: #066569;
+	border: #262188;
 	background-color: #ffffff;
 }
 .ui-widget-content a {
@@ -1129,8 +1129,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	margin-top: 1rem;
 	font-size: 1.3em;
-	color: #066569;
-	border-bottom: 1px solid #066569;
+	color: #262188;
+	border-bottom: 1px solid #262188;
 }
 h2 {
 	font-size: 0.9em;
@@ -1152,7 +1152,7 @@ award {
 	line-height: 1.2;
 	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 	font-weight: bold;
-	color: #066569;
+	color: #262188;
 	padding-bottom: 0.5em;
 	display: block;
 }
@@ -1261,7 +1261,7 @@ hr {
 	display: block;
 	margin: 15px 0px;
 	border: 0;
-	border-top: 1px dotted #066569;
+	border-top: 1px dotted #262188;
 }
 ul li, ol li {
 	margin-bottom: 0.5em
@@ -1894,7 +1894,7 @@ tr, td, th {
 	padding-top: 0;
 }
 .notice--primary a {
-	color: #066569;
+	color: #262188;
 }
 .notice--primary a:hover {
 	color: #934438;
@@ -3534,7 +3534,7 @@ body {
 	font-size: 1.25em
 }
 .page__content h2 {
-	color: #066569;
+	color: #262188;
 }
 .page__content h1 .header-link, .page__content h2 .header-link, .page__content h3 .header-link, .page__content h4 .header-link, .page__content h5 .header-link, .page__content h6 .header-link {
 	position: relative;
