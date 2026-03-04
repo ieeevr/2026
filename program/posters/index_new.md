@@ -24,20 +24,17 @@ h3 {
 table {
     border-collapse: collapse;
     width: 100%;
-    min-width: 700px;
+    min-width: 300px;
     table-layout: fixed;
 }
 th, td {
     border: 1px solid #ddd;
-    padding: 5px;
+    padding: 8px 10px;
     text-align: center;
     vertical-align: middle;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
-th { background-color: #262188; color: white; font-weight: 600; }
-th:nth-child(1) { width: 20%; }
-th:nth-child(2) { width: 80%; }
-.time-col { background-color: #f9f9f9; font-weight: bold; color: #333; }
+th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 .category-cell {
     text-align: left;
     background-color: #f2fbff;
@@ -125,7 +122,7 @@ details summary::before { font-size: 0.7rem; }
 }
 </style>
 
-<h1 id="resources">Posters</h1>
+<h1 id="resources">Papers</h1>
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
 
@@ -405,19 +402,10 @@ document.addEventListener("DOMContentLoaded", function() {
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<h3>${dayInfo.day}</h3>`;
         tablesHTML += `<div class="table-scroll"><table>
-            <thead><tr><th>Day</th><th>Category (Click to go)</th></tr></thead>
+            <thead><tr><th>Category (Click to go)</th></tr></thead>
             <tbody>`;
 
         detailsHTML += `<div class="day-section-title">${dayInfo.day}</div>`;
-
-        let firstRowInDay = true;
-        let totalSessionsForDay = 0;
-        
-        dayInfo.sessions.forEach(psKey => {
-            if (psData[psKey]) {
-                totalSessionsForDay += psData[psKey].length;
-            }
-        });
 
         dayInfo.sessions.forEach(psKey => {
             const sessionsGroup = psData[psKey];
@@ -425,10 +413,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             sessionsGroup.forEach((sess) => {
                 tablesHTML += `<tr>`;
-                if (firstRowInDay) {
-                    tablesHTML += `<td class="time-col" rowspan="${totalSessionsForDay}">${dayInfo.day.split(',')[0]}</td>`;
-                    firstRowInDay = false;
-                }
                 tablesHTML += `<td class="category-cell"><a href="#sess-${sess.id}" class="session-link">${sess.name}</a></td>`;
                 tablesHTML += `</tr>`;
 
