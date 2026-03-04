@@ -35,9 +35,8 @@ th, td {
     font-size: 0.7rem;
 }
 th { background-color: #262188; color: white; font-weight: 600; }
-th:nth-child(1) { width: 15%; }
-th:nth-child(2) { width: 15%; }
-th:nth-child(3) { width: 70%; }
+th:nth-child(1) { width: 20%; }
+th:nth-child(2) { width: 80%; }
 .time-col { background-color: #f9f9f9; font-weight: bold; color: #333; }
 .category-cell {
     text-align: left;
@@ -71,8 +70,7 @@ th:nth-child(3) { width: 70%; }
     background: #fff;
 }
 .booth-header { margin-bottom: 15px; border-bottom: 2px solid #262188; padding-bottom: 10px; }
-.category-tag { font-size: 0.9rem; color: #666; display: block; margin-bottom: 5px; }
-.booth-id { font-size: 1.8rem; font-weight: bold; color: #262188; display: block; }
+.category-title { font-size: 1.4rem; font-weight: bold; color: #262188; display: block; }
 
 .paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
 .paper-item:first-of-type { border-top: none; }
@@ -100,7 +98,6 @@ details summary {
 }
 details summary::-webkit-details-marker { display: none; }
 details summary::before { font-size: 0.7rem; }
-details[open] summary::before {  }
 
 .abstract-content {
     font-size: 0.75rem;
@@ -124,11 +121,11 @@ details[open] summary::before {  }
 
 @media (max-width: 768px) {
     th, td { font-size: 0.75rem; padding: 8px 4px; }
-    .booth-id { font-size: 1.4rem; }
+    .category-title { font-size: 1.2rem; }
 }
 </style>
 
-<h1 id="resources">Papers</h1>
+<h1 id="resources">Posters</h1>
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
 
@@ -408,7 +405,7 @@ document.addEventListener("DOMContentLoaded", function() {
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<h3>${dayInfo.day}</h3>`;
         tablesHTML += `<div class="table-scroll"><table>
-            <thead><tr><th>Day</th><th>Booth ID</th><th>Category (Click to go)</th></tr></thead>
+            <thead><tr><th>Day</th><th>Category (Click to go)</th></tr></thead>
             <tbody>`;
 
         detailsHTML += `<div class="day-section-title">${dayInfo.day}</div>`;
@@ -432,15 +429,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     tablesHTML += `<td class="time-col" rowspan="${totalSessionsForDay}">${dayInfo.day.split(',')[0]}</td>`;
                     firstRowInDay = false;
                 }
-                tablesHTML += `<td>S-${sess.id}</td>`;
                 tablesHTML += `<td class="category-cell"><a href="#sess-${sess.id}" class="session-link">${sess.name}</a></td>`;
                 tablesHTML += `</tr>`;
 
                 detailsHTML += `
                     <div id="sess-${sess.id}" class="booth-container">
                         <div class="booth-header">
-                            <span class="category-tag">Category: ${sess.name}</span>
-                            <span class="booth-id">Session S-${sess.id}</span>
+                            <span class="category-title">${sess.name}</span>
                         </div>
                 `;
 
