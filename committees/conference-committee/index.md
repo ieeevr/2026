@@ -337,7 +337,7 @@ title_separator: "|"
 		<li><span class="bold">Jeongmi Lee</span>  - <i>KAIST, Republic of Korea</i></li>
 		<li><span class="bold">Lee Lisle</span> - <i>University of Central Florida, USA</i></li>	
 		<li><span class="bold">Cassidy R. Nelson</span> - <i>Ohio University, USA</i></li>
-		<li><span class="bold">Niall L. Williams</span>  - <i>New York University, USA</i></li>	
+		<li><span class="bold">Niall L. Williams</span>  - <i>University of Zaragoza, Spain</i></li>	
   </ul>
 </div>
 <div>
