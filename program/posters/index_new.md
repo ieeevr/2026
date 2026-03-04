@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <summary>· Abstract</summary>
                                 <div class="abstract-content">${abstractText}</div>
                             </details>
-                            <a href="${videoLink}" target="_blank" class="video-link">· Video (New Window)</a>
+                            <a href="${videoLink}" target="_blank" class="video-link">· Video</a>
                         </div>
                     `;
                 });
