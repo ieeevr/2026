@@ -10,9 +10,9 @@ h3 {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    border-bottom: 3px solid #066569;
+    border-bottom: 3px solid #262188;
     padding-bottom: 8px;
-    color: #066569;
+    color: #262188;
 }
 .table-scroll {
     width: 100%;
@@ -29,12 +29,12 @@ table {
 }
 th, td {
     border: 1px solid #ddd;
-    padding: 12px 8px;
+    padding: 5px;
     text-align: center;
     vertical-align: middle;
-    font-size: 0.85rem;
+    font-size: 0.7rem;
 }
-th { background-color: #066569; color: white; font-weight: 600; }
+th { background-color: #262188; color: white; font-weight: 600; }
 th:nth-child(1) { width: 15%; }
 th:nth-child(2) { width: 15%; }
 th:nth-child(3) { width: 70%; }
@@ -47,14 +47,14 @@ th:nth-child(3) { width: 70%; }
 .category-cell:hover { background-color: #e1f5fe; }
 .session-link {
     text-decoration: none;
-    color: #066569;
+    color: #262188;
     display: block;
     font-weight: bold;
 }
 .session-link:hover { text-decoration: underline; }
 
 .day-section-title {
-    background: #066569;
+    background: #262188;
     color: white;
     padding: 15px;
     margin-top: 60px;
@@ -70,9 +70,9 @@ th:nth-child(3) { width: 70%; }
     border-radius: 8px;
     background: #fff;
 }
-.booth-header { margin-bottom: 15px; border-bottom: 2px solid #066569; padding-bottom: 10px; }
+.booth-header { margin-bottom: 15px; border-bottom: 2px solid #262188; padding-bottom: 10px; }
 .category-tag { font-size: 0.9rem; color: #666; display: block; margin-bottom: 5px; }
-.booth-id { font-size: 1.8rem; font-weight: bold; color: #066569; display: block; }
+.booth-id { font-size: 1.8rem; font-weight: bold; color: #262188; display: block; }
 
 .paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
 .paper-item:first-of-type { border-top: none; }
@@ -92,22 +92,22 @@ th:nth-child(3) { width: 70%; }
 details { margin-bottom: 8px; }
 details summary {
     font-size: 0.75rem;
-    color: #066569;
+    color: #262188;
     cursor: pointer;
     font-weight: bold;
     outline: none;
     list-style: none;
 }
 details summary::-webkit-details-marker { display: none; }
-details summary::before { content: "▶ "; font-size: 0.7rem; }
-details[open] summary::before { content: "▼ "; }
+details summary::before { font-size: 0.7rem; }
+details[open] summary::before {  }
 
 .abstract-content {
     font-size: 0.75rem;
     color: #666;
     padding: 12px;
     background: #f9f9f9;
-    border-left: 4px solid #066569;
+    border-left: 4px solid #262188;
     margin-top: 8px;
     line-height: 1.6;
     text-align: justify;
