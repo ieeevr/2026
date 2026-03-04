@@ -503,7 +503,7 @@ th, td {
     <tbody>
       <tr>
         <td class="time-col">08:00</td>
-        <td rowspan="40" class="reg-col">R<br>
+        <td rowspan="41" class="reg-col">R<br>
         e<br>
         g<br>
         i<br>
@@ -603,11 +603,14 @@ th, td {
         <td colspan="3" rowspan="2" ></td>
       </tr>
       <tr>
-         <td rowspan="2" class="time-col">18:30</td>
+         <td rowspan="2" class="time-col">18:00</td>
       </tr>
       <tr>
-        <td colspan="3" rowspan="6" class="type-Welcome">Gala Dinner<br>
+        <td colspan="3" rowspan="7" class="type-Welcome">Gala Dinner<br>
           (18:30-21:00)</td>
+      </tr>
+      <tr>
+         <td class="time-col">18:30</td>
       </tr>
       <tr>
          <td class="time-col">19:00</td>
@@ -622,7 +625,7 @@ th, td {
          <td class="time-col">20:30</td>
       </tr>
       <tr>
-         <td class="time-col">21:00</td>
+        <td class="time-col">21:00</td>
       </tr>
     </tbody>
   </table>
