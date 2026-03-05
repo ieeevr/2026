@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 
 <div>
-    <h1 id="past-conferences"> Past Conferences </h1>
+   <p class="big_title">Past Conferences</p>
  <div>
         <p>
             <strong style="color:black">IEEE Virtual Reality 2025 <i>(Saint-Malo, France)</i></strong>
