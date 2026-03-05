@@ -38,6 +38,10 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 .category-cell {
     text-align: left;
 }
+
+.category-cell a{
+    color: #000 !important
+}
 .category-cell:hover { }
 .session-link {
     text-decoration: none;
