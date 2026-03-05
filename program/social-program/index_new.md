@@ -10,6 +10,8 @@ title_separator: "|"
     padding: 15px 45px;
     font-size: 1.200em;
     line-height: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
 } 
 .btn-blue {
     background-color: #262189;
@@ -45,7 +47,7 @@ And don’t miss your chance to show off what you’ve learned at the Gala Dinne
 
 <p><img src="/2026/assets/images/social_p_img.png" style="width:100%"></p>
 
-<p style="width:100%; text-align: center">
+<p style="width:100%; text-align: center; margin: 1rem 0">
 <a href="https://forms.gle/EzZSP3hTrezhacJt7" class="btn-large btn-blue" target="_blank">Reservation</a>
 </p>
 
@@ -55,7 +57,7 @@ Extend your journey to nearby Gyeongju to experience Bulguksa Temple and the Gye
 These thoughtfully curated tours offer a perfect balance of history, art, and landscape. We warmly encourage you to register for the Pre/Post Tours and make your visit to Daegu truly unforgettable.
 </p>
 
-<p style="width:100%; text-align: center">
+<p style="width:100%; text-align: center; margin: 1rem 0">
 <a href="https://ieeevr.org/2026/program/PrePostTour/" class="btn-large btn-blue" target="_blank">Pre/Post Tour Registration</a>
 </p>
 
