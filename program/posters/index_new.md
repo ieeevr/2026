@@ -4,6 +4,7 @@ title: "Posters"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+<link rel="stylesheet" href="/2026/program/workshop/style.css?version=2026">
 <style>
 html { scroll-behavior: smooth; }
 h3 {
@@ -399,10 +400,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let tablesHTML = "";
     let detailsHTML = "";
 
-    scheduleMeta.forEach(dayInfo => {
-        tablesHTML += `<h3>${dayInfo.day}</h3>`;
-        tablesHTML += `<div class="table-scroll"><table>
-            <thead><tr><th>Category (Click to go)</th></tr></thead>
+scheduleMeta.forEach(dayInfo => {
+ 
+        tablesHTML += `<div class=""><table>
+            <thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead>
             <tbody>`;
 
         detailsHTML += `<div class="day-section-title">${dayInfo.day}</div>`;
