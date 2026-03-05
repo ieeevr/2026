@@ -127,7 +127,7 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 </style>
 
 <h1 id="resources">Posters</h1>
-<div id="schedule-tables"></div>
+<div id="table-scroll"></div>
 <div id="session-details"></div>
 
 <script>
@@ -397,7 +397,7 @@ const scheduleMeta = [
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
-    const tableContainer = document.getElementById("schedule-tables");
+    const tableContainer = document.getElementById("table-scroll");
     const detailsContainer = document.getElementById("session-details");
 
     let tablesHTML = "";
