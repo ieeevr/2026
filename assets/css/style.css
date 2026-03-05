@@ -89,8 +89,8 @@ img {
 .big_title {
 	font-size: 1.8rem !important;
 	font-weight:bold;
-	padding-bottom:0; 
-	margin-bottom:0;
+	padding-bottom:0 !important; 
+	margin-bottom:0 !important;
 	text-align: left !important;
 
 	
