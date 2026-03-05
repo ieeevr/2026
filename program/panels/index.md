@@ -41,7 +41,7 @@ title_separator: "|"
     .ks-modal-content { margin: 5% auto; height: 90vh; }
   }
 </style>
-<h1 id="resources">Panels</h1>
+<p class="big_title">Panels</p>
 <div class="ks-container">
   <div class="ks-list-item">
     <div class="ks-info">
