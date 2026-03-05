@@ -16,9 +16,7 @@ title_separator: "|"
 <div style="display:none">
   <p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
 </div>
-<h1>Steering Committee
-  <div class="floatRight"><!--span id="steering2026"></span--></div>
-</h1>
+<p class="big_title">Steering Committee</p>
 <ul>
   <li><span class="bold">Jian Chen</span> ‒ <i> Ohio State University, USA</i></li>
   <li><span class="bold">Sabine Coquillart</span> ‒ <i> Inria Rhone-Alps, France</i></li>
