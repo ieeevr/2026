@@ -103,7 +103,7 @@ title_separator: "|"
 
 	});
 </script>
-<h1>Conference Committee</h1>
+<p class="big_title">Conference Committee</p>
 <div>
   <h2>General Chairs
     <div class="floatRight"><span id="general"></span></div>
