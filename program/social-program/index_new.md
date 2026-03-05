@@ -4,7 +4,6 @@ title: "Social Program"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-
 <div>
 <p class="big_title" style="padding-bottom:0; margin-bottom:0">Social Program</p>
 <h1>Welcome Reception & AI Movie</h1>
