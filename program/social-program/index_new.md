@@ -11,7 +11,7 @@ title_separator: "|"
     font-size: 1.200em;
     line-height: 1.3em;
 } 
-  .btn-blue {
+.btn-blue {
     background-color: #262189;
     color: #fff;
 }
@@ -46,7 +46,7 @@ And don’t miss your chance to show off what you’ve learned at the Gala Dinne
 <p><img src="/2026/assets/images/social_p_img.png" style="width:100%"></p>
 
 <p style="width:100%; text-align: center">
-<a href="https://forms.gle/EzZSP3hTrezhacJt7" class="btn btn-large btn-blue" target="_blank">Reservation</a>
+<a href="https://forms.gle/EzZSP3hTrezhacJt7" class="btn-large btn-blue" target="_blank">Reservation</a>
 </p>
 
 <h1>Discover Daegu region: Culture, Heritage, and Inspiration </h1>
@@ -56,7 +56,7 @@ These thoughtfully curated tours offer a perfect balance of history, art, and la
 </p>
 
 <p style="width:100%; text-align: center">
-<a href="https://ieeevr.org/2026/program/PrePostTour/" class="btn btn-large btn-blue" target="_blank">Pre/Post Tour Registration</a>
+<a href="https://ieeevr.org/2026/program/PrePostTour/" class="btn-large btn-blue" target="_blank">Pre/Post Tour Registration</a>
 </p>
 
 <h1>Hanbok Experience</h1>
