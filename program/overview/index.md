@@ -126,7 +126,7 @@ th, td {
     color: #066569;
 }
 </style>
-<h1 id="resources">Program Overview</h1>
+<p class="big_title">Program Overview</p>
 <h3>Day 1: Saturday, March 21</h3>
 <div class="table-scroll">
   <table>
