@@ -4,7 +4,6 @@ title: "Posters"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-<link rel="stylesheet" href="/2026/program/workshop/style.css?version=2026">
 <style>
 html { scroll-behavior: smooth; }
 h3 {
@@ -29,23 +28,23 @@ table {
     table-layout: fixed;
 }
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px 10px;
+    padding: 10px 25px 5px;
     text-align: center;
     vertical-align: middle;
     font-size: 0.8rem;
+    border-bottom: none !important
 }
 th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 .category-cell {
     text-align: left;
-    background-color: #f2fbff;
-    transition: background 0.3s;
 }
-.category-cell:hover { background-color: #e1f5fe; }
+.category-cell:hover { }
 .session-link {
     text-decoration: none;
     display: block;
     font-weight: bold;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
 }
 .session-link:hover { text-decoration: underline; }
 
