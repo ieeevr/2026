@@ -19,8 +19,8 @@ h3 {
     width: 100%;
     overflow-x: auto;
     margin-bottom: 40px;
-    border-radius: 20px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 table {
     border-collapse: collapse;
@@ -29,6 +29,7 @@ table {
     table-layout: fixed;
 }
 th, td {
+    border: 1px solid #ddd;
     padding: 8px 10px;
     text-align: center;
     vertical-align: middle;
@@ -37,15 +38,15 @@ th, td {
 th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 .category-cell {
     text-align: left;
+    background-color: #f2fbff;
     transition: background 0.3s;
 }
-.category-cell:hover {  }
+.category-cell:hover { background-color: #e1f5fe; }
 .session-link {
     text-decoration: none;
+    color: #262188;
     display: block;
     font-weight: bold;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 0.5rem;
 }
 .session-link:hover { text-decoration: underline; }
 
@@ -72,24 +73,20 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 .paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
 .paper-item:first-of-type { border-top: none; }
 .paper-title {
-    font-size: 0.9rem;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #000;
-    padding-left: 12px; 
-    text-indent: -12px; 
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
 }
 .author-text {
-    font-size: 0.75rem;
-    color: #555;
-    display: block;
-    margin-bottom: 8px;
-    padding-left: 12px; 
-    text-indent: -12px; 
+    font-size: 0.75rem;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
 }
-.details { margin-bottom: 8px; }
-.details summary {
+details { margin-bottom: 8px; }
+details summary {
     font-size: 0.75rem;
     color: #262188;
     cursor: pointer;
@@ -97,8 +94,8 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
     outline: none;
     list-style: none;
 }
-.details summary::-webkit-details-marker { display: none; }
-.details summary::before { font-size: 0.7rem; }
+details summary::-webkit-details-marker { display: none; }
+details summary::before { font-size: 0.7rem; }
 
 .abstract-content {
     font-size: 0.75rem;
@@ -127,7 +124,7 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 </style>
 
 <h1 id="resources">Posters</h1>
-<div id="table-scroll"></div>
+<div id="schedule-tables"></div>
 <div id="session-details"></div>
 
 <script>
@@ -397,7 +394,7 @@ const scheduleMeta = [
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
-    const tableContainer = document.getElementById("table-scroll");
+    const tableContainer = document.getElementById("schedule-tables");
     const detailsContainer = document.getElementById("session-details");
 
     let tablesHTML = "";
