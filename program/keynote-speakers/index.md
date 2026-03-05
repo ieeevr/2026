@@ -41,7 +41,7 @@ title_separator: "|"
     .ks-modal-content { margin: 5% auto; height: 90vh; }
   }
 </style>
-<h1 id="resources">Keynote Speakers</h1>
+<p class="big_title">Keynote Speakers</p>
 <div class="ks-container">
   <div class="ks-list-item"> <img src="/2026/assets/images/k_sp_01.png" class="ks-thumb" alt="Dr. Mar Gonzalez-Franco">
     <div class="ks-info">
