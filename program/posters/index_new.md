@@ -19,8 +19,8 @@ h3 {
     width: 100%;
     overflow-x: auto;
     margin-bottom: 40px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 table {
     border-collapse: collapse;
@@ -44,7 +44,6 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 .category-cell:hover { background-color: #e1f5fe; }
 .session-link {
     text-decoration: none;
-    color: #262188;
     display: block;
     font-weight: bold;
 }
@@ -63,7 +62,6 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 20px;
-    border: 1px solid #eee;
     border-radius: 8px;
     background: #fff;
 }
@@ -401,10 +399,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let detailsHTML = "";
 
 scheduleMeta.forEach(dayInfo => {
- 
-        tablesHTML += `<div class=""><table>
-            <thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead>
-            <tbody>`;
+ 
+        tablesHTML += `<div class="table-scroll"><table>
+            <thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead>
+            <tbody>`;
 
         detailsHTML += `<div class="day-section-title">${dayInfo.day}</div>`;
 
