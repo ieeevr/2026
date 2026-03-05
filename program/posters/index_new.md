@@ -39,7 +39,7 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
     text-align: left;
     transition: background 0.3s;
 }
-.category-cell:hover { background-color: #e1f5fe; }
+.category-cell:hover {  }
 .session-link {
     text-decoration: none;
     display: block;
