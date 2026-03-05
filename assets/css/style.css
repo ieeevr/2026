@@ -5104,3 +5104,6 @@ p.location2 {
 @media (max-width:420px){
   .kspeaker-card .kspeaker-meta p{font-size:.95rem}
 }
+.accordion-title {
+	    background: #262188 !important;
+}
