@@ -16,7 +16,7 @@ title_separator: "|"
 </script>
 <!--p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p-->
 <div >
-    <h1 id="cfp-journal">Call for Student Volunteers<div class="floatRight"><!--span class="studentvolunteers"></span--></div></h1>
+   <p class="big_title">Call for Student Volunteers<div class="floatRight"><!--span class="studentvolunteers"></span--></div></p>
     <p>
         <strong style="color: black">IEEE VR 2026: The 33<sup>nd</sup> 33rd IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 21-25, 2026 | Daegu, Korea
