@@ -13,7 +13,7 @@ h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
     font-size: 1em;
-    border-bottom: 2px solid #066569;
+    border-bottom: 2px solid #262188;
     padding-bottom: 5px;
 }
 
@@ -66,7 +66,7 @@ th:nth-child(3) { width: 70%; }
 
 .session-link {
     text-decoration: none;
-    color: #066569;
+    color: ;
     display: block;
     width: 100%;
     height: 100%;
@@ -95,7 +95,7 @@ th:nth-child(3) { width: 70%; }
 .session-name-title {
     font-size: 1.4rem;
     font-weight: bold;
-    color: #066569;
+    color: #262188;
     margin: 5px 0;
     display: block;
 }
@@ -138,11 +138,11 @@ th:nth-child(3) { width: 70%; }
 
 .div-heavy {
     border: 0;
-    border-top: 3px solid #066569;
+    border-top: 3px solid #262188;
     margin: 30px 0;
 }
 </style>
-<h1 id="resources">Papers</h1>
+<p class="big_title">Papers</p>
 
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
