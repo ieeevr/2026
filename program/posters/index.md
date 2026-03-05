@@ -126,7 +126,7 @@ details summary::before { font-size: 0.7rem; }
 }
 </style>
 
-<h1 id="resources">Posters</h1>
+<p class="big_title">Posters</p>
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
 
