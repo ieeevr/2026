@@ -8,7 +8,7 @@ title_separator: "|"
 
 <div>
  
- 
+<p class="big_title">Program Committees</p> 
 <h2>Associate Program Chairs</h2>
 <ul>
 <li><strong>Bret Jackson</strong> - <i>Macalester College, United States</i></li>
