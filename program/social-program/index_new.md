@@ -64,7 +64,7 @@ These thoughtfully curated tours offer a perfect balance of history, art, and la
 <h1>Hanbok Experience</h1>
 <p>During the conference, participants will have the opportunity to experience Hanbok, the traditional attire of Korea. Attendees can try on Hanbok at the venue and take photos at a special photo zone prepared for the event. We encourage you to share your photos on the conference Discord channel and show off your Hanbok style with fellow participants. Enjoy a fun cultural moment and create memorable experiences during the conference.
 </p>
-<p style="text-align: center"><img src="/2026/assets/images/social_p_img2.png" ></p>
+<p style="text-align: center"><img src="/2026/assets/images/sp_img_02.jpg" style="width:100%"></p>
 
 
 </div>
