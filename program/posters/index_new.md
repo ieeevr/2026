@@ -399,7 +399,6 @@ document.addEventListener("DOMContentLoaded", function() {
     let detailsHTML = "";
 
 scheduleMeta.forEach(dayInfo => {
- 
         tablesHTML += `<div class="table-scroll"><table>
             <thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead>
             <tbody>`;
