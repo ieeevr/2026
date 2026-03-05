@@ -72,20 +72,24 @@ th { background-color: #262188; color: white; font-weight: 600; width: 100%; }
 .paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
 .paper-item:first-of-type { border-top: none; }
 .paper-title {
-    font-size: 0.9rem;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    padding-left: 12px; 
+    text-indent: -12px; 
 }
 .author-text {
-    font-size: 0.75rem;
-    color: #555;
-    display: block;
-    margin-bottom: 8px;
+    font-size: 0.75rem;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+    padding-left: 12px; 
+    text-indent: -12px; 
 }
-details { margin-bottom: 8px; }
-details summary {
+.details { margin-bottom: 8px; }
+.details summary {
     font-size: 0.75rem;
     color: #262188;
     cursor: pointer;
@@ -93,8 +97,8 @@ details summary {
     outline: none;
     list-style: none;
 }
-details summary::-webkit-details-marker { display: none; }
-details summary::before { font-size: 0.7rem; }
+.details summary::-webkit-details-marker { display: none; }
+.details summary::before { font-size: 0.7rem; }
 
 .abstract-content {
     font-size: 0.75rem;
