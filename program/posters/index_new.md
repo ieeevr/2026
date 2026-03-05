@@ -53,17 +53,16 @@ th { background-color: #2c7fa8; color: white; font-weight: 600; width: 100%; }
 .session-link:hover { text-decoration: underline; }
 
 .day-section-title {
-    background: #262188;
-    color: white;
-    padding: 15px;
+    background: #f3f3f3;
+    color: #262188;
+    padding: 15px 25px;
     margin-top: 60px;
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: bold;
 }
 .booth-container {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
     background: #fff;
