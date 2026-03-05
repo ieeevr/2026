@@ -399,9 +399,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let detailsHTML = "";
 
 scheduleMeta.forEach(dayInfo => {
-        tablesHTML += `<div class="table-scroll"><table>
-            <thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead>
-            <tbody>`;
+        tablesHTML += `<div class="table-scroll"><table>
+            <thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead>
+            <tbody>`;
 
         detailsHTML += `<div class="day-section-title">${dayInfo.day}</div>`;
 
@@ -414,28 +414,24 @@ scheduleMeta.forEach(dayInfo => {
                 tablesHTML += `<td class="category-cell"><a href="#sess-${sess.id}" class="session-link">${sess.name}</a></td>`;
                 tablesHTML += `</tr>`;
 
-                detailsHTML += `
-                    <div id="sess-${sess.id}" class="booth-container">
-                        <div class="booth-header">
-                            <span class="category-title">${sess.name}</span>
-                        </div>
-                `;
+                detailsHTML += `<div id="sess-${sess.id}" class="booth-container">
+                    <div class="booth-header">
+                        <span class="category-title">${sess.name}</span>
+                    </div>`;
 
                 sess.papers.forEach(paper => {
                     const abstractText = paper.abstract || "Abstract details will be updated here.";
                     const videoLink = paper.video || "#";
                     
-                    detailsHTML += `
-                        <div class="paper-item">
-                            <span class="paper-title">· ${paper.id}: ${paper.title}</span>
-                            <span class="author-text">· ${paper.authors}</span>
-                            <details>
-                                <summary>· Abstract</summary>
-                                <div class="abstract-content">${abstractText}</div>
-                            </details>
-                            <a href="${videoLink}" target="_blank" class="video-link">· Video</a>
-                        </div>
-                    `;
+                    detailsHTML += `<div class="paper-item">
+                        <span class="paper-title">· ${paper.id}: ${paper.title}</span>
+                        <span class="author-text">· ${paper.authors}</span>
+                        <details>
+                            <summary>· Abstract</summary>
+                            <div class="abstract-content">${abstractText}</div>
+                        </details>
+                        <a href="${videoLink}" target="_blank" class="video-link">· Video</a>
+                    </div>`;
                 });
                 detailsHTML += `</div>`;
             });
