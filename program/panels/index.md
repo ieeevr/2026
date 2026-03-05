@@ -91,7 +91,7 @@ This panel will continue a panel discussion started at IEEE VR 2025 around alter
 </ol>
 </div>
 
-  <div class="ks-section-title">Panellists</div>
+  <div class="ks-section-title">Panelists</div>
       <div class="ks-text-content">
       
       
