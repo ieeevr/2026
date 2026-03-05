@@ -4,6 +4,18 @@ title: "Social Program"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+
+<style>
+.btn-large {
+    padding: 15px 45px;
+    font-size: 1.200em;
+    line-height: 1.3em;
+} 
+  .btn-blue {
+    background-color: #262189;
+    color: #fff;
+}
+</style>
 <div>
 <p class="big_title" style="padding-bottom:0; margin-bottom:0">Social Program</p>
 <h1>Welcome Reception & AI Movie</h1>
