@@ -3,7 +3,7 @@ layout: ieeevr-default
 title: "IEEEVR VGTC Awards"
 --- 
 
-<!--p class="big_title" style="padding-bottom:0; margin-bottom:0">VGTC </p-->
+<p class="big_title">VGTC Awards</p>
 
 <h1>IEEE VISUALIZATION AND GRAPHICS TECHNICAL COMMUNITY
   VIRTUAL REALITY AWARDS AND ACADEMY</h1>
