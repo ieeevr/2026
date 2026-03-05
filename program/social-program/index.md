@@ -4,61 +4,67 @@ title: "Social Program"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
-	<h1>Social Program<div class="floatRight"><span class="labtour"></span></div></h1>
-	<p>
-        The entire IEEE VR 2025 organising team is delighted and proud to welcome you to this French edition of the conference. For the many participants who will be joining us in Saint-Malo, we also look forward to welcoming you to this spectacular setting. The conference offers you the best scientific, technical, professional and artistic programs, and we're also glad to be able to offer you a social program that allows you to make the most of the conference, the place where it is being held, and to enjoy each other's company, creating, consolidating or enjoying all the links that bind us together.
-    </p>
-	<h2>Highlights</h2>
-	<ul>
-		<li><a href="#welcomeReception">Welcome Reception, Monday March 10, from 6:30pm to 8:30 pm</a></li>
-		<li><a href="#galaDinner">Gala Dinner (and more!), Tuesday March 11, starting from 7:00 pm</a></li>
-		<li><a href="#chillArea">The Chill Area, all conference long</a></li>
-		<li><a href="#ghostHunt">The Octopus Ghost Hunt, all conference long</a></li>
-		<li><a href="#photoContest">The IEEEVR2025-themed photo contest</a></li>
-		<li><a href="#VRrunners">The Ephemere IEEE VR Runners group, every day</a></li>
-		<li><a href="#enjoyingStMalo">Enjoying Saint-Malo and surroundings, every day</a></li>
-		<li><a href="#MtStMichel">The Mont-Saint-Michel tour, Thursday 13 March, departing at 9am (+65 euros extra cost)</a></li>
-	</ul>
-	<div id = "welcomeReception">
-		<h2>Welcome Reception</h2>
-		<p>The Welcome Reception will take place on Monday 10 March at 6pm, in the Palais du Grand Large. Check for the area between the Chill Area and the Exhibition, right next to the XR Gallery! We look forward to welcoming you there! This will be the perfect place to meet the community that makes up the conference audience, catch up with colleagues, meet academics, students, professionals or artists, and enjoy a moment of relaxation. We will be happy to serve you refreshments and petits fours (100% vegetarian, 100% tasty).</p>
-	</div>
-	<div id = "galaDinner">
-		<h2>Gala Dinner</h2>
-		<p>Ready for the "Corsaire" experience? We look forward to welcoming you to the Gala Dinner, Tuesday 11 from 7.30pm. Dinner opens at 8pm. Make sure to be there a bit before 8… As things may happen. Make also sure to stay to the very end of the dinner, other things may happen. The location for the gala dinner is not exactly at the Palais du Grand Large, but just in front of it, next to the harbour. See you at the "Quai Saint Malo". Prepare for immersion in the deep ocean atmosphere and more…</p>
-	</div>
-	<div id = "chillArea">
-		<h2>The Chill Area (& co.)</h2>
-		<p>Scientific sessions and exhibitions keep you busy, but do you also want to take advantage of the magnificent view from the Palais du Grand Large, relax, catch up with colleagues, take a souvenir photo of the conference or leave a message for the community? You'll find all these opportunities in the comfortable "Chill Area" set up in the rotunda, 1st floor.</p>
-	</div>
-	<div id = "ghostHunt">
-		<h2>The Octopus Ghost hunt</h2>
-		<p>Ghost hunt? What is this? Make sure to attend the opening session to know more about it!</p>
-	</div>
-	<div id = "photoContest">
-		<h2>The IEEEVR2025-themed photo contest</h2>
-		<p>In order to appeal to your creativity, we are organising a photo contest based on 2 themes this year. Join us on the discord channels dedicated to the IEEEVR2025 photo contest, and post your photos on the following themes:</p>
-		<ul>
-			<li><strong>Beach-VR</strong> <a href="https://discordapp.com/channels/1327370157269450775/1347518454370009100">Click here to access the associated Discord group</a>
-			</li>
-			<li><strong>Octopus garden</strong> <a href="https://discordapp.com/channels/1327370157269450775/1347518532761419796">Click here to access the associated Discord group</a>
-			</li>
-		</ul>
-		<p>Over-interpretation of these two themes is welcome.<br>
-		An esteemed international jury will make the most arbitrary but fair decision possible to choose the winning photo of the contest! And, yes, of course, it is mostly for fun.</p>
-	</div>
-	<div id = "VRrunners">
-		<h2>The Ephemere IEEE VR Runners group</h2>
-		<p>Saint-Malo, and even more so the area around the Palais du Grand Large, is an ideal place for runners. We've set up the following discord channel so that you can run alone or with others, swap routes or arrange to meet up: <br><a href="https://discordapp.com/channels/1327370157269450775/1343608867598241868">Click here to access the associated Discord group</a><br>The best places to run in the immediate vicinity of the conference are undoubtedly the seawall at Plage du Sillon, Pointe de la Varde and the Parc de la Cité d'Aleth. Please come to us to know more about these locations.</p>
-	</div>
-	<div id = "enjoyingStMalo">
-		<h2>Enjoying Saint-Malo and surroundings</h2>
-		<p>Depending on whether you have an hour or a day, whether you want to explore the area or take home a souvenir, we're happy to give you any suggestions to help you enjoy Saint Malo and the surrounding area. We will soon provide a link to a page with suggestions for visits in the immediate surrounding of the conference venue. <br>You can also contact us (<a href= "mailto: socialevents2025@ieeevr.org">socialevents2025@ieeevr.org</a>, <a  href="https://discordapp.com/channels/1327370157269450775/1327376331972804649">Click here to access the associated Discord group</a>) or search for the social events chairs around the Chill Area for any specific question.</p>
-	</div>
-	<div id = "MtStMichel">
-		<h2>The Mont-Saint-Michel tour</h2>
-		<p>Mont Saint-Michel, one of France's most visited monuments, is only 50 km from the town of Saint-Malo, in the heart of the exceptional bay that surrounds it. The time required to visit the mount has not allowed us to include it fully in the conference program, but we can help you organize a visit to the site, at a competitive cost. To this end, we have organized for you, albeit at your own expense, an organized tour of the mont on Thursday March 13, starting at 9am. If you missed the deadline to register for the tour, we can still help you get there on your own.</p>
-	</div>
+
+<style>
+.btn-large {
+    padding: 15px 45px;
+    font-size: 1.200em;
+    line-height: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+.btn-blue {
+    background-color: #262189;
+    color: #fff;
+}
+</style>
+<div>
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Social Program</p>
+<h1>Welcome Reception & AI Movie</h1>
+<p>The Welcome Reception will take place at Grand Ballroom B, 3rd Floor, EXCO, welcoming participants from around the world. The event features a Mini Chimac Party, offering Korea’s famous combination of fried chicken and beer, a culture that originated in Daegu. Participants can enjoy a variety of foods, desserts, and beverages in a relaxed and friendly atmosphere. The reception will also include a short AI Movie screening, showcasing creative works related to AI and media art. It will be a wonderful opportunity to meet fellow participants and begin the conference with a lively and memorable evening.</p>
+
+<h1>Gala Dinner</h1>
+<p>The IEEE VR 2026 Gala Dinner will be held on March 24 at the 5F Convention Hall, EXCO.
+The evening will begin with a Korean traditional liquor tasting and an authentic Korean cuisine experience, offering participants a taste of local culture.
+Part I of the program features a traditional Korean performance that highlights the country’s artistic heritage.
+In Part II, the atmosphere shifts to a lively K-POP × DJ collaboration, including K-POP dance and a DJ party.
+The gala dinner is designed to provide participants with both cultural insight and an enjoyable networking experience in a vibrant setting.
+</p>
+
+<h1>Sudal-e App</h1>
+<p>IEEE VR 26 will also feature a social app to be enjoyed and played by the attendees called the "SuDal-E".  The game features how XR technology could be used to promote environmental awareness and protection.  "Sudal" means otter in Korean, which is the mascot of the city of Daegu and IEEE VR 2026. E stands for "E"nvironment.<br/><br/>  
+
+This interactive AR application brings the critical issue of environmental pollution to life through the story of our endangered otters. As a user, you will embark on an immersive mission to rescue otters and purify their habitats from pollution, eventually building a sanctuary of your own. <br/>
+Join us in raising awareness and learning the vital ecological values needed for a sustainable future, one SuDal at a time.
+</p>
+
+<h1>K-pop Dance Class</h1>
+<p>Join us for an exciting K-POP Dance Class on March 23 (Mon) and March 24 (Tue), 13:00–14:00!
+Experience Korea’s dynamic pop culture firsthand as professional instructors guide you through fun and energetic choreography.
+Whether you’re a beginner or a seasoned dancer, this class is open to everyone.
+Learn the moves, enjoy the rhythm, and connect with fellow participants in a lively atmosphere.
+And don’t miss your chance to show off what you’ve learned at the Gala Dinner — the stage is yours. </p>
+
+<p><img src="/2026/assets/images/social_p_img.png" style="width:100%"></p>
+
+<p style="width:100%; text-align: center; margin: 2rem 0">
+<a href="https://forms.gle/EzZSP3hTrezhacJt7" class="btn-large btn-blue" target="_blank">Reservation</a>
+</p>
+
+<h1>Discover Daegu region: Culture, Heritage, and Inspiration </h1>
+<p>Join our Pre- and Post-Conference Tours and explore the cultural heart of Daegu and the Gyeongbuk region. In Daegu, visit Kyungpook National University’s beautiful campus, the Kansong Art Museum Daegu, Donghwasa Temple, and the scenic Palgongsan Mountain, where tradition and nature come together.
+Extend your journey to nearby Gyeongju to experience Bulguksa Temple and the Gyeongju National Museum, or travel to Andong to discover Hahoe Folk Village and Byeongsan Seowon—both UNESCO World Heritage treasures that embody Korea’s Confucian heritage.
+These thoughtfully curated tours offer a perfect balance of history, art, and landscape. We warmly encourage you to register for the Pre/Post Tours and make your visit to Daegu truly unforgettable.
+</p>
+
+<p style="width:100%; text-align: center; margin: 2rem 0">
+<a href="https://ieeevr.org/2026/program/PrePostTour/" class="btn-large btn-blue" target="_blank">Pre/Post Tour Registration</a>
+</p>
+
+<h1>Hanbok Experience</h1>
+<p>During the conference, participants will have the opportunity to experience Hanbok, the traditional attire of Korea. Attendees can try on Hanbok at the venue and take photos at a special photo zone prepared for the event. We encourage you to share your photos on the conference Discord channel and show off your Hanbok style with fellow participants. Enjoy a fun cultural moment and create memorable experiences during the conference.
+</p>
+<p style="text-align: center"><img src="/2026/assets/images/sp_img_02.jpg" style="width:100%; border-radius: 10px"></p>
+
+
 </div>
