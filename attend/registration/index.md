@@ -69,6 +69,7 @@ title_separator: "|"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 <div id="body_wrap" class="layout">
+ <p class="big_title">Registration</p>	
 <div class="body_title_wrap clear"> </div>
 <div class="body_content regi regi">
 <p class="tar"> <a href="mailto:ieeevr2026@gmail.com" class="link"> <b> <i> <u> <i class="fa fa-envelope-square"></i> IEEEVR2026@GMAIL.COM </u> </i> </b> </a> </p>
