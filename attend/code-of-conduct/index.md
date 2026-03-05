@@ -134,7 +134,8 @@ title_separator: "|"
 
 
 <div >
-    <p class="big_title"> <div class="floatRight"><span class="eventconductSm"></span></div></p>
+    <p class="big_title">Code of Conduct</p>
+	<h1><div class="floatRight"><span class="eventconductSm"></span></div></h1>
     <p>
         IEEE Virtual Reality 2026 is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.
     </p>
