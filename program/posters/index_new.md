@@ -27,6 +27,9 @@ table {
     min-width: 300px;
     table-layout: fixed;
 }
+thead {
+    border-bottom: none;
+}    
 th, td {
     padding: 10px 25px 5px;
     text-align: center;
