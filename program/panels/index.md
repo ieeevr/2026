@@ -174,7 +174,7 @@ This panel brings together researchers, industry leaders, and standardization ex
 <br>
 
 
-<strong>Tim Weissker (RWTH Aachen University, Germany)</strong> is a senior scientist with RWTH Aachen University, Germany, where he is permanently appointed for conducting independent research in the broad area of extended reality and 3D user interfaces. Tim’s research interests include a large variety of topics on effective, efficient, and comfortable user interaction in both single- and multi-user environments, all of which leverage the unique potential that extended reality systems offer beyond the mere replication of real-world scenarios. He has recently been involved in research on the reproducibility of VR locomotion techniques as well as the organization of the Reproduction Challenge at ACM VRST.<br>
+<strong>Tim Weissker (RWTH Aachen University, Germany)</strong>: is a senior scientist with RWTH Aachen University, Germany, where he is permanently appointed for conducting independent research in the broad area of extended reality and 3D user interfaces. Tim’s research interests include a large variety of topics on effective, efficient, and comfortable user interaction in both single- and multi-user environments, all of which leverage the unique potential that extended reality systems offer beyond the mere replication of real-world scenarios. He has recently been involved in research on the reproducibility of VR locomotion techniques as well as the organization of the Reproduction Challenge at ACM VRST.<br>
 <br>
 
 
