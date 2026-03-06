@@ -49,7 +49,7 @@ title_separator: "|"
       <h2>Dr. Mar Gonzalez-Franco</h2>
       <div class="affiliation">Research Manager, BIRD Lab, Google AR & VR</div>
       <div class="talk-title">Towards Human–AI Symbiosis with XR</div>
-      div class="affiliation">Date: Tuesday, March 24</div>
+      <div class="affiliation">Date: Tuesday, March 24</div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal1')">More</button>
   </div>
