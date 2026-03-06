@@ -170,23 +170,19 @@ This panel brings together researchers, industry leaders, and standardization ex
       <div class="ks-text-content">
       
       
-<strong>Neil Trevett (NVIDIA, USA)</strong><br>
-Neil Trevett is the elected President of the Khronos Group and Vice President of Developer Ecosystems at NVIDIA, where he drives the adoption of open standards and developer technologies for 3D graphics, AI, and immersive media. At Khronos for twenty-five years, Neil has helped initiate and foster many widely adopted open standards including glTF, OpenXR, OpenGL ES, Vulkan, WebGL, and Slang. Most recently, Neil initiated and serves as President of the Metaverse Standards Forum, which has grown to over 2,600 member organizations.<br>
+<strong>Neil Trevett (NVIDIA, USA)</strong>: is the elected President of the Khronos Group and Vice President of Developer Ecosystems at NVIDIA, where he drives the adoption of open standards and developer technologies for 3D graphics, AI, and immersive media. At Khronos for twenty-five years, Neil has helped initiate and foster many widely adopted open standards including glTF, OpenXR, OpenGL ES, Vulkan, WebGL, and Slang. Most recently, Neil initiated and serves as President of the Metaverse Standards Forum, which has grown to over 2,600 member organizations.<br>
 <br>
 
 
-<strong>Tim Weissker (RWTH Aachen University, Germany)</strong><br>
-Tim Weissker is a senior scientist with RWTH Aachen University, Germany, where he is permanently appointed for conducting independent research in the broad area of extended reality and 3D user interfaces. Tim’s research interests include a large variety of topics on effective, efficient, and comfortable user interaction in both single- and multi-user environments, all of which leverage the unique potential that extended reality systems offer beyond the mere replication of real-world scenarios. He has recently been involved in research on the reproducibility of VR locomotion techniques as well as the organization of the Reproduction Challenge at ACM VRST.<br>
+<strong>Tim Weissker (RWTH Aachen University, Germany)</strong> is a senior scientist with RWTH Aachen University, Germany, where he is permanently appointed for conducting independent research in the broad area of extended reality and 3D user interfaces. Tim’s research interests include a large variety of topics on effective, efficient, and comfortable user interaction in both single- and multi-user environments, all of which leverage the unique potential that extended reality systems offer beyond the mere replication of real-world scenarios. He has recently been involved in research on the reproducibility of VR locomotion techniques as well as the organization of the Reproduction Challenge at ACM VRST.<br>
 <br>
 
 
-<strong>J. Edward Swan II (Mississippi State University, USA)</strong><br>
-J. Edward Swan II is the Interim Associate Dean of Research for the Bagley College of Engineering at Mississippi State University, and the Eiland Professor of Computer Science and Engineering. In 2017 and 2018, he served as Interim Department Head. Before joining Mississippi State University in 2004, he spent seven years as a scientist at the Naval Research Laboratory in Washington, D.C. Dr. Swan’s research has centered on the topics of augmented and virtual reality and applied perception. He is the current chair of the IEEE VR steering committee, and was a general chair of VR 2020 and VR 2021.
+<strong>J. Edward Swan II (Mississippi State University, USA)</strong>: is the Interim Associate Dean of Research for the Bagley College of Engineering at Mississippi State University, and the Eiland Professor of Computer Science and Engineering. In 2017 and 2018, he served as Interim Department Head. Before joining Mississippi State University in 2004, he spent seven years as a scientist at the Naval Research Laboratory in Washington, D.C. Dr. Swan’s research has centered on the topics of augmented and virtual reality and applied perception. He is the current chair of the IEEE VR steering committee, and was a general chair of VR 2020 and VR 2021.
 <br>
 <br>
 
-<strong>Jen-Shuo Liu (Columbia University, USA) - Moderator</strong><br>
-Jen-Shuo Liu  is an AR/VR researcher and engineer focused on visual computing and HCI. He designs perception-based interfaces for teleoperation and maintenance while developing algorithms for HDR and immersive video processing. He holds a Ph.D. from Columbia University, where he focused on AR/VR precueing systems. His research is published in venues including IEEE TVCG, TIP, and ISMAR. An active community contributor, Jen-Shuo serves on the CHI Late-Breaking Work Program Committee, and as both the Publicity & Communications Chair and Pitch-Your-Lab Chair for IEEE ISMAR.
+<strong>Jen-Shuo Liu (Columbia University, USA) - Moderator</strong>: is an AR/VR researcher and engineer focused on visual computing and HCI. He designs perception-based interfaces for teleoperation and maintenance while developing algorithms for HDR and immersive video processing. He holds a Ph.D. from Columbia University, where he focused on AR/VR precueing systems. His research is published in venues including IEEE TVCG, TIP, and ISMAR. An active community contributor, Jen-Shuo serves on the CHI Late-Breaking Work Program Committee, and as both the Publicity & Communications Chair and Pitch-Your-Lab Chair for IEEE ISMAR.
       
 </div>
 
