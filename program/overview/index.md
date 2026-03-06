@@ -403,8 +403,8 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td rowspan="2" class="type-keynote">Keynote 1<br>
-          (10:00-11:00)</td>
+        <td rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link01">Keynote 1</a><br>
+        (10:00-11:00)</td>
       </tr>
       <tr>
         <td class="time-col">10:30</td>
@@ -533,8 +533,8 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote">Keynote 2<br>
-          (10:00-11:00)</td>
+        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link02">Keynote 2</a><br>
+        (10:00-11:00)</td>
         <td rowspan="6"></td>
       </tr>
       <tr>
@@ -676,8 +676,8 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote">Keynote 3<br>
-          (10:00-11:00)</td>
+        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link03">Keynote 3</a><br>
+        (10:00-11:00)</td>
         <td rowspan="6"></td>
       </tr>
       <tr>
