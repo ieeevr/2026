@@ -276,9 +276,7 @@ document.addEventListener("DOMContentLoaded", function() {
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<h3>${dayInfo.day}</h3>`;
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<thead><tr><th>Parallel Session & Time</th><th>Session ID</th><th>Session Name</th></tr></thead><tbody>`;
-
-        // 기존 요일 헤더(예: <h3>Monday, March 23 - Session Details</h3>)는 삭제됨
+        tablesHTML += `<thead><tr><th>Parallel Session</th><th>Time</th><th>Session Name</th></tr></thead><tbody>`;
 
         dayInfo.times.forEach(slot => {
             const sessions = psData[slot.ps];
@@ -288,14 +286,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     tablesHTML += `<tr>`;
                     
                     if (index === 0) {
-                        tablesHTML += `<td rowspan="${sessions.length}">${slot.ps}<br>${slot.time}</td>`;
+                        tablesHTML += `<td rowspan="${sessions.length}">Session ${slot.ps}</td>`;
+                        tablesHTML += `<td rowspan="${sessions.length}">${slot.time}</td>`;
                     }
                     
-                    tablesHTML += `<td>${sess.id}</td>`;
                     tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">${sess.name}</a></td>`;
                     tablesHTML += `</tr>`;
 
-                    // "Monday"처럼 요일 부분만 추출 (콤마 전까지)
                     const dayOfWeek = dayInfo.day.split(',')[0]; 
 
                     detailsHTML += `
