@@ -109,13 +109,12 @@ th:nth-child(3) { width: 70%; }
 }
 
 .session-chair-text {
-    font-size: 0.95rem;
-    margin-bottom: 5px; /* 간격 조정을 위해 기존 15px에서 5px로 변경 */
+    font-size: 0.8rem;
     color: #444;
 }
 
 .session-chair-text.last {
-    margin-bottom: 15px; /* 마지막 항목에만 하단 여백 주기 */
+    margin-bottom: 15px; 
 }
 
 .paper-block {
@@ -124,19 +123,18 @@ th:nth-child(3) { width: 70%; }
     line-height: 1.6;
 }
 
-/* --- 새로 추가하는 부분 --- */
 .paper-item {
-    padding-left: 14px;  /* 기호 크기만큼 왼쪽 여백을 줌 */
-    text-indent: -14px;  /* 첫 줄만 기호 위치로 당김 (내어쓰기) */
+    padding-left: 14px;  
+    text-indent: -14px;  
     margin-bottom: 4px;
 }
-/* ------------------------ */
 
-/* --- Paper ID 숨김 처리 (나중에 살릴 땐 display: none; 삭제) --- */
+
+
 .paper-id-text {
     display: none;
 }
-/* ------------------------------------------------------------- */
+
 
 .paper-title-text {
     font-weight: bold;
