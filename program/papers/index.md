@@ -154,7 +154,7 @@ th:nth-child(3) { width: 70%; }
 .div-heavy {
     border: 0;
     border-top: 3px solid #262188;
-    margin: 30px 0;
+    margin: 5px 0;
 }
 </style>
 <p class="big_title">Papers</p>
