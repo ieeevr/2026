@@ -182,6 +182,12 @@ This panel brings together researchers, industry leaders, and standardization ex
 <br>
 <br>
 
+
+<strong> Richard Skarbez (La Trobe University, Australia)</strong>: Dr. Richard (Rick) Skarbez is a computer scientist, a Senior Lecturer at La Trobe University in Melbourne, Australia, and an experienced XR researcher (although he hates the term XR). His research focuses on understanding the psychological, social, and cultural impacts of emerging technologies, particularly virtual reality (VR) but also augmented and mixed reality (AR/MR), artificial intelligence (AI), and related topics under the umbrella of human-computer interaction (HCI). His research has received several awards and honorable mentions, including the 2018 IEEE VGTC best dissertation award (sole honorable mention) and a best paper award (Top 1%) at ACM CHI 2025.
+<br>
+<br>
+
+
 <strong>Jen-Shuo Liu (Columbia University, USA) - Moderator</strong>: is an AR/VR researcher and engineer focused on visual computing and HCI. He designs perception-based interfaces for teleoperation and maintenance while developing algorithms for HDR and immersive video processing. He holds a Ph.D. from Columbia University, where he focused on AR/VR precueing systems. His research is published in venues including IEEE TVCG, TIP, and ISMAR. An active community contributor, Jen-Shuo serves on the CHI Late-Breaking Work Program Committee, and as both the Publicity & Communications Chair and Pitch-Your-Lab Chair for IEEE ISMAR.
       
 </div>
