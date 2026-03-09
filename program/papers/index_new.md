@@ -266,15 +266,18 @@ document.addEventListener("DOMContentLoaded", function() {
                     tablesHTML += `<tr>`;
                     
                     if (index === 0) {
+                        // 1열: Parallel Session (Session 텍스트 추가)
                         tablesHTML += `<td rowspan="${sessions.length}">Session ${slot.ps}</td>`;
+                        // 2열: Time (행 통합하여 시간 표시)
                         tablesHTML += `<td rowspan="${sessions.length}">${slot.time}</td>`;
                     }
                     
+                    // 3열: Session Name
                     tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">${sess.name}</a></td>`;
                     tablesHTML += `</tr>`;
 
+                    // 하단 상세 섹션 데이터 생성
                     const dayOfWeek = dayInfo.day.split(',')[0]; 
-
                     detailsHTML += `
                         <div id="session-${sess.id}" class="session-container">
                             <span class="session-id-tag">Session ID: ${sess.id}</span>
