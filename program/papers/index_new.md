@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         detailsHTML += `
                             <div class="paper-block paper-item">
                                 <span class="paper-id-text">· Paper ID: ${paper.id}<br></span>
-                                · Paper Title: <span class="paper-title-text">${paper.title}</span><br>
+                                Paper Title: <span class="paper-title-text">${paper.title}</span><br>
                                 <span class="author-list-text">· Author List: ${paper.authors}</span>
                             </div>
                         `;
