@@ -22,7 +22,10 @@ h3 {
     overflow-x: auto;
     margin-bottom: 40px;
     -webkit-overflow-scrolling: touch;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
+    
 
 table {
     border-collapse: collapse;
@@ -32,8 +35,13 @@ table {
     margin-bottom: 0;
 }
 
+thead {
+    background-color: #262188 !important;
+    color: #fff;
+    border-bottom: none;
+}    
+
 th, td {
-    border: 1px solid #888;
     padding: 5px;
     text-align: center;
     word-wrap: break-word;
@@ -101,9 +109,12 @@ th:nth-child(3) { width: 70%; }
 }
 
 .session-chair-text {
-    font-size: 0.95rem;
-    margin-bottom: 15px;
+    font-size: 0.8rem;
     color: #444;
+}
+
+.session-chair-text.last {
+    margin-bottom: 15px; 
 }
 
 .paper-block {
@@ -112,26 +123,24 @@ th:nth-child(3) { width: 70%; }
     line-height: 1.6;
 }
 
-/* --- 새로 추가하는 부분 --- */
 .paper-item {
-    padding-left: 14px;  /* 기호 크기만큼 왼쪽 여백을 줌 */
-    text-indent: -14px;  /* 첫 줄만 기호 위치로 당김 (내어쓰기) */
+    padding-left: 14px;  
+    text-indent: -14px;  
     margin-bottom: 4px;
 }
-/* ------------------------ */
 
-/* --- Paper ID 숨김 처리 (나중에 살릴 땐 display: none; 삭제) --- */
+
+
 .paper-id-text {
     display: none;
 }
-/* ------------------------------------------------------------- */
+
 
 .paper-title-text {
     font-weight: bold;
     color: #000;
 }
 
-/* 기존 display: block; margin-top 속성은 paper-item에서 관리하므로 제거/수정합니다 */
 .author-list-text {
     font-size: 0.8rem;
     color: #555;
@@ -183,7 +192,7 @@ const psData = {
   "5": [
     { "id": 17, "name": "Visualization", "chair": "", "papers": [ { "id": "P1820", "title": "Evaluating Replay Techniques for Asynchronous Task Handover in Immersive Analytics", "authors": "Zhengtai Gou: Georgia Institute of Technology; Junxiao Long: Georgia Institute of Technology; Tao Lu: Georgia Institute of Technology; Jian Zhao: University of Waterloo; Yalong Yang: Georgia Institute of Technology" }, { "id": "P2099", "title": "Situated Brushing and Linking in Virtual and Augmented Reality", "authors": "Carlos Quijano-Chavez: University of Stuttgart; Benjamin Lee: JPMorganChase; Nina Doerr: University of Stuttgart; Wolfgang Büschel: University of Stuttgart; Michael Sedlmair: University of Stuttgart; Dieter Schmalstieg: University of Stuttgart" }, { "id": "P1027", "title": "Towards Understanding Time-Varying Spatial 3D Data Analysis with Animation and Small Multiples in Virtual Reality and Desktop", "authors": "Lin-Ping Yuan: The Hong Kong University of Science and Technology; Le LIN: City University of Hong Kong; Yuquan LIN: Xi'an Jiaotong University; Jun Han: The Hong Kong University of Science and Technology; Zikun Deng: South China University of Technology; Weicong Cheng: The Hong Kong University of Science and Technology; Huamin Qu: The Hong Kong University of Science and Technology" }, { "id": "P1146", "title": "SPLOCIS – Extending SPLOMs to a Scatterplot Cube with Interactable Shadows for Immersive Analysis in Virtual Reality", "authors": "Melanie Derksen: TU Dortmund University; Viktoria Diekel: TU Dortmund; Torsten Wolfgang Kuhlen: RWTH Aachen University; Mario Botsch: TU Dortmund University; Tim Weissker: RWTH Aachen University" }, { "id": "P1788", "title": "Occlusion-Free Conformal Lensing for Spatiotemporal Visualization in 3D Urban Analytics", "authors": "Roberta Mota: University of Calgary; Julio Daniel Silva: University of Calgary; Fabio Miranda: University of Illinois Chicago; Ehud Sharlin: University of Calgary; Usman Alim: University of Calgary; Nivan Ferreira: Universidade Federal de Pernambuco" } ] },
     { "id": 18, "name": "VR Training", "chair": "", "papers": [ { "id": "P1781", "title": "XR Module for Enhancing Glove Hygiene Skills in First-Year Chemistry Laboratories", "authors": "Rezvan Joshaghani: Boise State University; Alessandra Winters: Boise State University; Yanyan Zong: University of Southern California; Steven Cutchin: Boise State University" }, { "id": "P2262", "title": "EFFICACY OF HIGH-FIDELITY VR THREAT-AND-ERROR SIMULATION FOR COMPETENCY-BASED PILOT TRAINING", "authors": "Teong Leong Chuah: National University of Singapore; Ahmad Iqbal Bin Othman: National University of Singapore; Brian Soon Wei Chiam: Singapore Airlines; Lindy Li Wen Lim: National University of Singapore; Siew Mun Leslie Chong: Singapore Airlines; Catherine Leo: Singapore Airlines; Vinh-Thuyen Nguyen-Truong: National University of Singapore; Jia wang Tay: National University of Singapore; Eng Tat Khoo: National University of Singapore; Jussi Keppo: National University of Singapore" }, { "id": "P1325", "title": "PunctVR: Image-Guided Needle Puncture Training via Scaffolded and Self-Directed VR", "authors": "Wenqing Liu: SHANGHAI JIAO TONG University; Chen Liu: Beijing Cancer Hospital; Jiaqi Wang: United Imaging Intelligence; Yan Zhang: Shanghai Jiao Tong University; Hangyu Zhou: Shanghai Jiao Tong University; Zixuan Guo: Shanghai Jiao Tong University; Aixi Guo: united imaging intelligence; Ziang Qi: Shanghai United Imaging Intelligent Medical Technology Co., Ltd.; Jiannan Ye: United Imaging Intelligence Co., Ltd.; Yu Zhang: United Imaging Intelligence Co., Ltd.; Qishan Tong: Astrazeneca; Xubo Yang: SHANGHAI JIAO TONG UNIVERSITY" }, { "id": "P1207", "title": "U-NEXT: A User–Centered New Prototype for Walking Excavator Simulator", "authors": "Long Cheng: RhySearch; Gilberto Mazzola: Eidgenössische Technische Hochschule Zürich; Samuel Knüsel: Rhysearch; Michael Schreiner: RhySearch; Andreas Kunz: ETH Zurich" }, { "id": "P1071", "title": "The Effects of Simulated Low Vision on Perceived Action Capabilities in Virtual Reality", "authors": "Maisha Tahsin Orthy: University of Utah; Jeanine Stefanucci: University of Utah; Bobby Bodenheimer: Vanderbilt University; Sarah Creem-Regehr: University of Utah" } ] },
-    { "id": 19, "name": "Recording and reconstruction", "chair": "", "papers": [ { "id": "P1151", "title": "Towards Event-guided Panoramic HDR Video Reconstruction for Indoor Immersive VR: A Novel Dataset and Approach", "authors": "Xucheng Guo: School of software; Bing Li: Shandong University, School of Software; Yuhan Zhou: Shandong University,School of Software; Han Zhao: Shandong University, School of Software; Majed Elwardy: Blekinge Institute of Technology; Yan Hu: Blekinge Institute of Technology; Yuanfeng Zhou: Shandong University, School of Software; Xiaoming Chen: Beijing Technology and Business University; Lin Wang: Nanyang Technological University; Yiran Shen: Shandong University" }, { "id": "P1164", "title": "Task Breakpoint Generation using Origin-Centric Graph in Virtual Reality Recordings for Adaptive Playback", "authors": "Selin Choi: KAIST; Dooyoung Kim: KAIST; Taewook Ha: KAIST; Seonji Kim: KAIST; Woontack Woo: KAIST" }, { "id": "P1217", "title": "Towards Edge Holography via Implicit Neural Representation and Compression", "authors": "Hyunmin Ban: The University of Hong Kong; Wenbin Zhou: The University of Hong Kong ; Yifan (Evan) Peng: The University of Hong Kong" }, { "id": "P1258", "title": "E^{2}SL: Efficient Depth Sensing from Event-based Structured Light", "authors": "Xin Dong: University of Science and Technology of China; Jiacheng Fu: University of Science and Technology of China; Yue Li: University of Science and Technology of China; wenming Weng: University of Science and Technology of China; Yueyi Zhang: Midea Group; Bingyao Huang: Southwest University; Zhiwei Xiong: University of Science and Technology of China" }, { "id": "P1963", "title": "Record Replay Repeat: Improving Interactivity Between Non-Player Characters with Additive Record and Replay", "authors": "Klara Brandstätter: University College London; Benjamin J. Congdon: Planar Interactive; Anthony Steed: University College London" } ] },
+    { "id": 19, "name": "Recording and reconstruction", "chair": "", "papers": [ { "id": "P1151", "title": "Towards Event-guided Panoramic HDR Video Reconstruction for indoor Immersive VR: A Novel Dataset and Approach", "authors": "Xucheng Guo: School of software; Bing Li: Shandong University, School of Software; Yuhan Zhou: Shandong University,School of Software; Han Zhao: Shandong University, School of Software; Majed Elwardy: Blekinge Institute of Technology; Yan Hu: Blekinge Institute of Technology; Yuanfeng Zhou: Shandong University, School of Software; Xiaoming Chen: Beijing Technology and Business University; Lin Wang: Nanyang Technological University; Yiran Shen: Shandong University" }, { "id": "P1164", "title": "Task Breakpoint Generation using Origin-Centric Graph in Virtual Reality Recordings for Adaptive Playback", "authors": "Selin Choi: KAIST; Dooyoung Kim: KAIST; Taewook Ha: KAIST; Seonji Kim: KAIST; Woontack Woo: KAIST" }, { "id": "P1217", "title": "Towards Edge Holography via Implicit Neural Representation and Compression", "authors": "Hyunmin Ban: The University of Hong Kong; Wenbin Zhou: The University of Hong Kong ; Yifan (Evan) Peng: The University of Hong Kong" }, { "id": "P1258", "title": "E^{2}SL: Efficient Depth Sensing from Event-based Structured Light", "authors": "Xin Dong: University of Science and Technology of China; Jiacheng Fu: University of Science and Technology of China; Yue Li: University of Science and Technology of China; wenming Weng: University of Science and Technology of China; Yueyi Zhang: Midea Group; Bingyao Huang: Southwest University; Zhiwei Xiong: University of Science and Technology of China" }, { "id": "P1963", "title": "Record Replay Repeat: Improving Interactivity Between Non-Player Characters with Additive Record and Replay", "authors": "Klara Brandstätter: University College London; Benjamin J. Congdon: Planar Interactive; Anthony Steed: University College London" } ] },
     { "id": 20, "name": "User input", "chair": "", "papers": [ { "id": "TVCG-05", "title": "Integrating User Input in Automated Object Placement for Augmented Reality", "authors": "Jalal Safari Bazargani: Sejong University; Abolghasem Sadeghi‑Niaraki: Sejong University; Soo‑Mi Choi: Sejong University" }, { "id": "P1038", "title": "Evaluating the Viability of Additive Models to Predict Task Completion Time for 3D Interactions in Augmented Reality", "authors": "Logan Lane: Virginia Tech; Ibrahim Tahmid: Virginia Tech; Feiyu Lu: Virginia Tech; Doug Bowman: Virginia Tech" }, { "id": "P1082", "title": "AdaptiController: VR-Enhanced Fine Motor Assistance Through Finger Pressure Modulation", "authors": "Hangyu Zhou: Zhejiang University of Science and Technology; Haotian Mao: Shanghai Jiao Tong University; Zixuan Guo: Shanghai Jiao Tong University; Yushi Wei: The Hong Kong University of Science and Technology (Guangzhou); Yan Zhang: Shanghai Jiao Tong University; Xubo Yang: SHANGHAI JIAO TONG UNIVERSITY" }, { "id": "P1364", "title": "Ubi Grip: Ubiquitous Grip-Based Tangible Object Utilization in Augmented Reality", "authors": "Xiang Chen: Beijing University of Posts and Telecommunications; Lei Zhou: Beijing University of Posts and Telecommunications; Xufeng Jian: Beijing University of Posts and Telecommunications; Guangtian Liu: Beijing University of Posts and Telecommunications; Xiayang Zhou: Beijing University of Posts and Telecommunications; Haifeng Sun: Beijing University of Posts and Telecommunications; Qi Qi: Beijing University of Posts and Telecommunications; pengfei ren: Beijing University of Posts and Telecommunications; Shan Jiang: Independent; Jing Wang: Beijing University of Posts and Telecommunications; Jianxin Liao: Beijing University of Posts and Telecommunications; Jingyu Wang: Beijing University of Posts and Telecommunications" }, { "id": "P2129", "title": "Aligning Realities: A Registration Pipeline for Arbitrary Objects in Mixed Reality Using Controller-Based Point Selection", "authors": "David Tim Luca Mertens: TH Köln; Steffen-Sascha Stein: TH Köln; Kristoffer Waldow: TH Köln; Arnulph Fuhrmann: TH Köln" } ] }
   ],
   "6": [
@@ -267,9 +276,9 @@ document.addEventListener("DOMContentLoaded", function() {
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<h3>${dayInfo.day}</h3>`;
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<thead><tr><th class="time-col">Parallel Session & Time</th><th>Session ID</th><th>Session Name</th></tr></thead><tbody>`;
+        tablesHTML += `<thead><tr><th>Parallel Session & Time</th><th>Session ID</th><th>Session Name</th></tr></thead><tbody>`;
 
-        detailsHTML += `<h3>${dayInfo.day} - Session Details</h3>`;
+        // 기존 요일 헤더(예: <h3>Monday, March 23 - Session Details</h3>)는 삭제됨
 
         dayInfo.times.forEach(slot => {
             const sessions = psData[slot.ps];
@@ -279,27 +288,31 @@ document.addEventListener("DOMContentLoaded", function() {
                     tablesHTML += `<tr>`;
                     
                     if (index === 0) {
-                        tablesHTML += `<td class="time-col" rowspan="${sessions.length}">${slot.ps}<br>${slot.time}</td>`;
+                        tablesHTML += `<td rowspan="${sessions.length}">${slot.ps}<br>${slot.time}</td>`;
                     }
                     
                     tablesHTML += `<td>${sess.id}</td>`;
                     tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">${sess.name}</a></td>`;
                     tablesHTML += `</tr>`;
 
+                    // "Monday"처럼 요일 부분만 추출 (콤마 전까지)
+                    const dayOfWeek = dayInfo.day.split(',')[0]; 
+
                     detailsHTML += `
                         <div id="session-${sess.id}" class="session-container">
                             <span class="session-id-tag">Session ID: ${sess.id}</span>
                             <span class="session-name-title">${sess.name}</span>
-                            <div class="session-chair-text">Session Chair: ${sess.chair || "TBA"}</div>
+                            <div class="session-chair-text">- Date & Time: ${dayOfWeek}</div>
+                            <div class="session-chair-text">- Room: TBA</div>
+                            <div class="session-chair-text last">- Session Chair: ${sess.chair || "TBA"}</div>
                             <hr class="div-light">
                     `;
 
                     sess.papers.forEach((paper, pIdx) => {
-                        // Paper ID 숨김 클래스 적용 (기존 HTML 구조는 유지)
                         detailsHTML += `
                             <div class="paper-block paper-item">
                                 <span class="paper-id-text">· Paper ID: ${paper.id}<br></span>
-                                · Paper Title: <span class="paper-title-text">${paper.title}</span><br>
+                                Paper Title: <span class="paper-title-text">${paper.title}</span><br>
                                 <span class="author-list-text">· Author List: ${paper.authors}</span>
                             </div>
                         `;
