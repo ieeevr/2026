@@ -38,10 +38,10 @@ table {
 thead {
     background-color: #262188 !important;
     color: #fff;
+    border-bottom: none;
 }    
 
 th, td {
-    border: 1px solid #888;
     padding: 5px;
     text-align: center;
     word-wrap: break-word;
