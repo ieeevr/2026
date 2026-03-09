@@ -22,7 +22,10 @@ h3 {
     overflow-x: auto;
     margin-bottom: 40px;
     -webkit-overflow-scrolling: touch;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
+    
 
 table {
     border-collapse: collapse;
@@ -31,6 +34,11 @@ table {
     table-layout: fixed;
     margin-bottom: 0;
 }
+
+thead {
+    background-color: #262188 !important;
+    color: #fff;
+}    
 
 th, td {
     border: 1px solid #888;
@@ -270,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function() {
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<h3>${dayInfo.day}</h3>`;
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<thead><tr><th class="time-col">Parallel Session & Time</th><th>Session ID</th><th>Session Name</th></tr></thead><tbody>`;
+        tablesHTML += `<thead><tr><th>Parallel Session & Time</th><th>Session ID</th><th>Session Name</th></tr></thead><tbody>`;
 
         // 기존 요일 헤더(예: <h3>Monday, March 23 - Session Details</h3>)는 삭제됨
 
@@ -282,7 +290,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     tablesHTML += `<tr>`;
                     
                     if (index === 0) {
-                        tablesHTML += `<td class="time-col" rowspan="${sessions.length}">${slot.ps}<br>${slot.time}</td>`;
+                        tablesHTML += `<td rowspan="${sessions.length}">${slot.ps}<br>${slot.time}</td>`;
                     }
                     
                     tablesHTML += `<td>${sess.id}</td>`;
