@@ -15,6 +15,7 @@ h3 {
     font-size: 1em;
     border-bottom: 2px solid #262188;
     padding-bottom: 5px;
+    padding-bottom: 1rem;
 }
 
 .table-scroll {
@@ -24,6 +25,7 @@ h3 {
     -webkit-overflow-scrolling: touch;
     border-radius: 20px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    
 }
     
 
@@ -41,13 +43,23 @@ thead {
     border-bottom: none;
 }    
 
+th {
+    font-size: 1.1rem;
+}
+
+td {
+    font-size: 0.7rem;
+    border-bottom: 1px solid #eee !important;
+
+}
+
 th, td {
-    padding: 5px;
+    padding: 10px 25px 5px;
     text-align: center;
     word-wrap: break-word;
     vertical-align: middle;
-    font-size: 0.7rem;
-}
+}    
+    
 
 th:nth-child(1) { width: 20%; }
 th:nth-child(2) { width: 10%; }
