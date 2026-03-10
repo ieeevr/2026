@@ -5,6 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <div>
+  <p class="big_title">Travel to Korea</p>
   <h1>Access</h1>
   <p style="margin-bottom: 20px;"> Daegu is located in southeastern Korea, ideally positioned at the heart of Northeast Asia. This strategic location allows for excellent transportation connections both within Korea and internationally.<br/>
     Most international participants of IEEE VR 2026 are expected to arrive via <strong>Incheon International Airport</strong>, one of the world’s largest and busiest airports. Incheon Airport offers regular service to 188 cities across 58 countries through 87 major international airlines. From Incheon, Korea’s high-speed <strong>KTX</strong> (Korea Train Express) provides a convenient connection to Daegu, with a travel time of approximately <strong>3 hours and 30 minutes.</strong><br/>
@@ -249,7 +250,7 @@ title_separator: "|"
       </tr>
     </tbody>
   </table>
-  <p class="big_title">Travel to Korea</p>
+  
   <h1>Currency & Money Exchange </h1>
   <p>The official currency of Korea is the South Korean Won (KRW, ₩). Currency exchange is available at airports, banks, and authorized money exchangers. Major credit cards are widely accepted, but it’s recommended to carry some cash for small shops or local markets. ATMs that accept foreign cards are also available in cities and convenience stores.</p>
   <h1>Climate</h1>
