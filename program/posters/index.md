@@ -37,7 +37,7 @@ th, td {
     font-size: 0.8rem;
     border-bottom: none !important
 }
-th { background-color: #2c7fa8; color: white; font-weight: 600; width: 100%; }
+th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 .category-cell {
     text-align: left;
 }
