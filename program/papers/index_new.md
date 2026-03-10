@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<colgroup><col style="width: 20%;"><col style="width: 10%;"><col style="width: 70%;"></colgroup>`;
+        tablesHTML += `<colgroup><col style="width: 10%;"><col style="width: 15%;"><col style="width: 75%;"></colgroup>`;
         tablesHTML += `<thead><tr><th colspan="3" style="text-align: left; padding-left: 20px;">${dayInfo.day}</th></tr></thead><tbody>`;
 
         dayInfo.times.forEach(slot => {
