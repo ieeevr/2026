@@ -544,10 +544,6 @@ const paperAbstracts = {
   "Spatial Perspective Taking in Interior Design: A Comparison of World-in-Miniature and Cross Reality": `While mixed reality offers accurate spatial alignment by overlaying virtual designs onto real environments, it limits viewpoints to physically reachable locations. To address this, the authors propose two approaches: World-in-Miniature (WIM), which provides a scaled-down model for exploration, and Cross Reality (CR), which allows switching to VR to access unreachable viewpoints at full scale. User studies show both modes achieve similar task success. WIM is faster and more user-friendly, while CR is preferred for spatial accuracy and design communication, demonstrating strong potential for advanced 3D visualization.`
 };
     
-    // 참고: 글자 수 제한으로 일부 Abstract만 예시로 포함했습니다. 
-    // 누락된 초록들은 위 형식처럼 "논문 제목": "초록 내용", 형식으로 복사/붙여넣기 하시면 완벽하게 매칭됩니다.
-};
-
 document.addEventListener("DOMContentLoaded", function() {
     const tableContainer = document.getElementById("schedule-tables");
     const detailsContainer = document.getElementById("session-details");
