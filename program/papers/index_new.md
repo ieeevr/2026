@@ -1,3 +1,9 @@
+---
+layout: ieeevr-default
+title: "Papers"
+subtitle: "IEEE VR 2026"
+title_separator: "|"
+---
 <style>
 html {
     scroll-behavior: smooth;
@@ -9,6 +15,7 @@ h3 {
     font-size: 1em;
     border-bottom: 2px solid #262188;
     padding-bottom: 5px;
+    padding-bottom: 1rem;
 }
 
 .table-scroll {
@@ -19,7 +26,7 @@ h3 {
     border-radius: 20px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
-
+    
 table {
     border-collapse: collapse;
     width: 100%;
@@ -32,27 +39,37 @@ thead {
     background-color: #262188 !important;
     color: #fff;
     border-bottom: none;
-}    
+}   
+
+th {
+    font-size: 1.1rem;
+}
+
+td {
+    font-size: 0.7rem;
+    border-bottom: 1px solid #eee !important;
+}
 
 th, td {
-    padding: 10px 5px;
+    padding: 10px 25px 5px;
     text-align: center;
     word-wrap: break-word;
     vertical-align: middle;
-    font-size: 0.75rem;
-    border-bottom: 1px solid #eee;
-}
+}   
 
-th:nth-child(1) { width: 20%; }
-th:nth-child(2) { width: 15%; }
-th:nth-child(3) { width: 65%; }
+.time-col {
+    background-color: #F2F2F2;
+    font-weight: bold;
+    color: #333;
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
 
 .type-Parallel {
     background-color: #f2fbff;
     color: #2c7fa8;
     transition: background 0.2s;
     text-align: left;
-    padding-left: 15px;
 }
 
 .type-Parallel:hover {
@@ -81,18 +98,20 @@ th:nth-child(3) { width: 65%; }
     padding-top: 20px;
 }
 
+.session-title-wrapper {
+    margin: 5px 0;
+}
+
 .session-id-tag {
-    font-size: 0.7rem;
-    color: #777;
-    font-weight: normal;
+    font-size: 1.4rem;
+    color: #262188;
+    font-weight: bold;
 }
 
 .session-name-title {
     font-size: 1.4rem;
     font-weight: bold;
     color: #262188;
-    margin: 5px 0;
-    display: block;
 }
 
 .session-chair-text {
@@ -116,6 +135,10 @@ th:nth-child(3) { width: 65%; }
     margin-bottom: 4px;
 }
 
+.paper-id-text {
+    display: none;
+}
+
 .paper-title-text {
     font-weight: bold;
     color: #000;
@@ -137,13 +160,13 @@ th:nth-child(3) { width: 65%; }
     margin: 5px 0;
 }
 </style>
-
 <p class="big_title">Papers</p>
 
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
 
 <script>
+
 const psData = {
   "1": [
     { "id": 1, "name": "Projection displays / spatial AR", "chair": "", "papers": [ { "id": "P1012", "title": "Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector", "authors": "Takahiro Okamoto: The University of Osaka; Masaki Takeuchi: The University of Osaka; Masataka Sawayama: Hokkaido University; Daisuke Iwai: The University of Osaka" }, { "id": "P1828", "title": "High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array", "authors": "Kotaro Fujimura: The University of Osaka; Hiroki Kusuyama: The University of Osaka; Masaki Takeuchi: The University of Osaka; Daisuke Iwai: The University of Osaka" }, { "id": "P1060", "title": "DiffPC: Diffusion-Based Projector Photometric Compensation", "authors": "Yuxi Wang: Hangzhou Dianzi University; Haibin Ling: Westlake University; Bingyao Huang: Southwest University" }, { "id": "P1124", "title": "Setup-Independent Full Projector Compensation", "authors": "Haibo Li: Southwest university; Qingyue Deng: Southwest University; Jijiang Li: Southwest university; Haibin Ling: Westlake University; Bingyao Huang: Southwest University" }, { "id": "P1036", "title": "ProCap: Projection-Aware Captioning for Spatial Augmented Reality", "authors": "Zimo Cao: Southwest University; Yuchen Deng: Southwest University; Haibin Ling: Westlake University; Bingyao Huang: Southwest University" } ] },
@@ -164,7 +187,7 @@ const psData = {
     { "id": 12, "name": "Avatars 2", "chair": "", "papers": [ { "id": "P2159", "title": "Reallocation of Body Ownership Between Avatar and Omniscient Entity in Third-Person Perspective VR", "authors": "Jiayi Hu: The University of Tokyo; Kai Guo: Graduate School of Frontier Sciences; Zhongrui Kang: The University of Tokyo; Yuki Ban: The University of Tokyo; Shinichi Warisawa: The University of Tokyo" }, { "id": "P1079", "title": "A Large-Scale Quantitative Analysis of Avatars in VR and AR", "authors": "Natalie Hube: University of Stuttgart; Alexander Achberger: University of Stuttgart; Michael Sedlmair: University of Stuttgart" }, { "id": "P1198", "title": "Avatar-Driven Interaction: Constructing Immersive Education in Virtual Classrooms", "authors": "Yue Wu: Sichuan Normal University; Wu He: Sichuan Normal University" }, { "id": "P1913", "title": "HybridSphere: Enhancing Hybrid Meetings with Avatar-Based VR Environments", "authors": "Koji Momota: The University of Osaka; Shizuka Shirai: The University of Osaka; Masato Kobayashi: The University of Osaka; Naoya Chiba: The University of Osaka; Photchara Ratsamee: Osaka Institute of Technology; Kiyoshi Kiyokawa: Nara Institute of Science and Technology; Yuki Uranishi: The University of Osaka" }, { "id": "P1668", "title": "Streamlined Facial Data Collection based on Utterance and Emotional Data for Human-to-Avatar Reconstruction", "authors": "Seoyoung Kang: KAIST; Seokhwan Yang: Korea Advanced Institute of Science and Technology; Hail Song: Korea Advanced Institute of Science and Technology; Boram Yoon: KI-ITC ARRC, KAIST; Jinwook Kim: KAIST; Kangsoo Kim: University of Calgary; Woontack Woo: KAIST" } ] }
   ],
   "4": [
-    { "id": 13, "name": "Rendering and animation", "chair": "", "papers": [ { "id": "P1224", "title": "Gloss Perception in VR at Long Viewing Distance: Effects of Binocular Highlight Intensity Asymmetry", "authors": "Kai Guo: Graduate School of Frontier Sciences; Juro Hosoi: The University of Tokyo; Yuki Shimomura: The University of Tokyo; Yuki Ban: The University of Tokyo; Shinichi Warisawa: The University of Tokyo" }, { "id": "P1238", "title": "Evaluating Cutout Rendering Techniques for Pass-Through Embodiment Using a Real-Mirror Metaphor", "authors": "Kristoffer Waldow: TH Köln; Arnulph Fuhrmann: TH Köln; Daniel Roth: Technical University of Munich" }, { "id": "P1715", "title": "AniXDim: Integrating Cross-Dimensional Interaction into Desktop Character Animation Workflows", "authors": "Haihan Lin: Shanghai Jiao Tong University; Ye Pan: Shanghai Jiaotong University ; Nianlong Li: Institute of Software, Chinese Academy of Sciences; wanjun lv: Lenovo; Teng Han: Institute of Software, Chinese Academy of Sciences; Feng Tian: Institute of software, Chinese Academy of Sciences" }, { "id": "P1731", "title": "Local Surface Approximation Contours for Virtual Reality Stylisation", "authors": "Amir Zaidi: Delft, University of Technology; Ricardo Marroquim: TU Delft; Michael Weinmann: Delft University of Technology ; Elmar Eisemann: Delft University of Technology" } ] },
+    { "id": 13, "name": "Rendering and animation", "chair": "", "papers": [ { "id": "P1224", "title": "Gloss Perception in VR at Long Viewing Distances: Effects of Binocular Highlight Intensity Asymmetry", "authors": "Kai Guo: Graduate School of Frontier Sciences; Juro Hosoi: The University of Tokyo; Yuki Shimomura: The University of Tokyo; Yuki Ban: The University of Tokyo; Shinichi Warisawa: The University of Tokyo" }, { "id": "P1238", "title": "Evaluating Cutout Rendering Techniques for Pass-Through Embodiment Using a Real-Mirror Metaphor", "authors": "Kristoffer Waldow: TH Köln; Arnulph Fuhrmann: TH Köln; Daniel Roth: Technical University of Munich" }, { "id": "P1715", "title": "AniXDim: Integrating Cross-Dimensional Interaction into Desktop Character Animation Workflows", "authors": "Haihan Lin: Shanghai Jiao Tong University; Ye Pan: Shanghai Jiaotong University ; Nianlong Li: Institute of Software, Chinese Academy of Sciences; wanjun lv: Lenovo; Teng Han: Institute of Software, Chinese Academy of Sciences; Feng Tian: Institute of software, Chinese Academy of Sciences" }, { "id": "P1731", "title": "Local Surface Approximation Contours for Virtual Reality Stylisation", "authors": "Amir Zaidi: Delft, University of Technology; Ricardo Marroquim: TU Delft; Michael Weinmann: Delft University of Technology ; Elmar Eisemann: Delft University of Technology" } ] },
     { "id": 14, "name": "3DUI 3", "chair": "", "papers": [ { "id": "P1698", "title": "RayFlex: Inducing Weight Perception through Raycast Pseudo-Haptics in Virtual Reality", "authors": "Yushi Wei: The Hong Kong University of Science and Technology (Guangzhou); Sen Zhang: Xi'an Jiaotong-Liverpool University; Rongkai Shi: The Hong Kong University of Science and Technology (Guangzhou); Simon Fong: University of Macau; Pan Hui: The Hong Kong University of Science and Technology (Guangzhou); Hai-Ning Liang: The Hong Kong University of Science and Technology (Guangzhou)" }, { "id": "P2086", "title": "Multi-WIM Paradigm: Comparing Urban Planning Variants with Worlds-in-Miniature", "authors": "Karoline Brehm: Bauhaus Universität Weimar; Ephraim Schott: Bauhaus-Universität Weimar; Manuel Hartmann: Bauhaus-Universität Weimar; Bernd Froehlich: Bauhaus-Universität Weimar" }, { "id": "P2214", "title": "Scaled Mouse: An Efficient and Accurate Interaction Technique for 3D Docking in Seated VR", "authors": "Xinpeng Liu: Simon Fraser University ; Di Zhao: Simon Fraser University; Wolfgang Stuerzlinger: Simon Fraser University" }, { "id": "P1202", "title": "Re-evaluating Virtual Reality Manipulation Techniques for Precise Alignment of Complex 3D Objects", "authors": "Cherelle Connor: Virginia Tech; Alexander Giovannelli: Virginia Tech; Leonardo Pavanatto: Virginia Tech; Francielly Rodrigues: Virginia Tech; Haichao Miao: Lawrence Livermore National Laboratory; Vuthea Chheang: San Jose State University ; Brian Giera: Lawrence Livermore National Laboratory; Peer-Timo Bremer: Lawrence Livermore National Laboratory; Doug Bowman: Virginia Tech" }, { "id": "P2216", "title": "Interaction Under Whole-Body User Rotations in VR Space", "authors": "Filip Škola: CYENS Centre of Excellence; Fotis Liarokapis: CYENS Centre of Excellence" } ] },
     { "id": 15, "name": "Locomotion techniques", "chair": "", "papers": [ { "id": "P1052", "title": "LocoScooter: Designing a Stationary Scooter-Based Locomotion System for Navigation in Virtual Reality", "authors": "Wei He: The Hong Kong University of Science and Technology (Guangzhou); Xiang Li: University of Cambridge; Per Ola Kristensson: University of Cambridge; Ge Lin KAN: Thrust of Urban Governance and Design" }, { "id": "P1302", "title": "Can Treadmill Walking Replicate Natural Walking? Optimizing Speed, Platform Tilt, and Training Duration on a Cyberith Virtualizer Elite 2", "authors": "Sodabe Bandali: Vanderbilt University; Soumyajit Chakraborty: Vanderbilt University; Andrew McAvan: Vanderbilt University; Timothy P McNamara: Vanderbilt University; Bobby Bodenheimer: Vanderbilt University" }, { "id": "P2318", "title": "Influence of Avatar Appearance and Target Distance on Locomotion Method Selection in Virtual Reality", "authors": "Omar A. Khan: University of Calgary; Junyeong Kum: Pusan National University; Hyeongil Nam: University of Calgary; Myungho Lee: Pusan National University; Kangsoo Kim: University of Calgary" }, { "id": "TVCG-09", "title": "Toward More Intuitive VR Locomotion Techniques: How Locomotion Metaphors Shape Users’ Mental Models", "authors": "Lisa Marie Prinz: Fraunhofer FKIE; Tintu Mathew: Fraunhofer FKIE; Benjamin Weyers: University of Trier" }, { "id": "P1335", "title": "Collaborative Navigation Improves Spatial Learning Across Symmetric and Asymmetric Locomotion in Virtual Reality", "authors": "Soumyajit Chakraborty: Vanderbilt University; Holly C Gagnon: Vanderbilt University; Timothy P McNamara: Vanderbilt University; Bobby Bodenheimer: Vanderbilt University" } ] },
     { "id": 16, "name": "Virtual Agents", "chair": "", "papers": [ { "id": "P2030", "title": "Exploring Mediation by an Embodied Virtual Agent in Immersive Triadic Collaborative Decision-Making", "authors": "Binyang Han: University of Canterbury; Ze Dong: University of Canterbury; Jingjing Zhang: University of Canterbury; Ruoyu Wen: University of Canterbury; Tatsunori Hirai: Komazawa University; Adrian James Clark: University of Canterbury; Thammathip Piumsomboon: University of Canterbury" }, { "id": "P1653", "title": "What Makes a Virtual Celebrity Agent Trustworthy in VR? Exploring the Role of Stylization and Voice", "authors": "Yang Gao: Beihang university; Yangbin Dai: Beihang University; Guangtao Zhang: Beijing University of Posts and Telecommunications; Honglei Guo: Tsinghua University; Fariba Mostajeran: University of Hamburg; Frank Steinicke: Universität Hamburg; Lin Li: Migu Culture Technology Co.,Ltd.; Tao Yu: BNRist" }, { "id": "P1663", "title": "Is Seeing Believing and Hearing Trusting? Exploring the Role of Visual and Vocal Cues in Shaping User Trust in VR News Anchors", "authors": "Yi GAO: Hong Kong University of Science and Technology (Guangzhou); Zixuan Guo: Shanghai Jiao Tong University; Hai-Ning Liang: The Hong Kong University of Science and Technology (Guangzhou)" }, { "id": "P1840", "title": "Comparing Referential Interactions with an Intelligent Assistant in Virtual Reality", "authors": "Lina Kaschub: Human-Computer Interaction; Bado Völckers: Universität Hamburg; Uğur Turhan: Universität Hamburg; Philipp Huesmann: Universität Hamburg; Lucie Kruse: Universität Hamburg; Frank Steinicke: Universität Hamburg" }, { "id": "P1827", "title": "Perceive, Adapt, and Interact: An Intelligent Virtual Agent for Education in Mixed Reality", "authors": "Naveed Ahmed: University of Sharjah; Zulaiha Afrah Sadakathullah Shaduly: University of Sharjah; Mohammed Lataifeh: University of Sharjah; Imad Afyouni: University of Sharjah" } ] }
@@ -203,7 +226,7 @@ const psData = {
     { "id": 37, "name": "Haptics", "chair": "", "papers": [ { "id": "P1018", "title": "Anchor-based Haptics: Portable Interfaces Leveraging Real Surfaces to Display Grounded Forces for 3D Shape Simulation in VR", "authors": "Julien Manson: Inria, IRISA; Anatole Lécuyer: Inria; Sylvain Dubois: University of Rennes; Géry Casiez: Univ. Lille, CNRS, Inria, Centrale Lille, UMR 9189 CRIStAL; Justine Saint-Aubert: CNRS, Inria, IRISA Bretagne-Atlantique" }, { "id": "P1229", "title": "Does your brain feel virtual touch as a physical touch? Influence of haptics and cognitive workload on touch perception in VR", "authors": "Emile Savalle: Univ. Rennes, Inria, CNRS, IRISA; Léa Pillette: Univ Rennes, Inria, CNRS, IRISA; Kyung Ho Won: Inria; Ferran Argelaguet Sanz: Inria; Anatole Lécuyer: Inria; Marc J-M Macé: CNRS / Rennes 1" }, { "id": "P1362", "title": "Seems Like a Touch? Comparing Emotional Experience and Illusion of Touch of Visual and Haptic Presentations of Mediated Social Touch in VR", "authors": "Julius Tietenberg: University of Duisburg-Essen; Timo Fürtges: University of Duisburg-Essen; Maic Masuch: University of Duisburg-Essen" }, { "id": "P1949", "title": "GenTouchVR: Generating a Touchable Virtual Reality Environment from a Single Image", "authors": "Jaejun Park: Pohang University of Science and Technology; Soyeon Nam: Pohang University of Science and Technology; Jeongwoo Kim: Pohang University of Science and Technology; Uison Ju: Pohang University of Science and Technology; Seungmoon Choi: Pohang University of Science and Technology (POSTECH)" }, { "id": "P2272", "title": "Multimodal Feedback for Handheld Tool Guidance: Combining Wrist-Based Haptics with Augmented Reality", "authors": "Yue Yang: Stanford University; Christoph Leuze: Stanford University; Brian Hargreaves: Stanford University; Bruce Daniel: Stanford University; Fred Baik: Stanford University" } ] },
     { "id": 38, "name": "Scene synthesis", "chair": "", "papers": [ { "id": "P1074", "title": "SceneLinker: Compositional 3D Scene Generation via Semantic Scene Graph from RGB Sequences", "authors": "Seok-Young Kim: KAIST; Dooyoung Kim: KAIST; Woojin Cho: KAIST; Hail Song: Korea Advanced Institute of Science and Technology; Suji Kang: KAIST; Woontack Woo: KAIST" }, { "id": "P1714", "title": "Interaction-aware Shared Scene Synthesis for VR Telepresence", "authors": "Zhangyao Tan: School of Computer Science and Engineering, Beihang University; Qixiang Ma: Beihang University; Runze Fan: Beihang University; Sio Kei Im: Macao Polytechnic University; Lili Wang: Beihang University" }, { "id": "P1329", "title": "ImmerseGen: Agent-Guided Immersive World Generation with RGBA-Textured Proxies", "authors": "Jinyan Yuan: Bytedance Inc.; Bangbang Yang: Bytedance Inc.; Keke Wang: Bytedance Inc.; Panwang Pan: Bytedance Inc.; Lin Ma: Bytedance Inc.; Xuehai Zhang: Bytedance Inc.; Xiao Liu: Bytedance Inc.; Zhaopeng Cui: Zhejiang University; Yuewen Ma: Bytedance Inc." }, { "id": "P2322", "title": "Investigating Generative Workflows for Immersive Prototyping: A Study on Object- vs. Scene-Level Creation in VR", "authors": "Cheng-Chin Tsai: National Taiwan University of Science and Technology; Ping-Hsuan Han: National Taipei University of Technology; Tse-Yu Pan: National Taiwan University of Science and Technology" }, { "id": "P2171", "title": "GenAssist: Interactive Prompt-Driven XR Program Generation", "authors": "Sruti S Srinidhi: Carnegie Mellon University; Akul Singh: Carnegie Mellon University; Edward Lu: Carnegie Mellon University; Anthony Rowe: Carnegie Mellon University" } ] },
     { "id": 39, "name": "VR education", "chair": "", "papers": [ { "id": "P1213", "title": "Elementor: an Embodied Chemistry Learning Game Using Mixed Reality and Generative Artificial Intelligence", "authors": "Dong Chen: Tongji University; Jiashu Sun: KTH Royal Institute of Technology; Siyuan Liu: The Hong Kong University of Science and Technology (Guangzhou); Tengjia Zuo: Hongkong University of Science and Technology (Guangzhou))" }, { "id": "P1672", "title": "Exploring Non-Euclidean Geometry Through Virtual and Real Experiences to Unlock Non-Experts' Intuition", "authors": "Maé Mavromatis: Univ Rennes, INSA Rennes, Inria, CNRS, IRISA; Ronan Gaugne: Univ Rennes, Inria, CNRS, IRISA; Rémi Coulon: CNRS - Université de Bourgogne; Valérie Gouranton: Univ Rennes, INSA Rennes, Inria, CNRS, IRISA" }, { "id": "P1465", "title": "Quantum Intuition XR: Tangible Quantum Mechanics using Interactive XR Experience", "authors": "Jamie Ngoc Dinh: University of Maryland, College Park; Marven Wong: University Of Maryland; Matthew J Brooks: Univeristy of Maryland; Charles Tahan: University of Maryland; Myungin Lee: University of Maryland, College Park" }, { "id": "P1726", "title": "PhysicsHap: A Modular Haptic Interaction Framework for Enhancing Student Learning in Immersive Virtual Physics Experiments", "authors": "Yihang Li: Beijing Normal University; Hailin Ji: Beijing Normal University; Yiran Zhang: Beijing Normal University; Yanhong Luo: Northwest Minzu University; Xiaoyan Hu: Beijing Normal University; Hongwen Zhang: Beijing Normal University" } ] },
-    { "id": 40, "name": "Eye and motion tracking", "chair": "", "papers": [ { "id": "P1419", "title": "The Motion is the Message: Evaluating Motion Tracking Quality for VR Avatars", "authors": "Fu-Chia Yang: Meta Reality Labs Research; Harrison Jesse Smith: Meta; Christos Mousas: Purdue University; Michael Neff: Meta Reality Labs Research" }, { "id": "P1127", "title": "EgoPoseVR: Spatiotemporal Multi-Modal Reasoning for Egocentric Full-Body Pose in Virtual Reality", "authors": "Haojie Cheng: National University of Singapore; Shaun Jing Heng Ong: National University of Singapore; Shaoyu Cai: National University of Singapore; Aiden Tat Yang Koh: National University of Singapore; Fuxi Ouyang: Singapore University of Technology and Design; Eng Tat Khoo: National University of Singapore" }, { "id": "P1204", "title": "Synchronizing with Attentional Sampling: Modality-Specific Flicker Guidance for Gaze and Hand-Eye Interaction in VR", "authors": "Songyue Yang: Beijing Engineering Research Center of Mixed Reality and Advanced Display, School of Optics and Photonics,Beijing Institute of Techonology; Kang Yueh: Institute of Software, Chinese Academy of Sciences; Haolin Gao: Beijing Engineering Research Center of Mixed Reality and Display, School of Optics and Photonics, Beijing Institute of Technology; Mei Guo: Beijing Engineering Research Center of Mixed Reality and Advanced Display; Haoran Jia: Beijing Institute of Technology; Zhonghao Zhu: Beijing Institute of Technology; Fanlu Zeng: Beijing Institute of Technology; Yue Liu: Beijing Institute of Technology" }, { "id": "P1566", "title": "RippleVision: Unobtrusive Gaze-Dependent Guidance via Directed Wave Motion in Virtual Reality", "authors": "Jérôme Kudnick: RheinMain University of Applied Science; Daniel Theodor Mayer: Hochschule RheinMain; Colin Groth: New York University; Bipul Mohanto: University of Rostock; Ralf Dörner: RheinMain University of Applied Sciences; Martin Weier: RheinMain University of Applied Sciences" }, { "id": "P1412", "title": "Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions", "authors": "Ritik Vatsal: University of British Columbia; Xincheng Huang: University of British Columbia; Robert Xiao: University of British Columbia" } ] }
+    { "id": 40, "name": "Eye and motion tracking", "chair": "", "papers": [ { "id": "P1419", "title": "The Motion is the Message: Evaluating Motion Tracking Quality for VR Avatars", "authors": "Fu-Chia Yang: Meta Reality Labs Research; Harrison Jesse Smith: Meta; Christos Mousas: Purdue University; Michael Neff: Meta Reality Labs Research" }, { "id": "P1127", "title": "EgoPoseVR: Spatiotemporal Multi-Modal Reasoning for Egocentric Full-Body Pose in Virtual Reality", "authors": "Haojie Cheng: National University of Singapore; Shaun Jing Heng Ong: National University of Singapore; Shaoyu Cai: National University of Singapore; Aiden Tat Yang Koh: National University of Singapore; Fuxi Ouyang: Singapore University of Technology and Design; Eng Tat Khoo: National University of Singapore" }, { "id": "P1204", "title": "Synchronizing with Attentional Sampling: Modality-Specific Flicker Guidance for Gaze and Hand-Eye Interaction in VR", "authors": "Songyue Yang: Beijing Engineering Research Center of Mixed Reality and Advanced Display, School of Optics and Photonics,Beijing Institute of Techonology; Kang Yueh: Institute of Software, Chinese Academy of Sciences; Haolin Gao: Beijing Engineering Research Center of Mixed Reality and Advanced Display, School of Optics and Photonics, Beijing Institute of Technology; Mei Guo: Beijing Engineering Research Center of Mixed Reality and Advanced Display; Haoran Jia: Beijing Institute of Technology; Zhonghao Zhu: Beijing Institute of Technology; Fanlu Zeng: Beijing Institute of Technology; Yue Liu: Beijing Institute of Technology" }, { "id": "P1566", "title": "RippleVision: Unobtrusive Gaze-Dependent Guidance via Directed Wave Motion in Virtual Reality", "authors": "Jérôme Kudnick: RheinMain University of Applied Science; Daniel Theodor Mayer: Hochschule RheinMain; Colin Groth: New York University; Bipul Mohanto: University of Rostock; Ralf Dörner: RheinMain University of Applied Sciences; Martin Weier: RheinMain University of Applied Sciences" }, { "id": "P1412", "title": "Look2React: Making VR NPCs Come Alive with Dynamic Vision-Guided Reactions", "authors": "Ritik Vatsal: University of British Columbia; Xincheng Huang: University of British Columbia; Robert Xiao: University of British Columbia" } ] }
   ],
   "11": [
     { "id": 41, "name": "Audio", "chair": "", "papers": [ { "id": "P1009", "title": "Hearing the Way: Influence of Varying Spatialized Audio Cues and Device Type on AR Navigation Experience", "authors": "Juliane Henning: University of Applied Sciences Hamm-Lippstadt; Sina Lucia Hinzmann: University of Applied Sciences Hamm-Lippstadt; Francesco Vona: University of Applied Sciences Hamm-Lippstadt; Mohamed Amer: University of Applied Sciences Hamm-Lippstadt; Jan-Niklas Voigt-Antons: Hamm-Lippstadt University of Applied Sciences" }, { "id": "P2144", "title": "Shepard Steps: Exploiting an Auditory Illusion for Footstep Sounds in Uneven Virtual Reality Walking", "authors": "Kieran McAuliffe: University of Applied Sciences Hamburg; Eike Langbehn: University of Applied Sciences Hamburg" }, { "id": "P2075", "title": "You Walkin’ to Me? How Footstep Sound Primes Anticipation in Virtual Pedestrian Collision Avoidance", "authors": "Aline Hufschmitt: Saint-Cyr Coetquidan Military Academy, CReC Saint-Cyr; Agathe Bilhaut: Univ Rennes, Inria, CNRS, IRISA, France; Ludovic Hoyet: Univ Rennes, Inria, CNRS, IRISA, France; Julien Pettré: Univ Rennes, Inria, CNRS, IRISA, France; Anne-Hélène Olivier: Univ Rennes, Inria, CNRS, IRISA, France" }, { "id": "P1327", "title": "Generating Audiovisual Synergy Fluid Animation for Highly Immersive VR Experience", "authors": "Na Jiang: Capital Normal University; Xiangcheng Zhai: Capital Normal University; Yuxuan Qiu: Capital Normal University; Xiaohui Tan: Capital Normal University; Aimin Hao: Beihang University; Yang Gao: Beihang university" }, { "id": "P2034", "title": "Audiovisual Realism in MR: Investigating the Combined Effects of Room Acoustics and Avatar Realism on Co-Presence", "authors": "Cyan DeVeaux: Stanford University; Elizabeth H Hall: Meta Reality Labs Research; Andy J Shaw: Meta Reality Labs Research; Andrew Frederick Francl: Meta Reality Labs Research; Paulus van Horne: Meta Reality Labs Research; Frank Nieuwenhuizen: Meta Reality Labs Research; Sebastià V. Amengual Garí: Meta Reality Labs Research; Madeline Huberth: Meta Reality Labs Research" } ] },
@@ -254,35 +277,34 @@ document.addEventListener("DOMContentLoaded", function() {
     let detailsHTML = "";
 
     scheduleMeta.forEach(dayInfo => {
-        tablesHTML += `<h3>${dayInfo.day}</h3>`;
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<thead><tr><th>Parallel Session</th><th>Time</th><th>Session Name</th></tr></thead><tbody>`;
+        tablesHTML += `<colgroup><col style="width: 20%;"><col style="width: 10%;"><col style="width: 70%;"></colgroup>`;
+        tablesHTML += `<thead><tr><th colspan="3" style="text-align: left; padding-left: 20px;">${dayInfo.day}</th></tr></thead><tbody>`;
 
         dayInfo.times.forEach(slot => {
-            const sessions = psData[slot.ps] || [];
+            const sessions = psData[slot.ps];
             
-            if (sessions.length > 0) {
+            if (sessions && sessions.length > 0) {
                 sessions.forEach((sess, index) => {
                     tablesHTML += `<tr>`;
                     
                     if (index === 0) {
-                        // 1열: Parallel Session (Session 텍스트 추가)
                         tablesHTML += `<td rowspan="${sessions.length}">Session ${slot.ps}</td>`;
-                        // 2열: Time (행 통합하여 시간 표시)
                         tablesHTML += `<td rowspan="${sessions.length}">${slot.time}</td>`;
                     }
                     
-                    // 3열: Session Name
                     tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">${sess.name}</a></td>`;
                     tablesHTML += `</tr>`;
 
-                    // 하단 상세 섹션 데이터 생성
                     const dayOfWeek = dayInfo.day.split(',')[0]; 
+
                     detailsHTML += `
                         <div id="session-${sess.id}" class="session-container">
-                            <span class="session-id-tag">Session ID: ${sess.id}</span>
-                            <span class="session-name-title">${sess.name}</span>
-                            <div class="session-chair-text">- Date & Time: ${dayOfWeek}, ${slot.time}</div>
+                            <div class="session-title-wrapper">
+                                <span class="session-id-tag">Session: ${sess.id} - </span>
+                                <span class="session-name-title">${sess.name}</span>
+                            </div>
+                            <div class="session-chair-text">- Date & Time: ${dayOfWeek}</div>
                             <div class="session-chair-text">- Room: TBA</div>
                             <div class="session-chair-text last">- Session Chair: ${sess.chair || "TBA"}</div>
                             <hr class="div-light">
@@ -291,7 +313,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     sess.papers.forEach((paper, pIdx) => {
                         detailsHTML += `
                             <div class="paper-block paper-item">
-                                Paper Title: <span class="paper-title-text">${paper.title}</span><br>
+                                <span class="paper-id-text">· Paper ID: ${paper.id}<br></span>
+                                <span class="paper-title-text">${paper.title}</span><br>
                                 <span class="author-list-text">· Author List: ${paper.authors}</span>
                             </div>
                         `;
@@ -300,8 +323,14 @@ document.addEventListener("DOMContentLoaded", function() {
                         }
                     });
 
-                    detailsHTML += `</div><hr class="div-heavy">`;
+                    detailsHTML += `</div>`;
+                    
+                    if (index < sessions.length - 1) {
+                        detailsHTML += `<hr class="div-heavy">`;
+                    }
                 });
+                
+                detailsHTML += `<hr class="div-heavy">`;
             }
         });
         tablesHTML += `</tbody></table></div>`;
