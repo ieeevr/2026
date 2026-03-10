@@ -4,7 +4,6 @@ title: "Papers"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-
 <style>
 html {
     scroll-behavior: smooth;
@@ -184,10 +183,8 @@ td {
 }
 </style>
 <p class="big_title">Papers</p>
-
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
-
 <script>
 
     const psData = {
@@ -645,4 +642,4 @@ document.addEventListener("DOMContentLoaded", function() {
     detailsContainer.innerHTML = detailsHTML;
 });
     
-</script>
+</script> 
