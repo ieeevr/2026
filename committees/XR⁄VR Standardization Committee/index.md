@@ -313,6 +313,9 @@ title_separator: "|"
         padding: 15px;
         border-top: 2px solid #e2e8f0;
     }
+    .page__content p, .page__content li, .page__content dl {
+    font-size: 0.7rem;
+}
     
     @media (max-width: 1400px) {
         .std-member-grid.std-members-grid {
@@ -366,9 +369,22 @@ title_separator: "|"
         <div class="std-intro">
             <p>The IEEE VR 2026 Standardization Committee strengthens connections between academia, industry, and Standards Developing Organizations (SDOs), communicating perspectives and insights from the research community to advance standardization efforts in Virtual Reality, Augmented Reality, and Mixed Reality technologies. Building on the foundation established at ISMAR 2024 (<a href="https://www.youtube.com/watch?v=xDF59FpiB_s" style="color: #1e2875; text-decoration: underline;">Learn More</a>) and 2025 (<a href="https://www.youtube.com/watch?v=6TGDVTBICNc" style="color: #1e2875; text-decoration: underline;">Learn More</a>), this committee focuses on standardization efforts in Virtual Reality, Augmented Reality, and Mixed Reality technologies.</p>
             
-            <p style="margin-top: 20px; padding: 20px; background: white; border-radius: 10px; border-left: 5px solid #00D4AA; font-weight: 600;">
-                📋 <strong>For more information about upcoming activities, please check:</strong> <span style="color: #1e2875;">TBD</span>
-            </p>
+           <div style="margin-top: 20px; padding: 20px; background: white; border-radius: 10px; border-left: 5px solid #00D4AA;">
+                <p style="font-weight: 600; font-size: 1em; margin-bottom: 12px;">At IEEE VR 2026, we are organizing the following activities:</p>
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
+                    <li style="display: flex; align-items: flex-start; gap: 10px;">
+                        <span style="font-size: 1.2em; flex-shrink: 0;">🎤</span>
+                        <span><strong>Panel — <a href="https://ieeevr.org/2026/program/panels/" style="color: #1e2875; text-decoration: underline;">Standardization in XR/VR: Challenges and Priorities Beyond Terminology</a></strong><br>
+                        <span style="font-weight: 500; color: #555;">Wednesday, March 25 &bull; 15:00–16:30</span><br>
+                        A panel bringing together researchers, industry leaders, and standardization experts — including: 🎙️ Neil Trevett (VP of Developer Ecosystems at NVIDIA / President of The Khronos Group), 🎙️ Tim Weissker (Senior Scientist at RWTH Aachen University), 🎙️ J. Edward Swan II (Interim Associate Dean of Research at Mississippi State University) and 🎙️ Rick Skarbez (Senior Lecturer at La Trobe University) — to tackle critical questions around reproducibility, interoperability, and the gap between VR research and industrial standards.</span>
+                    </li>
+                    <li style="display: flex; align-items: flex-start; gap: 10px;">
+                        <span style="font-size: 1.2em; flex-shrink: 0;">🏢</span>
+                        <span><strong>Booth</strong><br>
+                        Visit our booth at IEEE VR 2026 to connect with committee members, learn about standardization efforts, and engage with the broader XR/VR standardization community.</span>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <!-- Activities Section -->
