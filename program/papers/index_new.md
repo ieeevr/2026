@@ -304,7 +304,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <span class="session-id-tag">Session: ${sess.id} - </span>
                                 <span class="session-name-title">${sess.name}</span>
                             </div>
-                            <div class="session-chair-text">- Date & Time: ${dayOfWeek}</div>
+                            <div class="session-chair-text">- Date & Time: ${dayOfWeek} / ${slot.time}</div>
                             <div class="session-chair-text">- Room: TBA</div>
                             <div class="session-chair-text last">- Session Chair: ${sess.chair || "TBA"}</div>
                             <hr class="div-light">
