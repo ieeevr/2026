@@ -46,7 +46,7 @@ th {
 }
 
 td {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     border-bottom: 1px solid #eee !important;
 }
 
