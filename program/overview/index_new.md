@@ -20,6 +20,9 @@ h3 {
 	overflow-x: auto;       /* 내용이 넘치면 스크롤 생성 */
 	margin-bottom: 40px;    /* 표 아래 여백 */
 	-webkit-overflow-scrolling: touch; /* 모바일 부드러운 스크롤 */
+    /* 요청하신 CSS 추가 */
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 table {
 	border-collapse: collapse;
@@ -53,70 +56,72 @@ th, td {
 }
 /* 컬럼 스타일 */
 .time-col {
-	background-color: #F2F2F2;
+	background-color: #262188; /* 변경됨 */
 	font-weight: bold;
-	color: #333;
-	font-size:0.5rem
+	color: #fff; /* 변경됨 */
+	font-size:0.5rem;
+	vertical-align: top
 }
 .reg-col {
-	background-color: #D9D9D9;
+	background-color: #D3D6EE; /* 푸른 파스텔톤으로 변경 */
 	font-weight: bold;
-	color: #444;
+	color: #222;
 }
-/* 세션 타입별 컬러 */
+/* 세션 타입별 컬러 (전체적으로 #262188 기준 푸른 계열 파스텔톤 적용) */
 .type-break {
-	background-color: #f3f3f3;
+	background-color: #F0F2F8;
 	color: #000;
 } /* 휴식 */
 .type-lunch {
-	background-color: #f3f3f3;
+	background-color: #F0F2F8;
 	color: #000;
 } /* 점심 */
 .type-keynote {
-	background-color: #E4DFEC;
-	color: #5F497A;
+	background-color: #C5CAE9;
+	color: #1A1668;
 	font-weight: bold;
 } /* 키노트/오프닝 */
 .type-social {
-	background-color: #FCE4D6;
-	color: #974806;
+	background-color: #D0D4F0;
+	color: #1A1668;
 	font-weight: bold;
 } /* 리셉션/디너 */
 .type-workshop {
-	background-color:#e9dfe7;
+	background-color: #DCE1F6;
 	color: #000;
 } /* 워크숍/세션 */
 .type-empty {
 	background-color: #FFFFFF;
 }
 .type-tuto {
-	background-color: #FFF8EA;
+	background-color: #E8EAF6;
 	color: #000;
 }
 .type-doct {
-	background-color: #E6EEFF;
+	background-color: #E0E4F8;
 	color: #000;
 }
 .type-Future {
-	background-color: #FFE8E8;
+	background-color: #D4DAF5;
 	color: #000;
 }
 .type-Research {
-	background-color: #e5f1e1;
+	background-color: #C8CEEE;
 	color: #000;
 }
 .type-Welcome {
-	background-color: #FFD9DA ;
+	background-color: #B8C0E8;
 	color: #000;
 }
 
 .type-Parallel {
-	background-color: #E2E2C7  ;
+	background-color: #E4E7F9;
 	color: #000;
 }
 
+/* 링크 컬러 변경 (#e70087 -> #262188) */
 .type-Parallel a {
-    color: #e70087;
+    color: #262188;
     text-decoration: underline;
     font-weight: bold;
     transition: color 0.2s;
@@ -126,7 +131,7 @@ th, td {
     color: #066569;
 }
 </style>
-<h1 id="resources">Program Overview</h1>
+<p class="big_title">Program Overview</p>
 <h3>Day 1: Saturday, March 21</h3>
 <div class="table-scroll">
   <table>
@@ -355,7 +360,7 @@ th, td {
       <td class="time-col">18:00</td>
       <td >&nbsp;</td>
     </tr>
-    </tbody>
+  </tbody>
   <tbody>
   </tbody>
   </table>
@@ -403,8 +408,8 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td rowspan="2" class="type-keynote">Keynote 1<br>
-          (10:00-11:00)</td>
+        <td rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link01">Keynote 1</a><br>
+        (10:00-11:00)</td>
       </tr>
       <tr>
         <td class="time-col">10:30</td>
@@ -417,7 +422,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-1" target="_blank">Parallel Sessions 1</a><br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-1" target="_blank">Parallel Sessions 1</a><br>
           (11:30-12:30)</td>
         <td rowspan="3" ></td>
       </tr>
@@ -438,7 +443,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-5" target="_blank">Parallel Sessions 2</a><br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-5" target="_blank">Parallel Sessions 2</a><br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -447,7 +452,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-9" target="_blank">Parallel Sessions 3</a><br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-9" target="_blank">Parallel Sessions 3</a><br>
           (15:00-16:00)</td>
       </tr>
       <tr>
@@ -461,7 +466,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">16:30</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-13" target="_blank">Parallel Sessions 4</a><br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-13" target="_blank">Parallel Sessions 4</a><br>
           (16:30-17:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -503,7 +508,7 @@ th, td {
     <tbody>
       <tr>
         <td class="time-col">08:00</td>
-        <td rowspan="40" class="reg-col">R<br>
+        <td rowspan="41" class="reg-col">R<br>
         e<br>
         g<br>
         i<br>
@@ -519,7 +524,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">08:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-17" target="_blank">Parallel Sessions 5</a><br>(08:30-09:30)</td>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-17" target="_blank">Parallel Sessions 5</a><br>(08:30-09:30)</td>
         <td rowspan="2"></td>
       </tr>
       <tr>
@@ -533,8 +538,8 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote">Keynote 2<br>
-          (10:00-11:00)</td>
+        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link02">Keynote 2</a><br>
+        (10:00-11:00)</td>
         <td rowspan="6"></td>
       </tr>
       <tr>
@@ -546,7 +551,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-21" target="_blank">Parallel Sessions 6</a><br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-21" target="_blank">Parallel Sessions 6</a><br>
           (11:30-12:30)</td>
       </tr>
       <tr>
@@ -566,7 +571,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-25" target="_blank">Parallel Sessions 7</a><br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-25" target="_blank">Parallel Sessions 7</a><br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -575,7 +580,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-29" target="_blank">Parallel Sessions 8</a><br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-29" target="_blank">Parallel Sessions 8</a><br>
           (15:00-16:00)</td>
         <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
@@ -591,7 +596,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">16:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-33" target="_blank">Parallel Sessions 9</a><br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-33" target="_blank">Parallel Sessions 9</a><br>
           (16:30-17:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -603,11 +608,14 @@ th, td {
         <td colspan="3" rowspan="2" ></td>
       </tr>
       <tr>
-         <td rowspan="2" class="time-col">18:30</td>
+         <td rowspan="2" class="time-col">18:00</td>
       </tr>
       <tr>
-        <td colspan="3" rowspan="6" class="type-Welcome">Gala Dinner<br>
-          (18:30-21:00)</td>
+        <td colspan="3" rowspan="7" class="type-Welcome">Gala Dinner<br>
+          (18:00-21:00)</td>
+      </tr>
+      <tr>
+         <td class="time-col">18:30</td>
       </tr>
       <tr>
          <td class="time-col">19:00</td>
@@ -622,7 +630,7 @@ th, td {
          <td class="time-col">20:30</td>
       </tr>
       <tr>
-         <td class="time-col">21:00</td>
+        <td class="time-col">21:00</td>
       </tr>
     </tbody>
   </table>
@@ -658,7 +666,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">08:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-37" target="_blank">Parallel Sessions 10</a><br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-37" target="_blank">Parallel Sessions 10</a><br>
           (08:30-09:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -673,8 +681,8 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote">Keynote 3<br>
-          (10:00-11:00)</td>
+        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link03">Keynote 3</a><br>
+        (10:00-11:00)</td>
         <td rowspan="6"></td>
       </tr>
       <tr>
@@ -686,7 +694,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-41" target="_blank">Parallel Sessions 11</a><br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-41" target="_blank">Parallel Sessions 11</a><br>
           (11:30-12:30)</td>
       </tr>
       <tr>
@@ -706,7 +714,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-45" target="_blank">Parallel Sessions 12</a><br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-45" target="_blank">Parallel Sessions 12</a><br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -715,7 +723,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/index_new/#session-49" target="_blank">Parallel Sessions 13</a><br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-49" target="_blank">Parallel Sessions 13</a><br>
           (15:00-16:00)</td>
         <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
