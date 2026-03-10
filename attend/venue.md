@@ -5,32 +5,10 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <div>
-   <p class="big_title">Travel to Korea</p>
-   <h1>Currency & Money Exchange </h1>
-   <p>The official currency of Korea is the South Korean Won (KRW, ₩). Currency exchange is available at airports, banks, and authorized money exchangers. Major credit cards are widely accepted, but it’s recommended to carry some cash for small shops or local markets. ATMs that accept foreign cards are also available in cities and convenience stores.</p>
-   
-   
-    <h1>Climate</h1>
-  <p>In March, Korea begins to transition from winter to spring. Average temperatures range from around 1.4°C to 12.6°C, with milder weather in the southern regions. While the air is generally dry, occasional rain or yellow dust can occur. Early blooming flowers such as plum blossoms start to appear, signaling the arrival of spring.  <br>
-
-Weather information: <a href="https://www.weather.go.kr/neng/index.do" target="_blank">Home - Korea Meteorological Administration</a></p>
-     
-     
-   
-    <h1>Tip & Tax</h1>
-   <p>Tipping is not customary in Korea, and service charges are typically included in the bill at hotels and restaurants. Most establishments do not expect tips, although high-end hotels may accept them. A 10% VAT (Value Added Tax) is usually included in the displayed price. Some stores offer tax refunds for foreign tourists on eligible purchases over a certain amount.</p>
-   
-   
-      <h1>Electricity</h1>
-      <p>In Korea, 220-volt outlets are the most common. Some hotels provide 110-volt outlets for shavers. Please check the power supply before using it. </p>
-   
-   
-   
-   <h1>Access</h1>
-   
+  <h1>Access</h1>
   <p style="margin-bottom: 20px;"> Daegu is located in southeastern Korea, ideally positioned at the heart of Northeast Asia. This strategic location allows for excellent transportation connections both within Korea and internationally.<br/>
     Most international participants of IEEE VR 2026 are expected to arrive via <strong>Incheon International Airport</strong>, one of the world’s largest and busiest airports. Incheon Airport offers regular service to 188 cities across 58 countries through 87 major international airlines. From Incheon, Korea’s high-speed <strong>KTX</strong> (Korea Train Express) provides a convenient connection to Daegu, with a travel time of approximately <strong>3 hours and 30 minutes.</strong><br/>
-   <span style="text-decoration : underline;"> <strong><a href="https://www.airport.co.kr/daegueng/index.do" target="_blank">Daegu International Airport</a></strong> offers direct flights to <strong>25 cities in 8 countries</strong>, including Beijing, Hong Kong, Bangkok, Taipei, Tokyo, and Osaka. Most importantly, it is located just <strong>3 km from EXCO</strong>, the proposed venue for IEEE VR 2026.</span><br/>
+    <span style="text-decoration : underline;"> <strong><a href="https://www.airport.co.kr/daegueng/index.do" target="_blank">Daegu International Airport</a></strong> offers direct flights to <strong>25 cities in 8 countries</strong>, including Beijing, Hong Kong, Bangkok, Taipei, Tokyo, and Osaka. Most importantly, it is located just <strong>3 km from EXCO</strong>, the proposed venue for IEEE VR 2026.</span><br/>
     Another nearby option is <strong>Gimhae International Airport</strong>, located about <strong>50 minutes from Daegu</strong> by airport limousine bus. Gimhae Airport serves 40 cities in 12 countries, including destinations in China, Japan, and Southeast Asia. </p>
   <h2 style="margin-top:30px">From Other Korean Airports to Daegu</h2>
   <!-- inner_wrap -->
@@ -190,9 +168,9 @@ Weather information: <a href="https://www.weather.go.kr/neng/index.do" target=
     </thead>
     <tbody>
       <tr>
-        <th rowspan="2">Daegu Int’l Airport
-          <br>
-          (4km from EXCO)<br/><a href="https://maps.app.goo.gl/b9kkBjz9izMrpGWF6" target="_blank" class="arrow2 black">Google Map</a></th>
+        <th rowspan="2">Daegu Int’l Airport <br>
+          (4km from EXCO)<br/>
+          <a href="https://maps.app.goo.gl/b9kkBjz9izMrpGWF6" target="_blank" class="arrow2 black">Google Map</a></th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 719 → 503, 719 → 937, Donggu 2 → 503, 401 → 323-1</li>
@@ -207,7 +185,8 @@ Weather information: <a href="https://www.weather.go.kr/neng/index.do" target=
       </tr>
       <tr>
         <th rowspan="2">Dongdaegu Station<br>
-        (5km from EXCO)<br/><a href="https://maps.app.goo.gl/hsizLQgVWhuRZnxG7" target="_blank" class="arrow2 black">Google Map</a> </th>
+          (5km from EXCO)<br/>
+          <a href="https://maps.app.goo.gl/hsizLQgVWhuRZnxG7" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 413, Loop 2-1, 937</li>
@@ -222,7 +201,8 @@ Weather information: <a href="https://www.weather.go.kr/neng/index.do" target=
       </tr>
       <tr>
         <th rowspan="2"> Daegu Station<br>
-        (5.5km from EXCO)<br/><a href="https://maps.app.goo.gl/udHde9ntJjanYLEf8" target="_blank" class="arrow2 black">Google Map</a> </th>
+          (5.5km from EXCO)<br/>
+          <a href="https://maps.app.goo.gl/udHde9ntJjanYLEf8" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 653, 304</li>
@@ -237,7 +217,8 @@ Weather information: <a href="https://www.weather.go.kr/neng/index.do" target=
       </tr>
       <tr>
         <th rowspan="2">Dongdaegu Bus Transfer Center<br>
-        (6km from EXCO)<br/><a href="https://maps.app.goo.gl/ZfCpcXEJ8VpEzbB47" target="_blank" class="arrow2 black">Google Map</a> </th>
+          (6km from EXCO)<br/>
+          <a href="https://maps.app.goo.gl/ZfCpcXEJ8VpEzbB47" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 413, Loop 2-1, 937</li>
@@ -252,7 +233,8 @@ Weather information: <a href="https://www.weather.go.kr/neng/index.do" target=
       </tr>
       <tr>
         <th rowspan="2"> Banwoldang Station<br>
-        (8.3km from EXCO)<br/><a href="https://maps.app.goo.gl/UKxsMcxZjr2r6rZt8" target="_blank" class="arrow2 black">Google Map</a> </th>
+          (8.3km from EXCO)<br/>
+          <a href="https://maps.app.goo.gl/UKxsMcxZjr2r6rZt8" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> Express 2 → 653, Express 2 → Loop 2-1, 730 → 653, 706 → 653</li>
@@ -267,4 +249,14 @@ Weather information: <a href="https://www.weather.go.kr/neng/index.do" target=
       </tr>
     </tbody>
   </table>
+  <p class="big_title">Travel to Korea</p>
+  <h1>Currency & Money Exchange </h1>
+  <p>The official currency of Korea is the South Korean Won (KRW, ₩). Currency exchange is available at airports, banks, and authorized money exchangers. Major credit cards are widely accepted, but it’s recommended to carry some cash for small shops or local markets. ATMs that accept foreign cards are also available in cities and convenience stores.</p>
+  <h1>Climate</h1>
+  <p>In March, Korea begins to transition from winter to spring. Average temperatures range from around 1.4°C to 12.6°C, with milder weather in the southern regions. While the air is generally dry, occasional rain or yellow dust can occur. Early blooming flowers such as plum blossoms start to appear, signaling the arrival of spring. <br>
+    Weather information: <a href="https://www.weather.go.kr/neng/index.do" target="_blank">Home - Korea Meteorological Administration</a></p>
+  <h1>Tip & Tax</h1>
+  <p>Tipping is not customary in Korea, and service charges are typically included in the bill at hotels and restaurants. Most establishments do not expect tips, although high-end hotels may accept them. A 10% VAT (Value Added Tax) is usually included in the displayed price. Some stores offer tax refunds for foreign tourists on eligible purchases over a certain amount.</p>
+  <h1>Electricity</h1>
+  <p>In Korea, 220-volt outlets are the most common. Some hotels provide 110-volt outlets for shavers. Please check the power supply before using it. </p>
 </div>
