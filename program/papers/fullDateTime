@@ -48,7 +48,7 @@ th {
 td {
     font-size: 0.8rem;
     border-bottom: 1px solid #eee !important;
-    padding: 10px 25px 5px;
+    padding: 15px 25px;
     text-align: center;
     word-wrap: break-word;
     vertical-align: middle;
@@ -564,17 +564,17 @@ document.addEventListener("DOMContentLoaded", function() {
                     tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">ID : ${sess.id} ${sess.name} </a></td>`;
                     tablesHTML += `</tr>`;
 
-                    const fullDateTime = `${dayInfo.day} ${slot.time}`;
+                   const fullDateTime = `${dayInfo.day}, ${slot.time}`;
 
                     detailsHTML += `
                         <div id="session-${sess.id}" class="session-container">
                             <div class="session-title-wrapper">
-                                <span class="session-id-tag">Session ID ${sess.id} : </span>
+                                <span class="session-id-tag">Session ID${sess.id}: </span>
                                 <span class="session-name-title">${sess.name}</span>
                             </div>
-                            <div class="session-chair-text">- Date & Time: ${fullDateTime}</div>
-                            <div class="session-chair-text">- Room: TBA</div>
-                            <div class="session-chair-text last">- Session Chair: ${sess.chair || "TBA"}</div>
+                            <div class="session-chair-text">·  Date & Time: ${fullDateTime}</div>
+                            <div class="session-chair-text">· Room: TBA</div>
+                            <div class="session-chair-text last">· Session Chair: ${sess.chair || "TBA"}</div>
                             <hr class="div-light">
                     `;
 
@@ -586,10 +586,10 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <span class="paper-id-text">· Paper ID: ${paper.id}<br></span>
                                 <span class="paper-title-text">${paper.title}</span><br>
                                 
-                                <div>
-                                    <span class="toggle-btn" onclick="this.nextElementSibling.classList.toggle('show')">· Author List ▼</span>
-                                    <div class="toggle-content">${paper.authors}</div>
-                                </div>
+                              <div>
+    <span style="font-weight: bold; color: #262188; display: inline-block; margin-top: 5px;">· Author List</span>
+    <div style="margin-top: 5px; padding-left: 10px; border-left: 2px solid #ddd; color: #444; line-height: 1.5;">${paper.authors}</div>
+</div>
                                 
                                 <div>
                                     <span class="toggle-btn" onclick="this.nextElementSibling.classList.toggle('show')">· Abstract ▼</span>
