@@ -63,8 +63,7 @@ td {
 }
 
 .type-Parallel {
-    background-color: #f2fbff;
-    color: #2c7fa8;
+  
     transition: background 0.2s;
     text-align: left;
 }
