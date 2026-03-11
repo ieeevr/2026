@@ -156,7 +156,7 @@ td {
 .toggle-content {
     display: none;
     margin-top: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
     color: #444;
     text-indent: 0;
     line-height: 1.5;
