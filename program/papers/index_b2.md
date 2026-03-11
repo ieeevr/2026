@@ -160,6 +160,7 @@ td {
     color: #444;
     text-indent: 0;
     line-height: 1.5;
+    font-s0ze: 0.7rem
 }
 
 .toggle-content.show {
