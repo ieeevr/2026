@@ -586,7 +586,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <span class="paper-title-text">${paper.title}</span><br>
                                 
                               <div>
-    <span style="font-weight: bold; color: #262188; margin-top: 5px;">· Author List</span>
+    <span style="font-weight: bold; color: #262188; margin-top: 5px; font-size:0.8rem">· Author List</span>
     <div style="margin-top: 5px; padding-left: 10px; color: #444; line-height: 1.5;">${paper.authors}</div>
 </div>
                                 
