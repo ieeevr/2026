@@ -69,7 +69,7 @@ td {
 }
 
 .type-Parallel:hover {
-    background-color: #9dcde4;
+    background-color: #f3f3f3;
 }
 
 .session-link {
