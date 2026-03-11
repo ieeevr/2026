@@ -568,7 +568,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     detailsHTML += `
                         <div id="session-${sess.id}" class="session-container">
                             <div class="session-title-wrapper">
-                                <span class="session-id-tag">Session ID${sess.id}: </span>
+                                <span class="session-id-tag">Session ${sess.id}: </span>
                                 <span class="session-name-title">${sess.name}</span>
                             </div>
                             <div class="session-chair-text">·  Date & Time: ${fullDateTime}</div>
