@@ -158,7 +158,6 @@ td {
     display: none;
     margin-top: 5px;
     padding-left: 15px;
-    border-left: 2px solid #ddd;
     color: #444;
     text-indent: 0;
     line-height: 1.5;
