@@ -127,7 +127,6 @@ td {
 
 .paper-item {
     padding-left: 14px;  
-    text-indent: -14px;  
     margin-bottom: 4px;
 }
 
