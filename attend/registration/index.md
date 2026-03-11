@@ -73,7 +73,7 @@ title_separator: "|"
 <div class="body_title_wrap clear"> </div>
 <div class="body_content regi regi">
 <p class="tar"> <a href="mailto:ieeevr2026@gmail.com" class="link"> <b> <i> <u> <i class="fa fa-envelope-square"></i> IEEEVR2026@GMAIL.COM </u> </i> </b> </a> </p>
-<p style="width:100%; background-color: #f3f3f3; text-aign: center;  padding: 1rem; font-size:0.8rem; font-weight:bold; border-radius: 20px">Online pre-registration will close on <span style="color:#ㄹㄹ6600">March 13, 2026 (AoE)</span>. After this date, registration will only be available on-site.</p>
+<p style="width:100%; background-color: #f3f3f3; text-aign: center;  padding: 1rem; font-size:0.8rem; font-weight:bold; border-radius: 20px">Online pre-registration will close on <span style="color:#ff6600">March 13, 2026 (AoE)</span>. After this date, registration will only be available on-site.</p>
 	
 	<h3 class="regi_tit">IEEE VR 2026: The 33<sup>rd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</h3>
 <p>March 21-25, 2026 | Daegu, Republic of Korea</p>
