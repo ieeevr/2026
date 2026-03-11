@@ -560,7 +560,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         tablesHTML += `<td rowspan="${sessions.length}">${slot.time}</td>`;
                     }
                     
-                    tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">SessionID. ${sess.id} ${sess.name} </a></td>`;
+                    tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">SessionID: ${sess.id} ${sess.name} </a></td>`;
                     tablesHTML += `</tr>`;
 
                    const fullDateTime = `${dayInfo.day}, ${slot.time}`;
