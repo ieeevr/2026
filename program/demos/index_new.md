@@ -185,6 +185,12 @@ margin-top: 1rem;
 
 <div class="table-responsive table-scroll">
   <table>
+	  <colgroup>
+		  <col style="width:30%">		 
+		  <col style="width:25%">
+		  <col style="width:15%"> 
+		  <col style="width:30%">
+	  </colgroup>
     <thead>
       <tr>
         <th></th>
