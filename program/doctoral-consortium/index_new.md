@@ -43,14 +43,15 @@ thead {
 
 th {
     font-size: 0.8rem;
-	line-height:1.2
+	line-height:1.2;
+    text-align: left;
 }
 
 td {
     font-size: 0.6rem;
     border-bottom: 1px solid #eee !important;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     word-wrap: break-word;
     vertical-align: middle;
 	line-height:1.2
@@ -197,15 +198,11 @@ td {
 }
 
 .mentor-header {
+    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 0 !important; /* Mentor 아래 여백 제거 */
     font-size: 0.8rem;
-}
-
-
-	.mentor-header strong {
-	color: #262188;
-    font-size: 0.8rem;
+	color: #262188
 }
 
 .mentor-name {
@@ -220,16 +217,14 @@ td {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #262188;
     margin-bottom: 5px;
     user-select: none;
     transition: color 0.2s;
 }
 
-	.abstract-toggle strong {
-    font-size: 0.8rem;
-    color: #262188;
-		
-}
 .abstract-toggle:hover {
     color: #262188;
 }
@@ -247,12 +242,6 @@ td {
 .abstract-content {
     display: none;
     margin-top: 10px;
-    border-left: 4px solid #262188;
-    border-radius: 4px;
-}
-
-.page__content p, .page__content li, .page__content dl {
-    font-size: 0.7rem !important;
 }
 </style>
 
