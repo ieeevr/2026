@@ -200,7 +200,6 @@ td {
 }
 
 .mentor-header {
-    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 0 !important; /* Mentor 아래 여백 제거 */
     font-size: 0.8rem;
@@ -225,7 +224,6 @@ td {
     display: inline-flex;
     align-items: center;
     font-size: 0.8em;
-    font-weight: bold;
     color: #262188;
     margin-bottom: 5px;
     user-select: none;
