@@ -197,7 +197,7 @@ margin-top: 1rem;
       <tr>
         <td rowspan="3" class="time-col">Research Demo Booths open</td>
         <td class="time-col">Monday, March 23</td>
-        <td>09:30-10:00<br/>13:00-14:00<br/>6:00-16:30</td>
+        <td>09:30-10:00<br/>13:00-14:00<br/>16:00-16:30</td>
         <td>Grand Ballroom, 3rd floor</td>
       </tr>
       <tr>
