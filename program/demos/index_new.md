@@ -187,32 +187,33 @@ margin-top: 1rem;
   <table>
     <thead>
       <tr>
+        <th></th>
         <th>Date</th>
         <th>Time</th>
-        <th>Location</th>
+        <th>Venue</th>
       </tr>
     </thead>
     <tbody>
       <tr>
+        <td rowspan="3" class="time-col">Research Demo Booths open</td>
         <td class="time-col">Monday, March 23</td>
-        <td>09:30-10:00, 13:00-14:00, 16:00-16:30</td>
+        <td>09:30-10:00<br/>13:00-14:00<br/>6:00-16:30</td>
         <td>Grand Ballroom, 3rd floor</td>
       </tr>
       <tr>
         <td class="time-col">Tuesday, March 24</td>
-        <td>09:30-10:00, 13:00-14:00, 16:00-16:30</td>
+        <td>09:30-10:00<br/>13:00-14:00<br/>16:00-16:30</td>
         <td>Grand Ballroom, 3rd floor</td>
       </tr>
       <tr>
         <td class="time-col">Wednesday, March 25</td>
-        <td>09:30-10:00, 13:00-14:00, 16:00-16:30</td>
+        <td>09:30-10:00<br/>13:00-14:00<br/>16:00-16:30</td>
         <td>Grand Ballroom, 3rd floor</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<hr class="div-heavy" />
 
 <div class="paper-section">
   <h3 class="session-id-tag">Title: Dart Throwing in Virtual Reality with Aim Assistance</h3>
