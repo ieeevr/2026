@@ -254,10 +254,15 @@ td {
     margin-top: 10px;
 }
 
-.page__content p, .page__content li, .page__content dl {
+.page__content p  {
 	font-size:0.7rem
 	
 	}
+.page__content li {
+	font-size:0.9rem
+	
+	}
+	
 </style>
 <p class="big_title">Doctoral Consortium</p>
 <h1>Key Information</h1>
