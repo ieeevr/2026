@@ -42,16 +42,18 @@ thead {
 }   
 
 th {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
+	line-height:1.2
 }
 
 td {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border-bottom: 1px solid #eee !important;
-    padding: 15px 25px;
+    padding: 5px;
     text-align: center;
     word-wrap: break-word;
     vertical-align: middle;
+	line-height:1.2
 }   
 
 .time-col {
@@ -246,7 +248,7 @@ td {
 </style>
 
 <p class="big_title">Doctoral Consortium</p>
-<h2>Key Information</h2>
+<h1>Key Information</h1>
 <ul>
   <li>The Doctoral Consortium will be held on 21 March 2026 (Saturday) in “ 325D ” room.</li>
   <li>All times below are given in local time of Korea (UTC+9).</li>
@@ -260,14 +262,13 @@ td {
   <li>In the following schedule, the student is mentioned first followed by the associated mentors.</li>
 </ul>
 
-<h2>Schedules - 21 March 2026 (Saturday)</h2>
-<p>The following table:</p>
+<h1>Schedules - 21 March 2026 (Saturday)</h1>
 <div class="table-responsive table-scroll">
   <table>
     <thead>
       <tr>
-        <th>Session</th>
-        <th>(UTC+9)</th>
+        <th>Session<br>
+        (UTC+9)</th>
         <th>ID</th>
         <th>Title</th>
         <th>Mentor's Name</th>
@@ -278,8 +279,8 @@ td {
     </thead>
     <tbody>
       <tr>
-        <td rowspan="5" class="time-col">Session 1</td>
-        <td rowspan="5" class="time-col">8:45am - 10:00am</td>
+        <td rowspan="5">Session 1<br>
+        8:45am - 10:00am</td>
         <td>1062</td>
         <td class="type-Parallel">[DC] VR Ecology: Relational Haptic Co-Creation for Kinaesthetic Creativity in XR</td>
         <td>Jen-Shuo Liu</td>
@@ -320,8 +321,8 @@ td {
         <td>Human-Computer Interaction Institute, Carnegie Mellon University, Pittsburgh, Pennsylvania, United States & Instituto Superior Técnico, University of Lisbon, Lisbon, Portugal</td>
       </tr>
       <tr>
-        <td rowspan="5" class="time-col">Session 2</td>
-        <td rowspan="5" class="time-col">10:30am - 11:45am</td>
+        <td rowspan="5">Session 2<br>
+        10:30am - 11:45am</td>
         <td>1249</td>
         <td class="type-Parallel">[DC] Beyond Visual Dominance: Haptics as Social Cues for Enhanced Multi-User Experiences in VR</td>
         <td>Yan Hu</td>
@@ -362,8 +363,8 @@ td {
         <td>Gothenburg University, Institute of Neuroscience and Physiology, Gothenburg, Sweden</td>
       </tr>
       <tr>
-        <td rowspan="5" class="time-col">Session 3</td>
-        <td rowspan="5" class="time-col">1:15pm - 2:30pm</td>
+        <td rowspan="5">Session 3<br>
+        1:15pm - 2:30pm</td>
         <td>1267</td>
         <td class="type-Parallel">[DC] Towards Universal Access: Building a Cross-Device Mixed Reality Ecosystem</td>
         <td>Richard (Rick) Skarbez</td>
@@ -404,8 +405,8 @@ td {
         <td>Department of Epileptology, University Hospital Bonn, Bonn, Germany</td>
       </tr>
       <tr>
-        <td rowspan="4" class="time-col">Session 4</td>
-        <td rowspan="4" class="time-col">3:00pm - 4:15pm</td>
+        <td rowspan="4">Session 4<br>
+        :00pm - 4:15pm</td>
         <td>1279</td>
         <td class="type-Parallel">[DC] Mixed Reality for Psychological Resilience: A Conceptual Framework for Rescue Training in combination with ACT</td>
         <td>Ali Haskins</td>
