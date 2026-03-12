@@ -259,7 +259,7 @@ margin-top: 1rem;
 }
 
 .page__content p  {
-	font-size:0.7rem !important
+	font-size:0.7rem
 	
 	}
 
@@ -271,7 +271,7 @@ margin-top: 1rem;
     text-align: left !important;
 }
 	.page__content li {
-	font-size:0.7rem !important
+	font-size:0.7rem
 	
 	}
 
