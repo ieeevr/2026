@@ -271,7 +271,7 @@ margin-top: 1rem;
 <p class="big_title">Doctoral Consortium</p>
 <h1>Key Information</h1>
 <ul>
-  <li>The Doctoral Consortium will be held on 21 March 2026 (Saturday) in “ 325D ” room.</li>
+  <li>The Doctoral Consortium will be held on Saturday, March 21 in “ 325D ” room.</li>
   <li>All times below are given in local time of Korea (UTC+9).</li>
   <li>Here are the key information for the presenters and mentors:</li>
   <li>Each presentation includes a 10-minute talk + 5-minute Q&A.</li>
@@ -282,13 +282,13 @@ margin-top: 1rem;
   <li>The presentation and mentoring at the DC mark the start of collaborations and we strongly recommend that the presenters and mentors hold periodical meetings to deepen the collaborations.</li>
   <li>In the following schedule, the student is mentioned first followed by the associated mentors.</li>
 </ul>
-<h1>Schedules - 21 March 2026 (Saturday)</h1>
+<h1>Schedules - Saturday, March 21</h1>
 <div class="table-responsive table-scroll">
   <table>
     <thead>
       <tr>
         <th>Session<br>
-          (UTC+9)</th>
+        (UTC+9)</th>
         <th>ID</th>
         <th>Title</th>
         <th>Mentor's Name</th>
@@ -300,7 +300,7 @@ margin-top: 1rem;
     <tbody>
       <tr>
         <td rowspan="5"><strong class="b_c_tt">Session 1</strong><br>
-          8:45am - 10:00am</td>
+        8:45am - 10:00am</td>
         <td>1062</td>
         <td class="type-Parallel">[DC] VR Ecology: Relational Haptic Co-Creation for Kinaesthetic Creativity in XR</td>
         <td>Jen-Shuo Liu</td>
