@@ -136,7 +136,7 @@ td {
     display: none;
 }
 
-.paper-title-text {
+.session-id-tag-text {
     font-weight: bold;
     color: #000;
 }
@@ -192,15 +192,16 @@ td {
 }
 
 .author-list strong {
-    font-size: 1.1em;
+    font-size: 0.8rem;
+	color: #262188
 }
 
 .mentor-header {
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 0 !important; /* Mentor 아래 여백 제거 */
-    color: #333;
-    font-size: 1.1em;
+    font-size: 0.8rem;
+	color: #262188
 }
 
 .mentor-name {
@@ -215,9 +216,9 @@ td {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-weight: bold;
-    color: #333;
+    color: #262188;
     margin-bottom: 5px;
     user-select: none;
     transition: color 0.2s;
@@ -228,7 +229,7 @@ td {
 }
 
 .abstract-toggle .arrow {
-    font-size: 0.75em;
+    font-size: 0.8em;
     margin-left: 8px;
     transition: transform 0.3s ease;
 }
@@ -445,7 +446,7 @@ td {
 <hr class="div-heavy" />
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1062: [DC]VR Ecology: Relational Haptic Co-Creation for Kinaesthetic Creativity</h3>
+  <h3 class="session-id-tag">DC1062: [DC]VR Ecology: Relational Haptic Co-Creation for Kinaesthetic Creativity</h3>
   <p class="author-list"><strong>Author</strong><br>S.C. Vollmer / Alice Lab for Computational World Making, York University , Toronto, Ontario, Canada</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Jen-Shuo Liu / Columbia University</p>
@@ -459,7 +460,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1224: [DC] Investigating Eye-Body Coupling and Gaze Adaptation in Virtual Reality</h3>
+  <h3 class="session-id-tag">DC1224: [DC] Investigating Eye-Body Coupling and Gaze Adaptation in Virtual Reality</h3>
   <p class="author-list"><strong>Author</strong><br>Taravat Anvari / Institute for Psychology, University of Muenster, Muenster, Germany</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Jean Botev / VR/AR Lab, University of Luxembourg</p>
@@ -473,7 +474,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1238: [DC]Toward Adaptive and Accessible XR Through User and Context Modeling</h3>
+  <h3 class="session-id-tag">DC1238: [DC]Toward Adaptive and Accessible XR Through User and Context Modeling</h3>
   <p class="author-list"><strong>Author</strong><br>Zhiqing Wu / Computational Media and Arts Thrust, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong, China</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Alejandro Martin Gomez / University of Arkansas</p>
@@ -487,7 +488,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1240: [DC]From Being There to Acting There: A Motor Learning Perspective on Reconceptualizing VR Interaction</h3>
+  <h3 class="session-id-tag">DC1240: [DC]From Being There to Acting There: A Motor Learning Perspective on Reconceptualizing VR Interaction</h3>
   <p class="author-list"><strong>Author</strong><br>Cleo Xiao / Department of Computer Science, University of Copenhagen, Copenhagen, Denmark</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Regis Kopper / Iowa State University</p>
@@ -501,7 +502,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1246: [DC] Improving XR Training and Collaboration Through Shared, Self, and Mediated Awareness</h3>
+  <h3 class="session-id-tag">DC1246: [DC] Improving XR Training and Collaboration Through Shared, Self, and Mediated Awareness</h3>
   <p class="author-list"><strong>Author</strong><br>Catarina Gonçalves Fidalgo / Human-Computer Interaction Institute, Carnegie Mellon University, Pittsburgh, Pennsylvania, United States</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Rashid Ali / Department of Engineering Science, University West, Sweden</p>
@@ -515,7 +516,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1249: [DC] Beyond Visual Dominance: Haptics as Social Cues for Enhanced Multi-User Experiences in VR</h3>
+  <h3 class="session-id-tag">DC1249: [DC] Beyond Visual Dominance: Haptics as Social Cues for Enhanced Multi-User Experiences in VR</h3>
   <p class="author-list"><strong>Author</strong><br>Hyuckjin Jang / Graduate School of Culture Technology, KAIST, Daejeon, Korea, Republic of</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Yan Hu / Blekinge Institute of Technology, Sweden</p>
@@ -529,7 +530,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1258: [DC] Adaptive Visual Complexity in VR Training: An Eye-Tracking Approach to Detecting and Regulating Embodied Cognitive Load</h3>
+  <h3 class="session-id-tag">DC1258: [DC] Adaptive Visual Complexity in VR Training: An Eye-Tracking Approach to Detecting and Regulating Embodied Cognitive Load</h3>
   <p class="author-list"><strong>Author</strong><br>Mahsa Nasri / Northeastern University, Boston, Massachusetts, United States</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Tim Dwyer / Monash University, Australia</p>
@@ -543,7 +544,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1260: [DC] Enhancing Accessibility and User Experience of Virtual Reality Locomotion for Older Adults</h3>
+  <h3 class="session-id-tag">DC1260: [DC] Enhancing Accessibility and User Experience of Virtual Reality Locomotion for Older Adults</h3>
   <p class="author-list"><strong>Author</strong><br>Kit-Ying Angela Chong / Systems Design Engineering/TAG lab, University of Waterloo, Waterloo, Ontario, Canada</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Daniel A. Muñoz / Hong Kong Baptist University</p>
@@ -557,7 +558,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1263: [DC] Immersive disorientation - Visualizing Dolly Zoom through Counter-Invariant Perception in Cinematic Virtual Reality</h3>
+  <h3 class="session-id-tag">DC1263: [DC] Immersive disorientation - Visualizing Dolly Zoom through Counter-Invariant Perception in Cinematic Virtual Reality</h3>
   <p class="author-list"><strong>Author</strong><br>Andrew Fong / School of Creative Media, City University of Hong Kong, Hong Kong</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Shohei Mori / University of Stuttgart</p>
@@ -571,7 +572,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1265: [DC] Virtual Reality for Mental Health: Toward Bioadaptive Narrative and Sensory Feedback Systems</h3>
+  <h3 class="session-id-tag">DC1265: [DC] Virtual Reality for Mental Health: Toward Bioadaptive Narrative and Sensory Feedback Systems</h3>
   <p class="author-list"><strong>Author</strong><br>Max Olofsson / Gothenburg University, Institute of Neuroscience and Physiology, Gothenburg, Sweden</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Majed Elwardy / Blekinge Institute of Technology</p>
@@ -585,7 +586,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1267: [DC] Towards Universal Access: Building a Cross-Device Mixed Reality Ecosystem</h3>
+  <h3 class="session-id-tag">DC1267: [DC] Towards Universal Access: Building a Cross-Device Mixed Reality Ecosystem</h3>
   <p class="author-list"><strong>Author</strong><br>Paulina Becerril Palma / Department of Information Science and Media Studies, University of Bergen, Bergen, Norway</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Richard (Rick) Skarbez / La Trobe University</p>
@@ -599,7 +600,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1268: [DC] Visual Perception Enhancement via Transient Visual Cue in Immersive Virtual Reality</h3>
+  <h3 class="session-id-tag">DC1268: [DC] Visual Perception Enhancement via Transient Visual Cue in Immersive Virtual Reality</h3>
   <p class="author-list"><strong>Author</strong><br>DongHoon Kim / Computer Science, Utah State University, Logan, Utah, United States</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Tim Weissker / RWTH Aachen University</p>
@@ -613,7 +614,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1274: [DC] Augmented Co-Embodiment for Motor Skill Learning with Held Tools in Virtual Reality</h3>
+  <h3 class="session-id-tag">DC1274: [DC] Augmented Co-Embodiment for Motor Skill Learning with Held Tools in Virtual Reality</h3>
   <p class="author-list"><strong>Author</strong><br>Jean Morell / CAOR, Mines Paris, Paris, France</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Steve Feiner / Columbia University</p>
@@ -627,7 +628,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1276: [DC] Virtual Reality and Beyond: Exploring the Design and User Experience of Augmented Social Touch in VR</h3>
+  <h3 class="session-id-tag">DC1276: [DC] Virtual Reality and Beyond: Exploring the Design and User Experience of Augmented Social Touch in VR</h3>
   <p class="author-list"><strong>Author</strong><br>Julius Tietenberg / Faculty of Computer Science / Department of Human-centered Computing and Cognitive Science (HCCS) / Entertainment Computing Group, University of Duisburg-Essen, Duisburg, Germany</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Sasha Alexdottir / Department of NCCA, Faculty of Media, Science and Technology, Bournemouth University, UK</p>
@@ -641,7 +642,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1278: [DC] Personality and Affective States in Virtual Reality: A Multi-Study Program on Awe, Acute Stress, and Trust</h3>
+  <h3 class="session-id-tag">DC1278: [DC] Personality and Affective States in Virtual Reality: A Multi-Study Program on Awe, Acute Stress, and Trust</h3>
   <p class="author-list"><strong>Author</strong><br>Melissa Steininger / Department of Epileptology, University Hospital Bonn, Bonn, Germany</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Manuela Chessa / University of Genoa, Italy</p>
@@ -655,7 +656,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1279: [DC] Mixed Reality for Psychological Resilience: A Conceptual Framework for Rescue Training in combination with ACT</h3>
+  <h3 class="session-id-tag">DC1279: [DC] Mixed Reality for Psychological Resilience: A Conceptual Framework for Rescue Training in combination with ACT</h3>
   <p class="author-list"><strong>Author</strong><br>Kevin Kastner / CeMOS – Research and Transfer Center, Technical University of Applied Sciences Mannheim, Mannheim, Germany</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Ali Haskins / University of Central Florida</p>
@@ -669,7 +670,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1287: [DC] Toward Self-Adaptive 3D User Interfaces</h3>
+  <h3 class="session-id-tag">DC1287: [DC] Toward Self-Adaptive 3D User Interfaces</h3>
   <p class="author-list"><strong>Author</strong><br>Erin Argo / Augusta University, Augusta, Georgia, United States</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Jinghui Hu / Lancaster University</p>
@@ -683,7 +684,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1291: [DC] Designing Agency-Preserving AI Mediation Supporting Self-Directed Learning in Augmented Reality</h3>
+  <h3 class="session-id-tag">DC1291: [DC] Designing Agency-Preserving AI Mediation Supporting Self-Directed Learning in Augmented Reality</h3>
   <p class="author-list"><strong>Author</strong><br>Sharmen Schwertfeger / School of Computer & Cyber Sciences, Augusta University, Augusta, Georgia, United States</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Ye Pan / Shanghai Jiao Tong University</p>
@@ -697,7 +698,7 @@ td {
 </div>
 
 <div class="paper-section">
-  <h3 class="paper-title">DC1298: [DC] Road-map to Efficient Attention Guided Augmented Reality User Interfaces: From Controlled Environments to the Wild</h3>
+  <h3 class="session-id-tag">DC1298: [DC] Road-map to Efficient Attention Guided Augmented Reality User Interfaces: From Controlled Environments to the Wild</h3>
   <p class="author-list"><strong>Author</strong><br>Tanim Ahmed / Computer Science/IRLab, Iowa State University, Ames, Iowa, United States</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Jeanine Stefanucci / University of Utah</p>
