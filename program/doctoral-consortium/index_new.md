@@ -473,7 +473,6 @@ Here are the key information for the presenters and mentors:</p>
     </tbody>
   </table>
 </div>
-<hr class="div-heavy" />
 <div class="paper-section">
   <h3 class="session-id-tag">DC1062: [DC]VR Ecology: Relational Haptic Co-Creation for Kinaesthetic Creativity</h3>
   <p class="author-list"><strong>Author</strong><br>
