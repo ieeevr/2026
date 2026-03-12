@@ -187,17 +187,17 @@ margin-top: 1rem;
     </thead>
     <tbody>
       <tr>
-        <td class="time-col">Monday 23th</td>
+        <td class="time-col">Monday, March 23</td>
         <td>09:30-10:00, 13:00-14:00, 16:00-16:30</td>
         <td>Grand Ballroom, 3rd floor</td>
       </tr>
       <tr>
-        <td class="time-col">Tuesday 24th</td>
+        <td class="time-col">Tuesday, March 24</td>
         <td>09:30-10:00, 13:00-14:00, 16:00-16:30</td>
         <td>Grand Ballroom, 3rd floor</td>
       </tr>
       <tr>
-        <td class="time-col">Wednesday 25th</td>
+        <td class="time-col">Wednesday, March 25</td>
         <td>09:30-10:00, 13:00-14:00, 16:00-16:30</td>
         <td>Grand Ballroom, 3rd floor</td>
       </tr>
