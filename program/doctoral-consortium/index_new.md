@@ -255,11 +255,11 @@ td {
 }
 
 .page__content p  {
-	font-size:0.7rem
+	font-size:0.7rem !important
 	
 	}
 .page__content li {
-	font-size:0.9rem
+	font-size:0.9rem !important
 	
 	}
 	
