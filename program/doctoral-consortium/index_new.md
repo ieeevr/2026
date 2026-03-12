@@ -50,7 +50,7 @@ th {
 td {
     font-size: 0.6rem;
     border-bottom: 1px solid #eee !important;
-    padding: 5px;
+    padding: 10px;
     text-align: left;
     word-wrap: break-word;
     vertical-align: middle;
