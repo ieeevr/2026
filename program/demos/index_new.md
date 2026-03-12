@@ -166,7 +166,13 @@ margin-top: 1rem;
     height: 100%;
     border: 0;
 }
-
+.big_title {
+    font-size: 1.8rem !important;
+    font-weight: bold;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: left !important;
+}
 .page__content p {
     font-size: 0.7rem;
 	line-height:1.2
