@@ -281,7 +281,7 @@ margin-top: 1rem;
 <h1>Key Information</h1>
 
 <p>The Doctoral Consortium will be held on Saturday, March 21 in “325D” room. All times below are given in local time of Korea (UTC+9).
-<br/>	
+<br/><br/>	
 Here are the key information for the presenters and mentors:</p>
 <ul>
  
