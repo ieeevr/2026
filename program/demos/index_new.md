@@ -44,7 +44,7 @@ thead {
 th {
     font-size: 0.8rem;
     line-height: 1.2;
-    text-align: left;
+    text-align: center;
     padding: 15px 25px;
 }
 
@@ -52,7 +52,7 @@ td {
     font-size: 0.8rem;
     border-bottom: 1px solid #eee !important;
     padding: 15px 25px;
-    text-align: left;
+    text-align: center;
     word-wrap: break-word;
     vertical-align: middle;
     line-height: 1.4;
@@ -186,9 +186,9 @@ margin-top: 1rem;
 <div class="table-responsive table-scroll">
   <table>
 	  <colgroup>
-		  <col style="width:30%">		 
-		  <col style="width:25%">
-		  <col style="width:15%"> 
+		  <col style="width:20%">		 
+		  <col style="width:30%">
+		  <col style="width:20%"> 
 		  <col style="width:30%">
 	  </colgroup>
     <thead>
