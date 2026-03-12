@@ -104,6 +104,7 @@ margin-top: 1rem;
 .meta-info strong {
     font-weight: bold;	
     color: #262188;
+	font-size:0.8rem
 }
 
 .abstract-wrapper {
