@@ -9,6 +9,8 @@ html {
     scroll-behavior: smooth;
 }
 
+	
+
 h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
@@ -101,9 +103,11 @@ td {
 }
 
 .session-id-tag {
-    font-size: 1.4rem;
+margin-top: 1rem;
+    font-size: 1.3em;
     color: #262188;
-    font-weight: bold;
+    border-bottom: 1px solid #262188;
+
 }
 
 .session-name-title {
