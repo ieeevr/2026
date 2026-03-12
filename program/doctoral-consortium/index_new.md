@@ -255,6 +255,11 @@ td {
     display: none;
     margin-top: 10px;
 }
+
+.page__content p, .page__content li, .page__content dl {
+	font-size:0.7rem
+	
+	}
 </style>
 <p class="big_title">Doctoral Consortium</p>
 <h1>Key Information</h1>
