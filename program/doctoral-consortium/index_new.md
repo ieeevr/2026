@@ -262,10 +262,19 @@ margin-top: 1rem;
 	font-size:0.7rem !important
 	
 	}
-.page__content li {
+
+	.big_title {
+    font-size: 1.8rem !important;
+    font-weight: bold;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: left !important;
+}
+	.page__content li {
 	font-size:0.9rem !important
 	
 	}
+
 	
 </style>
 <p class="big_title">Doctoral Consortium</p>
