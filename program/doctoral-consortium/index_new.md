@@ -123,7 +123,7 @@ td {
 
 .b_c_tt {
     font-size: 1rem;
-    color: #262188;}
+}
 .paper-block {
     padding: 12px 0;
     font-size: 0.8rem;
