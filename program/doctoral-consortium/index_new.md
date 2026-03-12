@@ -50,7 +50,7 @@ th {
 td {
     font-size: 0.6rem;
     border-bottom: 1px solid #eee !important;
-    padding: 10px;
+    padding: 5px;
     text-align: left;
     word-wrap: break-word;
     vertical-align: middle;
@@ -123,7 +123,7 @@ td {
 
 .b_c_tt {
     font-size: 1rem;
-}
+    color: #262188;}
 .paper-block {
     padding: 12px 0;
     font-size: 0.8rem;
@@ -207,6 +207,11 @@ td {
 	color: #262188
 }
 
+.mentor-header strong {
+    font-size: 0.8rem;
+	color: #262188
+}
+
 .mentor-name {
     margin-top: 2px !important; /* Mentor와 이름 사이 간격 최소화 */
 }
@@ -225,6 +230,11 @@ td {
     margin-bottom: 5px;
     user-select: none;
     transition: color 0.2s;
+}
+
+.abstract-toggle strong {
+    font-size: 0.8rem;
+	color: #262188
 }
 
 .abstract-toggle:hover {
@@ -439,6 +449,7 @@ td {
     </tbody>
   </table>
 </div>
+<hr class="div-heavy" />
 <div class="paper-section">
   <h3 class="session-id-tag">DC1062: [DC]VR Ecology: Relational Haptic Co-Creation for Kinaesthetic Creativity</h3>
   <p class="author-list"><strong>Author</strong><br>
