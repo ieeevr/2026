@@ -276,7 +276,7 @@ margin-top: 1rem;
 	}
 
 	.p_t_b_01 {
-	font-size:0.8rem}
+	font-size:0.8rem! important}
 </style>
 <p class="big_title">Doctoral Consortium</p>
 <h1>Key Information</h1>
@@ -284,7 +284,7 @@ margin-top: 1rem;
 <p class="p_t_b_01">The Doctoral Consortium will be held on Saturday, March 21 in “325D” room. All times below are given in local time of Korea (UTC+9).
 <br/><br/>	
 Here are the key information for the presenters and mentors:</p>
-<ul class="p_t_b_01">
+<ul >
  
   <li>Each presentation includes a 10-minute talk + 5-minute Q&A.</li>
   <li>All presenters and mentors need to be present at the scheduled session and are encouraged to attend as much of the doctoral consortium as possible.</li>
