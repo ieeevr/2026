@@ -407,7 +407,7 @@ td {
       </tr>
       <tr>
         <td rowspan="4">Session 4<br>
-        :00pm - 4:15pm</td>
+        3:00pm - 4:15pm</td>
         <td>1279</td>
         <td class="type-Parallel">[DC] Mixed Reality for Psychological Resilience: A Conceptual Framework for Rescue Training in combination with ACT</td>
         <td>Ali Haskins</td>
