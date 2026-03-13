@@ -424,20 +424,20 @@ scheduleMeta.forEach(dayInfo => {
                         <span class="category-title">${sess.name}</span>
                     </div>`;
 
-                sess.papers.forEach(paper => {
-                    const abstractText = paper.abstract || "Abstract details will be updated here.";
-                    const videoLink = paper.video || "#";
-                    
-                    detailsHTML += `<div class="paper-item">
-                        <span class="paper-title">· ${paper.id}: ${paper.title}</span>
-                        <span class="author-text">· ${paper.authors}</span>
-                        <details>
-                            <summary>· Abstract</summary>
-                            <div class="abstract-content">${abstractText}</div>
-                        </details>
-                        <a href="${videoLink}" target="_blank" class="video-link">· Video</a>
-                    </div>`;
-                });
+            sess.papers.forEach(paper => {
+                    const abstractText = paper.abstract || "Abstract details will be updated here.";
+                    const videoLink = paper.video || "#";
+                    
+                    detailsHTML += `<div class="paper-item">
+                        <span class="paper-title">${paper.title}</span>
+                        <span class="author-text">${paper.authors}</span>
+                        <details>
+                            <summary>Abstract</summary>
+                            <div class="abstract-content">${abstractText}</div>
+                        </details>
+                        <a href="${videoLink}" target="_blank" class="video-link">Video</a>
+                    </div>`;
+                });
                 detailsHTML += `</div>`;
             });
         });
