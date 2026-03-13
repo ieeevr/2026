@@ -12,7 +12,7 @@ title_separator: "|"
 
    <div class="video-container">
             
-                <iframe src="/2025/assets/videos/3duui/2368.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
+                <iframe src="/2026/assets/videos/3duui/2368.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
             </div>
         
 
@@ -21,7 +21,7 @@ title_separator: "|"
 
    <div class="video-container">
             
-                <iframe src="/2025/assets/videos/3duui/2824.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
+                <iframe src="/2026/assets/videos/3duui/2824.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
             </div>
         
 
@@ -30,7 +30,7 @@ title_separator: "|"
 
    <div class="video-container">
             
-                <iframe src="/2025/assets/videos/3duui/7181.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
+                <iframe src="/2026/assets/videos/3duui/7181.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
             </div>
         
 
@@ -39,6 +39,6 @@ title_separator: "|"
 
    <div class="video-container">
             
-                <iframe src="/2025/assets/videos/3duui/9403.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
+                <iframe src="/2026/assets/videos/3duui/9403.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
             </div>
         
