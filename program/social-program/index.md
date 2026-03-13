@@ -67,4 +67,13 @@ These thoughtfully curated tours offer a perfect balance of history, art, and la
 <p style="text-align: center"><img src="/2026/assets/images/sp_img_02.jpg" style="width:60%; border-radius: 10px"></p>
 
 
+
+<h1>Daegu Medical Wellness Tour</h1>
+<p>Discover Daegu’s renowned medical wellness services through a specially curated half-day tour for conference participants. This program offers the opportunity to experience advanced medical care in dermatology, dentistry, ophthalmology, and Korean herbal clinics. Participants can enjoy personalized treatments such as skin care, scalp therapy, dry eye care, and professional dental cleaning or whitening. The tour includes round-trip transportation from EXCO, interpretation services, and a medical experience program valued at approximately USD 68. It is offered free of charge for registered participants, providing a relaxing and refreshing wellness experience during your stay in Daegu.</p>
+
+<p style="width:100%; text-align: center; margin: 2rem 0">
+<a href="https://forms.gle/4v53r2jb1UmujPjW9" class="btn-large btn-blue" target="_blank">Pre/Post Tour Registration</a>
+</p>
+
+
 </div>
