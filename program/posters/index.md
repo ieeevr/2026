@@ -427,13 +427,13 @@ scheduleMeta.forEach(dayInfo => {
                     const videoLink = paper.video || "#";
                     
                     detailsHTML += `<div class="paper-item">
-                        <span class="paper-title">· ${paper.id}: ${paper.title}</span>
-                        <span class="author-text">· ${paper.authors}</span>
+                        <span class="paper-title">${paper.title}</span>
+                        <span class="author-text">${paper.authors}</span>
                         <details>
-                            <summary>· Abstract</summary>
+                            <summary>Abstract</summary>
                             <div class="abstract-content">${abstractText}</div>
                         </details>
-                        <a href="${videoLink}" target="_blank" class="video-link">· Video</a>
+                        <a href="${videoLink}" target="_blank" class="video-link">Video</a>
                     </div>`;
                 });
                 detailsHTML += `</div>`;
