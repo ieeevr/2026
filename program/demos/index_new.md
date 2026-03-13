@@ -65,7 +65,7 @@ td {
 }
 
 .session-id-tag {
-margin-top: 1rem;
+    margin-top: 1rem;
     font-size: 1.3em;
     color: #262188;
     border-bottom: 1px solid #262188;
@@ -102,9 +102,9 @@ margin-top: 1rem;
 }
 
 .meta-info strong {
-    font-weight: bold;	
+    font-weight: bold;  
     color: #262188;
-	font-size:0.8rem
+    font-size:0.8rem
 }
 
 .abstract-wrapper {
@@ -157,16 +157,37 @@ margin-top: 1rem;
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #000; /* 로딩 전 배경색 */
 }
 
-.video-container iframe {
+/* --- 유튜브 썸네일 클릭 최적화를 위한 CSS 추가 --- */
+.youtube-player {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
     height: 100%;
-    border: 0;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
 }
+
+.youtube-player::after {
+    content: "▶";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: rgba(255,255,255,0.8);
+    text-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: color 0.2s;
+}
+
+.youtube-player:hover::after {
+    color: #cc181e; /* 유튜브 시그니처 레드 */
+}
+
 .big_title {
     font-size: 1.8rem !important;
     font-weight: bold;
@@ -176,7 +197,7 @@ margin-top: 1rem;
 }
 .page__content p {
     font-size: 0.7rem;
-	line-height:1.2
+    line-height:1.2
 }
 </style>
 
@@ -185,12 +206,12 @@ margin-top: 1rem;
 
 <div class="table-responsive table-scroll">
   <table>
-	  <colgroup>
-		  <col style="width:20%">		 
-		  <col style="width:30%">
-		  <col style="width:20%"> 
-		  <col style="width:30%">
-	  </colgroup>
+      <colgroup>
+          <col style="width:20%">        
+          <col style="width:30%">
+          <col style="width:20%"> 
+          <col style="width:30%">
+      </colgroup>
     <thead>
       <tr>
         <th></th>
@@ -220,7 +241,6 @@ margin-top: 1rem;
   </table>
 </div>
 
-
 <div class="paper-section">
   <h3 class="session-id-tag">Title: Dart Throwing in Virtual Reality with Aim Assistance</h3>
   <p class="meta-info"><strong>Booth ID: 1</strong></p>
@@ -234,7 +254,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/8N-zOR_JQWI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="8N-zOR_JQWI"></div>
   </div>
 </div>
 
@@ -251,7 +271,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/a1q7rDVux9Q" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="a1q7rDVux9Q"></div>
   </div>
 </div>
 
@@ -268,7 +288,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/nMVWQWlP5iM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="nMVWQWlP5iM"></div>
   </div>
 </div>
 
@@ -285,7 +305,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/phl6AvO8F4E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="phl6AvO8F4E"></div>
   </div>
 </div>
 
@@ -302,7 +322,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/QEreFVQ7zBo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="QEreFVQ7zBo"></div>
   </div>
 </div>
 
@@ -319,7 +339,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/zc5DSeV4Xog" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="zc5DSeV4Xog"></div>
   </div>
 </div>
 
@@ -336,7 +356,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/6dRI_3YliBo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="6dRI_3YliBo"></div>
   </div>
 </div>
 
@@ -353,7 +373,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/S-YjX1FDzHc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="S-YjX1FDzHc"></div>
   </div>
 </div>
 
@@ -370,7 +390,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/VByFzBZ7Wko" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="VByFzBZ7Wko"></div>
   </div>
 </div>
 
@@ -387,7 +407,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/NlTil7qQnjc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="NlTil7qQnjc"></div>
   </div>
 </div>
 
@@ -404,7 +424,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/R1G8fc9G1nI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="R1G8fc9G1nI"></div>
   </div>
 </div>
 
@@ -421,7 +441,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/2xcV-SPTBg4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="2xcV-SPTBg4"></div>
   </div>
 </div>
 
@@ -438,7 +458,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/fwZtH-t1kCA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="fwZtH-t1kCA"></div>
   </div>
 </div>
 
@@ -455,7 +475,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/4X-7aQ4rEUU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="4X-7aQ4rEUU"></div>
   </div>
 </div>
 
@@ -472,7 +492,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/3H0BLDD6FcA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="3H0BLDD6FcA"></div>
   </div>
 </div>
 
@@ -489,7 +509,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/gEIaCbBCpRs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="gEIaCbBCpRs"></div>
   </div>
 </div>
 
@@ -506,7 +526,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/i12LjsBs420" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="i12LjsBs420"></div>
   </div>
 </div>
 
@@ -523,7 +543,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/UdONtatZ5QY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="UdONtatZ5QY"></div>
   </div>
 </div>
 
@@ -540,7 +560,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/tK_l0BTGtuY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="tK_l0BTGtuY"></div>
   </div>
 </div>
 
@@ -557,7 +577,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/m1wlzWSjIOs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="m1wlzWSjIOs"></div>
   </div>
 </div>
 
@@ -569,12 +589,12 @@ margin-top: 1rem;
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onclick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
     <div class="abstract-content">
-      <p>3D modeling using traditional computer-aided design (CAD) tools often poses challenges, particularly to novice users. Several prior works have explored virtual reality-based CAD systems. However, most face major problems such as loss of accuracy. To address these challenges, we present BoxCraft a tangible mixed-reality (MR) system for intuitive 3D modeling with two modalities. BoxCraft allows users to create and edit 3D models in an MR space by using physical tokens enhanced with visual overlays for immediate spatial feedback. We have conducted a participatory design workshop (n = 6) and an early user study (n = 7) to explore interaction design options and user experience. Preliminary results show that, although tangible token-based interaction requires a longer initial learning phase, participants, especially beginners, preferred it over controller-based interaction and traditional CAD tools for its intuitiveness and physical affordances. This research demo presents the BoxCraft system, its interaction techniques, and initial user feedback, pointing out the potential of tangible MR interfaces in making 3D modeling more accessible.</p>
+      <p>3D modeling using traditional computer-aided design (CAD) tools often poses challenges, particularly to novice users. Several prior works have explored virtual reality-based CAD systems. However, most face major problems such as loss of accuracy. To address these challenges, we present BoxCraft a tangible mixed-reality (MR) system for intuitive 3D modeling with two modalities. BoxCraft allows users to create and edit 3D models in an MR space by using physical tokens enhanced with visual overlays for immediate spatial feedback. We have conducted a participatory design workshop (n = 6) and an early user study (n = 7) to explore interaction design options and user experience. Preliminary results show that, although tangible token-based interaction requires a longer initial learning phase, participants, especially beginners, preferred it over controller-based interaction and traditional CAD tools for reductions in cognitive load. This research demo presents the BoxCraft system, its interaction techniques, and initial user feedback, pointing out the potential of tangible MR interfaces in making 3D modeling more accessible.</p>
     </div>
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/3ENmTwRC7kk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="3ENmTwRC7kk"></div>
   </div>
 </div>
 
@@ -591,7 +611,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/orx3gFPBNpA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="orx3gFPBNpA"></div>
   </div>
 </div>
 
@@ -608,7 +628,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/BMAKpSOWn7U" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="BMAKpSOWn7U"></div>
   </div>
 </div>
 
@@ -625,7 +645,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/QkYn7hEvvmU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="QkYn7hEvvmU"></div>
   </div>
 </div>
 
@@ -642,7 +662,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/n017pkLqMz4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="n017pkLqMz4"></div>
   </div>
 </div>
 
@@ -659,7 +679,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/ut6Kv4ZLSVE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="ut6Kv4ZLSVE"></div>
   </div>
 </div>
 
@@ -676,7 +696,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/0siRHU_NVWE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="0siRHU_NVWE"></div>
   </div>
 </div>
 
@@ -693,7 +713,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/1aaXkyJdNug" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="1aaXkyJdNug"></div>
   </div>
 </div>
 
@@ -710,7 +730,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/n2F5Gs9k41k" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="n2F5Gs9k41k"></div>
   </div>
 </div>
 
@@ -727,7 +747,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/5dZuX5zkEvs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="5dZuX5zkEvs"></div>
   </div>
 </div>
 
@@ -744,7 +764,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/ucrnKScKxaA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="ucrnKScKxaA"></div>
   </div>
 </div>
 
@@ -761,7 +781,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/p8iShhpPRJQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="p8iShhpPRJQ"></div>
   </div>
 </div>
 
@@ -778,7 +798,7 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/PGQpbg4mNK4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="PGQpbg4mNK4"></div>
   </div>
 </div>
 
@@ -795,11 +815,12 @@ margin-top: 1rem;
   </div>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/pEs84eRFmz0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtube-player" data-id="pEs84eRFmz0"></div>
   </div>
 </div>
 
 <script>
+// 초록 내용 토글 함수
 function toggleAbstract(element) {
     element.classList.toggle("open");
     var content = element.nextElementSibling;
@@ -809,4 +830,34 @@ function toggleAbstract(element) {
         content.style.display = "block";
     }
 }
+
+// 유튜브 썸네일 선로딩(Facade 패턴) 및 클릭 시 iframe 렌더링 스크립트
+document.addEventListener("DOMContentLoaded", function() {
+    var players = document.querySelectorAll(".youtube-player");
+    
+    players.forEach(function(player) {
+        // 1. data-id 값을 가져와 유튜브 고화질 썸네일 이미지 설정
+        var videoId = player.getAttribute("data-id");
+        player.style.backgroundImage = "url('https://i.ytimg.com/vi/" + videoId + "/hqdefault.jpg')";
+        
+        // 2. 사용자가 썸네일을 클릭하면 실제 iframe을 생성해서 대체
+        player.addEventListener("click", function() {
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute("src", "https://www.youtube.com/embed/" + videoId + "?autoplay=1");
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allowfullscreen", "1");
+            iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+            
+            // CSS 클래스 유지하면서 요소 교체
+            iframe.style.position = "absolute";
+            iframe.style.top = "0";
+            iframe.style.left = "0";
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "0";
+            
+            this.parentNode.replaceChild(iframe, this);
+        });
+    });
+});
 </script>
