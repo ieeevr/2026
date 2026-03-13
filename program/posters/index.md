@@ -76,49 +76,47 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 .paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
 .paper-item:first-of-type { border-top: none; }
 .paper-title {
-    font-size: 0.9rem;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 2px; /* 기존 5px에서 2px로 축소 */
-    color: #000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
 }
 .author-text {
-    font-size: 0.75rem;
-    color: #555;
-    display: block;
-    margin-bottom: 2px; /* 기존 8px에서 2px로 축소 */
+    font-size: 0.75rem;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
 }
-details { 
-    margin-bottom: 2px; /* 기존 8px에서 2px로 축소 */ 
-}
+details { margin-bottom: 8px; }
 details summary {
-    font-size: 0.75rem;
-    color: #262188;
-    cursor: pointer;
-    font-weight: bold;
-    outline: none;
-    list-style: none;
+    font-size: 0.75rem;
+    color: #262188;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    list-style: none;
 }
 details summary::-webkit-details-marker { display: none; }
 details summary::before { font-size: 0.7rem; }
 
 .abstract-content {
-    font-size: 0.75rem;
-    color: #666;
-    padding: 12px;
-    background: #f9f9f9;
-    border-left: 4px solid #262188;
-    margin-top: 4px; /* 본문 여백 약간 축소 */
-    line-height: 1.6;
-    text-align: justify;
+    font-size: 0.75rem;
+    color: #666;
+    padding: 12px;
+    background: #f9f9f9;
+    border-left: 4px solid #262188;
+    margin-top: 8px;
+    line-height: 1.6;
+    text-align: justify;
 }
 .video-link {
-    font-size: 0.75rem;
-    color: #e53935;
-    text-decoration: none;
-    font-weight: bold;
-    display: block; /* inline-block을 block으로 변경하여 완전한 좌측 정렬 적용 */
-    margin-top: 0px; /* 기존 5px에서 0px로 축소 */
+    font-size: 0.75rem;
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
 }
 .video-link:hover { text-decoration: underline; }
 
@@ -127,11 +125,9 @@ details summary::before { font-size: 0.7rem; }
     .category-title { font-size: 1.2rem; }
 }
 </style>
-
 <p class="big_title">Posters</p>
 <div id="schedule-tables"></div>
 <div id="session-details"></div>
-
 <script>
 const psData = {
   "1": [
@@ -222,7 +218,7 @@ const psData = {
         { "id": "P-206", "title": "Looping 3D Videos from a Moving Camera via Recycled 2D Tracking", "authors": "Megumi Fukutani: Tokyo City University; Ayaka Yasunaga: Keio University; Hideo Saito: Keio University; Akira Taguchi: Tokyo City University; Shohei Mori: University of Stuttgart", "abstract": "We present a system for generating looping 3D videos from casual monocular footage captured by a single moving camera. Unlike existing looping 3D video methods that rely on a stationary multicamera system, our approach synthesizes multi-camera views to mimic a physical multi-camera setup. Our key technical contribution is the efficient construction of all-pairs long-term 2D tracking by reusing multi-step optical flow, which avoids the need for expensive pairwise tracking. Our approach is 122.8 times faster than the pairwise approach while maintaining 98.2, 99.5, and 99.7% of the visual quality in PSNR, SSIM, and LPIPS, respectively.", "video": "https://youtu.be/bGfd6F9xpl8" },
         { "id": "P-207", "title": "Structured Gaussian Mapping for Memory-Efficient Immersive XR", "authors": "Hye sun Kim: ETRI; Sungjin Hong: Electronics and Telecommunications Research Institute; Cho-rong Yu: Electronics and Telecommunications Research Institute; Youn-Hee Gil: Electronics and Telecommunications Research Institute", "abstract": "High-fidelity and scalable 3D scene representations are critical for immersive VR and XR systems under strict latency and memory constraints. Although recent studies demonstrate real-time 3D Gaussian Splatting on head-mounted displays, uncontrolled Gaussian growth during RGB-D mapping remains a key scalability bottleneck. We propose Structured Gaussian Mapping, a KD-tree guided allocation framework that limits Gaussian growth at the mapping stage for sequential RGB-D SLAM. By partitioning image space and allocating compact Gaussian sets only in perceptually relevant regions, our approach replaces pixel-wise densification. Experiments show up to 82% fewer Gaussians with improves PSNR, enabling memory-efficient and scalable", "video": "https://youtu.be/PTcbsczlBXw" },
         { "id": "P-208", "title": "Perceptually Optimized Chromatic Power Saving in XR Using Binocular Asymmetry", "authors": "WOOYOUNG CHOI: KyungHee University; Uijong Ju: College of Science, Kyung Hee University", "abstract": "High-resolution Extended Reality (XR) rendering imposes energy demands. While perceptually driven power optimization methods exploit properties of the human visual system, they assume symmetric visual sensitivity across both eyes. We investigate whether inter-ocular asymmetry in chromatic sensitivity can be leveraged for power reduction. Using 4-Alternative Forced Choice (4AFC) measurements and Radial Basis Function Neural Network modeling (RBFNN), we derived per-eye discrimination maps. These maps were discretized and validated on video content using 2-Alternative Forced Choice evaluation. Results show that the non-dominant eye tolerates stronger chromatic reduction without degrading binocular quality, enabling up to 24% power savings.", "video": "https://youtu.be/3sL8SSljC1o" },
-        { "id": "P-209", "title": "Mixed Reality 3D User Interfaces for Volumetric Field Analysis in Stadium-Scale Buildings", "authors": "Chen Xu: School of Architecture and Design; Fang Zheng: Beijing Jiaotong University; Jingya Li: Eindhoven University of Technology", "abstract": "Understanding 3D environmental fields like temperature and airflow in buildings is limited by 2D visualizations. We present a mixed-reality immersive analytics system that integrates CFD simulations with BIM, visualizing volumetric data at true scale using perceptually guided colormaps, particles, and streamlined airflow depictions. A controlled study (n=16) shows our MR system enables faster and more accurate analysis than a desktop baseline, with streamlines outperforming arrow glyphs. These results demonstrate MR’s potential for more efficient, intuitive large-scale environmental analysis.", "video": "https://youtu.be/RohHJ_YnCCw" },
+        { "id": "P-209", "title": "Mixed Reality 3D User Interfaces for Volumetric Field Analysis in Stadium-Scale Buildings", "authors": "Chen Xu: School of Architecture and Design, Fang Zheng: Beijing Jiaotong University, Jingya Li: Eindhoven University of Technology", "abstract": "Understanding 3D environmental fields like temperature and airflow in buildings is limited by 2D visualizations. We present a mixed-reality immersive analytics system that integrates CFD simulations with BIM, visualizing volumetric data at true scale using perceptually guided colormaps, particles, and streamlined airflow depictions. A controlled study (n=16) shows our MR system enables faster and more accurate analysis than a desktop baseline, with streamlines outperforming arrow glyphs. These results demonstrate MR’s potential for more efficient, intuitive large-scale environmental analysis.", "video": "https://youtu.be/RohHJ_YnCCw" },
         { "id": "P-210", "title": "Towards Optimized Mars Terrain Reconstruction Methods for Virtual Reality", "authors": "Giuseppe Lorenzo Catalano: Università degli Studi di Torino; Agata Marta Soccini: Università degli Studi di Torino", "abstract": "Virtual Reality enables the exploration of realistic outer space simulations, where accurate extraterrestrial terrain models are essential features. Due to extreme data retrieval challenges, such models often contain missing values that can hinder the 3D scenarios. We present a surface reconstruction method based on generative diffusion models, and compare it with other void-filling techniques in the task of restoring degraded Martian terrains. Reconstruction outputs were quantitatively assessed by comparing their error and structural consistency with the original values. Our method achieved the best performance on most metrics, suggesting promising prospects for extraterrestrial terrain visualization.", "video": "https://youtu.be/LDXb5CGBz9o" },
         { "id": "P-211", "title": "Free-View XR Tours Using 3D Gaussian Splatting with an Avatar Guide", "authors": "Mayura Pavan Manawadu: University of Melbourne; SeungWon Jeong: University of Melbourne; Lingxiao Li: University of Melbourne; Bin Chen: University of Melbourne; Taehyun James Rhee: University of Melbourne", "abstract": "XR tours are often built from manual 3D authoring, 3D scanning, photogrammetry, or fixed-view 360° video, which can be time consuming to produce or limit free exploration. 3D Gaussian Splatting (3DGS) offers photoreal free view rendering from captured imagery, yet its use in end-to-end XR touring experiences, especially with lightweight in-scene guidance remains underexplored. We present an XR tour system for free-view exploration of 3DGS scenes in XRthat combines controller-based 6-DoF navigation with an avatar guide that delivers proximity triggered text-to-speech narration. We demonstrate the system in a public setting and reportobservations from a case study with >50 participants.", "video": "https://youtu.be/Od2wjh4ugUk" },
         { "id": "P-212", "title": "Perceptual Thresholds of Sample Counts in AI-Augmented 3D Gaussian Splatting", "authors": "SeungWon Jeong: University of Melbourne; Lingxiao Li: University of Melbourne; Bin Chen: University of Melbourne; Taehyun James Rhee: University of Melbourne", "abstract": "Image-based 3D reconstruction methods such as 3D Gaussian Splatting (3DGS) are increasingly used for real-time free-viewpoint navigation in VR/AR, but accurate texture and geometry require dense multi-view captures. Recent generative models synthesize training views from sparse inputs, yet it remains unclear how many generated views are needed and when augmentation helps or degrades rendering quality. We conduct a perceptual user study varying the number of captured and AI-generated images for 3DGS training and identify perceptual thresholds: adding generated views improves plausibility and visual quality when real images are scarce, but yields diminishing or negative returns once real-view coverage becomes sufficient.", "video": "https://www.youtube.com/watch?v=C4nJ3lqh5-E" },
@@ -334,7 +330,7 @@ const psData = {
         { "id": "P-319", "title": "When and What to Speak: An Autonomous Embodied Chat Agent in Symmetrical Reality", "authors": "Jiayu Mao: South China Normal University; Zhenliang Zhang: Beijing Institute for General Artificial Intelligence", "abstract": "Most LLM dialog agents respond only when prompted. We study an autonomous inserter for multi-party talk that decides whether and when to join. Insertion is modeled along three dimensions: speaker persona, scene context, and topic. Using a Qwen-7B backbone, we train persona-, scene-, and topic-aware regression heads to predict a continuous willingness score, plus a classifier over three intervention styles. Deployed in a Unity multi-party simulation, the agent monitors dialogue and inserts itself accordingly. Three-stage evaluations on transcripts, dyadic chats, and group discussions compare model and human insertion judgments. This provides an measure of how human-like its timing can be.", "video": "https://youtu.be/KWKsrm3p790" },
         { "id": "P-320", "title": "Facilitating Discussions in Immersive Virtual Meetings with Virtual Agents", "authors": "Gun A. Lee: University of South Australia; Bowen Yuan: University of South Australia; Jonathon D Hart: University of South Australia; Theophilus Teo: University of South Australia; Allison Jing: RMIT University; Mark Billinghurst: University of South Australia; Heesook Shin: Electronics and Telecommunications Research Institute; Yongho Lee: Electronics and Telecommunications Research Institute; Youn-Hee Gil: Electronics and Telecommunications Research Institute", "abstract": "This research investigates using virtual agents for facilitating collaboration in immersive virtual meetings. We especially focus on how proactive engagement of virtual agents can improve user experience in discussions held in immersive virtual meetings. We developed an immersive virtual meeting system with a virtual agent that proactively provides feedback on discussions based on the agenda, meeting time left, and talk time of each participants. Findings from a user study comparing passive and proactive virtual agent behaviours suggest proactive behaviours can help facilitating an immersive virtual meeting yet could be distracting, needing further investigation to provide more nuanced and relevant intervention.", "video": "https://youtu.be/iqXHlYf_8VU" },
         { "id": "P-321", "title": "ToonifyGB: StyleGAN-based Gaussian Blendshapes for 3D Stylized Head Avatars", "authors": "Rui-Yang Ju: National Taiwan University; Sheng-Yen Huang: National Taiwan University; Yi-Ping Hung: National Taiwan University", "abstract": "Recent advances in 3D Gaussian blendshapes have enabled real-time reconstruction of animatable, photo-realistic head avatars from monocular videos. Toonify, a StyleGAN-based method, is widely used for facial image stylization. To extend Toonify to the synthesis of diverse stylized 3D head avatars using Gaussian blendshapes, we propose an efficient two-stage framework, ToonifyGB, for applications in VR/AR environments. In Stage 1, our method generates stylized videos, and in Stage 2, it synthesizes the corresponding 3D stylized head avatars using Gaussian blendshapes. We evaluate ToonifyGB on the INSTA dataset with two representative styles: Arcane and Pixar. The implementation code is available at https://ruiyangju.github.io/ToonifyGB.", "video": "https://youtu.be/kfEJydvekiE" },
-        { "id": "P-322", "title": "Using AI Entities in Extended Reality to Reinvestigate Cold Cases", "authors": "Sivakumar Ponapalam: HTX( Home Team Science & Technology Agency); Xinhui Su: HTX (Home Team Science & Technology Agency)", "abstract": "Cold case investigations face difficulties because original crime scenes and witnesses are no longer accessible. Our early-stage concept explores the feasibility of reconstructing crime scenes in an extended reality environment, alongside AI-driven Non-Player Characters embodying the personas of former investigators and potential perpetrators. Our proof-of-concept prototype allows users to revisit crime scenes and speak to relevant parties, enabling them to iteratively refine hypotheses and reasoning strategies. We derive preliminary insights into how this system can support the formation of plausible leads and the integration of spatial evidence with narrative reasoning, contributing lessons learned toward future XR–AI investigative tools.", "video": "https://youtu.be/Cvnthh9DeKA" },
+        { "id": "P-322", "title": "Using AI Entities in Extended Reality to Reinvestigate Cold Cases", "authors": "Sivakumar Ponapalam: HTX( Home Team Science & Technology Agency), Xinhui Su: HTX (Home Team Science & Technology Agency)", "abstract": "Cold case investigations face difficulties because original crime scenes and witnesses are no longer accessible. Our early-stage concept explores the feasibility of reconstructing crime scenes in an extended reality environment, alongside AI-driven Non-Player Characters embodying the personas of former investigators and potential perpetrators. Our proof-of-concept prototype allows users to revisit crime scenes and speak to relevant parties, enabling them to iteratively refine hypotheses and reasoning strategies. We derive preliminary insights into how this system can support the formation of plausible leads and the integration of spatial evidence with narrative reasoning, contributing lessons learned toward future XR–AI investigative tools.", "video": "https://youtu.be/Cvnthh9DeKA" },
         { "id": "P-323", "title": "Behavioral Cues for Trust in AI-Driven Virtual Agents", "authors": "Garrett Woodhouse: Utah State University; DongHoon Kim: Utah State University; Taeyeon Kim: University of Calgary; Junyeong Kum: Pusan National University; Dongyun Han: Clemson University; Myungho Lee: Pusan National University; Isaac Cho: Utah State University", "abstract": "Artificial Intelligence (AI) is increasingly integrated into immersive environments, accelerating the use of virtual agents in settings such as Virtual Reality (VR). Yet it remains unclear which interaction characteristics shape users’ perceptions of an AI-driven agent’s trustworthiness. We conducted a controlled user study with 36 participants to evaluate how different animations and response-time delays influence perceived trust in virtual agents in a VR environment. Our results show that both animation and response-time delay significantly affect participants’ trust in AI-driven agents, with attentive animation increasing trust and delayed responses reducing it.", "video": "https://youtu.be/in6a0ogV9ik" },
         { "id": "P-324", "title": "Symmetrical Reality-Based Large-Scale Simulation of Embodied Agents for the Evolutionary Virtual World", "authors": "Rongkai Liu: Beijing Institute for General Artificial Intelligence; Huiying Li: Beijing Institute for General Artificial Intelligence; Yue Li: Beijing Institute for General Artificial Intelligence; Zidong Liu: Beijing Institute for General Artificial Intelligence; Zhenliang Zhang: Beijing Institute for General Artificial Intelligence", "abstract": "Autonomous robots face significant challenges in dynamic, unstructured, and socially complex outdoor environments. A key limitation is the lack of frameworks for evaluating perception, navigation, and cognition under realistic social dynamics. Leveraging the Symmetrical Reality (SR) paradigm, we present a large-scale SR-based simulation framework for embodied intelligence in dynamic social settings. It integrates a hierarchical human behavior model that combines Vision-Language Models for high-level decision-making with model-based low-level motion planning, enabling avatars to respond intelligently to robot behaviors. The framework further supports VR-enabled human-in-the-loop interaction, allowing users to act as virtual robots or humans", "video": "https://youtu.be/wp2YfXep5pI" },
         { "id": "P-325", "title": "User Perspectives on the Role of LLM-based AI Agents in Social VR", "authors": "Alexandra Kitson: University of Victoria; Mirjana Prpa: Northeastern University", "abstract": "As Large Language Model (LLM)-based AI agents emerge in social Virtual Reality (VR), understanding the roles they might play is critical. We conducted interviews in VRChat with experienced users and developers (N=6) and, using thematic analysis, identified five primary roles: information sharing, personal companionship, moderation, content generation, and self-development and learning. While participants recognized the potential for increased accessibility and support, they expressed concerns regarding over-moderation, the replacement of human creativity, and the psychological impact of AI co-dependency. These preliminary findings highlight the need to balance AI utility with the preservation of authentic human connection in social VR.", "video": "https://www.youtube.com/watch?v=0FOLkcbW1T4" },
@@ -426,20 +422,20 @@ scheduleMeta.forEach(dayInfo => {
                         <span class="category-title">${sess.name}</span>
                     </div>`;
 
-            sess.papers.forEach(paper => {
-                    const abstractText = paper.abstract || "Abstract details will be updated here.";
-                    const videoLink = paper.video || "#";
-                    
-                    detailsHTML += `<div class="paper-item">
-                        <span class="paper-title">${paper.title}</span>
-                        <span class="author-text">${paper.authors}</span>
-                        <details>
-                            <summary>Abstract</summary>
-                            <div class="abstract-content">${abstractText}</div>
-                        </details>
-                        <a href="${videoLink}" target="_blank" class="video-link">Video</a>
-                    </div>`;
-                });
+                sess.papers.forEach(paper => {
+                    const abstractText = paper.abstract || "Abstract details will be updated here.";
+                    const videoLink = paper.video || "#";
+                    
+                    detailsHTML += `<div class="paper-item">
+                        <span class="paper-title">· ${paper.id}: ${paper.title}</span>
+                        <span class="author-text">· ${paper.authors}</span>
+                        <details>
+                            <summary>· Abstract</summary>
+                            <div class="abstract-content">${abstractText}</div>
+                        </details>
+                        <a href="${videoLink}" target="_blank" class="video-link">· Video</a>
+                    </div>`;
+                });
                 detailsHTML += `</div>`;
             });
         });
@@ -450,4 +446,4 @@ scheduleMeta.forEach(dayInfo => {
     tableContainer.innerHTML = tablesHTML;
     detailsContainer.innerHTML = detailsHTML;
 });
-</script>
+</script> 
