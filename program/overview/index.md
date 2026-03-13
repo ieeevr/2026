@@ -413,7 +413,7 @@ th, td {
       <tr>
         <td class="time-col">11:00</td>
         <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -431,7 +431,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -457,7 +457,7 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -529,7 +529,7 @@ th, td {
       <tr>
         <td class="time-col">09:30</td>
         <td colspan="2" class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -559,7 +559,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -587,7 +587,7 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -672,7 +672,7 @@ th, td {
       <tr>
         <td class="time-col">09:30</td>
         <td colspan="2" class="type-break">Break</td>
-        <td  class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td  class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -702,7 +702,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -730,7 +730,7 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
