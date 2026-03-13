@@ -240,34 +240,34 @@ b, strong {
 }
 .emailIconSm {
 	font-size: 0.6em;
-	color: #e70087;
+	color: #262188 ;
 }
 .emailTextSm {
 	font-size: 0.9em;
-	color: #e70087;
+	color: #262188 ;
 	font-weight: bold;/*text-transform: uppercase;*/
 }
 .emailTextSm a {
-	color: #e70087;
+	color: #262188 ;
 }
 .emailText {
 	font-size: 0.9em;
-	color: #e70087;
+	color: #262188 ;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 .emailText a {
-	color: #e70087;
+	color: #262188 ;
 }
 .emailIcon {
 	font-size: 0.9em;
-	color: #e70087;
+	color: #262188 ;
 }
 .pink {
-	color: #e70087 !important;
+	color: #262188  !important;
 }
 .ieeevrmsgbox { /* Any boxes with the theme-primary color as background */
-	background-color: #e70087;
+	background-color: #262188 ;
 	;
 	border-radius: 7px;
 	padding: 25px;
@@ -295,7 +295,7 @@ b, strong {
 	margin: 10px auto;
 }
 .emphasize {
-	color: #e70087;
+	color: #262188 ;
 }
 .notice--text {
 	background-color: #f3f3f3 ! important;
@@ -396,7 +396,7 @@ b, strong {
 	font-size: 0.8rem;
 	text-align: left;
 	padding: 0rem;
-	color: #e70087 !important;
+	color: #262188  !important;
 	background: #ffffff;
 	cursor: pointer;
 	border-radius: 7px;
@@ -486,7 +486,7 @@ b, strong {
 	font-size: 18px;
 	border: none;
 	outline: none;
-	background-color: #e70087;
+	background-color: #262188 ;
 	color: #fff;
 	cursor: pointer;
 	padding: 15px;
@@ -963,7 +963,7 @@ audio:not([controls]) {
 	display: none
 }
 a {
-	color: #e70087;
+	color: #262188 ;
 	font-weight: bold;
 }
 a:hover {
@@ -1055,7 +1055,7 @@ img {
 	background-color: #ffffff;
 }
 .ui-widget-content a {
-	color: #e70087;
+	color: #262188 ;
 }
  @media (max-width: 1260px) {
 .left_home {
@@ -1234,7 +1234,7 @@ blockquote {
 	padding-left: 1em;
 	padding-right: 1em;
 	font-style: italic;
-	border-left: 0.25em solid #e70087;
+	border-left: 0.25em solid #262188 ;
 }
 blockquote cite {
 	font-style: italic;
@@ -1494,7 +1494,7 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 	cursor: not-allowed
 }
 input:focus, textarea:focus {
-	border-color: #e70087;
+	border-color: #262188 ;
 	outline: 0;
 	outline: thin dotted \9;
 	box-shadow: inset 0 1px 3px rgba(0,0,0,0.06), 0 0 5px rgba(245,114,94,0.7)
@@ -1693,7 +1693,7 @@ tr, td, th {
 	color: #fff !important;
 }
 .btn--primary:hover {
-	background-color: #e70087 !important;
+	background-color: #262188  !important;
 	color: #fff !important;
 }
 .btn--inverse {
@@ -1759,11 +1759,11 @@ tr, td, th {
 	color: #fff
 }
 .btn--info {
-	background-color: #e70087;
+	background-color: #262188 ;
 	color: #fff;
 }
 .btn--info:visited {
-	background-color: #e70087;
+	background-color: #262188 ;
 	color: #fff
 }
 .btn--info:hover {
@@ -1941,10 +1941,10 @@ tr, td, th {
 	padding-top: 0;
 }
 .notice--info a {
-	color: #e70087;
+	color: #262188 ;
 }
 .notice--info a:hover {
-	color: #e70087;
+	color: #262188 ;
 }
 .notice--info code {
 	background-color: #f5fafc;
@@ -2267,7 +2267,7 @@ figcaption {
 }
 .pagination li a.current, .pagination li a.current.disabled {
 	color: #fff;
-	background: #e70087
+	background: #262188 
 }
 .pagination li a.disabled {
 	color: rgba(0,0,0,0.5);
@@ -2384,7 +2384,7 @@ figcaption {
 	left: 0;
 	bottom: 0;
 	height: 4px;
-	background: #e70087;
+	background: #262188 ;
 	width: 100%;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -2607,7 +2607,7 @@ figcaption {
 .toc .nav__title {
 	color: #fff;
 	font-size: .75em;
-	background: #e70087;
+	background: #262188 ;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px
 }
@@ -2739,7 +2739,7 @@ figcaption {
 	height: 2rem;
 	border: 0;
 	outline: none;
-	color: #e70087;
+	color: #262188 ;
 	background-color: transparent;
 	cursor: pointer;
 	-webkit-transition: 0.2s;
@@ -2833,12 +2833,12 @@ figcaption {
 	margin-bottom: 2em
 }
 .archive__item-title .ais-Highlight {
-	color: #e70087;
+	color: #262188 ;
 	font-style: normal;
 	text-decoration: underline
 }
 .archive__item-excerpt .ais-Highlight {
-	color: #e70087;
+	color: #262188 ;
 	font-style: normal;
 	font-weight: bold
 }
@@ -3283,7 +3283,7 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 	position: relative;
 	width: 1.5rem;
  height: .25rem;
-	background: #e70087;
+	background: #262188 ;
 	margin: auto;
 	-webkit-transition: 0.3s;
 	transition: 0.3s
@@ -3294,7 +3294,7 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 	left: 0;
 	width: 1.5rem;
  height: .25rem;
-	background: #e70087;
+	background: #262188 ;
 	-webkit-transition: 0.3s;
 	transition: 0.3s
 }
@@ -4581,7 +4581,7 @@ body {
 .flexbox {
 	display: flex;
 	flex-flow: row wrap;
-	background-color: #e70087;
+	background-color: #262188 ;
 	padding-bottom: 20px;
 	text-align: center;
 }
