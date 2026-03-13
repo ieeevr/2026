@@ -64,7 +64,7 @@ title_separator: "|"
       <h2>Dr. Mar Gonzalez-Franco</h2>
       <div class="affiliation">Research Manager, BIRD Lab, Google AR & VR</div>
       <div class="talk-title">Towards Human–AI Symbiosis with XR</div>
-      <div class="affiliation">Date: Tuesday, March 24, 10:00-11:00</div>
+      <div class="affiliation">Tuesday, March 24, 10:00-11:00</div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal1')">More</button>
   </div>
@@ -77,7 +77,7 @@ title_separator: "|"
       <h2>Dr. Tomasz Bednarz</h2>
       <div class="affiliation">Director, Strategic Researcher Engagement, NVIDIA</div>
       <div class="talk-title">Physical AI for the Next Wave of Industrial Digitalization</div>
-      <div class="affiliation">Date: Wednesday, March 25, 10:00-11:00</div>
+      <div class="affiliation">Wednesday, March 25, 10:00-11:00</div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal3')">More</button>
   </div>
