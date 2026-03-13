@@ -76,47 +76,49 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 .paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
 .paper-item:first-of-type { border-top: none; }
 .paper-title {
-    font-size: 0.9rem;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px; /* 기존 5px에서 2px로 축소 */
+    color: #000;
 }
 .author-text {
-    font-size: 0.75rem;
-    color: #555;
-    display: block;
-    margin-bottom: 8px;
+    font-size: 0.75rem;
+    color: #555;
+    display: block;
+    margin-bottom: 2px; /* 기존 8px에서 2px로 축소 */
 }
-details { margin-bottom: 8px; }
+details { 
+    margin-bottom: 2px; /* 기존 8px에서 2px로 축소 */ 
+}
 details summary {
-    font-size: 0.75rem;
-    color: #262188;
-    cursor: pointer;
-    font-weight: bold;
-    outline: none;
-    list-style: none;
+    font-size: 0.75rem;
+    color: #262188;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    list-style: none;
 }
 details summary::-webkit-details-marker { display: none; }
 details summary::before { font-size: 0.7rem; }
 
 .abstract-content {
-    font-size: 0.75rem;
-    color: #666;
-    padding: 12px;
-    background: #f9f9f9;
-    border-left: 4px solid #262188;
-    margin-top: 8px;
-    line-height: 1.6;
-    text-align: justify;
+    font-size: 0.75rem;
+    color: #666;
+    padding: 12px;
+    background: #f9f9f9;
+    border-left: 4px solid #262188;
+    margin-top: 4px; /* 본문 여백 약간 축소 */
+    line-height: 1.6;
+    text-align: justify;
 }
 .video-link {
-    font-size: 0.75rem;
-    color: #e53935;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 5px;
+    font-size: 0.75rem;
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+    display: block; /* inline-block을 block으로 변경하여 완전한 좌측 정렬 적용 */
+    margin-top: 0px; /* 기존 5px에서 0px로 축소 */
 }
 .video-link:hover { text-decoration: underline; }
 
