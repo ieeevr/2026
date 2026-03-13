@@ -5,7 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 
-<p class="big_title">Posters</p>
+<p class="big_title">3DUI Contest</p>
 
 <h1>LiveShowVR: A Tool to Navigate through Controlled Environments for Immersive Presentations (ID: 2368)</h1>
 <p>Tamara Solís-Matamoros, Instituto Tecnológico de Costa Rica; Leslie Valeria Serrano-González, Instituto Tecnológico de Costa Rica; Jefferson Jose Salas-Cordero, Instituto Tecnologico de Costa Rica; Randall Madriz-Coto, Instituto Tecnológico de Costa Rica; Diego Jiménez-Navarro, Instituto Tecnológico de Costa Rica; María Félix Méndez-Abarca, Instituto Tecnológico de Costa; Alejandra Valentina Delgado-Pérez, Instituto Tecnológico de Costa Rica</p>
