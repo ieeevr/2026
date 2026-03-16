@@ -15,6 +15,131 @@ title_separator: "|"
         $(".awardsSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>"); 
 	});
 </script>
+<style>
+html { scroll-behavior: smooth; }
+h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 3px solid #262188;
+    padding-bottom: 8px;
+    color: #262188;
+}
+.table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 300px;
+    table-layout: fixed;
+}
+thead {
+    border-bottom: none;
+}    
+th, td {
+    padding: 10px 25px 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    border-bottom: none !important
+}
+th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
+.category-cell {
+    text-align: left;
+}
+
+.category-cell a{
+    color: #000 !important
+}
+.category-cell:hover { }
+.session-link {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+.session-link:hover { text-decoration: underline; }
+
+.day-section-title {
+    background: #f3f3f3;
+    color: #262188;
+    padding: 15px 25px;
+    margin-top: 60px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.booth-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+}
+.booth-header { margin-bottom: 15px; border-bottom: 2px solid #262188; padding-bottom: 10px; }
+.category-title { font-size: 1.4rem; font-weight: bold; color: #262188; display: block; }
+
+.paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
+.paper-item:first-of-type { border-top: none; }
+.paper-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+.author-text {
+    font-size: 0.75rem;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+details { margin-bottom: 8px; }
+details summary {
+    font-size: 0.75rem;
+    color: #262188;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    list-style: none;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::before { font-size: 0.7rem; }
+
+.abstract-content {
+    font-size: 0.75rem;
+    color: #666;
+    padding: 12px;
+    background: #f9f9f9;
+    border-left: 4px solid #262188;
+    margin-top: 8px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.video-link {
+    font-size: 0.75rem;
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+}
+.video-link:hover { text-decoration: underline; }
+
+@media (max-width: 768px) {
+    th, td { font-size: 0.75rem; padding: 8px 4px; }
+    .category-title { font-size: 1.2rem; }
+}
+</style>
+<p class="big_title">Posters</p>
+<div id="schedule-tables"></div>
+<div id="session-details"></div>
+<script>
 <p class="big_title">Conference Awards</p>
 <h1>Awards Chairs
   <div class="floatRight"><span class="awardsSm"></span></div>
