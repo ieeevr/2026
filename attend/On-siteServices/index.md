@@ -16,6 +16,34 @@ title_separator: "|"
     background-color: #262189;
     color: #fff;
 }
+    .table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 300px;
+    table-layout: fixed;
+}
+thead {
+    border-bottom: none;
+}    
+th, td {
+    padding: 10px 25px 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    border-bottom: none !important
+}
+th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
+.category-cell {
+    text-align: left;
+}
+
 </style>
 <p class="big_title">On-site Services</p>
 <h1>Registration: Self Check-in </h1>
@@ -23,7 +51,7 @@ title_separator: "|"
 
 <p>Registration Desk & Self Check-in Kiosk Hours</p>
 <div class="table-scroll">
-  <table class="table-scroll">
+  <table>
     <tbody>
     <tr >
       <th  > Date  </th>
