@@ -6,17 +6,16 @@ title_separator: "|"
 --- 
 <script type="text/javascript">
     $(document).ready(function(){
-		var email = ""; 
-		var domain = "ieeevr.org"; 
+        var email = ""; 
+        var domain = "ieeevr.org"; 
 
-        email = "awards2026";  		
-		$(".awards").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");   
+        email = "awards2026";       
+        $(".awards").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");   
         
         $(".awardsSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>"); 
-	});
+    });
 </script>
 <style>
-
 h3 {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
@@ -40,50 +39,52 @@ table {
 }
 thead {
     border-bottom: none;
-}    
+}   
 th, td {
     padding: 10px 25px 5px;
     text-align: center;
     vertical-align: middle;
     font-size: 0.8rem;
-    border-bottom: none !important
+    border-bottom: none !important;
 }
 th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 .category-cell {
     text-align: left;
 }
 
-	
-/* 리스트 강제 복구 스타일 (!important 추가) */
-ol, ul {
-    padding-left: 2rem !important; /* 여백을 확실하게 줍니다 */
-    margin-bottom: 1.5rem !important;
+.award-wrapper {
+    text-align: left !important;
 }
-
-ol {
-    list-style-type: decimal !important; 
-    list-style-position: outside !important; /* 숫자가 영역 밖으로 밀리지 않게 */
+.award-wrapper ol {
+    list-style: decimal inside !important;
+    padding-left: 10px !important;
+    margin-bottom: 2rem !important;
 }
-
-ul {
-    list-style-type: disc !important;
-    list-style-position: outside !important;
+.award-wrapper ul {
+    list-style: disc inside !important;
+    padding-left: 10px !important;
+    margin-bottom: 2rem !important;
 }
-
-ol li, ul li {
-    display: list-item !important; /* 간혹 테마에서 block이나 flex로 바꾼 것을 원상복구 */
-    margin-bottom: 0.8rem !important;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: #333;
+.award-wrapper li {
+    display: list-item !important;
+    margin-bottom: 1.2rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    color: #333 !important;
+    text-indent: -1.2rem !important;
+    padding-left: 1.2rem !important;
 }
-
+.award-wrapper li strong {
+    color: #262188 !important;
+}
 @media (max-width: 768px) {
-    ol, ul {
-        padding-left: 1.5rem !important;
+    .award-wrapper ol, .award-wrapper ul {
+        padding-left: 5px !important;
     }
 }
 </style>
+
+<div class="award-wrapper">
 <p class="big_title">Conference Awards</p>
 <h1>Awards Chairs
   <div class="floatRight"><span class="awardsSm"></span></div>
@@ -131,7 +132,7 @@ ol li, ul li {
    
   </div>
 </div>
- <h1>Best Papers</h1><a name="aa1"></a>
+<h1>Best Papers</h1><a name="aa1"></a>
     <ol>
       <li>Hayeon Kim, Dankook University; In-Kwon Lee, Yonsei University: <strong>How Much Is Too Much? Comfort Envelopes for Distortions in Virtual Reality Interaction </strong> </li>
       <li> Takahiro Okamoto, University of Osaka; Masaki Takeuchi, University of Osaka; Masataka Sawayama, Hokkaido University; Daisuke Iwai, Osaka University: <strong>Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector </strong> </li>
@@ -150,3 +151,4 @@ ol li, ul li {
       <li> Soumyajit Chakraborty, Vanderbilt University; Holly C Gagnon, Vanderbilt University; Timothy P McNamara, Vanderbilt University; Bobby Bodenheimer, Vanderbilt University: <strong>Collaborative Navigation Improves Spatial Learning Across Symmetric and Asymmetric Locomotion in Virtual Reality</strong> </li>
       <li> Jiayuan Wen, University College London; Daniele Giunchi, University of Birmingham; Pasquale Cascarano, University of Bologna; Riccardo Bovo, University of Greenwich; Eyal Ofek, University of Birmingham; Anthony Steed, University College London: <strong>Tuning Immersion and Performance with Adaptive Generative Music in VR</strong> </li>
     </ol>
+</div>
