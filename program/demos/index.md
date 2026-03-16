@@ -244,7 +244,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Dart Throwing in Virtual Reality with Aim Assistance</h3>
   <p class="meta-info"><strong>Booth ID: 1</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Ren Boz</strong>, College of Information Science, University of Arizona, Tucson, Arizona, United States</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Ren Boz</strong>, <i>College of Information Science, University of Arizona, Tucson, Arizona, United States</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -261,7 +261,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">VR Games Based on Circumplex Model of Group Tasks for QoE Measurements and Beyond</h3>
   <p class="meta-info"><strong>Booth ID: 2</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Norbert Barczyk</strong>, AGH University of Krakow, Cracow, Poland; <strong>Kamil Koniuch</strong> AGH University of Krakow, Cracow, Poland; <strong>Mateusz Olszewski</strong> AGH University of Krakow, Cracow, Poland; <strong>Lucjan Janowski</strong> AGH University of Krakow, Krakow, Poland</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Norbert Barczyk</strong>, <i>AGH University of Krakow, Cracow, Poland</i>; <strong>Kamil Koniuch</strong> <i>AGH University of Krakow, Cracow, Poland</i>; <strong>Mateusz Olszewski</strong> <i>AGH University of Krakow, Cracow, Poland</i>; <strong>Lucjan Janowski</strong> <i>AGH University of Krakow, Krakow, Poland</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -278,7 +278,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Presentation of Impact Sensations by a Floor-Mounted Turntable</h3>
   <p class="meta-info"><strong>Booth ID: 3</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Mutsuki Shimada</strong>, Graduate School of Informatics and Engineering, Department of Informatics, The University of Electro-Communications; <strong>Izumi Mizoguchi</strong>, Graduate School of Informatics and Engineering, The University of Electro-Communications; <strong>Prof. Hiroyuki Kajimoto</strong> The University of Electro-Communications</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Mutsuki Shimada</strong>, <i>Graduate School of Informatics and Engineering, Department of Informatics, The University of Electro-Communications</i>; <strong>Izumi Mizoguchi</strong>, <i>Graduate School of Informatics and Engineering, The University of Electro-Communications</i>; <strong>Prof. Hiroyuki Kajimoto</strong> <i>The University of Electro-Communications</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -295,7 +295,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">GazeDrift: A Balloon-Popping Serious Game for Eye Tracking Troubleshooting in VR</h3>
   <p class="meta-info"><strong>Booth ID: 4</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>László Kopácsi</strong> Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI); <strong>Abdulrahman Mohamed Selim</strong> Interactive Machine Learning Department (IML), German Research Center for Artificial Intelligence (DFKI); <strong>Arham Ahmed</strong>, Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI); <strong>Michael Barz</strong> Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI); <strong>Daniel Sonntag</strong>, German Research Center for Artificial Intelligence (DFKI Applied Artificial Intelligence, University of Oldenburg</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>László Kopácsi</strong> <i>Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI)</i>; <strong>Abdulrahman Mohamed Selim</strong> <i>Interactive Machine Learning Department (IML), German Research Center for Artificial Intelligence (DFKI)</i>; <strong>Arham Ahmed</strong>, <i>Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI)</i>; <strong>Michael Barz</strong> <i>Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI)</i>; <strong>Daniel Sonntag</strong>, <i>German Research Center for Artificial Intelligence (DFKI Applied Artificial Intelligence, University of Oldenburg</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -312,7 +312,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">User-Centric Active Learning through Immersive Visualization</h3>
   <p class="meta-info"><strong>Booth ID: 4</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Rida Saghir</strong> , Carl von Ossietzky Universität Oldenburg, Oldenburg, Germany German Research Institute for Artificial Intelligence (DFKI), Interactive Machine Learning; <strong>Saleem Ahmad</strong> , Interactive Machine Learning, German Research Institute for Artificial Intelligence; <strong>László Kopácsi</strong> , Interactive Machine Learning, German Reserach Center for Artificial Intelligence (DFKI); <strong>Thiago S. Gouvêa</strong> , Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI); <strong>Daniel Sonntag</strong> , German Research Center for Artificial Intelligence (DFKI), Saarbrücken, Germany Applied Artificial Intelligence, Carl von Ossietzky Universität Oldenburg</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Rida Saghir</strong> , <i>Carl von Ossietzky Universität Oldenburg, Oldenburg, Germany German Research Institute for Artificial Intelligence (DFKI), Interactive Machine Learning</i>; <strong>Saleem Ahmad</strong> , <i>Interactive Machine Learning, German Research Institute for Artificial Intelligence</i>; <strong>László Kopácsi</strong> , <i>Interactive Machine Learning, German Reserach Center for Artificial Intelligence (DFKI)</i>; <strong>Thiago S. Gouvêa</strong> , <i>Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI)</i>; <strong>Daniel Sonntag</strong> , <i>German Research Center for Artificial Intelligence (DFKI), Saarbrücken, Germany Applied Artificial Intelligence, Carl von Ossietzky Universität Oldenburg</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -329,7 +329,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">GTK: An Open-Source Toolkit for Gaze-based Interaction in XR</h3>
   <p class="meta-info"><strong>Booth ID: 4</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>László Kopácsi</strong> , Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI); <strong>Michael Barz</strong> , Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI), Saarbrücken; <strong>Daniel Sonntag</strong> , German Research Center for Artificial Intelligence (DFKI), Saarbrücken, Germany Applied Artificial Intelligence, University of Oldenburg</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>László Kopácsi</strong> , <i>Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI)</i>; <strong>Michael Barz</strong> , <i>Interactive Machine Learning, German Research Center for Artificial Intelligence (DFKI), Saarbrücken</i>; <strong>Daniel Sonntag</strong> , <i>German Research Center for Artificial Intelligence (DFKI), Saarbrücken, Germany Applied Artificial Intelligence, University of Oldenburg</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -346,7 +346,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">A No-Code Versatile XR Framework with Shared Experiences</h3>
   <p class="meta-info"><strong>Booth ID: 5</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Dr Jean-Philippe Farrugia</strong> , LIRIS - IUT, Université Lyon 1; <strong>Jonathan Ollivier</strong>, Computer Science department, Lyon 1 University; <strong>Ing. Dr. Fabrice Jaillet</strong> LIRIS , CNRS; <strong>Bruno Tellez</strong>, LIRIS, Lyon 1 University</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Dr Jean-Philippe Farrugia</strong> , <i>LIRIS - IUT, Université Lyon 1</i>; <strong>Jonathan Ollivier</strong>, <i>Computer Science department, Lyon 1 University</i>; <strong>Ing. Dr. Fabrice Jaillet</strong> <i>LIRIS , CNRS</i>; <strong>Bruno Tellez</strong>, <i>LIRIS, Lyon 1 University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -363,7 +363,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Intuitive Gesture-Based Interaction with 4D Objects in Virtual Reality</h3>
   <p class="meta-info"><strong>Booth ID: 6</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Akihiro Matsuura</strong>, Graduate School of Science and Engineering, Tokyo Denki University; <strong>Yifei Wang</strong>, Graduate School of Science and Engineering, Tokyo Denki University</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Akihiro Matsuura</strong>, <i>Graduate School of Science and Engineering, Tokyo Denki University</i>; <strong>Yifei Wang</strong>, <i>Graduate School of Science and Engineering, Tokyo Denki University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -380,7 +380,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Beyond Frame: A Remediation Authoring Tool for Transforming 2D Artworks into VR Experiences</h3>
   <p class="meta-info"><strong>Booth ID: 7</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Sieun Park</strong>, Sogang University; <strong>Jusub Kim</strong>, Art&Technology/Sogang University,</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Sieun Park</strong>, <i>Sogang University</i>; <strong>Jusub Kim</strong>, <i>Art&Technology/Sogang University,</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -397,7 +397,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Continuous and Interpretable Empathic Behaviors for Embodied Intelligent Virtual Agents</h3>
   <p class="meta-info"><strong>Booth ID: 8</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Yongho Lee</strong> , Electronics and Telecommunications Research Institute; <strong>Heesook Shin</strong> , Electronics and Telecommunications Research Institute; <strong>Gun A. Lee</strong> , IVE STEM, University of South Australia; <strong>Youn-Hee Gil</strong> , Electronics and Telecommunications Research Institute</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Yongho Lee</strong> , <i>Electronics and Telecommunications Research Institute</i>; <strong>Heesook Shin</strong> , <i>Electronics and Telecommunications Research Institute</i>; <strong>Gun A. Lee</strong> , <i>IVE STEM, University of South Australia</i>; <strong>Youn-Hee Gil</strong> , <i>Electronics and Telecommunications Research Institute</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -414,7 +414,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">GenAssist: Interactive Prompt-Driven XR Program Generation</h3>
   <p class="meta-info"><strong>Booth ID: 9</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Sruti S Srinidhi</strong> , Carnegie Mellon University; <strong>Akul Singh</strong> , Carnegie Mellon University; <strong>Edward Lu</strong> , Carnegie Mellon University; <strong>Anthony Rowe</strong> , Carnegie Mellon University Bosch Research</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Sruti S Srinidhi</strong> , <i>Carnegie Mellon University</i>; <strong>Akul Singh</strong> , <i>Carnegie Mellon University</i>; <strong>Edward Lu</strong> , <i>Carnegie Mellon University</i>; <strong>Anthony Rowe</strong> , <i>Carnegie Mellon University Bosch Research</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -431,7 +431,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">HMD-only Controllable 3D Gaussian Avatars in VR: Face and Full-body Demonstration</h3>
   <p class="meta-info"><strong>Booth ID: 10</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Seokhwan Yang</strong> , KAIST; <strong>Hail Song</strong> , GSCT UVRLab, Korea Advanced Institute of Science and Technology; <strong>Woontack Woo</strong> , KI-ITC ARRC, KAIST</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Seokhwan Yang</strong> , <i>KAIST</i>; <strong>Hail Song</strong> , <i>GSCT UVRLab, Korea Advanced Institute of Science and Technology</i>; <strong>Woontack Woo</strong> , <i>KI-ITC ARRC, KAIST</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -448,7 +448,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Situately : Embodied Conversational Agent With LLM-Powered Nonverbal Behavior and Object Interaction</h3>
   <p class="meta-info"><strong>Booth ID: 11</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Hyunchul Kim</strong> , KAIST; <strong>Kwang Bin Lee</strong> , Lifelike Avatar and Agent Lab, Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology; <strong>Jungsoo Lee</strong>, Korea Advanced Institute of Science and Technology; <strong>Sihyun Jeong</strong> , Graduate School of Culture Technology, KAIST; <strong>Sung-Hee Lee</strong> , Graduate School of Culture and Technology, Korea Advanced Institute of Science and Technology; <strong>Dr. Jeongmi Lee</strong> , Graduate School of Culture Technology, KAIST</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Hyunchul Kim</strong> , <i>KAIST</i>; <strong>Kwang Bin Lee</strong> , <i>Lifelike Avatar and Agent Lab, Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology</i>; <strong>Jungsoo Lee</strong>, <i>Korea Advanced Institute of Science and Technology</i>; <strong>Sihyun Jeong</strong> , <i>Graduate School of Culture Technology, KAIST</i>; <strong>Sung-Hee Lee</strong> , <i>Graduate School of Culture and Technology, Korea Advanced Institute of Science and Technology</i>; <strong>Dr. Jeongmi Lee</strong> , <i>Graduate School of Culture Technology, KAIST</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -465,7 +465,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Experiencing Weight Illusion in AR Extended Displays: A Portable Community Demo</h3>
   <p class="meta-info"><strong>Booth ID: 12</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Hayato Tanabe</strong> , Ritsumeikan University; <strong>Satoshi Hashiguchi</strong> , Ritsumeikan University; <strong>Yuta Kataoka</strong> , Ritsumeikan University; <strong>Prof. Asako Kimura</strong> , Ritsumeikan Univ.,; <strong>Shohei Mori</strong> VISUS , University of Stuttgart</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Hayato Tanabe</strong> , <i>Ritsumeikan University</i>; <strong>Satoshi Hashiguchi</strong> , <i>Ritsumeikan University</i>; <strong>Yuta Kataoka</strong> , <i>Ritsumeikan University</i>; <strong>Prof. Asako Kimura</strong> , <i>Ritsumeikan Univ.,</i>; <strong>Shohei Mori</strong> <i>VISUS , University of Stuttgart</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -482,7 +482,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">LOCOMO-Play: Gamification of Sustainable Artificial Intelligence Use in Augmented Reality</h3>
   <p class="meta-info"><strong>Booth ID: 13</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Somang Nam</strong> , Faculty of Computer Science and Technology, Algoma University; <strong>Hyunggu Jung</strong> , Seoul National University, Seoul, Korea, Republic of Seoul National University Hospital; <strong>Mr. Yunseo Moon</strong> , Department of Computer Science and Engineering, University of Seoul; <strong>Dr Seilin S Uhm</strong> , Faculty of Environmental and Life Sciences, University of Southampton</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Somang Nam</strong> , <i>Faculty of Computer Science and Technology, Algoma University</i>; <strong>Hyunggu Jung</strong> , <i>Seoul National University, Seoul, Korea, Republic of Seoul National University Hospital</i>; <strong>Mr. Yunseo Moon</strong> , <i>Department of Computer Science and Engineering, University of Seoul</i>; <strong>Dr Seilin S Uhm</strong> , <i>Faculty of Environmental and Life Sciences, University of Southampton</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -499,7 +499,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">NutriFilter: VLM-Driven Dietary Augmentation in XR Passthrough Environments</h3>
   <p class="meta-info"><strong>Booth ID: 14</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Taegeun Yoon</strong> , Taejon Christian International School,</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Taegeun Yoon</strong> , <i>Taejon Christian International School,</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -516,7 +516,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Enabling natural interactions with virtual humans in XR via real-time human action recognition</h3>
   <p class="meta-info"><strong>Booth ID: 15</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Hannes Fassold</strong>, JOANNEUM RESEARCH, DIGITAL,</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Hannes Fassold</strong>, <i>JOANNEUM RESEARCH, DIGITAL,</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -533,7 +533,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">TwinHaus: Digital Twin Design Tool for Sustainable Building Construction</h3>
   <p class="meta-info"><strong>Booth ID: 16</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Somang Nam</strong> , Algoma University; <strong>Joel Saji</strong>, Varghese Algoma University; <strong>Aanya Goel</strong> Algoma , University; <strong>Hyunggu Jung</strong> , Seoul National University</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Somang Nam</strong> , <i>Algoma University</i>; <strong>Joel Saji</strong>, <i>Varghese Algoma University</i>; <strong>Aanya Goel</strong> <i>Algoma , University</i>; <strong>Hyunggu Jung</strong> , <i>Seoul National University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -550,7 +550,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">ResXR: An Open-Source Toolkit for Standardized XR Behavioral Research</h3>
   <p class="meta-info"><strong>Booth ID: 17</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Mr. Yehuda Bergstein</strong> , School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University; <strong>Noa Barel</strong>, School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University, Tel Aviv, Israel; <strong>Mr. Omri Bromberg</strong> , School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University, Tel Aviv, Israel; <strong>Ms. Galia Shai Basson</strong> , School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University, Tel Aviv, Israel; <strong>Tom Schonberg</strong> Sagol , School of Neuroscience, Tel Aviv University</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Mr. Yehuda Bergstein</strong> , <i>School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University</i>; <strong>Noa Barel</strong>, <i>School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University, Tel Aviv, Israel</i>; <strong>Mr. Omri Bromberg</strong> , <i>School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University, Tel Aviv, Israel</i>; <strong>Ms. Galia Shai Basson</strong> , <i>School of Neurobiology, Biochemistry and Biophysics, Tel Aviv University, Tel Aviv, Israel</i>; <strong>Tom Schonberg</strong> <i>Sagol , School of Neuroscience, Tel Aviv University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -567,7 +567,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">ChromaXR: Enhancing Color Perception for Users with Color Vision Deficiency</h3>
   <p class="meta-info"><strong>Booth ID: 18</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Rafael Alves Goiás</strong> , Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Goiás, Brazil Federal University of Goiás; <strong>Lucas Lima Neves</strong> , Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Goiás, Brazil Federal University of Goiás; <strong>Paulo Vitor Santana da Silva</strong> , Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Federal University of Goiás, Goiânia; <strong>Gustavo Webster</strong> , Advanced Knowledge Center in Immersive Technology; <strong>Davi Duarte de Freitas</strong> , Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, UFRN, Natal; <strong>Dr. Rafael Teixeira Sousa</strong> , Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Brazil Federal University of Mato Grosso; <strong>ARLINDO GALVÃO</strong> , Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Goiás, Brazil Federal University of Goias, Goiânia</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Rafael Alves Goiás</strong> , <i>Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Goiás, Brazil Federal University of Goiás</i>; <strong>Lucas Lima Neves</strong> , <i>Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Goiás, Brazil Federal University of Goiás</i>; <strong>Paulo Vitor Santana da Silva</strong> , <i>Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Federal University of Goiás, Goiânia</i>; <strong>Gustavo Webster</strong> , <i>Advanced Knowledge Center in Immersive Technology</i>; <strong>Davi Duarte de Freitas</strong> , <i>Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, UFRN, Natal</i>; <strong>Dr. Rafael Teixeira Sousa</strong> , <i>Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Brazil Federal University of Mato Grosso</i>; <strong>ARLINDO GALVÃO</strong> , <i>Advanced Knowledge Center in Immersive Technologies (AKCIT), Goiânia, Goiás, Brazil Federal University of Goias, Goiânia</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -584,7 +584,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">A Tangible Mixed Reality System for 3D Modeling</h3>
   <p class="meta-info"><strong>Booth ID: 19</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Mohd Zubair</strong> , Creative Interfaces Lab, Indraprastha Institute of Information Technology Delhi; <strong>Vishal Bharti</strong>, Creative Interfaces Lab, Indraprastha Institute of Information Technology Delhi; <strong>Anmol Srivastava</strong>, Creative Interfaces Lab, Indraprastha Institute of Information Technology Delhi</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Mohd Zubair</strong> , <i>Creative Interfaces Lab, Indraprastha Institute of Information Technology Delhi</i>; <strong>Vishal Bharti</strong>, <i>Creative Interfaces Lab, Indraprastha Institute of Information Technology Delhi</i>; <strong>Anmol Srivastava</strong>, <i>Creative Interfaces Lab, Indraprastha Institute of Information Technology Delhi</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -601,7 +601,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Fast Digitization in XR of Reality-Linked Gaussian-Splatted Proxies</h3>
   <p class="meta-info"><strong>Booth ID: 20</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Benjamin Yang</strong> , Department of Computer Science, Columbia University; <strong>Shanying Liu</strong> , Department of Computer Science, Columbia University; <strong>Kirthana Natarajan</strong> , Department of Computer Science, Columbia University; <strong>Steven Feiner</strong> , Department of Computer Science, Columbia University</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Benjamin Yang</strong> , <i>Department of Computer Science, Columbia University</i>; <strong>Shanying Liu</strong> , <i>Department of Computer Science, Columbia University</i>; <strong>Kirthana Natarajan</strong> , <i>Department of Computer Science, Columbia University</i>; <strong>Steven Feiner</strong> , <i>Department of Computer Science, Columbia University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -618,7 +618,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">With Lily: Design and Implementation of Verbal and Nonverbal Interaction with a Virtual Humanoid in Mixed Reality for Affective Communication</h3>
   <p class="meta-info"><strong>Booth ID: 21</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Taehyun Kim</strong> , Sogang University, Art & Technology; <strong>Yongsoon Choi</strong> , Art &Technology, Sogang Univ</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Taehyun Kim</strong> , <i>Sogang University, Art & Technology</i>; <strong>Yongsoon Choi</strong> , <i>Art &Technology, Sogang Univ</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -635,7 +635,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">SentiSing: A Real-Time Affective Feedback System for Immersive Karaoke in Virtual Reality</h3>
   <p class="meta-info"><strong>Booth ID: 22</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Qingzhu Zhang</strong> , University of California, Berkeley</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Qingzhu Zhang</strong> , <i>University of California, Berkeley</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -652,7 +652,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Voice-Based Access Control in Virtual Reality Using Natural Conversational Speaker Verification</h3>
   <p class="meta-info"><strong>Booth ID: 23</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Andressa Araújo</strong> , Bastos Advanced Knowledge Center in Immersive Technology - AKCIT, Goiânia; <strong>Alexandre Costa Ferro Filho</strong> , Advanced Knowledge Center for Immersive Technologies, Goiânia, Brazil Federal University of Goias; <strong>Dr. Rafael Teixeira Sousa</strong> , Federal University of Mato Grosso; <strong>ARLINDO GALVÃO</strong> , Federal University of Goias, Goiânia</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Andressa Araújo</strong> , <i>Bastos Advanced Knowledge Center in Immersive Technology - AKCIT, Goiânia</i>; <strong>Alexandre Costa Ferro Filho</strong> , <i>Advanced Knowledge Center for Immersive Technologies, Goiânia, Brazil Federal University of Goias</i>; <strong>Dr. Rafael Teixeira Sousa</strong> , <i>Federal University of Mato Grosso</i>; <strong>ARLINDO GALVÃO</strong> , <i>Federal University of Goias, Goiânia</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -669,7 +669,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Pulling Illusion Induced by Asymmetric Vibration with Visual Motion Cues</h3>
   <p class="meta-info"><strong>Booth ID: 24</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Keigo Hattori</strong> , Ritsumeikan University; <strong>Satoshi Hashiguchi</strong> , Ritsumeikan University; <strong>Takeshi Tanabe</strong> , National Institute of Advanced Industrial Science and Technology (AIST); <strong>Tomohiro Amemiya</strong> , The University of Tokyo; <strong>Fumihisa Shibata</strong> , College of Information Science and Engineering, Ritsumeikan University; <strong>Prof. Asako Kimura</strong> , Ritsumeikan Univ</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Keigo Hattori</strong> , <i>Ritsumeikan University</i>; <strong>Satoshi Hashiguchi</strong> , <i>Ritsumeikan University</i>; <strong>Takeshi Tanabe</strong> , <i>National Institute of Advanced Industrial Science and Technology (AIST)</i>; <strong>Tomohiro Amemiya</strong> , <i>The University of Tokyo</i>; <strong>Fumihisa Shibata</strong> , <i>College of Information Science and Engineering, Ritsumeikan University</i>; <strong>Prof. Asako Kimura</strong> , <i>Ritsumeikan Univ</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -686,7 +686,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">MirroringWay: Designing an Inter-World Transition Method with Materialized Mirror Imagery</h3>
   <p class="meta-info"><strong>Booth ID: 25</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Niko Igarash i</strong>, Nakanishi lab, Keio University</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Niko Igarash i</strong>, <i>Nakanishi lab, Keio University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -703,7 +703,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">BossPlz: An Accessible, Multi-Sensory Interactive Virtual Reality (VR) Experience for Extreme Natural Environments</h3>
   <p class="meta-info"><strong>Booth ID: 26</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Jiayi Wu</strong> , University of the Arts, London, London, United Kingdom The Hong Kong University of Science and Technology (Guangzhou); <strong>Sheng Mai</strong> , University College London; <strong>Mr Wang Shangyang</strong> , Sun Yat-sen University; <strong>Shanshan zhang</strong> , University of the arts London; <strong>Dr. Yuyang Wang</strong> , The Hong Kong University of Science and Technology (Guangzhou),</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Jiayi Wu</strong> , <i>University of the Arts, London, London, United Kingdom The Hong Kong University of Science and Technology (Guangzhou)</i>; <strong>Sheng Mai</strong> , <i>University College London</i>; <strong>Mr Wang Shangyang</strong> , <i>Sun Yat-sen University</i>; <strong>Shanshan zhang</strong> , <i>University of the arts London</i>; <strong>Dr. Yuyang Wang</strong> , <i>The Hong Kong University of Science and Technology (Guangzhou),</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -720,7 +720,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">VR Zen Garden: Designing Virtual Environment for Stress Relief</h3>
   <p class="meta-info"><strong>Booth ID: 27</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Hail Song</strong>, GSCT UVRLab, Korea Advanced Institute of Science and Technology; <strong>Jinseok Hong</strong> , UVR Lab, KAIST; <strong>Seonji Kim</strong> , UVR Lab, KAIST; <strong>Kyung Taek Oh</strong> , GSCT, KAIST; <strong>Woontack Woo</strong> , KI-ITC ARRC, KAIST, Daejeon, Korea, Republic of UVR Lab., KAIST; <strong>Sungyoung Kim</strong> , Applied and Innovative Research for Immersive Sound Lab, Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology, Department of Electrical and Computer Engineering Technology, College of Engineering Technology, Rochester Institute of Technology</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Hail Song</strong>, <i>GSCT UVRLab, Korea Advanced Institute of Science and Technology</i>; <strong>Jinseok Hong</strong> , <i>UVR Lab, KAIST</i>; <strong>Seonji Kim</strong> , <i>UVR Lab, KAIST</i>; <strong>Kyung Taek Oh</strong> , <i>GSCT, KAIST</i>; <strong>Woontack Woo</strong> , <i>KI-ITC ARRC, KAIST, Daejeon, Korea, Republic of UVR Lab., KAIST</i>; <strong>Sungyoung Kim</strong> , <i>Applied and Innovative Research for Immersive Sound Lab, Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology, Department of Electrical and Computer Engineering Technology, College of Engineering Technology, Rochester Institute of Technology</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -737,7 +737,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">ChronoShore: Exploring Short- and Long-Term Environmental Time in a Virtual Coastal Ecosystem</h3>
   <p class="meta-info"><strong>Booth ID: 28</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Lucca Troll</strong> , University of Trier; <strong>Yuen C. Law</strong> , Costa Rica Institute of Technology; <strong>Daniel Zielasko</strong> , Technical University of Denmark</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Lucca Troll</strong> , <i>University of Trier</i>; <strong>Yuen C. Law</strong> , <i>Costa Rica Institute of Technology</i>; <strong>Daniel Zielasko</strong> , <i>Technical University of Denmark</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -754,7 +754,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Demonstrating Controller-Free Mixed Reality X-Ray Machine Training</h3>
   <p class="meta-info"><strong>Booth ID: 29</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Youngseo Kim</strong> , Graduate School of Virtual Convergence, Sogang University; <strong>Hongik Jeon</strong> , Graduate School of Virtual Convergence, Sogang University; <strong>Seunggwan Choi</strong> , Graduate School of Virtual Convergence, Sogang University; <strong>Prof. Sanghun Park</strong> , Graduate School of Virtual Convergence, Sogang University</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Youngseo Kim</strong> , <i>Graduate School of Virtual Convergence, Sogang University</i>; <strong>Hongik Jeon</strong> , <i>Graduate School of Virtual Convergence, Sogang University</i>; <strong>Seunggwan Choi</strong> , <i>Graduate School of Virtual Convergence, Sogang University</i>; <strong>Prof. Sanghun Park</strong> , <i>Graduate School of Virtual Convergence, Sogang University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -771,7 +771,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Demonstration of Visuo-Haptic Redirection in Above-surface Drawing with an Extendable Pen</h3>
   <p class="meta-info"><strong>Booth ID: 30</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Fumihiko Nakamura</strong> , College of Information Science and Engineering, Ritsumeikan University; <strong>Hinata Miyauchi</strong> , Ritsumeikan University; <strong>Yuta Kataoka</strong> , Ritsumeikan University; <strong>Fumihisa Shibata</strong> , College of Information Science and Engineering, Ritsumeikan University; <strong>Prof. Asako Kimura</strong> , Ritsumeikan, Univ; <strong>Shohei Mori</strong> , VISUS, University of Stuttgart;</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Fumihiko Nakamura</strong> , <i>College of Information Science and Engineering, Ritsumeikan University</i>; <strong>Hinata Miyauchi</strong> , <i>Ritsumeikan University</i>; <strong>Yuta Kataoka</strong> , <i>Ritsumeikan University</i>; <strong>Fumihisa Shibata</strong> , <i>College of Information Science and Engineering, Ritsumeikan University</i>; <strong>Prof. Asako Kimura</strong> , <i>Ritsumeikan, Univ</i>; <strong>Shohei Mori</strong> , <i>VISUS, University of Stuttgart</i>;</p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -788,7 +788,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Seeing the Real Me: Experiencing Real-Body Pass-Through Embodiment and Interaction</h3>
   <p class="meta-info"><strong>Booth ID: 31</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Kristoffer Waldow</strong> , Computer Graphics Group, TH Köln, Köln, Germany School of Medicine and Health, Technical University of Munich; <strong>Arnulph Fuhrmann</strong> , Computer Graphics Group, TH Köln; <strong>Prof. Dr. Daniel Roth</strong> , Human-Centered Computing and Extended Reality Lab, Technical University of Munich</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Kristoffer Waldow</strong> , <i>Computer Graphics Group, TH Köln, Köln, Germany School of Medicine and Health, Technical University of Munich</i>; <strong>Arnulph Fuhrmann</strong> , <i>Computer Graphics Group, TH Köln</i>; <strong>Prof. Dr. Daniel Roth</strong> , <i>Human-Centered Computing and Extended Reality Lab, Technical University of Munich</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
@@ -805,7 +805,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">Hands-on Fragility: A Multi-Modal Pseudo-Haptic System for Delicate Interaction in VR</h3>
   <p class="meta-info"><strong>Booth ID: 32</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>João Anisio J.A Marinho Nobrega Da</strong>, AKCIT - Game Lab, Federal University of Rio Grande do Norte; <strong>Davi Duarte de Freitas</strong> , UFRN, Natal; <strong>Marcos Arthur da Silva Melo</strong>, IMD, UFRN - Universidade Federal do Rio Grande do Norte, Natal; <strong>Gabriel Lucena</strong>, UFRN, Natal, Rio Grande do Norte ; <strong>Alyson Souza</strong>, AKCIT-IMD, Digital Metropolis Institute, Federal University of Rio Grande do Norte</p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>João Anisio J.A Marinho Nobrega Da</strong>, <i>AKCIT - Game Lab, Federal University of Rio Grande do Norte</i>; <strong>Davi Duarte de Freitas</strong> , <i>UFRN, Natal</i>; <strong>Marcos Arthur da Silva Melo</strong>, <i>IMD, UFRN - Universidade Federal do Rio Grande do Norte, Natal</i>; <strong>Gabriel Lucena</strong>, <i>UFRN, Natal, Rio Grande do Norte</i> ; <strong>Alyson Souza</strong>, <i>AKCIT-IMD, Digital Metropolis Institute, Federal University of Rio Grande do Norte</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
