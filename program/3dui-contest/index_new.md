@@ -21,7 +21,7 @@ title_separator: "|"
 
    <div class="video-container">
             
-                <iframe src="/2026/assets/videos/3duui/2824.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
+                <iframe src="/2026/assets/videos/3duui/2824_new.mp4?autoplay=1" frameborder="0" sandbox=""></iframe>
             </div>
         
 
