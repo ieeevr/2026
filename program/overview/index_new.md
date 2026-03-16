@@ -4,751 +4,877 @@ title: "Program Overview"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-
 <style>
-/* 1. 폰트 크기 반응형 적용 (최소 9px ~ 최대 11px) */
-
 h3 {
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;
-    font-size: 1em;
-    border-bottom: 1px solid #066569;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 3px solid #262188;
+    padding-bottom: 8px;
+    color: #262188;
 }
-/* 2. 가로 스크롤을 위한 래퍼(Wrapper) 스타일 정의 */
 .table-scroll {
-	width: 100%;
-	overflow-x: auto;       /* 내용이 넘치면 스크롤 생성 */
-	margin-bottom: 40px;    /* 표 아래 여백 */
-	-webkit-overflow-scrolling: touch; /* 모바일 부드러운 스크롤 */
-    /* 요청하신 CSS 추가 */
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 40px;
     border-radius: 20px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 table {
-	border-collapse: collapse;
-	width: 100%;
-	/* 3. 모바일에서 표가 찌그러지지 않도록 최소 너비 설정 */
-	min-width: 600px;
-	table-layout: fixed;
-	margin-bottom: 0; /* 마진은 .table-scroll에서 제어 */
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 300px;
+    table-layout: fixed;
 }
+thead {
+    border-bottom: none;
+}   
 th, td {
-	border: 1px solid #888;
-	padding: 4px;
-	text-align: center;
-	word-wrap: break-word;
-	vertical-align: middle;
-	font-size:0.7rem
+    padding: 10px 25px 5px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1rem;
+    border-bottom: none !important;
 }
-/* 헤더 스타일 */
-.day-header {
-	background-color: #4472C4;
-	color: white;
-	font-size: 1.2em;
-	font-weight: bold;
-	padding: 8px;
-}
-.sub-header {
-	background-color: #D9E1F2;
-	font-weight: bold;
-	height: 30px;
-	font-size: 0.6rem
-}
-/* 컬럼 스타일 */
-.time-col {
-	background-color: #262188; /* 변경됨 */
-	font-weight: bold;
-	color: #fff; /* 변경됨 */
-	font-size:0.5rem;
-	vertical-align: top
-}
-.reg-col {
-	background-color: #D3D6EE; /* 푸른 파스텔톤으로 변경 */
-	font-weight: bold;
-	color: #222;
-}
-/* 세션 타입별 컬러 (전체적으로 #262188 기준 푸른 계열 파스텔톤 적용) */
-.type-break {
-	background-color: #F0F2F8;
-	color: #000;
-} /* 휴식 */
-.type-lunch {
-	background-color: #F0F2F8;
-	color: #000;
-} /* 점심 */
-.type-keynote {
-	background-color: #C5CAE9;
-	color: #1A1668;
-	font-weight: bold;
-} /* 키노트/오프닝 */
-.type-social {
-	background-color: #D0D4F0;
-	color: #1A1668;
-	font-weight: bold;
-} /* 리셉션/디너 */
-.type-workshop {
-	background-color: #DCE1F6;
-	color: #000;
-} /* 워크숍/세션 */
-.type-empty {
-	background-color: #FFFFFF;
-}
-.type-tuto {
-	background-color: #E8EAF6;
-	color: #000;
-}
-.type-doct {
-	background-color: #E0E4F8;
-	color: #000;
-}
-.type-Future {
-	background-color: #D4DAF5;
-	color: #000;
-}
-.type-Research {
-	background-color: #C8CEEE;
-	color: #000;
-}
-.type-Welcome {
-	background-color: #B8C0E8;
-	color: #000;
+th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
+.category-cell {
+    text-align: left;
 }
 
-.type-Parallel {
-	background-color: #E4E7F9;
-	color: #000;
-}
-
-/* 링크 컬러 변경 (#e70087 -> #262188) */
-.type-Parallel a {
-    color: #262188;
-    text-decoration: underline;
-    font-weight: bold;
-    transition: color 0.2s;
-}
-
-.type-Parallel a:hover {
-    color: #066569;
-}
 </style>
-<p class="big_title">Program Overview</p>
-<h3>Day 1: Saturday, March 21</h3>
+
+
+
+Day 1: Saturday, March 21
+
 <div class="table-scroll">
-  <table>
-    <colgroup>
-    <col style="width: 5%;">
-    <col style="width: 5%;">
-    <col style="width: 30%;">
-    <col style="width: 30%;">
-    <col style="width: 30%;">
-    </colgroup>
-    <thead>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="time-col">08:00</td>
-        <td rowspan="40" class="reg-col">R<br>
-        e<br>
-        g<br>
-        i<br>
-        s<br>
-        t<br>
-        r<br>
-        a<br>
-        t<br>
-        i<br>
-        o<br>
-        n</td>
-        <td colspan="3" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">08:30</td>
-        <td rowspan="9" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
-          (08:30-12:30)</td>
-        <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-          (08:30-10:00)</td>
-        <td rowspan="3" class="type-doct">Doctoral Consortium</td>
-      </tr>
-      <tr>
-        <td class="time-col">09:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">09:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">10:00</td>
-        <td colspan="2" class="type-break">Break (Catered)</td>
-      </tr>
-      <tr>
-        <td class="time-col">10:30</td>
-        <td rowspan="4" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-          (10:30-12:00)</td>
-        <td rowspan="4" class="type-doct">Doctoral Consortium</td>
-      </tr>
-      <tr>
-        <td class="time-col">11:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">11:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">12:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">12:30</td>
-        <td colspan="2" class="type-empty"></td>
-      </tr>
-      <tr>
-        <td class="time-col">13:00</td>
-        <td colspan="3" rowspan="2" class="type-lunch">Lunch (Not Catered)</td>
-      </tr>
-      <tr>
-        <td class="time-col">13:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">14:00</td>
-        <td rowspan="8" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
-          (14:00-18:00)</td>
-        <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-          (14:00-15:30)</td>
-        <td rowspan="3" class="type-doct">Doctoral Consortium</td>
-      </tr>
-      <tr>
-        <td class="time-col">14:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:30</td>
-        <td colspan="2" class="type-break">Break (Catered)</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:00</td>
-        <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-          (16:00-17:30)</td>
-        <td rowspan="3" class="type-doct">Doctoral Consortium</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">17:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">17:30</td>
-        <td colspan="2" class="type-empty"></td>
-      </tr>
-      <tr>
-        <td class="time-col">18:00</td>
-        <td colspan="3" class="type-empty"></td>
-      </tr>
-    </tbody>
-  </table>
+<table class="table-scroll">
+  
+  <tr>
+    <th >Time</th>
+    <th colspan="6" width="750">Program</th>
+  </tr>
+  <tr>
+    <td >8:30</td>
+    <td colspan="2" rowspan="17" width="250">Workshops (08:30-12:30)<br>
+      @ 320, 321, 322A, 322B, <br>
+      323A, 323B</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (08:30-10:00)<br>
+      @ 325A, 325B, 325C</td>
+    <td width="125">　</td>
+    <td width="125">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="2" rowspan="5" width="250">Doctoral Consortium    (08:45-10:00)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >9:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:00</td>
+    <td colspan="4" rowspan="2" width="500">Break (10:00-10:30) @ Lobby, 3F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:30</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (10:30-12:00)<br>
+      @ 325A, 325B, 325C</td>
+    <td colspan="2" rowspan="5" width="250">Doctoral Consortium    (10:30-11:45)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="2" rowspan="6" width="250">Lunch (11:45-13:15)<br>
+      *Not Catered</td>
+  </tr>
+  <tr>
+    <td >12:00</td>
+    <td colspan="2" rowspan="8" width="250">Lunch (12:00-14:00)<br>
+      *Not Catered</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="2" rowspan="5" width="250">Lunch (12:30-14:00)<br>
+      *Not Catered</td>
+  </tr>
+  <tr>
+    <td >13:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="2" rowspan="5" width="250">Doctoral Consortium    (13:15-14:30)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >13:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:00</td>
+    <td colspan="2" rowspan="16" width="250">Workshops (14:00-18:00)<br>
+      @ 320, 321, 322A, 322B, <br>
+      323A, 323B</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (14:00-15:30)<br>
+      @ 325A, 325B, 325C</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:30</td>
+    <td colspan="2" rowspan="2" width="250">Break (14:30-15:00) @ Lobby, 3F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:00</td>
+    <td colspan="2" rowspan="5" width="250">Doctoral Consortium    (15:00-16:15)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:30</td>
+    <td colspan="2" rowspan="2" width="250">Break (15:30-16:00) @ Lobby, 3F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:00</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (16:00-17:30)<br>
+      @ 325A, 325B, 325C</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="2" rowspan="7" width="250">　</td>
+  </tr>
+  <tr>
+    <td >16:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:30</td>
+    <td colspan="2" rowspan="2" width="250">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+</table>
 </div>
-<h3>Day 2: Sunday, March 22</h3>
+
+
+<h1>Day 2: Sunday, March 22</h1>
 <div class="table-scroll">
-  <table>
-  <tbody>
-    </tbody>
-  <colgroup>
-  <col style="width: 5%;">
-  <col style="width: 5%;">
-  <col style="width: 30%;">
-  <col style="width: 30%;">
-  <col style="width: 30%;">
-  </colgroup>
-  <thead>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="time-col">08:00</td>
-      <td rowspan="39" class="reg-col">R<br>
-        e<br>
-        g<br>
-        i<br>
-        s<br>
-        t<br>
-        r<br>
-        a<br>
-        t<br>
-        i<br>
-        o<br>
-        n</td>
-      <td colspan="3" ></td>
-    </tr>
-    <tr>
-      <td class="time-col">08:30</td>
-      <td rowspan="8" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
-        (08:30-12:30)</td>
-      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-        (08:30-10:00)</td>
-      <td rowspan="3" class="type-Future">Future Faculty Forum</td>
-    </tr>
-    <tr>
-      <td class="time-col">09:00</td>
-      </tr>
-    <tr>
-      <td class="time-col">09:30</td>
-      </tr>
-    <tr>
-      <td class="time-col">10:00</td>
-      <td colspan="2" class="type-break">Break (Catered)</td>
-    </tr>
-    <tr>
-      <td class="time-col">10:30</td>
-      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-        (10:30-12:00)</td>
-      <td rowspan="3" class="type-Future">Future Faculty Forum</td>
-    </tr>
-    <tr>
-      <td class="time-col">11:00</td>
-      </tr>
-    <tr>
-      <td class="time-col">11:30</td>
-      </tr>
-    <tr>
-      <td class="time-col">12:00</td>
-      <td colspan="2" class="type-empty"></td>
-    </tr>
-    <tr>
-      <td class="time-col">12:30</td>
-      <td rowspan="3"></td>
-      <td colspan="2" rowspan="3" class="type-lunch">Lunch (Not Catered)</td>
-    </tr>
-    <tr>
-      <td class="time-col">13:00</td>
-      </tr>
-    <tr>
-      <td class="time-col">13:30</td>
-      </tr>
-    <tr>
-      <td class="time-col">14:00</td>
-      <td rowspan="8" class="type-workshop"><a href="https://ieeevr.org/2026/program/workshop/">Workshops</a><br>
-        (14:00-18:00)</td>
-      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-        (14:00-15:30)</td>
-      <td rowspan="3" class="type-Future">Future Faculty Forum</td>
-    </tr>
-    <tr>
-      <td class="time-col">14:30</td>
-      </tr>
-    <tr>
-      <td class="time-col">15:00</td>
-      </tr>
-    <tr>
-      <td class="time-col">15:30</td>
-      <td colspan="2" class="type-break">Break (Catered)</td>
-    </tr>
-    <tr>
-      <td class="time-col">16:00</td>
-      <td rowspan="3" class="type-tuto"><a href="https://ieeevr.org/2026/program/tutorials/">Tutorials</a><br>
-        (16:00-17:30)</td>
-      <td rowspan="3" class="type-Future">Future Faculty Forum</td>
-    </tr>
-    <tr>
-      <td class="time-col">16:30</td>
-      </tr>
-    <tr>
-      <td class="time-col">17:00</td>
-      </tr>
-    <tr>
-      <td class="time-col">17:30</td>
-      <td colspan="3" rowspan="2" >&nbsp;</td>
-    </tr>
-    <tr>
-      <td class="time-col">18:00</td>
-      <td >&nbsp;</td>
-    </tr>
-  </tbody>
-  <tbody>
-  </tbody>
-  </table>
+<table class="table-scroll">
+  
+  <tr>
+    <th >Time</th>
+    <th colspan="6" width="750">Program</th>
+  </tr>
+  <tr>
+    <td >8:30</td>
+    <td colspan="2" rowspan="16" width="250">Workshops (08:30-12:30)<br>
+      @ 320A, 320B, 321, 322A, 322B,  323A,    323B</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (08:30-10:00)<br>
+      @ 325A, 325B</td>
+    <td colspan="2" rowspan="6" width="250">Future Faculty Forum    (08:30-10:00)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:00</td>
+    <td colspan="2" rowspan="2" width="250">Break (10:00-10:30) @ Lobby, 3F</td>
+    <td colspan="2" rowspan="2" width="250">Break (10:00-10:30) @ Lobby, 3F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:30</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (10:30-12:00)<br>
+      @ 325A, 325B</td>
+    <td colspan="2" rowspan="6" width="250">Future Faculty Forum    (10:30-12:00)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:00</td>
+    <td colspan="2" rowspan="8" width="250">Lunch (12:00-14:00)<br>
+      *Not Catered</td>
+    <td colspan="2" rowspan="8" width="250">Lunch (12:00-14:00)<br>
+      *Not Catered</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:30</td>
+    <td colspan="2" rowspan="6" width="250">Lunch (12:30-14:00)<br>
+      *Not Catered</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >13:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >13:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:00</td>
+    <td colspan="2" rowspan="16" width="250">Workshops (14:00-18:00)<br>
+      @ 320A,  320B, 321, 322A, 322B,  323A, 323B</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (14:00-15:30)<br>
+      @ 325A, 325B</td>
+    <td colspan="2" rowspan="6" width="250">Future Faculty Forum    (14:00-15:30)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:30</td>
+    <td colspan="2" rowspan="2">Break @ Lobby, 3F</td>
+    <td colspan="2" rowspan="2">Break @ Lobby, 3F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:00</td>
+    <td colspan="2" rowspan="6" width="250">Tutorials (16:00-17:30)<br>
+      @ 325A, 325B</td>
+    <td colspan="2" rowspan="6" width="250">Future Faculty    Forum(16:00-17:30)<br>
+      @ 325D</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:30</td>
+    <td colspan="4" rowspan="2" width="500">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+</table>
 </div>
-<h3>Day 3: Monday, March 23</h3>
+
+<h1>Day 3: Monday, March 23</h1>
 <div class="table-scroll">
-  <table>
-    <colgroup>
-    <col style="width: 5%">
-    <col style="width: 5%">
-    <col style="width: 45%">
-    <col style="width: 45%">
-    </colgroup>
-    <thead>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="time-col">08:00</td>
-        <td rowspan="37" class="reg-col">R<br>
-        e<br>
-        g<br>
-        i<br>
-        s<br>
-        t<br>
-        r<br>
-        a<br>
-        t<br>
-        i<br>
-        o<br>
-        n</td>
-        <td colspan="2" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">08:30</td>
-        <td rowspan="2" class="type-keynote">Opening & Awards<br>
-          (08:30-09:30)</td>
-        <td rowspan="5" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">09:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">09:30</td>
-        <td class="type-break">Break</td>
-      </tr>
-      <tr>
-        <td class="time-col">10:00</td>
-        <td rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link01">Keynote 1</a><br>
-        (10:00-11:00)</td>
-      </tr>
-      <tr>
-        <td class="time-col">10:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">11:00</td>
-        <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">11:30</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-1" target="_blank">Parallel Sessions 1</a><br>
-          (11:30-12:30)</td>
-        <td rowspan="3" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">12:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">12:30</td>
-        <td rowspan="3" class="type-lunch">Lunch (Not Catered) </td>
-      </tr>
-      <tr>
-        <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">13:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">14:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-5" target="_blank">Parallel Sessions 2</a><br>
-          (14:00-15:00)</td>
-        <td rowspan="4" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">14:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-9" target="_blank">Parallel Sessions 3</a><br>
-          (15:00-16:00)</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:00</td>
-        <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:30</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-13" target="_blank">Parallel Sessions 4</a><br>
-          (16:30-17:30)</td>
-        <td rowspan="2" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">17:00</td>
-      </tr>
-      <tr>
-         <td class="time-col">17:30</td>
-        <td colspan="2" rowspan="5" class="type-Welcome">Welcome Reception<br>
-          (17:30-19:30)</td>
-      </tr>
-      <tr>
-        <td class="time-col">18:00</td>
-      </tr>
-      <tr>
-         <td class="time-col">18:30</td>
-      </tr>
-      <tr>
-         <td class="time-col">19:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">19:30</td>
-      </tr>
-    </tbody>
-  </table>
+<table class="table-scroll">
+  
+  <tr>
+    <th >Time</th>
+    <th colspan="6" width="750">Program</th>
+  </tr>
+  <tr>
+    <td >8:30</td>
+    <td colspan="3" rowspan="4" width="375">Opening &amp; Awards (08:30-09:30)<br>
+      @ Auditorium, 5F</td>
+    <td colspan="3" rowspan="10" width="375">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:30</td>
+    <td colspan="3" rowspan="2" width="375">Break (09:30-10:00) *Not Catered</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:00</td>
+    <td colspan="3" rowspan="4" width="375">Keynote    1(10:00-11:00)<br>
+      @ Auditorium, 5F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:00</td>
+    <td colspan="3" rowspan="2" width="375">Break (11:00-11:30) @ Grand    Ballroom , 3F</td>
+    <td colspan="3" rowspan="2" width="375">Research Demos, 3DUI Contest    Demos, Posters, <br>
+      XR Gallery (11:00-11:30) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:30</td>
+    <td colspan="3" rowspan="4" width="375">Parallel Sessions 1 (11:30-12:30)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="7" width="375">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:30</td>
+    <td colspan="3" rowspan="6" width="375">Lunch (12:30-14:00)</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >13:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="3" rowspan="3" width="375">Research Demos, 3DUI Contest    Demos, Posters, <br>
+      XR Gallery (13:15-14:00) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >13:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:00</td>
+    <td colspan="3" rowspan="4" width="375">Parallel Sessions 2    (14:00-15:00)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="8" width="375">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:00</td>
+    <td colspan="3" rowspan="4" width="375">Parallel Sessions 3    (15:00-16:00)<br>
+      @ 325AB, 325CD, 324, 323</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:00</td>
+    <td colspan="3" rowspan="2" width="375">Break (16:00-16:30) @ Grand    Ballroom</td>
+    <td colspan="3" rowspan="2" width="375">Research Demos, 3DUI Contest    Demos, Posters, <br>
+      XR Gallery (16:00-16:30) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:30</td>
+    <td colspan="3" rowspan="4" width="375">Parallel Sessions 4    (16:30-17:30)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="4" width="375">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:30</td>
+    <td colspan="3" rowspan="8" width="375">　</td>
+    <td colspan="3" rowspan="8" width="375">Welcome Reception    (17:30-19:30)<br>
+      @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >18:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >18:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >19:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+</table>
 </div>
-<h3>Day 4: Tuesday, March 24</h3>
+
+
+
+<h1>Day 4: Tuesday, March 24</h1>
 <div class="table-scroll">
-  <table>
-    <colgroup>
-    <col style="width: 5%">
-    <col style="width: 5%">
-    <col style="width: 23%">
-    <col style="width: 22%">
-    <col style="width: 45%">
-    </colgroup>
-    <thead>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="time-col">08:00</td>
-        <td rowspan="41" class="reg-col">R<br>
-        e<br>
-        g<br>
-        i<br>
-        s<br>
-        t<br>
-        r<br>
-        a<br>
-        t<br>
-        i<br>
-        o<br>
-        n</td>
-        <td colspan="3" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">08:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-17" target="_blank">Parallel Sessions 5</a><br>(08:30-09:30)</td>
-        <td rowspan="2"></td>
-      </tr>
-      <tr>
-        <td class="time-col">09:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">09:30</td>
-        <td colspan="2" class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link02">Keynote 2</a><br>
-        (10:00-11:00)</td>
-        <td rowspan="6"></td>
-      </tr>
-      <tr>
-        <td class="time-col">10:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">11:00</td>
-        <td colspan="2" class="type-break">Break </td>
-      </tr>
-      <tr>
-        <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-21" target="_blank">Parallel Sessions 6</a><br>
-          (11:30-12:30)</td>
-      </tr>
-      <tr>
-        <td class="time-col">12:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">12:30</td>
-        <td colspan="2" rowspan="3" class="type-lunch">Lunch (Not Catered) </td>
-      </tr>
-      <tr>
-        <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">13:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-25" target="_blank">Parallel Sessions 7</a><br>
-          (14:00-15:00)</td>
-        <td rowspan="4" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">14:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-29" target="_blank">Parallel Sessions 8</a><br>
-          (15:00-16:00)</td>
-        <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
-          (15:00-16:30)</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:00</td>
-        <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-33" target="_blank">Parallel Sessions 9</a><br>
-          (16:30-17:30)</td>
-        <td rowspan="2" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">17:00</td>
-      </tr>
-      <tr>
-         <td class="time-col">17:30</td>
-        <td colspan="3" rowspan="2" ></td>
-      </tr>
-      <tr>
-         <td rowspan="2" class="time-col">18:00</td>
-      </tr>
-      <tr>
-        <td colspan="3" rowspan="7" class="type-Welcome">Gala Dinner<br>
-          (18:00-21:00)</td>
-      </tr>
-      <tr>
-         <td class="time-col">18:30</td>
-      </tr>
-      <tr>
-         <td class="time-col">19:00</td>
-      </tr>
-      <tr>
-         <td class="time-col">19:30</td>
-      </tr>
-      <tr>
-         <td class="time-col">20:00</td>
-      </tr>
-      <tr>
-         <td class="time-col">20:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">21:00</td>
-      </tr>
-    </tbody>
-  </table>
+<table class="table-scroll">
+  
+  <tr>
+    <th >Time</th>
+    <th colspan="6" width="750">Program</th>
+  </tr>
+  <tr>
+    <td >8:30</td>
+    <td colspan="3" rowspan="4" width="375">Parallel    Sessions 5 (08:30-09:30)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="4">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:30</td>
+    <td colspan="3" rowspan="2" width="375">Break    (09:30-10:00) @ Grand Ballrom</td>
+    <td colspan="3" rowspan="2" width="375">Research    Demos, 3DUI Contest Demos, Posters, <br>
+      XR Gallery (11:00-11:30) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:00</td>
+    <td colspan="3" rowspan="4" width="375">Keynote 2    (10:00-11:00)<br>
+      @ Auditorium</td>
+    <td colspan="3" rowspan="13">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:00</td>
+    <td colspan="3" rowspan="2" width="375">Break    (11:00-11:30) *Not Catered</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:30</td>
+    <td colspan="3" rowspan="4" width="375">Parallel    Sessions 6 (11:30-12:30)<br>
+      @ 325AB, 325CD, 324, 323</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:30</td>
+    <td colspan="3" rowspan="6" width="375">Lunch    (12:30-14:00)</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >13:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="3" rowspan="3" width="375">Research    Demos, 3DUI Contest Demos, Posters,<br>
+      XR Gallery (13:15-14:00) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >13:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:00</td>
+    <td colspan="3" rowspan="4" width="375">Parallel    Sessions 7 (14:00-15:00)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="8">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:00</td>
+    <td colspan="2" rowspan="4" width="250">Parallel    Sessions 8 (15:00-16:00) <br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td rowspan="6" width="125">Panel    Session<br>
+      (15:00-16:30)<br>
+      @ Auditorium, 5F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:00</td>
+    <td colspan="2" rowspan="2" width="250">Break    (16:00-16:30) <br>
+      @ Grand Ballroom</td>
+    <td colspan="3" rowspan="2" width="375">Research    Demos, 3DUI Contest Demos, Posters, <br>
+      XR Gallery (16:00-16:30) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:30</td>
+    <td colspan="3" rowspan="4" width="375">Parallel    Sessions 9 (16:30-17:30)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="4">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:30</td>
+    <td colspan="6" rowspan="2" width="750">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td rowspan="2" >18:00</td>
+    <td colspan="6" rowspan="12" width="750">Gala Dinner    (18:00-21:00)<br>
+      @ Convention Hall, 5F</td>
+  </tr>
+  <tr> </tr>
+  <tr>
+    <td >18:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >19:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >19:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >20:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >20:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+</table>
 </div>
-<h3>Day 5: Wednesday, March 25</h3>
+
+
+<h1>Day 5: Wednesday, March 25</h1>
 <div class="table-scroll">
-  <table>
-    <colgroup>
-    <col style="width: 5%">
-    <col style="width: 5%">
-    <col style="width: 23%">
-    <col style="width: 22%">
-    <col style="width: 45%">
-    </colgroup>
-    <thead>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="time-col">08:00</td>
-        <td rowspan="33" class="reg-col">R<br>
-        e<br>
-        g<br>
-        i<br>
-        s<br>
-        t<br>
-        r<br>
-        a<br>
-        t<br>
-        i<br>
-        o<br>
-        n</td>
-        <td colspan="3" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">08:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-37" target="_blank">Parallel Sessions 10</a><br>
-          (08:30-09:30)</td>
-        <td rowspan="2" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">09:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">09:30</td>
-        <td colspan="2" class="type-break">Break</td>
-        <td  class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link03">Keynote 3</a><br>
-        (10:00-11:00)</td>
-        <td rowspan="6"></td>
-      </tr>
-      <tr>
-        <td class="time-col">10:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">11:00</td>
-        <td colspan="2" class="type-break">Break </td>
-      </tr>
-      <tr>
-        <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-41" target="_blank">Parallel Sessions 11</a><br>
-          (11:30-12:30)</td>
-      </tr>
-      <tr>
-        <td class="time-col">12:00</td>
-      </tr>
-      <tr>
-        <td class="time-col">12:30</td>
-        <td colspan="2" rowspan="3" class="type-lunch">Lunch (Not Catered) </td>
-      </tr>
-      <tr>
-        <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">13:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-45" target="_blank">Parallel Sessions 12</a><br>
-          (14:00-15:00)</td>
-        <td rowspan="4" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">14:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-49" target="_blank">Parallel Sessions 13</a><br>
-          (15:00-16:00)</td>
-        <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
-          (15:00-16:30)</td>
-      </tr>
-      <tr>
-        <td class="time-col">15:30</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:00</td>
-        <td class="type-break">Break</td>
-        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
-        XR Gallery</td>
-      </tr>
-      <tr>
-        <td class="time-col">16:30</td>
-        <td colspan="2" rowspan="3" class="type-Welcome">Closing & Awards <br>
-          (16:30-17:30)</td>
-      </tr>
-      <tr>
-        <td class="time-col">17:00</td>
-        <td rowspan="2" ></td>
-      </tr>
-      <tr>
-        <td class="time-col">17:30</td>
-      </tr>
-    </tbody>
-  </table>
+<table class="table-scroll">
+  
+  <tr>
+    <th >Time</th>
+    <th colspan="6" width="750">Program</th>
+  </tr>
+  <tr>
+    <td >8:30</td>
+    <td colspan="3" rowspan="4" width="375">Parallel    Sessions 10 (08:30-09:30)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="4">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >9:30</td>
+    <td colspan="3" rowspan="2" width="375">Break    (09:30-10:00) @ Grand Ballroom</td>
+    <td colspan="3" rowspan="2" width="375">Research    Demos, 3DUI Contest Demos, Posters, <br>
+      XR Gallery (09:30-10:00) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:00</td>
+    <td colspan="3" rowspan="4" width="375">Keynote 3    (10:00-11:00)<br>
+      @ Auditorium</td>
+    <td colspan="3" rowspan="13">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >10:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:00</td>
+    <td colspan="3" rowspan="2" width="375">Break</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >11:30</td>
+    <td colspan="3" rowspan="4" width="375">Parallel    Sessions 11(11:30-12:30)<br>
+      @ 325AB, 325CD, 324, 323</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >12:30</td>
+    <td colspan="3" rowspan="6" width="375">Lunch    (12:30-14:00)</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >13:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+    <td colspan="3" rowspan="3" width="375">Research    Demos, 3DUI Contest Demos, Posters, <br>
+      XR Gallery (13:15-14:00) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >13:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:00</td>
+    <td colspan="3" rowspan="4" width="375">Parallel    Sessions 12 (14:00-15:00)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td colspan="3" rowspan="8">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >14:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:00</td>
+    <td colspan="2" rowspan="4" width="250">Parallel    Sessions 13 (15:00-16:00)<br>
+      @ 325AB, 325CD, 324, 323</td>
+    <td rowspan="6" width="125">Panel    Session<br>
+      (15:00-16:30)<br>
+      @ Auditorium, 5F</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >15:30</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:00</td>
+    <td colspan="2" rowspan="2" width="250">Break    (16:00-16:30) <br>
+      @ Grand Ballroom</td>
+    <td colspan="3" rowspan="2" width="375">Research    Demos, 3DUI Contest Demos, Posters, <br>
+      XR Gallery (16:00-16:30) @ Grand Ballroom</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >16:30</td>
+    <td colspan="3" rowspan="4" width="375">Closing    &amp; Awards (16:30-17:30)<br>
+      @ Auditorium, 5F</td>
+    <td colspan="3" rowspan="4" width="375">　</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+  <tr>
+    <td >17:00</td>
+  </tr>
+  <tr>
+    <td >　</td>
+  </tr>
+</table>
 </div>
