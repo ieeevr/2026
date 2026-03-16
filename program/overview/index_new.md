@@ -36,6 +36,14 @@ th, td {
     font-size: 1rem;
     border-bottom: none !important;
 }
+
+    th {
+    font-size: 1rem;
+}
+
+     td {
+    font-size: 0.8rem;
+}
 th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 .category-cell {
     text-align: left;
@@ -45,10 +53,15 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 
 
 
-Day 1: Saturday, March 21
+<h1>Day 1: Saturday, March 21</h1>
 
 <div class="table-scroll">
 <table class="table-scroll">
+<colgroup>
+<col style="width:10%">
+<col style="width:45%">
+<col style="width:45%">
+</colgroup>
   
   <tr>
     <th >Time</th>
@@ -210,7 +223,11 @@ Day 1: Saturday, March 21
 <h1>Day 2: Sunday, March 22</h1>
 <div class="table-scroll">
 <table class="table-scroll">
-  
+  <colgroup>
+<col style="width:10%">
+<col style="width:45%">
+<col style="width:45%">
+</colgroup>
   <tr>
     <th >Time</th>
     <th colspan="6" width="750">Program</th>
@@ -366,7 +383,11 @@ Day 1: Saturday, March 21
 <h1>Day 3: Monday, March 23</h1>
 <div class="table-scroll">
 <table class="table-scroll">
-  
+  <colgroup>
+<col style="width:10%">
+<col style="width:45%">
+<col style="width:45%">
+</colgroup>
   <tr>
     <th >Time</th>
     <th colspan="6" width="750">Program</th>
@@ -540,7 +561,11 @@ Day 1: Saturday, March 21
 <h1>Day 4: Tuesday, March 24</h1>
 <div class="table-scroll">
 <table class="table-scroll">
-  
+  <colgroup>
+<col style="width:10%">
+<col style="width:45%">
+<col style="width:45%">
+</colgroup>
   <tr>
     <th >Time</th>
     <th colspan="6" width="750">Program</th>
@@ -733,7 +758,11 @@ Day 1: Saturday, March 21
 <h1>Day 5: Wednesday, March 25</h1>
 <div class="table-scroll">
 <table class="table-scroll">
-  
+  <colgroup>
+<col style="width:10%">
+<col style="width:45%">
+<col style="width:45%">
+</colgroup>
   <tr>
     <th >Time</th>
     <th colspan="6" width="750">Program</th>
@@ -878,3 +907,4 @@ Day 1: Saturday, March 21
   </tr>
 </table>
 </div>
+
