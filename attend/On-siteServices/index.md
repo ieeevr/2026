@@ -94,9 +94,9 @@ EXCO, Daegu, Republic of Korea </p>
 
 <h1>Join the IEEE VR 2026 Discord</h1>
  <p>To facilitate communication during the conference, we have set up a <strong>Discord server</strong> where participants can discuss scientific topics, practical information, and social events. 
-
+<br/>
 You can join the server using the <strong>link provided in the on-site services information email. </strong>
-
+<br/>
 After joining the server, please go to <strong>#registration</strong> and enter the <strong>register command</strong> in the message bar. Then provide your <strong>registration confirmation number</strong> and send the message. The <strong>Registration Bot</strong> will verify your confirmation number and automatically grant you access to the server. </p>
 
 <h1>Sudal-E: Our Eco-Friendly Conference Initiative</h1>
