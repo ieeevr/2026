@@ -129,10 +129,10 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
         </tr>
       </tbody>
     </table>
-   
+   <a name="aa1"></a>
   </div>
 </div>
-<h1>Best Papers</h1><a name="aa1"></a>
+<h1>Best Papers</h1>
     <ol>
       <li>Hayeon Kim, Dankook University; In-Kwon Lee, Yonsei University: <strong>How Much Is Too Much? Comfort Envelopes for Distortions in Virtual Reality Interaction </strong> </li>
       <li> Takahiro Okamoto, University of Osaka; Masaki Takeuchi, University of Osaka; Masataka Sawayama, Hokkaido University; Daisuke Iwai, Osaka University: <strong>Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector </strong> </li>
