@@ -90,9 +90,9 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
   <div class="floatRight"><span class="awardsSm"></span></div>
 </h1>
 <ul>
-  <li><strong>Amela Sadagic</strong> – Naval Postgraduate School, USA</li>
-  <li><strong>Henning Pohl</strong> – Aalborg University, Denmark</li>
-  <li><strong>Christian Wallraven</strong> – Korea University, Republic of Korea </li>
+  <li><strong>Amela Sadagic</strong> – <i>Naval Postgraduate School, USA</i></li>
+  <li><strong>Henning Pohl</strong> – <i>Aalborg University, Denmark</i></li>
+  <li><strong>Christian Wallraven</strong> – <i>Korea University, Republic of Korea</i></li>
 </ul>
 <div id="schedule-tables">
   <div class="table-scroll">
