@@ -84,9 +84,6 @@ ol li, ul li {
     }
 }
 </style>
-<p class="big_title">Posters</p>
-<div id="schedule-tables"></div>
-<div id="session-details"></div>
 <p class="big_title">Conference Awards</p>
 <h1>Awards Chairs
   <div class="floatRight"><span class="awardsSm"></span></div>
