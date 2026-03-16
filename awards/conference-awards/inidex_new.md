@@ -42,7 +42,7 @@ thead {
 }   
 th, td {
     padding: 10px 25px 5px;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     font-size: 1rem;
     border-bottom: none !important;
@@ -90,9 +90,9 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
   <div class="floatRight"><span class="awardsSm"></span></div>
 </h1>
 <ul>
-  <li>Amela Sadagic – Naval Postgraduate School, USA</li>
-  <li>Henning Pohl – Aalborg University, Denmark</li>
-  <li>Christian Wallraven – Korea University, Republic of Korea </li>
+  <li><strong>Amela Sadagic</strong> – Naval Postgraduate School, USA</li>
+  <li><strong>Henning Pohl</strong> – Aalborg University, Denmark</li>
+  <li><strong>Christian Wallraven</strong> – Korea University, Republic of Korea </li>
 </ul>
 <div id="schedule-tables">
   <div class="table-scroll">
