@@ -44,7 +44,7 @@ th, td {
     padding: 10px 25px 5px;
     text-align: center;
     vertical-align: middle;
-    font-size: 0.8rem;
+    font-size: 1rem;
     border-bottom: none !important;
 }
 th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
@@ -75,7 +75,7 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
     padding-left: 1.2rem !important;
 }
 .award-wrapper li strong {
-    color: #262188 !important;
+    
 }
 @media (max-width: 768px) {
     .award-wrapper ol, .award-wrapper ul {
