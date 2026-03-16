@@ -223,19 +223,19 @@ td {
         <td >Monday, March 23</td>
         <td>11:00-11:30<br/>
         13:15-14:00<br/>16:00-16:30</td>
-        <td>Grand Ballroom B, 3rd floor</td>
+        <td>Grand Ballroom B, 3F</td>
       </tr>
       <tr>
         <td >Tuesday, March 24</td>
         <td>09:30-10:00<br/>
         13:15-14:00<br/>16:00-16:30</td>
-        <td>Grand Ballroom B, 3rd floor</td>
+        <td>Grand Ballroom B, 3F</td>
       </tr>
       <tr>
         <td >Wednesday, March 25</td>
         <td>09:30-10:00<br/>
         13:15-14:00<br/>16:00-16:30</td>
-        <td>Grand Ballroom B, 3rd floor</td>
+        <td>Grand Ballroom B, 3F</td>
       </tr>
     </tbody>
   </table>
