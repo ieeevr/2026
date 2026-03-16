@@ -54,30 +54,33 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 }
 
 	
+/* 리스트 강제 복구 스타일 (!important 추가) */
 ol, ul {
-    padding-left: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding-left: 2rem !important; /* 여백을 확실하게 줍니다 */
+    margin-bottom: 1.5rem !important;
 }
 
 ol {
-    list-style-type: decimal; 
+    list-style-type: decimal !important; 
+    list-style-position: outside !important; /* 숫자가 영역 밖으로 밀리지 않게 */
 }
 
 ul {
-    list-style-type: disc; 
+    list-style-type: disc !important;
+    list-style-position: outside !important;
 }
 
 ol li, ul li {
-    margin-bottom: 0.8rem;
+    display: list-item !important; /* 간혹 테마에서 block이나 flex로 바꾼 것을 원상복구 */
+    margin-bottom: 0.8rem !important;
     font-size: 0.9rem;
     line-height: 1.6;
     color: #333;
 }
 
-
 @media (max-width: 768px) {
     ol, ul {
-        padding-left: 1.2rem;
+        padding-left: 1.5rem !important;
     }
 }
 </style>
