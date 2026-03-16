@@ -222,17 +222,17 @@ td {
         <td rowspan="3" >Research Demo Booths open</td>
         <td >Monday, March 23</td>
         <td>09:30-10:00<br/>13:00-14:00<br/>16:00-16:30</td>
-        <td>Grand Ballroom A, 3rd floor</td>
+        <td>Grand Ballroom B, 3rd floor</td>
       </tr>
       <tr>
         <td >Tuesday, March 24</td>
         <td>09:30-10:00<br/>13:00-14:00<br/>16:00-16:30</td>
-        <td>Grand Ballroom A, 3rd floor</td>
+        <td>Grand Ballroom B, 3rd floor</td>
       </tr>
       <tr>
         <td >Wednesday, March 25</td>
         <td>09:30-10:00<br/>13:00-14:00<br/>16:00-16:30</td>
-        <td>Grand Ballroom A, 3rd floor</td>
+        <td>Grand Ballroom B, 3rd floor</td>
       </tr>
     </tbody>
   </table>
