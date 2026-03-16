@@ -20,7 +20,7 @@ title_separator: "|"
 </style>
 
 <p class="big_title" style="padding-bottom:0; margin-bottom:0">Venue & Floor Map</p>
-<h1>Venue & Floor Map</h1>
+<h1>Venue: EXCO</h1>
 <p>(41515) 10 Exco-ro, Buk-gu, Daegu, Republic of Korea </p>
 <p><img src="/2026/assets/images/exco_img_001.gif" style="width:100%; border-radius: 10px"></p>
 
