@@ -135,6 +135,34 @@ details summary::before { font-size: 0.7rem; }
     th, td { font-size: 0.75rem; padding: 8px 4px; }
     .category-title { font-size: 1.2rem; }
 }
+
+	
+ol, ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+ol {
+    list-style-type: decimal; 
+}
+
+ul {
+    list-style-type: disc; 
+}
+
+ol li, ul li {
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    ol, ul {
+        padding-left: 1.2rem;
+    }
+}
 </style>
 <p class="big_title">Posters</p>
 <div id="schedule-tables"></div>
