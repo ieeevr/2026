@@ -591,7 +591,8 @@ Here are the key information for the presenters and mentors:</p>
     Andrew Fong / School of Creative Media, City University of Hong Kong, Hong Kong</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Shohei Mori / University of Stuttgart</p>
-  <p>Since 2014 he has been one of the founders of the new research area of Immersive Analytics, which explores information visualisation using emerging immersive display and interaction technologies. His work combines expertise in algorithms, optimisation and interaction design and evaluation.</p>
+  <p>Since 2014 he has been one of the founders of the new research area of Immersive Analytics, which explores information visualisation using emerging immersive display and interaction technologies. His work combines expertise in algorithms, optimisation and interaction design and evaluation. His career has spanned industry and academia. He has developed techniques for network and set visualisation and multidimensional scaling implemented in commercial and open-source software, including Microsoft Visual Studio
+</p>
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onclick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
     <div class="abstract-content">
@@ -605,7 +606,8 @@ Here are the key information for the presenters and mentors:</p>
     Max Olofsson / Gothenburg University, Institute of Neuroscience and Physiology, Gothenburg, Sweden</p>
   <p class="mentor-header"><strong>Mentor</strong></p>
   <p class="mentor-name">Majed Elwardy / Blekinge Institute of Technology</p>
-  <p>His career has spanned industry and academia. He has developed techniques for network and set visualisation and multidimensional scaling implemented in commercial and open-source software, including Microsoft Visual Studio.</p>
+  <p>Majed Elwardy is a university lecturer and researcher in computer science. He earned his Ph.D. from Blekinge Institute of Technology (BTH), Karlskrona, Sweden, in 2025. He previously worked as a research assistant at the Signal Processing and Information Systems (SPIS) Laboratory at Sabanci University, Turkey, and served as a teaching assistant in the Electronics Engineering and Mathematics department at Sabanci University. Prior to that, he was a teaching and research assistant in the Electronics and Communications Engineering department (ECE) at Mansoura University, Egypt. Majed’s current research on extended reality (XR) applications and video quality assessment, with additional interests in statistical signal processing, machine learning, virtual reality, and brain–computer interfaces. He holds a B.Sc. in Communications and Information Engineering from Mansoura University (2011) and an M.Sc. in Electronics Engineering from Sabanci University (2016).
+</p>
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onclick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
     <div class="abstract-content">
