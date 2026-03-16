@@ -41,15 +41,13 @@ th {
     background-color: #262188;
     color: white;
     font-weight: 600;
+    width: 100%;
 }
 td {
     font-size: 0.8rem;
 }
 .category-cell {
     text-align: left;
-}
-.blank-cell {
-    border-bottom: 1px solid #eee !important;
 }
 </style>
 
@@ -73,10 +71,10 @@ td {
         323A, 323B</td>
       <td  rowspan="6">Tutorials (08:30-10:00)<br>
         @ 325A, 325B, 325C</td>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="5">Doctoral Consortium    (08:45-10:00)<br>
         @ 325D</td>
     </tr>
@@ -84,20 +82,20 @@ td {
       <td>9:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:00</td>
       <td rowspan="2" colspan="2">Break (10:00-10:30) @ Lobby, 3F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:30</td>
@@ -107,19 +105,19 @@ td {
         @ 325D</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="6">Lunch (11:45-13:15)<br>
         *Not Catered</td>
     </tr>
@@ -129,13 +127,13 @@ td {
         *Not Catered</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="5">Lunch (12:30-14:00)<br>
         *Not Catered</td>
     </tr>
@@ -143,7 +141,7 @@ td {
       <td>13:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="5">Doctoral Consortium    (13:15-14:30)<br>
         @ 325D</td>
     </tr>
@@ -151,7 +149,7 @@ td {
       <td>13:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:00</td>
@@ -162,14 +160,14 @@ td {
         @ 325A, 325B, 325C</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:30</td>
       <td  rowspan="2">Break (14:30-15:00) @ Lobby, 3F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:00</td>
@@ -177,14 +175,14 @@ td {
         @ 325D</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:30</td>
       <td  rowspan="2">Break (15:30-16:00) @ Lobby, 3F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:00</td>
@@ -192,27 +190,27 @@ td {
         @ 325A, 325B, 325C</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="7">　</td>
     </tr>
     <tr>
       <td>16:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:30</td>
       <td  rowspan="2">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
   </table>
 </div>
@@ -240,26 +238,26 @@ td {
         @ 325D</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:00</td>
       <td rowspan="2" colspan="2">Break (10:00-10:30) @ Lobby, 3F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:30</td>
@@ -269,19 +267,19 @@ td {
         @ 325D</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:00</td>
@@ -289,7 +287,7 @@ td {
         *Not Catered</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:30</td>
@@ -297,19 +295,19 @@ td {
         *Not Catered</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>13:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>13:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:00</td>
@@ -321,26 +319,26 @@ td {
         @ 325D</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:30</td>
       <td rowspan="2" colspan="2">Break @ Lobby, 3F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:00</td>
@@ -350,26 +348,26 @@ td {
         @ 325D</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:30</td>
       <td rowspan="2" colspan="2">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
   </table>
 </div>
@@ -393,20 +391,20 @@ td {
       <td  rowspan="10" >　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:30</td>
       <td  rowspan="2" >Break (09:30-10:00) *Not Catered</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:00</td>
@@ -414,13 +412,13 @@ td {
         @ Auditorium, 5F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:00</td>
@@ -429,7 +427,7 @@ td {
         XR Gallery (11:00-11:30) @ Grand Ballroom</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:30</td>
@@ -438,26 +436,26 @@ td {
       <td  rowspan="7" >　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:30</td>
       <td  rowspan="6" >Lunch (12:30-14:00)</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>13:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="3" >Research Demos, 3DUI Contest    Demos, Posters, <br>
         XR Gallery (13:15-14:00) @ Grand Ballroom</td>
     </tr>
@@ -465,7 +463,7 @@ td {
       <td>13:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:00</td>
@@ -474,13 +472,13 @@ td {
       <td  rowspan="8" >　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:00</td>
@@ -488,13 +486,13 @@ td {
         @ 325AB, 325CD, 324, 323</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:00</td>
@@ -503,7 +501,7 @@ td {
         XR Gallery (16:00-16:30) @ Grand Ballroom</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:30</td>
@@ -512,13 +510,13 @@ td {
       <td  rowspan="4" >　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:30</td>
@@ -528,25 +526,25 @@ td {
     </tr>
     <tr>
 
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>18:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>18:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>19:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
   </table>
 </div>
@@ -571,13 +569,13 @@ td {
       <td  rowspan="4">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:30</td>
@@ -586,7 +584,7 @@ td {
         XR Gallery (11:00-11:30) @ Grand Ballroom</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:00</td>
@@ -595,20 +593,20 @@ td {
       <td  rowspan="13">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:00</td>
       <td  rowspan="2" colspan="2">Break    (11:00-11:30) *Not Catered</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:30</td>
@@ -616,26 +614,26 @@ td {
         @ 325AB, 325CD, 324, 323</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:30</td>
       <td  rowspan="6" colspan="2">Lunch    (12:30-14:00)</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>13:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="3" >Research    Demos, 3DUI Contest Demos, Posters,<br>
         XR Gallery (13:15-14:00) @ Grand Ballroom</td>
     </tr>
@@ -643,7 +641,7 @@ td {
       <td>13:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:00</td>
@@ -652,13 +650,13 @@ td {
       <td  rowspan="8">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:00</td>
@@ -669,13 +667,13 @@ td {
         @ Auditorium, 5F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:00</td>
@@ -685,7 +683,7 @@ td {
         XR Gallery (16:00-16:30) @ Grand Ballroom</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:30</td>
@@ -694,20 +692,20 @@ td {
       <td  rowspan="4">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:30</td>
       <td colspan="3" rowspan="2">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td rowspan="2">18:00</td>
@@ -719,31 +717,31 @@ td {
       <td>18:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>19:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>19:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>20:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>20:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
   </table>
 </div>
@@ -768,13 +766,13 @@ td {
       <td  rowspan="4">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>9:30</td>
@@ -783,7 +781,7 @@ td {
         XR Gallery (09:30-10:00) @ Grand Ballroom</td>
     </tr>
     <tr>
-      <td height="18" class="blank-cell">　</td>
+      <td height="18">　</td>
     </tr>
     <tr>
       <td>10:00</td>
@@ -792,20 +790,20 @@ td {
       <td  rowspan="13">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>10:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:00</td>
       <td  rowspan="2" colspan="2">Break</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>11:30</td>
@@ -813,26 +811,26 @@ td {
         @ 325AB, 325CD, 324, 323</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>12:30</td>
       <td  rowspan="6" colspan="2" >Lunch    (12:30-14:00)</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>13:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
       <td  rowspan="3" >Research    Demos, 3DUI Contest Demos, Posters, <br>
         XR Gallery (13:15-14:00) @ Grand Ballroom</td>
     </tr>
@@ -840,7 +838,7 @@ td {
       <td>13:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:00</td>
@@ -849,13 +847,13 @@ td {
       <td  rowspan="8">　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>14:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:00</td>
@@ -866,13 +864,13 @@ td {
         @ Auditorium, 5F</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>15:30</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:00</td>
@@ -882,7 +880,7 @@ td {
         XR Gallery (16:00-16:30) @ Grand Ballroom</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>16:30</td>
@@ -891,13 +889,13 @@ td {
       <td  rowspan="4" >　</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
     <tr>
       <td>17:00</td>
     </tr>
     <tr>
-      <td class="blank-cell">　</td>
+      <td>　</td>
     </tr>
   </table>
 </div>
