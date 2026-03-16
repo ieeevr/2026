@@ -4,6 +4,21 @@ title: "Venue & Floor Map"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+
+<style>
+.btn-large {
+    padding: 15px 45px;
+    font-size: 1.200em;
+    line-height: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+.btn-blue {
+    background-color: #262189;
+    color: #fff;
+}
+</style>
+
 <p class="big_title" style="padding-bottom:0; margin-bottom:0">Venue & Floor Map</p>
 <h1>Venue & Floor Map</h1>
 <p>(41515) 10 Exco-ro, Buk-gu, Daegu, Republic of Korea </p>
