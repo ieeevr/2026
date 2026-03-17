@@ -183,7 +183,7 @@ text-align: center;
       </tr>
       <tr>
         <th>14:00</th>
-        <td rowspan="15"><a href="/2026/program/workshop/">Workshops</a><br/>
+        <td rowspan="14"><a href="/2026/program/workshop/">Workshops</a><br/>
           (14:00-18:00)<br>
           @ 320, 321, 322A, 322B, <br>
           323A, 323B</td>
@@ -229,7 +229,7 @@ text-align: center;
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
-        <td rowspan="6">　</td>
+        <td rowspan="5">　</td>
       </tr>
       <tr>
         <th>16:30</th>
@@ -242,10 +242,6 @@ text-align: center;
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
-      </tr>
-      <tr>
-        <th>17:30</th>
-        <td>　</td>
       </tr>
     </tbody>
   </table>
@@ -361,7 +357,7 @@ text-align: center;
       </tr>
       <tr>
         <th>14:00</th>
-        <td rowspan="15"><a href="/2026/program/workshop/">Workshops</a><br/>
+        <td rowspan="14"><a href="/2026/program/workshop/">Workshops</a><br/>
           (14:00-18:00)<br>
           @ 320A, 320B, 321, 322A, 322B, 323A, 323B</td>
         <td rowspan="6"><a href="/2026/program/tutorials/">Tutorials</a><br/>
@@ -416,10 +412,6 @@ text-align: center;
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
-      </tr>
-      <tr>
-        <th>17:30</th>
-        <td colspan="2">　</td>
       </tr>
     </tbody>
   </table>
