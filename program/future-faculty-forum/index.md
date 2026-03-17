@@ -4,6 +4,54 @@ title: "Future Faculty Forum (F3)"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+
+<style>
+.table-scroll {
+width: 100%;
+overflow-x: auto;
+margin-bottom: 40px;
+border-radius: 20px;
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+table {
+border-collapse: collapse;
+width: 100%;
+min-width: 300px;
+table-layout: fixed;
+}
+thead {
+border-bottom: none;
+}   
+th, td {
+padding: 10px 25px 5px;
+text-align: left;
+vertical-align: middle;
+}
+thead th {
+font-size: 1rem;
+background-color: #262188 !important;
+color: white;
+font-weight: 600;
+padding: 0.5rem
+}
+td {
+font-size: 0.7rem;
+border-bottom: 1px solid #eee !important;
+border-left: 1px solid #eee !important;
+line-height:1.2
+}
+
+td a {
+font-size: 1rem;
+	
+	
+	}
+tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300; padding:0; text-align:center}
+.bt_br_01 {border-bottom:1px solid #ccc}
+.category-cell {
+text-align: left;
+}	
+</style>
 <script type="text/javascript">  
 
     $(document).ready(function(){
