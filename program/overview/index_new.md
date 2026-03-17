@@ -41,7 +41,6 @@ th {
     background-color: #262188;
     color: white;
     font-weight: 600;
-    width: 100%;
 }
 td {
     font-size: 0.8rem;
