@@ -126,15 +126,17 @@ The following sections provide more details about what the XR Future Faculty For
 <table>
 <colgroup>
 <col style="width:10%">
-<col style="width:30%">
-<col style="width:30%">
-<col style="width:30%">
+<col style="width:10%">
+<col style="width:80%">
 </colgroup>
+<thead>
   <tr>
     <th>Start</th>
     <th>End</th>
     <th>Topic</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>8:30</td>
     <td>8:45</td>
@@ -195,6 +197,7 @@ The following sections provide more details about what the XR Future Faculty For
     <td>17:30</td>
     <td>Closing Remarks + Speed Advising</td>
   </tr>
+  </tbody>
 </table>
 </div>
     <h1>Updates Beyond IEEE VR</h1>
