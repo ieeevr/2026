@@ -72,80 +72,83 @@ The following sections provide more details about what the XR Future Faculty For
 
 
     </p>
-    <h2 id="schedule">Forum Schedule</h2> 
+    <h2 id="schedule">Schedule</h2> 
     <p>Stay tuned for the schedule!</p> 
-    <table class="f3-table" Style="vertical-align: top; display:none">
-        <tr>
-            <th>Start </th>
-            <th>End </th>				
-            <th>Event</th>
-        </tr>
-        <tr>
-            <td class="bold">8:30</td>
-            <td class="bold">8:45</td>
-            <td class="bold">Welcome and Opening Remarks</td>
-        </tr>
-        <tr>
-            <td class="bold">8:45</td>
-            <td class="bold">9:30</td>
-            <td class="bold">Panel 1: Challenges and Opportunities of Interdisciplinary Research</td>
-        </tr>
-        <tr>
-            <td class="bold">9:30</td>
-            <td class="bold">10:15</td>
-            <td class="bold">Panel 2: Differences in Universities (Geographical, Research vs. Teaching Allocations)</td>
-        </tr>        
-        <tr>
-            <td class="bold">10:15</td>
-            <td class="bold">10:45</td>
-            <td class="bold">Break</td>
-        </tr>
-        <tr>
-            <td class="bold">10:45</td>
-            <td class="bold">11:45</td>
-            <td class="bold">Tutorial: Professor Application Process</td>
-        </tr>       
-        <tr>
-            <td class="bold">11:45</td>
-            <td class="bold">12:30</td>
-            <td class="bold">Speed Advising</td>
-        </tr>    
-        <tr>
-            <td class="bold">12:30</td>
-            <td class="bold">14:00</td>
-            <td class="bold">Lunch</td>
-        </tr>
-        <tr>
-            <td class="bold">14:00</td>
-            <td class="bold">15:00</td>
-            <td class="bold">Tutorial: Review and Critique of Application Materials (Research, Teaching, and Diversity Statements)</td>
-        </tr>       
-        <tr>
-            <td class="bold">15:00</td>
-            <td class="bold">15:45</td>
-            <td class="bold">Speed Advising</td>
-        </tr>    
-        <tr>
-            <td class="bold">15:45</td>
-            <td class="bold">16:15</td>
-            <td class="bold">Break</td>
-        </tr>
-        <tr>
-            <td class="bold">16:15</td>
-            <td class="bold">17:00</td>
-            <td class="bold">Panel 3: Lab Formation and Management</td>
-        </tr>       
-        <tr>
-            <td class="bold">17:00</td>
-            <td class="bold">17:45</td>
-            <td class="bold">Closing Remarks / Speed Advising</td>
-        </tr>    
-        <tr>
-            <td class="bold"></td>
-            <td class="bold">18:00</td>
-            <td class="bold">End</td>
-        </tr>
-    </table>
+   <div class="table-scroll">
+<table>
+<colgroup>
+<col style="width:10%">
+<col style="width:30%">
+<col style="width:30%">
+<col style="width:30%">
+</colgroup>
+  <tr>
+    <th>Start</th>
+    <th>End</th>
+    <th>Topic</th>
+  </tr>
+  <tr>
+    <td>8:30</td>
+    <td>8:45</td>
+    <td>Opening remarks</td>
+  </tr>
+  <tr>
+    <td>8:45</td>
+    <td>9:30</td>
+    <td>Panel 1: Lab Formation and Management</td>
+  </tr>
+  <tr>
+    <td>9:30</td>
+    <td>10:00</td>
+    <td>Speed Advising</td>
+  </tr>
+  <tr>
+    <td>10:00</td>
+    <td>10:30</td>
+    <td>Break </td>
+  </tr>
+  <tr>
+    <td>10:30</td>
+    <td>11:30</td>
+    <td>Tutorial: Professor Application Process</td>
+  </tr>
+  <tr>
+    <td>11:30</td>
+    <td>12:15</td>
+    <td>Panel 2: Differences in Universities (Geographical, Research vs.    Teaching Allocations)</td>
+  </tr>
+  <tr>
+    <td>12:15</td>
+    <td>14:00</td>
+    <td>Lunch (not catered)</td>
+  </tr>
+  <tr>
+    <td>14:00</td>
+    <td>15:00</td>
+    <td>Tutorial: Review and Critique of Application Materials (Research,    Teaching, and Diversity Statements)</td>
+  </tr>
+  <tr>
+    <td>15:00</td>
+    <td>15:30</td>
+    <td>Speed Advising</td>
+  </tr>
+  <tr>
+    <td>15:30</td>
+    <td>16:00</td>
+    <td>Break</td>
+  </tr>
+  <tr>
+    <td>16:00</td>
+    <td>16:45</td>
+    <td>Panel 3: Challenges and Opportunities of Interdisciplinary Research</td>
+  </tr>
+  <tr>
+    <td>16:45</td>
+    <td>17:30</td>
+    <td>Closing Remarks + Speed Advising</td>
+  </tr>
+</table>
+</div>
     <h2 id="Update">Updates Beyond IEEE VR</h2>
     <p>
    If you are interested in staying up-to-date with information about the XR Future Faculty Forum or are interested in helping out as a panellist in the future, please fill out this form:  <a href="https://forms.gle/q1Kaqf3HUGkPfEWG6" target="_blank">https://forms.gle/q1Kaqf3HUGkPfEWG6</a>, or send us an email at <a href="mailto:futurefacultyforum2026@ieeevr.org">futurefacultyforum2026@ieeevr.org</a>. 
