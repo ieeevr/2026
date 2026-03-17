@@ -476,7 +476,7 @@ text-align: left;
 <td rowspan="2">Break <br/>
 (11:00-11:30)<br/>
 @ Grand Ballroom, 3F</td>
-<td rowspan="2"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery <br/>
 (11:00-11:30)<br/>
 @ Grand Ballroom</td>
@@ -513,7 +513,7 @@ XR Gallery <br/>
 </tr>
 <tr>
 <th class="bt_br_01">　</th>
-<td rowspan="3"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="3"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery <br/>
 (13:15-14:00)<br/>
 @ Grand Ballroom</td>
@@ -560,7 +560,7 @@ XR Gallery <br/>
 <td rowspan="2">Break <br/>
 (16:00-16:30)<br/>
 @ Grand Ballroom</td>
-<td rowspan="2"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery <br/>
 (16:00-16:30)<br/>
 @ Grand Ballroom</td>
@@ -654,7 +654,7 @@ XR Gallery <br/>
 <td rowspan="2" colspan="2">Break <br/>
 (09:30-10:00)<br/>
 @ Grand Ballrom</td>
-<td rowspan="2"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery <br/>
 (11:00-11:30)<br/>
 @ Grand Ballroom</td>
@@ -714,7 +714,7 @@ XR Gallery <br/>
 </tr>
 <tr>
 <th class="bt_br_01">　</th>
-<td rowspan="3"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>,<br>
+<td rowspan="3"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>,<br>
 XR Gallery <br/>
 (13:15-14:00)<br/>
 @ Grand Ballroom</td>
@@ -765,7 +765,7 @@ XR Gallery <br/>
 <td rowspan="2">Break <br/>
 (16:00-16:30) <br>
 @ Grand Ballroom</td>
-<td rowspan="2"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery <br/>
 (16:00-16:30)<br/>
 @ Grand Ballroom</td>
@@ -874,7 +874,7 @@ XR Gallery <br/>
 <td rowspan="2" colspan="2">Break <br/>
 (09:30-10:00)<br/>
 @ Grand Ballroom</td>
-<td rowspan="2"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery<br/>
 (09:30-10:00)<br/>
 @ Grand Ballroom</td>
@@ -933,7 +933,7 @@ XR Gallery<br/>
 </tr>
 <tr>
 <th class="bt_br_01">　</th>
-<td rowspan="3"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="3"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery <br/>
 (13:15-14:00)<br/>
 @ Grand Ballroom</td>
@@ -984,7 +984,7 @@ XR Gallery <br/>
 <td rowspan="2">Break <br/>
 (16:00-16:30) <br>
 @ Grand Ballroom</td>
-<td rowspan="2"><a href="/2026/program/overview/">Research Demos</a>, <a href="/2026/program/posters/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+<td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
 XR Gallery <br/>
 (16:00-16:30)<br/>
 @ Grand Ballroom</td>
