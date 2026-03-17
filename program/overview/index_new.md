@@ -59,7 +59,7 @@ tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !
 text-align: left;
 }
 </style>
-
+<p class="big_title">Program Overview</p>
 <h1>Day 1: Saturday, March 21</h1>
 <div class="table-scroll">
 <table>
