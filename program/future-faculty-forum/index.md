@@ -24,7 +24,7 @@ border-bottom: none;
 }   
 th, td {
 padding: 10px 25px 5px;
-text-align: left;
+text-align: center;
 vertical-align: middle;
 }
 thead th {
