@@ -613,8 +613,17 @@ document.addEventListener("DOMContentLoaded", function() {
                             <hr class="div-light">
                     `;
 
-                    sess.papers.forEach((paper, pIdx) => {
+                   sess.papers.forEach((paper, pIdx) => {
                         const abstractText = paperAbstracts[paper.title] || "Abstract not available.";
+
+                        // 저자 및 소속 텍스트 포맷팅 처리
+                        const formattedAuthors = paper.authors.split(';').map(item => {
+                            const parts = item.split(':');
+                            if (parts.length >= 2) {
+                                return `<strong>${parts[0].trim()}</strong>: <i>${parts[1].trim()}</i>`;
+                            }
+                            return item.trim();
+                        }).join('; ');
 
                         detailsHTML += `
                             <div class="paper-block paper-item">
@@ -623,7 +632,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 
                                 <div>
                                     <span style="font-weight: bold; color: #262188; margin-top: 5px; font-size:0.8rem; display: none">· Author List</span>
-                                    <div style="margin-top: 5px; padding-left: 10px; color: #444; line-height: 1.5; font-size: 0.7rem;">${paper.authors}</div>
+                                    <div style="margin-top: 5px; padding-left: 10px; color: #444; line-height: 1.5; font-size: 0.7rem;">${formattedAuthors}</div>
                                 </div>
                                 
                                 <div>
