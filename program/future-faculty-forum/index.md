@@ -73,7 +73,7 @@ The following sections provide more details about what the XR Future Faculty For
 
     </p>
     <h2 id="schedule">Schedule</h2> 
-    <p>Stay tuned for the schedule!</p> 
+    <p>All times are given in Daegu, Korea local time</p> 
    <div class="table-scroll">
 <table>
 <colgroup>
