@@ -35,20 +35,19 @@ th, td {
     padding: 10px 25px 5px;
     text-align: left;
     vertical-align: middle;
-    font-size: 1rem;
-    border-bottom: none !important;
 }
-th {
+thead th {
     font-size: 1rem;
-    background-color: #262188;
+    background-color: #262188 !important;
     color: white;
     font-weight: 600;
 }
 td {
     font-size: 0.8rem;
+    border-bottom: 1px solid #eee !important;
 }
 
-tbody th { background-color: #f3f3f3}
+tbody th { background-color: #f3f3f3  !important; color:#ccc;  font-size: 0.8rem}
 . bt_br_01 {border-bottom:1px solid #eee}
 .category-cell {
     text-align: left;
