@@ -591,16 +591,17 @@ document.addEventListener("DOMContentLoaded", function() {
                         tablesHTML += `<td rowspan="${sessions.length}">${slot.time}</td>`;
                     }
                     
-                    tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">Session ${sess.id}: ${sess.name} </a></td>`;
-                    tablesHTML += `</tr>`;
-
-                    const fullDateTime = `${dayInfo.day}, ${slot.time}`;
-                    
-                    // 👉 엑셀에서 추출한 Room과 Chair 정보 매핑
+                    // 👉 Room과 Chair 정보 매핑을 테이블 생성 전에 미리 추출
                     const mappingInfo = roomChairMapping[sess.id] || { room: "TBA", chair: "TBA" };
                     const sessionRoom = mappingInfo.room;
                     const sessionChair = mappingInfo.chair;
 
+                    // 👉 세션 제목 끝에 Room 번호 추가 (예: Session 1: ... (Room: 323))
+                    tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">Session ${sess.id}: ${sess.name} (Room: ${sessionRoom})</a></td>`;
+                    tablesHTML += `</tr>`;
+
+                    const fullDateTime = `${dayInfo.day}, ${slot.time}`;
+                    
                     detailsHTML += `
                         <div id="session-${sess.id}" class="session-container">
                             <div class="session-title-wrapper">
