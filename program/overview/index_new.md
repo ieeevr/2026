@@ -483,7 +483,7 @@ text-align: center;
         <td rowspan="2">Break <br/>
           (11:00-11:30)<br/>
           @ Grand Ballroom, 3F</td>
-        <td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (11:00-11:30)<br/>
           @ Grand Ballroom</td>
@@ -520,7 +520,7 @@ text-align: center;
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
-        <td rowspan="3"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="3"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (13:15-14:00)<br/>
           @ Grand Ballroom</td>
@@ -567,7 +567,7 @@ text-align: center;
         <td rowspan="2">Break <br/>
           (16:00-16:30)<br/>
           @ Grand Ballroom</td>
-        <td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (16:00-16:30)<br/>
           @ Grand Ballroom</td>
@@ -627,9 +627,9 @@ text-align: center;
   <table>
     <colgroup>
     <col style="width:10%">
-    <col style="width:30%">
-    <col style="width:30%">
-    <col style="width:30%">
+    <col style="width:23%">
+    <col style="width:22%">
+    <col style="width:45%">
     </colgroup>
     <thead>
       <tr>
@@ -659,7 +659,7 @@ text-align: center;
         <td rowspan="2" colspan="2">Break <br/>
           (09:30-10:00)<br/>
           @ Grand Ballrom</td>
-        <td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (11:00-11:30)<br/>
           @ Grand Ballroom</td>
@@ -719,7 +719,7 @@ text-align: center;
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
-        <td rowspan="3"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>,<br>
+        <td rowspan="3"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>,<br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (13:15-14:00)<br/>
           @ Grand Ballroom</td>
@@ -769,7 +769,7 @@ text-align: center;
         <td rowspan="2">Break <br/>
           (16:00-16:30) <br>
           @ Grand Ballroom</td>
-        <td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (16:00-16:30)<br/>
           @ Grand Ballroom</td>
@@ -848,9 +848,9 @@ text-align: center;
   <table>
     <colgroup>
     <col style="width:10%">
-    <col style="width:30%">
-    <col style="width:30%">
-    <col style="width:30%">
+    <col style="width:23%">
+    <col style="width:22%">
+    <col style="width:45%">
     </colgroup>
     <thead>
       <tr>
@@ -880,7 +880,7 @@ text-align: center;
         <td rowspan="2" colspan="2">Break <br/>
           (09:30-10:00)<br/>
           @ Grand Ballroom</td>
-        <td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a><br/>
           (09:30-10:00)<br/>
           @ Grand Ballroom</td>
@@ -939,7 +939,7 @@ text-align: center;
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
-        <td rowspan="3"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="3"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (13:15-14:00)<br/>
           @ Grand Ballroom</td>
@@ -989,7 +989,7 @@ text-align: center;
         <td rowspan="2">Break <br/>
           (16:00-16:30) <br>
           @ Grand Ballroom</td>
-        <td rowspan="2"><a href="/2026/program/demos/">Research Demos</a>, <a href="/2026/program/3dui-contest/">3DUI Contest Demos</a>, <a href="/2026/program/posters/">Posters</a>, <br>
+        <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <br>
           <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
           (16:00-16:30)<br/>
           @ Grand Ballroom</td>
