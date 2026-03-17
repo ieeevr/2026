@@ -48,7 +48,7 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 <p class="big_title">On-site Services</p>
 <h1>Registration: Self Check-in </h1>
 <p>Pre-registered participants can check in at the <strong>Self Check-in Kiosk</strong> at the venue by scanning the <strong>QR code included in their registration confirmation email.</strong> Please have the QR code ready on your mobile device or bring a printed copy to print your conference badge. </p>
-<p>Registration Desk & Self Check-in Kiosk Hours</p>
+<p style="margin-bottom:0.2rem"><strong>Registration Desk & Self Check-in Kiosk Hours</strong></p>
 <div class="table-scroll">
   <table>
     <tbody>
@@ -83,8 +83,15 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
     </tbody>
   </table>
 </div>
-<p><strong>Location</strong> <br>
-Lobby nearby Room 325, 3F, EXCO, Daegu</p>
+<h1>Location<h1></h1>
+<p></p>Lobby nearby Room 325, 3F, EXCO, Daegu</p>
+
+
+<h1>Venue & Floor Map</h1>
+<p>To help you find your way around the conference center, EXCO, a map is available here:</p>
+<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="/2026/attend/VenueFloorMap/" class="btn-large btn-blue" target="_blank">Venue & Floor Map</a> </p>
+
+
 <h1>Join the IEEE VR 2026 Discord</h1>
 <p>To facilitate communication during the conference, we have set up a Discord server  where participants can discuss scientific topics, practical information, and social events.  <br>
 <br>
@@ -124,19 +131,17 @@ The Registration Bot will verify your confirmation number and automatically gran
   To support this initiative, IEEE VR 2026 introduces <strong>“SuDal-E,” a social AR app experience for attendees.</strong> The application demonstrates how <strong>XR technology can raise environmental awareness</strong> through an interactive mission in which participants rescue endangered otters, clean polluted habitats, and build their own sanctuary. <br>
   <br>
   The conference also implements several <strong>sustainable practices.</strong> Conference bags are made from <strong>recycled materials,</strong> and <strong>reusable cups</strong> are provided for participants. A <strong>cup-washing station</strong> is available in the coffee break area at<strong> Grand Ballroom A (3F), EXCO,</strong> encouraging participants to reuse their cups throughout the event. </p>
-<h1>Venue & Floor Map</h1>
-<p>To help you find your way around the conference center, EXCO, a map is available here:</p>
-<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="/2026/attend/VenueFloorMap/" class="btn-large btn-blue" target="_blank">Venue & Floor Map</a> </p>
+
 
 <h1>Shuttle Bus Service </h1>
 <p>A shuttle bus service will be operated from <strong>March 21 to March 25</strong> between the <strong>conference venue (EXCO)</strong>, major hotels, and <strong>Dongdaegu KTX Station</strong> for the convenience of participants. <br>
 <br>
 
 
-Please refer to the <strong>shuttle bus timetable</strong> for detailed schedules<br>
+Please refer to <strong>the shuttle bus timetable and Bus stop information</strong><br>
 <br>
 
-<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="https://drive.google.com/file/d/1PItwHuGPKrQYbLcatokUsVTTxWn1ldqK/view?usp=drive_link" class="btn-large btn-blue" target="_blank">shuttle bus timetable</a>  <a href="https://drive.google.com/file/d/1FPmItwOZFGHDdsBq_hYoce7Wo44zALKF/view?usp=drive_link" class="btn-large btn-blue" target="_blank">bus stop information</a></p>
+<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="https://drive.google.com/file/d/1PItwHuGPKrQYbLcatokUsVTTxWn1ldqK/view?usp=drive_link" class="btn-large btn-blue" target="_blank">Shuttle bus timetable</a>  <a href="https://drive.google.com/file/d/1FPmItwOZFGHDdsBq_hYoce7Wo44zALKF/view?usp=drive_link" class="btn-large btn-blue" target="_blank">Bus stop information</a></p>
 
 
 <h1>Wi-Fi Access </h1>
