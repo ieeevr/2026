@@ -31,7 +31,7 @@ border-bottom: none;
 }   
 th, td {
 padding: 10px 25px 5px;
-text-align: left;
+text-align: center;
 vertical-align: middle;
 }
 thead th {
@@ -49,21 +49,21 @@ line-height:1.2
 }
 
 td a {
-font-size: 1rem;
+font-size: 0.8rem;
 	
 	
 	}
 td strong {
-font-size: 1rem;
+font-size: 0.8rem;
 	color: #262188;
     font-weight: bold;
 	
 	}	
 	
 tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300; padding:0; text-align:center}
-.bt_br_01 {border-bottom:1px solid #ccc}
+.bt_br_01 {border-bottom:1px solid #ccc; height: 3rem}
 .category-cell {
-text-align: left;
+text-align: center;
 }
 </style>
 <p class="big_title">Program Overview</p>
@@ -803,11 +803,14 @@ text-align: left;
       </tr>
       <tr>
         <th rowspan="2">18:00</th>
-        <td colspan="3" rowspan="12"><strong>Gala Dinner </strong><br/>
+        <td colspan="3" rowspan="13"><strong>Gala Dinner </strong><br/>
           (18:00-21:00)<br>
           @ Convention Hall, 5F</td>
       </tr>
       <tr> </tr>
+      <tr>
+        <th  class="bt_br_01"> </th>
+      </tr>
       <tr>
         <th>18:30</th>
       </tr>
@@ -884,7 +887,7 @@ text-align: left;
           @ Grand Ballroom</td>
       </tr>
       <tr>
-        <th height="18">　</th>
+        <th  class="bt_br_01">　</th>
       </tr>
       <tr>
         <th>10:00</th>
