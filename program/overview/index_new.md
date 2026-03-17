@@ -49,12 +49,12 @@ line-height:1.2
 }
 
 td a {
-font-size: 0.8rem;
+font-size: 0.7rem;
 	
 	
 	}
 td strong {
-font-size: 0.8rem;
+font-size: 0.7rem;
 	color: #262188;
     font-weight: bold;
 	
