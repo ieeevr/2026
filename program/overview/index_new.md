@@ -30,7 +30,7 @@ thead {
 border-bottom: none;
 }   
 th, td {
-padding: 10px 25px 5px;
+padding: 5px 25px;
 text-align: center;
 vertical-align: middle;
 }
@@ -61,7 +61,7 @@ font-size: 0.8rem;
 	}	
 	
 tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300; padding:0; text-align:center}
-.bt_br_01 {border-bottom:1px solid #ccc; height: 3rem}
+.bt_br_01 {border-bottom:1px solid #ccc; height: 3.5rem}
 .category-cell {
 text-align: center;
 }
