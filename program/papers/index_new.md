@@ -577,8 +577,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<colgroup><col style="width: 20%;"><col style="width: 80%;"></colgroup>`;
-        tablesHTML += `<thead><tr><th colspan="2" style="text-align: left; padding-left: 20px;">${dayInfo.day}</th></tr></thead><tbody>`;
+        tablesHTML += `<colgroup><col style="width: 20%;"><col style="width: 65%;"><col style="width: 15%;"></colgroup>`;
+        tablesHTML += `<thead><tr><th colspan="3" style="text-align: left; padding-left: 20px;">${dayInfo.day}</th></tr></thead><tbody>`;
 
         dayInfo.times.forEach(slot => {
             const sessions = psData[slot.ps];
@@ -591,13 +591,12 @@ document.addEventListener("DOMContentLoaded", function() {
                         tablesHTML += `<td rowspan="${sessions.length}">${slot.time}</td>`;
                     }
                     
-                    // 👉 Room과 Chair 정보 매핑을 테이블 생성 전에 미리 추출
                     const mappingInfo = roomChairMapping[sess.id] || { room: "TBA", chair: "TBA" };
                     const sessionRoom = mappingInfo.room;
                     const sessionChair = mappingInfo.chair;
 
-                    // 👉 세션 제목 끝에 Room 번호 추가 (예: Session 1: ... (Room: 323))
-                    tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">Session ${sess.id}: ${sess.name} (Room: ${sessionRoom})</a></td>`;
+                    tablesHTML += `<td class="type-Parallel"><a href="#session-${sess.id}" class="session-link">Session ${sess.id}: ${sess.name}</a></td>`;
+                    tablesHTML += `<td style="font-weight: bold; color: #555;">Room: ${sessionRoom}</td>`;
                     tablesHTML += `</tr>`;
 
                     const fullDateTime = `${dayInfo.day}, ${slot.time}`;
