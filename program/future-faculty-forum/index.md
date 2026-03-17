@@ -95,14 +95,14 @@ The following sections provide more details about what the XR Future Faculty For
         <li><a href="#Update">Updates Beyond IEEE VR</a></li>
         </ul>
     </p>
-    <h2 id="overview">Overview & Goals</h2>
+    <h1>Overview & Goals</h1>
     <p>
         This forum meeting is designed to foster mentorship, education, and collaboration among students curious about eventually becoming AR/VR (or XR) faculty.
     </p>
     <p> 
      The meeting of the Future Faculty Forum at IEEE VR 2026 will feature <strong>panels and tutorials</strong> with current professors about various aspects of professorship, such as tenure, creating and organizing a research program, teaching, and professional service, and more generally, what aspects of their profession they like and dislike, and why. We will attempt to include professors (on the panels) who have also worked in industry and therefore have some basis for comparison. Additionally, the forum will include <strong>“speed advising” sessions</strong> in which students will have several short advising sessions with current faculty. In this portion, students will be able to ask more specific questions about a particular professor's experience while learning from a breadth of experiences. While brief, these meetings will help form relationships between students, junior faculty, and professors, and participants can continue their conversations later in the forum and conference. The panels and speed advising sessions will feature diverse faculty to provide students with various perspectives on the meaning of, success within, and preparation for professorship. Throughout the forum, there will be an emphasis on creating and sustaining an academic environment that is diverse, equitable, inclusive, and accessible.
     </p>
-    <h2 id="format">Forum Format</h2>
+    <h1>Forum Format</h1>
     <p>
        The XR Future Faculty Forum meeting will be in-person and consist of interactive tutorials, multiple panels with group discussions, and one-on-one mentoring sessions.
 
@@ -120,7 +120,7 @@ The following sections provide more details about what the XR Future Faculty For
 
 
     </p>
-    <h2 id="schedule">Schedule</h2> 
+    <h1>Schedule</h1> 
     <p>All times are given in Daegu, Korea local time</p> 
    <div class="table-scroll">
 <table>
@@ -197,12 +197,12 @@ The following sections provide more details about what the XR Future Faculty For
   </tr>
 </table>
 </div>
-    <h2 id="Update">Updates Beyond IEEE VR</h2>
+    <h1>Updates Beyond IEEE VR</h1>
     <p>
    If you are interested in staying up-to-date with information about the XR Future Faculty Forum or are interested in helping out as a panellist in the future, please fill out this form:  <a href="https://forms.gle/q1Kaqf3HUGkPfEWG6" target="_blank">https://forms.gle/q1Kaqf3HUGkPfEWG6</a>, or send us an email at <a href="mailto:futurefacultyforum2026@ieeevr.org">futurefacultyforum2026@ieeevr.org</a>. 
     </p>
     <div>
-	<h2>Organizers<!--XR Future Faculty Forum Chairs  <div class="floatRight"><span class="xrfuturefaculty"></span></div--></h2>
+	<h1>Organizers<!--XR Future Faculty Forum Chairs  <div class="floatRight"><span class="xrfuturefaculty"></span></div--></h1>
 	<ul>
 		<li><span class="bold">Matt Gottsacker</span> - University of Central Florida, USA</li>
 		<li><span class="bold">Cassidy R. Nelson</span> - Ohio University, USA</li>
