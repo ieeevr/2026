@@ -303,8 +303,8 @@ text-align: left;
 <td rowspan="6"><a href="/2026/program/tutorials/">Tutorials</a><br/>
 (10:30-12:00)<br>
 @ 325A, 325B</td>
-<td rowspan="6"><a href="/2026/program/future-faculty-forum/">Future Faculty Forum</a><br/>
-(10:30-12:00)<br>
+<td rowspan="8"><a href="/2026/program/future-faculty-forum/">Future Faculty Forum</a><br/>
+(10:30-12:15)<br>
 @ 325D</td>
 </tr>
 <tr>
@@ -324,9 +324,9 @@ text-align: left;
 </tr>
 <tr>
 <th>12:00</th>
-<td rowspan="8" colspan="2">Lunch <br/>
-(12:00-14:00)<br>
-*Not Catered</td>
+<td rowspan="8">Lunch <br/>
+  (12:00-14:00)<br>
+  *Not Catered</td>
 </tr>
 <tr>
 <th class="bt_br_01">　</th>
@@ -335,6 +335,9 @@ text-align: left;
 <th>12:30</th>
 <td rowspan="6">Lunch <br/>
 (12:30-14:00)<br>
+*Not Catered</td>
+<td rowspan="6">Lunch <br/>
+(12:15-14:00)<br>
 *Not Catered</td>
 </tr>
 <tr>
