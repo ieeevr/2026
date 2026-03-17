@@ -39,12 +39,20 @@ font-size: 1rem;
 background-color: #262188 !important;
 color: white;
 font-weight: 600;
+padding: 1rem
 }
 td {
-font-size: 0.8rem;
+font-size: 0.7rem;
 border-bottom: 1px solid #eee !important;
+line-height:1.2
 }
-tbody th { background-color: #f3f3f3 !important; color:#ccc; font-size: 0.8rem}
+
+td a {
+font-size: 1rem;
+	
+	
+	}
+tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300}
 .bt_br_01 {border-bottom:1px solid #eee}
 .category-cell {
 text-align: left;
@@ -59,11 +67,14 @@ text-align: left;
 <col style="width:30%">
 <col style="width:30%">
 <col style="width:30%">
+
 </colgroup>
+<thead>
 <tr>
 <th>Time</th>
 <th colspan="3">Program</th>
 </tr>
+</thead>
 <tbody>
 <tr>
 <th>8:30</th>
@@ -244,11 +255,14 @@ text-align: left;
 <col style="width:30%">
 <col style="width:30%">
 <col style="width:30%">
+
 </colgroup>
+<thead>
 <tr>
 <th>Time</th>
 <th colspan="3">Program</th>
 </tr>
+</thead>
 <tbody>
 <tr>
 <th>8:30</th>
@@ -342,7 +356,7 @@ text-align: left;
 </tr>
 <tr>
 <th>14:00</th>
-<td rowspan="16">Workshops <br/>
+<td rowspan="16"><a href="/2026/program/workshop/">Workshops</a><br/>
 (14:00-18:00)<br>
 @ 320A, 320B, 321, 322A, 322B, 323A, 323B</td>
 <td rowspan="6"><a href="/2026/program/tutorials/">Tutorials</a><br/>
@@ -613,11 +627,14 @@ XR Gallery <br/>
 <col style="width:30%">
 <col style="width:30%">
 <col style="width:30%">
+
 </colgroup>
+<thead>
 <tr>
 <th>Time</th>
 <th colspan="3">Program</th>
 </tr>
+</thead>
 <tbody>
 <tr>
 <th>8:30</th>
@@ -832,10 +849,12 @@ XR Gallery <br/>
 <col style="width:30%">
 <col style="width:30%">
 </colgroup>
+<thead>
 <tr>
 <th>Time</th>
 <th colspan="3">Program</th>
 </tr>
+</thead>
 <tbody>
 <tr>
 <th>8:30</th>
