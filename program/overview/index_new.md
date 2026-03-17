@@ -39,11 +39,12 @@ font-size: 1rem;
 background-color: #262188 !important;
 color: white;
 font-weight: 600;
-padding: 1rem
+padding: 0.5rem
 }
 td {
 font-size: 0.7rem;
 border-bottom: 1px solid #eee !important;
+border-left: 1px solid #eee !important;
 line-height:1.2
 }
 
@@ -52,8 +53,8 @@ font-size: 1rem;
 	
 	
 	}
-tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300}
-.bt_br_01 {border-bottom:1px solid #eee}
+tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300; padding:0; text-align:center}
+.bt_br_01 {border-bottom:1px solid #ccc}
 .category-cell {
 text-align: left;
 }
@@ -176,7 +177,7 @@ text-align: left;
 </tr>
 <tr>
 <th>14:00</th>
-<td rowspan="16">Workshops <br/>
+<td rowspan="15">Workshops <br/>
 (14:00-18:00)<br>
 @ 320, 321, 322A, 322B, <br>
 323A, 323B</td>
@@ -222,7 +223,7 @@ text-align: left;
 </tr>
 <tr>
 <th class="bt_br_01">　</th>
-<td rowspan="7">　</td>
+<td rowspan="6">　</td>
 </tr>
 <tr>
 <th>16:30</th>
@@ -237,11 +238,8 @@ text-align: left;
 <th class="bt_br_01">　</th>
 </tr>
 <tr>
-<th>17:30</th>
-<td rowspan="2">　</td>
-</tr>
-<tr>
-<th class="bt_br_01">　</th>
+  <th>17:30</th>
+  <td>　</td>
 </tr>
 </tbody>
 </table>
@@ -356,7 +354,7 @@ text-align: left;
 </tr>
 <tr>
 <th>14:00</th>
-<td rowspan="16"><a href="/2026/program/workshop/">Workshops</a><br/>
+<td rowspan="15"><a href="/2026/program/workshop/">Workshops</a><br/>
 (14:00-18:00)<br>
 @ 320A, 320B, 321, 322A, 322B, 323A, 323B</td>
 <td rowspan="6"><a href="/2026/program/tutorials/">Tutorials</a><br/>
@@ -413,11 +411,8 @@ text-align: left;
 <th class="bt_br_01">　</th>
 </tr>
 <tr>
-<th>17:30</th>
-<td rowspan="2" colspan="2">　</td>
-</tr>
-<tr>
-<td>　</td>
+  <th>17:30</th>
+  <td colspan="2">　</td>
 </tr>
 </tbody> </table>
 </div>
@@ -430,10 +425,12 @@ text-align: left;
 <col style="width:45%">
 <col style="width:45%">
 </colgroup>
+<thead>
 <tr>
 <th>Time</th>
 <th colspan="2">Program</th>
 </tr>
+</thead>
 <tbody>
 <tr>
 <th>8:30</th>
