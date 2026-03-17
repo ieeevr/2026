@@ -136,7 +136,7 @@ The Registration Bot will verify your confirmation number and automatically gran
 Please refer to the <strong>shuttle bus timetable</strong> for detailed schedules<br>
 <br>
 
-<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="/2026/attend/VenueFloorMap/" class="btn-large btn-blue" target="_blank">shuttle bus timetable</a>  <a href="https://drive.google.com/file/d/1FPmItwOZFGHDdsBq_hYoce7Wo44zALKF/view?usp=drive_link" class="btn-large btn-blue" target="_blank">bus stop information</a></p>
+<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="https://drive.google.com/file/d/1PItwHuGPKrQYbLcatokUsVTTxWn1ldqK/view?usp=drive_link" class="btn-large btn-blue" target="_blank">shuttle bus timetable</a>  <a href="https://drive.google.com/file/d/1FPmItwOZFGHDdsBq_hYoce7Wo44zALKF/view?usp=drive_link" class="btn-large btn-blue" target="_blank">bus stop information</a></p>
 
 
 <h1>Wi-Fi Access </h1>
