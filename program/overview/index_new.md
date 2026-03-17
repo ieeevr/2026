@@ -752,7 +752,6 @@ text-align: center;
           (15:00-16:00) <br>
           @ 325AB, 325CD, 324, 323</td>
         <td rowspan="6"><a href="/2026/program/panels/">Panel Session</a><br>
-          <br/>
           (15:00-16:30)<br>
           @ Auditorium, 5F</td>
       </tr>
