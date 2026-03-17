@@ -585,7 +585,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const sessions = psData[slot.ps];
             
             if (sessions && sessions.length > 0) {
-                sessions.forEach((sess, index) => {
+               sessions.forEach((sess, index) => {
                     tablesHTML += `<tr>`;
                     
                     if (index === 0) {
@@ -597,7 +597,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     const fullDateTime = `${dayInfo.day}, ${slot.time}`;
                     
-                    // Mapping 데이터에서 Room과 Chair 가져오기
+                    // 👉 엑셀에서 추출한 Room과 Chair 정보 매핑
                     const mappingInfo = roomChairMapping[sess.id] || { room: "TBA", chair: "TBA" };
                     const sessionRoom = mappingInfo.room;
                     const sessionChair = mappingInfo.chair;
