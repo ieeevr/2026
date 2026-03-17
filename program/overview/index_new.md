@@ -30,7 +30,7 @@ thead {
 border-bottom: none;
 }   
 th, td {
-padding: 5px 25px;
+padding: 0 25px;
 text-align: center;
 vertical-align: middle;
 }
@@ -49,19 +49,19 @@ line-height:1.2
 }
 
 td a {
-font-size: 0.8rem;
+font-size: 0.7rem;
 	
 	
 	}
 td strong {
-font-size: 0.8rem;
+font-size: 0.7rem;
 	color: #262188;
     font-weight: bold;
 	
 	}	
 	
 tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300; padding:0; text-align:center}
-.bt_br_01 {border-bottom:1px solid #ccc; height: 4rem}
+.bt_br_01 {border-bottom:1px solid #ccc; height: 2rem}
 .category-cell {
 text-align: center;
 }
