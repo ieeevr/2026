@@ -83,7 +83,7 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
     </tbody>
   </table>
 </div>
-<h1>Location<h1>
+<h1>Location</h1>
 <p>Lobby nearby Room 325, 3F, EXCO, Daegu</p>
 
 
