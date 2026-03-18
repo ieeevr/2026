@@ -49,7 +49,7 @@ td {
     font-size: 0.8rem;
     border-bottom: 1px solid #eee !important;
     padding: 15px 25px;
-    text-align: center;
+    text-align: left;
     word-wrap: break-word;
     vertical-align: middle;
 }   
