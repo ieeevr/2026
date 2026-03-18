@@ -50,7 +50,7 @@ title_separator: "|"
       <div class="affiliation">Director for Medical Virtual Reality, USC Institute for Creative Technologies<br/>
         Research Professor, USC Davis School of Gerontology and USC Keck School of Medicine Department of Psychiatry & Behavioral Science </div>
       <div class="talk-title">Clinical Virtual Reality: A Brief Review of the Future</div>
-      <div class="affiliation">Monday, March 23, 10:00-11:00</div>
+      <div class="affiliation">Monday, March 23, 10:00-11:00 / Auditorium</div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal2')">More</button>
   </div>
@@ -64,7 +64,7 @@ title_separator: "|"
       <h2>Dr. Mar Gonzalez-Franco</h2>
       <div class="affiliation">Research Manager, BIRD Lab, Google AR & VR</div>
       <div class="talk-title">Towards Human–AI Symbiosis with XR</div>
-      <div class="affiliation">Tuesday, March 24, 10:00-11:00</div>
+      <div class="affiliation">Tuesday, March 24, 10:00-11:00 / Auditorium</div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal1')">More</button>
   </div>
@@ -77,7 +77,7 @@ title_separator: "|"
       <h2>Dr. Tomasz Bednarz</h2>
       <div class="affiliation">Director, Strategic Researcher Engagement, NVIDIA</div>
       <div class="talk-title">Physical AI for the Next Wave of Industrial Digitalization</div>
-      <div class="affiliation">Wednesday, March 25, 10:00-11:00</div>
+      <div class="affiliation">Wednesday, March 25, 10:00-11:00 / Auditorium</div>
     </div>
     <button class="ks-more-btn" onClick="openKsModal('modal3')">More</button>
   </div>
