@@ -132,6 +132,8 @@ details summary::before { font-size: 0.7rem; }
 <p class="big_title">XR Gallery</p>
 
 <div class="table-scroll">
+    <col style="width:10%">
+    <col style="width:90%">
     <table>
         <thead>
             <tr>
