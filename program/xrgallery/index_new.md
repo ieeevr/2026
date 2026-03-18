@@ -84,7 +84,14 @@ details summary {
     list-style: none;
 }
 details summary::-webkit-details-marker { display: none; }
-details summary::before { font-size: 0.7rem; }
+details summary::after {
+    content: " ▼";
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+details[open] summary::after {
+    content: " ▲";
+}
 
 .abstract-content {
     font-size: 0.75rem;
@@ -124,11 +131,11 @@ details summary::before { font-size: 0.7rem; }
 <p class="big_title">XR Gallery</p>
 
 <div class="table-scroll">
-    <table>
     <colgroup>
     <col style="width:10%">
     <col style="width:90%">
     </colgroup>
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
