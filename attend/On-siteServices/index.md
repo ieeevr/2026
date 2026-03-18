@@ -100,9 +100,6 @@ Lobby nearby Room 325, 3F, EXCO, Daegu</p>
   
 
 You can join the server using the link provided in the on-site services information email.  
-<br>
- (<a href="https://discord.gg/ZNtZ6HJVmF" target="_blank">https://discord.gg/ZNtZ6HJVmF</a>) 
-
   <br>
   <br>
 
