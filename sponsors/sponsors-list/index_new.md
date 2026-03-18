@@ -1,4 +1,3 @@
-
 ---
 layout: ieeevr-default
 title: "Sponsors"
