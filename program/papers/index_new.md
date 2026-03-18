@@ -577,7 +577,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     scheduleMeta.forEach(dayInfo => {
         tablesHTML += `<div class="table-scroll"><table>`;
-        tablesHTML += `<colgroup><col style="width: 20%;"><col style="width: 65%;"><col style="width: 15%;"></colgroup>`;
+        tablesHTML += `<colgroup><col style="width: 20%;"><col style="width: 60%;"><col style="width: 20%;"></colgroup>`;
         tablesHTML += `<thead><tr><th colspan="3" style="text-align: left; padding-left: 20px;">${dayInfo.day}</th></tr></thead><tbody>`;
 
         dayInfo.times.forEach(slot => {
@@ -663,3 +663,13 @@ document.addEventListener("DOMContentLoaded", function() {
     detailsContainer.innerHTML = detailsHTML;
 });
 </script>    
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const cells = document.querySelectorAll('td');
+    cells.forEach(td => {
+        if (td.textContent.includes('Room: ')) {
+            td.innerHTML = td.innerHTML.replace('Room: ', 'Room ');
+        }
+    });
+});
+</script>
