@@ -34,7 +34,7 @@ th:first-child { width: 25%; }
 th:last-child { width: 75%; }
 
 .category-cell {
-    text-align: left;
+    text-align: center;
 }
 .category-cell a{
     color: #000 !important;
