@@ -24,7 +24,7 @@ thead {
 }    
 th, td {
     padding: 10px 25px 5px;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     font-size: 0.8rem;
     border-bottom: none !important;
@@ -34,7 +34,7 @@ th:first-child { width: 25%; }
 th:last-child { width: 75%; }
 
 .category-cell {
-    text-align: center;
+    text-align: left;
 }
 .category-cell a{
     color: #000 !important;
