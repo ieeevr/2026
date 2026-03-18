@@ -6,6 +6,8 @@ title_separator: "|"
 ---
 <style>
 .confsponsors-type {
+    width: max-content;
+    min-width: 150px;
     background: #666787;
     line-height: 35px;
     border-radius: 20px;
@@ -14,26 +16,34 @@ title_separator: "|"
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.8em;
-    padding-left: 15px;
+    text-align: center;
+    padding: 0 20px;
     margin-bottom: 15px;
+    box-sizing: border-box;
 }
-.sponsor-grid {
+.sponsor-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.sponsor-group .conf-icon {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 100px;
+    display: block;
+    margin: 0;
+    object-fit: contain;
+}
+.exhibitor-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    align-items: center;
-    margin-bottom: 30px;
-}
-.sponsor-grid.small-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-.conf-icon {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    object-fit: contain;
+    align-items: stretch;
+    margin-bottom: 40px;
 }
 .exhibitor-card {
     display: flex;
@@ -41,11 +51,21 @@ title_separator: "|"
     align-items: center;
     justify-content: space-between;
     gap: 15px;
-    padding: 15px;
+    padding: 20px;
     background: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     height: 100%;
+    box-sizing: border-box;
+}
+.exhibitor-card .conf-icon {
+    width: 100%;
+    max-width: 200px;
+    max-height: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
 }
 .btn-info {
     background-color: #274087;
@@ -136,30 +156,30 @@ title_separator: "|"
     <h1>Sponsors</h1>
     
     <div class="confsponsors-type" style="background-color:#274087">Platinum</div>
-    <div class="sponsor-grid">
+    <div class="sponsor-group">
         <a href="https://about.google/" target="_blank"><img class="conf-icon" src="https://ieeevr.org/2026/assets/images/Platinum_001.png" alt="Google"></a>
     </div>
     
     <div class="confsponsors-type" style="background-color:#B8860B">Gold</div>
-    <div class="sponsor-grid">
+    <div class="sponsor-group">
         <a href="https://en.knu.ac.kr/" target="_blank"><img class="conf-icon" src="/2026/assets/images/gold_sponsor_01.gif" alt="gold Banner"></a>
     </div>
     
     <div class="confsponsors-type">Silver</div>
-    <div class="sponsor-grid">
+    <div class="sponsor-group">
         <a href="https://www.hdc-labs.com/eng/main" target="_blank"><img class="conf-icon" src="/2026/assets/images/silver_001_01.png" alt="Silver Banner"></a>
         <a href="https://www.gokea.org/en/" target="_blank"><img class="conf-icon" src="/2026/assets/images/silver_002.png" alt="Silver Banner"></a>
         <a href="https://www.bhaptics.com/" target="_blank"><img class="conf-icon" src="/2026/assets/images/silver_003.png" alt="Silver Banner"></a>
     </div>
     
     <div class="confsponsors-type" style="background-color:#9b750d">Bronze</div>
-    <div class="sponsor-grid">
+    <div class="sponsor-group">
         <a href="https://www.etri.re.kr/eng/main/main.etri" target="_blank"><img class="conf-icon" src="/2026/assets/images/etri_banner.jpg" alt="Bronze Banner"></a>
         <a href="https://mpij.korea.ac.kr/mpij/index.do" target="_blank"><img class="conf-icon" src="/2026/assets/images/bronze_002.jpg" alt="Bronze Banner"></a>
     </div>
 
     <h1>Exhibitors</h1>
-    <div class="sponsor-grid small-grid">
+    <div class="exhibitor-grid">
         <div class="exhibitor-card">
             <img class="conf-icon" src="로고이미지_Springer.png" alt="Springer">
             <button class="btn-info" data-name="Springer Nature" data-items="Books" data-website="https://link.springer.com/brands/springer" data-info="With a portfolio of over 2,700 journals and over 220,000 books, Springer is a global leader in academic and scientific publishing. We empower authors to share impactful research, enable readers to access trusted content, and collaborate with institutions and communities to advance knowledge worldwide. Whether you're publishing cutting-edge science or foundational texts, Springer provides the reach, credibility, and support to help your work make a lasting difference.">Company Info</button>
@@ -212,7 +232,7 @@ title_separator: "|"
     </div>
 
     <h1>Supporters</h1>
-    <div class="sponsor-grid">
+    <div class="sponsor-group">
         <a href="https://www.complexion.co.kr/" target="_blank"><img class="conf-icon" src="/2026/assets/images/sup_001.png" alt="Banner"></a>
         <a href="https://home.sejong.ac.kr/~xrcenter/" target="_blank"><img class="conf-icon" src="/2026/assets/images/sup_002.png" alt="Banner"></a>
         <a href="https://www.keti.re.kr/eng/main/main.php" target="_blank"><img class="conf-icon" src="/2026/assets/images/sup_003.png" alt="Banner"></a> 
