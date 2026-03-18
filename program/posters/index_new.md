@@ -389,63 +389,49 @@ const psData = {
 };
 
 const scheduleMeta = [
-  { day: "Monday, March 23", sessions: ["1", "2"] },
-  { day: "Tuesday, March 24", sessions: ["3", "4", "5", "6"] },
-  { day: "Wednesday, March 25", sessions: ["7", "8", "9", "10"] }
+  { day: "Monday, March 23", sessions: ["1", "2"] },
+  { day: "Tuesday, March 24", sessions: ["3", "4", "5", "6"] },
+  { day: "Wednesday, March 25", sessions: ["7", "8", "9", "10"] }
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
-    const tableContainer = document.getElementById("schedule-tables");
-    const detailsContainer = document.getElementById("session-details");
+    const tableContainer = document.getElementById("schedule-tables");
+    const detailsContainer = document.getElementById("session-details");
 
-    let tablesHTML = "";
-    let detailsHTML = "";
+    let tablesHTML = "";
+    let detailsHTML = "";
 
     scheduleMeta.forEach(dayInfo => {
-        tablesHTML += `<div class="table-scroll"><table>
-            <thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead>
-            <tbody>`;
+        tablesHTML += `<div class="table-scroll"><table><thead><tr><th style="text-align: left; padding-left: 15px; font-size: 1.1rem;">${dayInfo.day}</th></tr></thead><tbody>`;
 
-        detailsHTML += `<div class="day-section-title">${dayInfo.day}</div>`;
+        detailsHTML += `<div class="day-section-title">${dayInfo.day}</div>`;
 
-        dayInfo.sessions.forEach(psKey => {
-            const sessionsGroup = psData[psKey];
-            if (!sessionsGroup) return;
+        dayInfo.sessions.forEach(psKey => {
+            const sessionsGroup = psData[psKey];
+            if (!sessionsGroup) return;
 
-            sessionsGroup.forEach((sess) => {
-                tablesHTML += `<tr>`;
-                tablesHTML += `<td class="category-cell"><a href="#sess-${sess.id}" class="session-link">${sess.name}</a></td>`;
-                tablesHTML += `</tr>`;
+            sessionsGroup.forEach((sess) => {
+                tablesHTML += `<tr><td class="category-cell"><a href="#sess-${sess.id}" class="session-link">${sess.name}</a></td></tr>`;
 
-                detailsHTML += `<div id="sess-${sess.id}" class="booth-container">
-                    <div class="booth-header">
-                        <span class="category-title">${sess.name}</span>
-                    </div>`;
+                detailsHTML += `<div id="sess-${sess.id}" class="booth-container"><div class="booth-header"><span class="category-title">${sess.name}</span></div>`;
 
-                sess.papers.forEach(paper => {
-                    const abstractText = paper.abstract || "Abstract details will be updated here.";
-                    const videoLink = paper.video || "#";
-                    
-                   const boothId = paper.id.replace("P-", "");
-                    
-                    detailsHTML += `<div class="paper-item">
-                        <span class="paper-title">${paper.title} (Booth ID: ${boothId})</span>
-                        <span class="author-text">${paper.authors}</span>
-                        <details>
-                            <summary>Abstract</summary>
-                            <div class="abstract-content">${abstractText}</div>
-                        </details>
-                        <a href="${videoLink}" target="_blank" class="video-link">Video</a>
-                    </div>`;
-                });
-                detailsHTML += `</div>`;
-            });
-        });
+                sess.papers.forEach(paper => {
+                    const abstractText = paper.abstract || "Abstract details will be updated here.";
+                    const videoLink = paper.video || "#";
+                    
+                    const boothId = paper.id.replace("P-", "");
+                    
+                    detailsHTML += `<div class="paper-item"><span class="paper-title">${paper.title} (Booth ID: ${boothId})</span><span class="author-text">${paper.authors}</span><details><summary>Abstract</summary><div class="abstract-content">${abstractText}</div></details><a href="${videoLink}" target="_blank" class="video-link">Video</a></div>`;
+                });
+                
+                detailsHTML += `</div>`;
+            });
+        });
 
-        tablesHTML += `</tbody></table></div>`;
-    });
+        tablesHTML += `</tbody></table></div>`;
+    });
 
-    tableContainer.innerHTML = tablesHTML;
-    detailsContainer.innerHTML = detailsHTML;
+    tableContainer.innerHTML = tablesHTML;
+    detailsContainer.innerHTML = detailsHTML;
 });
 </script>
