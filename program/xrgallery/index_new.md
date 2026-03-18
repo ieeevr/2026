@@ -68,14 +68,6 @@ th:last-child { width: 75%; }
 
 .paper-item { padding: 15px 0; border-top: 1px dotted #ccc; }
 .paper-item:first-of-type { border-top: none; }
-.paper-item h1 {
-    font-size: 0.9rem;
-    font-weight: bold;
-    display: block;
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: #000;
-}
 .author-text {
     font-size: 0.75rem;
     color: #555;
