@@ -135,7 +135,7 @@ details summary::before { font-size: 0.7rem; }
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Project Title</th>
+                <th>Title</th>
             </tr>
         </thead>
         <tbody>
