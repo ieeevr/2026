@@ -405,6 +405,7 @@ title_separator: "|"
                     <ul>
                       <li>A smartphone capable of recording video or audio</li>
                       <li>A notebook and pen</li>
+                      <li>A pair of headphones for your smartphone</li>
                     </ul>
                   </li>
                   <li><strong>Tutorial Website / Materials</strong>: <a class="linkline" href="https://www.youtube.com/watch?v=EsnNEdFqMwc" target="_blank">https://www.youtube.com/watch?v=EsnNEdFqMwc</a></li>
