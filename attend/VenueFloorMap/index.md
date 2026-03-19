@@ -30,7 +30,7 @@ title_separator: "|"
 
 
 <h1>Floor Map </h1>
-<p><img src="/2026/assets/images/VR26_Floor-Plan.gif" style="width:100%; border-radius: 10px"></p>
+<p><img src="/2026/assets/images/VR2026_Floor-Plan_V02.png" style="width:100%; border-radius: 10px"></p>
 
 <h1>Exhibition Layout</h1>
 <p><img src="/2026/assets/images/layout_2026.png" style="width:100%; border-radius: 10px"></p>
