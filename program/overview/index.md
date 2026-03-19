@@ -713,8 +713,8 @@ text-align: center;
         <td rowspan="6"><a href="/2026/program/SpeedMentorshipSession/">Speed Mentorshop Session</a><br>
           (12:30-14:00)<br>
           @ Crystal Ballroom
-          Hotel Inter-Burgo EXCO <br>
-          (Invitation Only)</td>
+          Hotel Inter-Burgo EXCO
+          </td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
