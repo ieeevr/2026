@@ -8,12 +8,10 @@ title_separator: "|"
 <style>
 /* 1. 폰트 크기 반응형 적용 (최소 9px ~ 최대 11px) */
 
-
 h3 {
 	margin-top: 1rem;
 	margin-bottom: 0.5rem;
-    font-size: 1.3em;
-    color: #066569;
+    font-size: 1em;
     border-bottom: 1px solid #066569;
 }
 /* 2. 가로 스크롤을 위한 래퍼(Wrapper) 스타일 정의 */
@@ -58,7 +56,8 @@ th, td {
 	background-color: #F2F2F2;
 	font-weight: bold;
 	color: #333;
-	font-size:0.5rem
+	font-size:0.5rem;
+	vertical-align: top
 }
 .reg-col {
 	background-color: #D9D9D9;
@@ -112,12 +111,23 @@ th, td {
 	color: #000;
 }
 
-.type-Parallel{
+.type-Parallel {
 	background-color: #E2E2C7  ;
 	color: #000;
 }
-</style>
 
+.type-Parallel a {
+    color: #e70087;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.type-Parallel a:hover {
+    color: #066569;
+}
+</style>
+<p class="big_title">Program Overview</p>
 <h3>Day 1: Saturday, March 21</h3>
 <div class="table-scroll">
   <table>
@@ -394,8 +404,8 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td rowspan="2" class="type-keynote">Keynote 1<br>
-          (10:00-11:00)</td>
+        <td rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link01">Keynote 1</a><br>
+        (10:00-11:00)</td>
       </tr>
       <tr>
         <td class="time-col">10:30</td>
@@ -403,12 +413,12 @@ th, td {
       <tr>
         <td class="time-col">11:00</td>
         <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td rowspan="2" class="type-Parallel">Parallel Sessions 1<br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-1" target="_blank">Parallel Sessions 1</a><br>
           (11:30-12:30)</td>
         <td rowspan="3" ></td>
       </tr>
@@ -421,7 +431,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -429,7 +439,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td rowspan="2" class="type-Parallel">Parallel Sessions 2<br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-5" target="_blank">Parallel Sessions 2</a><br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -438,7 +448,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel">Parallel Sessions 3<br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-9" target="_blank">Parallel Sessions 3</a><br>
           (15:00-16:00)</td>
       </tr>
       <tr>
@@ -447,12 +457,12 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">16:30</td>
-        <td rowspan="2" class="type-Parallel">Parallel Sessions 4<br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-13" target="_blank">Parallel Sessions 4</a><br>
           (16:30-17:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -494,7 +504,7 @@ th, td {
     <tbody>
       <tr>
         <td class="time-col">08:00</td>
-        <td rowspan="40" class="reg-col">R<br>
+        <td rowspan="41" class="reg-col">R<br>
         e<br>
         g<br>
         i<br>
@@ -510,7 +520,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">08:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 5<br>(08:30-09:30)</td>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-17" target="_blank">Parallel Sessions 5</a><br>(08:30-09:30)</td>
         <td rowspan="2"></td>
       </tr>
       <tr>
@@ -519,13 +529,13 @@ th, td {
       <tr>
         <td class="time-col">09:30</td>
         <td colspan="2" class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote">Keynote 2<br>
-          (10:00-11:00)</td>
+        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link02">Keynote 2</a><br>
+        (10:00-11:00)</td>
         <td rowspan="6"></td>
       </tr>
       <tr>
@@ -537,7 +547,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 6<br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-21" target="_blank">Parallel Sessions 6</a><br>
           (11:30-12:30)</td>
       </tr>
       <tr>
@@ -549,7 +559,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -557,7 +567,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 7<br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-25" target="_blank">Parallel Sessions 7</a><br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -566,7 +576,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel">Parallel Sessions 8<br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-29" target="_blank">Parallel Sessions 8</a><br>
           (15:00-16:00)</td>
         <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
@@ -577,12 +587,12 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">16:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 9<br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-33" target="_blank">Parallel Sessions 9</a><br>
           (16:30-17:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -594,11 +604,14 @@ th, td {
         <td colspan="3" rowspan="2" ></td>
       </tr>
       <tr>
-         <td rowspan="2" class="time-col">18:30</td>
+         <td rowspan="2" class="time-col">18:00</td>
       </tr>
       <tr>
-        <td colspan="3" rowspan="6" class="type-Welcome">Gala Dinner<br>
-          (18:30-21:00)</td>
+        <td colspan="3" rowspan="7" class="type-Welcome">Gala Dinner<br>
+          (18:00-21:00)</td>
+      </tr>
+      <tr>
+         <td class="time-col">18:30</td>
       </tr>
       <tr>
          <td class="time-col">19:00</td>
@@ -613,12 +626,12 @@ th, td {
          <td class="time-col">20:30</td>
       </tr>
       <tr>
-         <td class="time-col">21:00</td>
+        <td class="time-col">21:00</td>
       </tr>
     </tbody>
   </table>
 </div>
-<h3>Day 5: Wednesnday, March 25</h3>
+<h3>Day 5: Wednesday, March 25</h3>
 <div class="table-scroll">
   <table>
     <colgroup>
@@ -649,7 +662,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">08:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 10<br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-37" target="_blank">Parallel Sessions 10</a><br>
           (08:30-09:30)</td>
         <td rowspan="2" ></td>
       </tr>
@@ -659,13 +672,13 @@ th, td {
       <tr>
         <td class="time-col">09:30</td>
         <td colspan="2" class="type-break">Break</td>
-        <td  class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td  class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
         <td class="time-col">10:00</td>
-        <td colspan="2" rowspan="2" class="type-keynote">Keynote 3<br>
-          (10:00-11:00)</td>
+        <td colspan="2" rowspan="2" class="type-keynote"><a href="/2026/program/keynote-speakers/#link03">Keynote 3</a><br>
+        (10:00-11:00)</td>
         <td rowspan="6"></td>
       </tr>
       <tr>
@@ -677,7 +690,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">11:30</td>
-        <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 11<br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-41" target="_blank">Parallel Sessions 11</a><br>
           (11:30-12:30)</td>
       </tr>
       <tr>
@@ -689,7 +702,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">13:00</td>
-        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research" >Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -697,7 +710,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">14:00</td>
-        <td colspan="2" rowspan="2" class="type-Parallel">Parallel Sessions 12<br>
+        <td colspan="2" rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-45" target="_blank">Parallel Sessions 12</a><br>
           (14:00-15:00)</td>
         <td rowspan="4" ></td>
       </tr>
@@ -706,7 +719,7 @@ th, td {
       </tr>
       <tr>
         <td class="time-col">15:00</td>
-        <td rowspan="2" class="type-Parallel">Parallel Sessions 13<br>
+        <td rowspan="2" class="type-Parallel"><a href="https://ieeevr.org/2026/program/papers/#session-49" target="_blank">Parallel Sessions 13</a><br>
           (15:00-16:00)</td>
         <td rowspan="3" class="type-workshop"><a href="https://ieeevr.org/2026/program/panels/">Panel Session</a><br>
           (15:00-16:30)</td>
@@ -717,7 +730,7 @@ th, td {
       <tr>
         <td class="time-col">16:00</td>
         <td class="type-break">Break</td>
-        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest Demos, Posters, <br>
+        <td rowspan="2" class="type-Research">Research Demos, 3DUI Contest, Demos, Posters, <br>
         XR Gallery</td>
       </tr>
       <tr>
@@ -735,7 +748,3 @@ th, td {
     </tbody>
   </table>
 </div>
-
-
-
-
