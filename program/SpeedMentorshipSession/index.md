@@ -9,7 +9,7 @@ title_separator: "|"
 <p style="margin-top:2rem">All student attendees are invited to participate in this session sponsored by the IEEE Computer Society. <br/><br/>
 During this 90-minute event, students have the opportunity to ask questions of multiple mentors. Timed discussions rotate every 10-15 minutes, and lunch will be provided. Seating is limited to 160 attendees. 
 <br/><br/>
-Meet the Mentors (link to https://ieeecs-media.computer.org/media/conferences/vr/vr2026-meet-the-mentors.pdf) 
+Meet the Mentors (link to <a href="https://ieeecs-media.computer.org/media/conferences/vr/vr2026-meet-the-mentors.pdf" target="_blank">https://ieeecs-media.computer.org/media/conferences/vr/vr2026-meet-the-mentors.pdf</a>) 
 <br/><br/>
 This event offers an excellent opportunity to connect with experts, build your network, and gain a better understanding of career paths in the field. 
 <br/><br/>
