@@ -23,7 +23,7 @@ thead {
 }    
 th, td {
     padding: 10px 25px 5px;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     font-size: 0.8rem;
     border-bottom: none !important
