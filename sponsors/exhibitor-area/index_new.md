@@ -5,6 +5,25 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <style>
+.btn-large {
+    padding: 15px 45px;
+    font-size: 1.200em;
+    line-height: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+.btn-blue {
+    background-color: #262189;
+    color: #fff;
+}
+    .table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+    
 .table-scroll {
     width: 100%;
     overflow-x: auto;
