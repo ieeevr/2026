@@ -263,7 +263,7 @@ h1{
         </dd>
       </dl>
       <h1>Gyeongju 
-      <!--button class="more-btn" onClick="openTourModal('gyeongju')">MORE</button--> <span style="background-color:#ff6600; padding:0.2rem 0.5rem; border-radius: 10px; color:#fff; font-size:0.6rem">Sold Out</span></h1>
+      <button class="more-btn" onClick="openTourModal('gyeongju')">MORE</button> <!--span style="background-color:#ff6600; padding:0.2rem 0.5rem; border-radius: 10px; color:#fff; font-size:0.6rem">Sold Out</span--></h1>
       <dl class="tour_box_00">
         <dt><img src="/2026/assets/images/tour_003.jpg" alt="Bulguksa Temple"></dt>
         <dd> Bulguksa Temple
