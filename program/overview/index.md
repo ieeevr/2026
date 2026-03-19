@@ -6,8 +6,8 @@ title_separator: "|"
 ---
 <style>
 .btn-large {
-    padding: 15px 25px;
-    font-size: 1.2rem;
+    padding: 10px 25px;
+    font-size: 1.1rem;
     line-height: 1.3em;
     text-decoration: none;
     border-radius: 10px;
