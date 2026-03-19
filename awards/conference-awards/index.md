@@ -16,6 +16,9 @@ title_separator: "|"
     });
 </script>
 <style>
+    .fa-envelope-square:before {
+    content: "";
+}
 h3 {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
