@@ -6,8 +6,6 @@ title_separator: "|"
 ---
 <style>
 .confsponsors-type {
-    width: max-content;
-    min-width: 150px;
     background: #666787;
     line-height: 35px;
     border-radius: 20px;
@@ -20,6 +18,7 @@ title_separator: "|"
     padding: 0 20px;
     margin-bottom: 15px;
     box-sizing: border-box;
+    text-align:left
 }
 .sponsor-group {
     display: flex;
