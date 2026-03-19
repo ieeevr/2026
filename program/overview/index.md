@@ -5,6 +5,18 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <style>
+.btn-large {
+    padding: 15px 45px;
+    font-size: 1.200em;
+    line-height: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+.btn-blue {
+    background-color: #262189;
+    color: #fff;
+}
+	
 h3 {
 margin-top: 2.5rem;
 margin-bottom: 1rem;
@@ -66,7 +78,7 @@ tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !
 text-align: center;
 }
 </style>
-<p class="big_title">Program Overview <a href="/2026/assets/downloads/VR26_Program_Daily.pdf" target="_blank" style="background-color:#003366; color:#fff; font-size:0.6rem; padding: 0.2rem 1rem; border-radius:10px">Download</a></p>
+<p class="big_title">Program Overview <a href="/2026/assets/downloads/VR26_Program_Daily.pdf" target="_blank" class="btn-blue btn-large" >Download</a></p>
 <h1>Day 1: Saturday, March 21</h1>
 <div class="table-scroll">
   <table>
