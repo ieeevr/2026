@@ -147,6 +147,17 @@ title_separator: "|"
     color: #444;
     white-space: pre-wrap;
 }
+
+@media screen and (max-width: 900px) {
+
+    .sponsor-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+}
 </style>
 <div>
   <p class="big_title">Sponsors & Exhibitors List</p>
