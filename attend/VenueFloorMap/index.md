@@ -32,3 +32,9 @@ title_separator: "|"
 <h1>Floor Map </h1>
 <p><img src="/2026/assets/images/VR26_Floor-Plan.gif" style="width:100%; border-radius: 10px"></p>
 
+<h1>Exhibition Layout</h1>
+<p><img src="/2026/assets/images/layout_2026.png" style="width:100%; border-radius: 10px"></p>
+
+<p style="width:100%; text-align: center; margin: 2rem 0">
+<a href="/2026/assets/downloads/VR2026_GB_Layout.pdf" class="btn-large btn-blue" target="_blank">Exhibition Layout Download</a>
+</p>
