@@ -28,7 +28,7 @@ th, td {
     font-size: 0.8rem;
     border-bottom: none !important
 }
-th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
+th { background-color: #262188 ; color: white; font-weight: 600;  }
 .category-cell {
     text-align: left;
 }
@@ -40,8 +40,8 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
 <h1>Industry Exhibition</h1>
 <div class="table-scroll">
 <table cellspacing="0" cellpadding="0">
-  <col width="10%">
-  <col width="90%">  
+  <col width="20%">
+  <col width="80%">  
   <tr>
     <th>B-No.</th>
     <th>Company Name</th>
