@@ -1,4 +1,4 @@
-<img width="71" height="71" alt="image" src="https://github.com/user-attachments/assets/e1760c4a-0d76-42aa-b689-97f4265c64a7" />---
+---
 layout: ieeevr-default
 title: "Conference Awards"
 subtitle: "IEEE VR 2026"
