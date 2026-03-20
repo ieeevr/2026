@@ -227,7 +227,7 @@ text-align: center;
       <tr>
         <th>15:30</th>
         <td rowspan="2">Break <br/>
-          (15:30-16:00)<br/>
+          (15:30-16:00)
           @ Lobby, 3F</td>
       </tr>
       <tr>
@@ -376,7 +376,7 @@ text-align: center;
           (14:00-15:30)<br>
           @ 325A, 325B</td>
         <td rowspan="6"><a href="/2026/program/future-faculty-forum/">Future Faculty Forum</a><br/>
-          (14:00-15:30)<br>
+          (14:00-15:30) <br>
           @ 325D</td>
       </tr>
       <tr>
@@ -488,8 +488,7 @@ text-align: center;
           (11:00-11:30)<br/>
           @ Grand Ballroom, 3F</td>
         <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (11:00-11:30)<br/>
-          @ Grand Ballroom</td>
+          (11:00-11:30)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
@@ -524,8 +523,7 @@ text-align: center;
       <tr>
         <th class="bt_br_01">　</th>
         <td rowspan="3"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (13:15-14:00)<br/>
-          @ Grand Ballroom</td>
+          (13:15-14:00)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th>13:30</th>
@@ -570,8 +568,7 @@ text-align: center;
           (16:00-16:30)<br/>
           @ Grand Ballroom</td>
         <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (16:00-16:30)<br/>
-          @ Grand Ballroom</td>
+          (16:00-16:30)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
@@ -661,8 +658,7 @@ text-align: center;
           (09:30-10:00)<br/>
           @ Grand Ballrom</td>
         <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (11:00-11:30)<br/>
-          @ Grand Ballroom</td>
+          (11:00-11:30)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
@@ -725,8 +721,7 @@ text-align: center;
       <tr>
         <th class="bt_br_01">　</th>
         <td rowspan="3"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (13:15-14:00)<br/>
-          @ Grand Ballroom</td>
+          (13:15-14:00)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th>13:30</th>
@@ -774,8 +769,7 @@ text-align: center;
           (16:00-16:30) <br>
           @ Grand Ballroom</td>
         <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (16:00-16:30)<br/>
-          @ Grand Ballroom</td>
+          (16:00-16:30)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
@@ -884,8 +878,7 @@ text-align: center;
           (09:30-10:00)<br/>
           @ Grand Ballroom</td>
         <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a><br/>
-          (09:30-10:00)<br/>
-          @ Grand Ballroom</td>
+          (09:30-10:00)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th  class="bt_br_01">　</th>
@@ -942,8 +935,7 @@ text-align: center;
       <tr>
         <th class="bt_br_01">　</th>
         <td rowspan="3"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (13:15-14:00)<br/>
-          @ Grand Ballroom</td>
+          (13:15-14:00)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th>13:30</th>
@@ -991,8 +983,7 @@ text-align: center;
           (16:00-16:30) <br>
           @ Grand Ballroom</td>
         <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (16:00-16:30)<br/>
-          @ Grand Ballroom</td>
+          (16:00-16:30)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
