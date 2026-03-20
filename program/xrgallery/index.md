@@ -76,7 +76,7 @@ th:last-child { width: 75%; }
 }
 
 /* Abstract 및 Video 토글(Details) 공통 CSS */
-details { margin-bottom: 8px; }
+details { margin-top: 8px; margin-bottom: 8px; }
 details summary {
     font-size: 0.75rem;
     color: #262188;
@@ -228,10 +228,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">Mycelial Memories is an immersive virtual reality installation that reimagines mycelial networks as living archives bridging temporal boundaries through immersive VR experiences. Drawing on anthropomorphism as a methodological framework, this work translates non-human fungal perception into human-perceivable language, creating an experiential meditation on memory, time, and ecological interconnection. Participants navigate a bioluminescent digital forest where diverse mushroom species preserve and present fragments of human civilization across AI-mediated past, present and future. By positioning mycelial networks as alternative models of documentation and memory, the installation challenges anthropocentric narratives and proposes a multispecies perspective to understanding human history within broader ecological timescales.</div>
         </details>
+        <img src="/2026/assets/images/XR1292.jpg" class="paper-image" alt="XR1292 Image">
         <details ontoggle="handleVideoToggle(this, 'LAwumaoY5gc')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR1292.jpg" class="paper-image" alt="XR1292 Image">
     </div>
 
     <div class="paper-item" id="XR2392">
@@ -249,10 +249,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">Virtual Dai Realm is an immersive VR artwork that reimagines Daiethnic dance—an intangible cultural heritage grounded in animistic beliefs and nature-mimicking movement—through AI motion capture and XR staging. Motion data extracted from a professional dancer drives responsive wind fields, particle blooms, cloth dynamics, and light behavior, while audience proximity and gaze subtly shape the unfolding scene. Viewers shift from spectators to co-ritualists, completing the work through embodied participation. By bridging ancestral motion (past), lived bodily encounter (present), and AI-mediated authorship (future), the piece demonstrates how immersive technologies can foster emotionally grounded connections to cultural heritage.</div>
         </details>
+        <img src="/2026/assets/images/XR3031.jpg" class="paper-image" alt="XR3031 Image">
         <details ontoggle="handleVideoToggle(this, 'Yp7iIvMgfEM')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR3031.jpg" class="paper-image" alt="XR3031 Image">
     </div>
 
     <div class="paper-item" id="XR3058">
@@ -261,10 +261,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">Dreaming of Butterflies is a mixed reality installation that examines how understanding can emerge through perception rather than instruction. A butterfly guides visitors from a quiet tea room through three interconnected scenes and back again, shaping attention through subtle pacing and minimal gestures such as gentle reach and slow turn. The work explores how perceptual orientation shifts when meaning arises through embodied sensing instead of explicit direction. The installation runs on Apple Vision Pro with a real-time ink rendering pipeline and is presented within a 3×3 meter seated tea room environment. It investigates the relationship between guidance, attention, and embodied experience in mixed reality.</div>
         </details>
+        <img src="/2026/assets/images/XR3058.jpg" class="paper-image" alt="XR3058 Image">
         <details ontoggle="handleVideoToggle(this, 'ng3lnzpxOhw')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR3058.jpg" class="paper-image" alt="XR3058 Image">
     </div>
 
     <div class="paper-item" id="XR3083">
@@ -273,10 +273,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">self-understanding is shaped through cooperation with others under an asymmetric information structure. Through complementary roles that provide access to different viewpoints and information, participants’ task performance depends on communication and mutual interpretation, transforming collaboration into a mirror for self-awareness and reflection. By leveraging presence and embodied agency in XR, the system is designed to externalize users’ past psychological habits under real-time constraints and to simulate relational changes based on the interaction data that emerge in this process. This work presents XR as not merely a simulation medium, but as a reflective framework for analyzing how past, present, and future are interconnected and reconfigured in human collaboration.</div>
         </details>
+        <img src="/2026/assets/images/XR3083.jpg" class="paper-image" alt="XR3083 Image">
         <details ontoggle="handleVideoToggle(this, 'agcyVOqv3CM')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR3083.jpg" class="paper-image" alt="XR3083 Image">
     </div>
 
     <div class="paper-item" id="XR4664">
@@ -285,10 +285,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">Return to the North: Virtual Archaeology of Electronic Orbits is a 6DoF XR interactive narrative set in post-industrial railway cities in northern China. It examines how rail connectivity reshaped everyday visual culture amid long-term extraction and depletion. We assemble public media footage, personal archives, printed atlases, handheld LiDAR scans, and photogrammetric captures into a traversable layered space using SfM/MVS and 3D Gaussian Splatting (3DGS) for real-time rendering. A provenance-preserving strategy keeps differences in era, resolution, and context perceptible as volumetric fault lines, ghosting, captions, and seams—forming what we call a Digital Volumetric Layering aesthetic. Through embodied drift beyond prescribed paths, viewers infer relations among fragments, tracing how economic geography and memory politics surface in the seams of reconstruction.</div>
         </details>
+        <img src="/2026/assets/images/XR4664.jpg" class="paper-image" alt="XR4664 Image">
         <details ontoggle="handleVideoToggle(this, 'EMcOLCocWmM')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR4664.jpg" class="paper-image" alt="XR4664 Image">
     </div>
 
     <div class="paper-item" id="XR4719">
@@ -306,10 +306,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">TamagotchU is an emotionally intelligent organism in an immersive XR ecosystem that fosters human dialogue. Running on low-energy edge devices, it critiques large-scale ecological costs through decentralized companionship. Portable tamapagers capture real-time facial and voice emotions, collectively evolving digital pufferfish inspired by Yangtze River indicators. The work proposes eco-sentient systems emphasizing modest computation, collective care, and symbiotic futures over extractive spectacle.</div>
         </details>
+        <img src="/2026/assets/images/XR5709.jpg" class="paper-image" alt="XR5709 Image">
         <details ontoggle="handleVideoToggle(this, '5VKEjDPUdIw')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR5709.jpg" class="paper-image" alt="XR5709 Image">
     </div>
 
     <div class="paper-item" id="XR5783">
@@ -327,10 +327,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">An asymmetric VR experience interrogating the unequal dynamics of control between human and AI systems, revealing the quiet hierarchies embedded in our interactions with technology. Aftermath foregrounds the asymmetrical power dynamics between human ingenuity and AI omniscience, probing whether artificial systems can truly understand, replicate, or ultimately surpass human creativity. Game mechanics are designed to simulate AI’s control over human agency in subtle yet powerful ways. The asymmetry between the VR player (AI) and the PC player (human) mirrors the real-world dynamic where AI operates from an unseen, omnipresent perspective, shaping human choices without direct intervention. The VR player can manipulate the environment in real-time, controlling how the PC player perceives and interacts with space. The PC player, in contrast, must navigate this dynamic world, always reliant on AI’s assistance. Through this unequal relationship, Aftermath invites players to confront the evolving balance between human agency and artificial influence.</div>
         </details>
+        <img src="/2026/assets/images/XR6643.jpg" class="paper-image" alt="XR6643 Image">
         <details ontoggle="handleVideoToggle(this, 'ypE2Uycqj9Y')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR6643.jpg" class="paper-image" alt="XR6643 Image">
     </div>
 
     <div class="paper-item" id="XR7543">
@@ -339,10 +339,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">Smell Like Home is a multi-sensory virtual reality experience that explores how olfactory memory shapes one’s sense of home and belonging. Blending scent, emotion, and immersive spatial design, the work considers how smell, an intensely emotional yet rarely represented sense in digital media, can awaken memory and transform the perception of space. Participants move through virtual environments reconstructed from the artist’s memories, guided by a scent camera that links digital imagery to real scent. Each photograph or interaction activates a custom scent diffuser mounted on the VR controller, releasing corresponding scents through Wi-Fi in sync with the player’s interaction. The project examines the subtle and profound bond between smell and memory, revealing how a single scent can traverse time and summon long-buried emotions and scenes. By combining sensory design with technical precision, Smell Like Home does more than enhance immersion through scent; it reconstructs the sense of presence that smell evokes. It reflects on how immersive technology can revive the sensory language of memory, turning scent into a bridge between past and present, through which memories can be momentarily lived again.</div>
         </details>
+        <img src="/2026/assets/images/XR7543.jpg" class="paper-image" alt="XR7543 Image">
         <details ontoggle="handleVideoToggle(this, 'TsWSZP-ns4U')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR7543.jpg" class="paper-image" alt="XR7543 Image">
     </div>
 
     <div class="paper-item" id="XR8152">
@@ -360,10 +360,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">The Arborist is a mixed reality (MR) installation transforms physiological signals into digital blooms, inviting participants to co-create a shared virtual ecosystem through embodied interaction. Rather than storing raw bio-signals, the system maps heart rate, skin conductance, and temperature to generative visual and sonic parameters, rendering internal states as ambient, non-indexical forms. Users grow and place digital flowers on a tree, transitioning between MR and virtual reality (VR) through gesture. The evolving visual archive preserves only aesthetic traces of presence. Rooted in posthuman and participatory design, the work reimagines biometric data as poetic, collaborative memory connecting past and future.</div>
         </details>
+        <img src="/2026/assets/images/XR8552.jpg" class="paper-image" alt="XR8552 Image">
         <details ontoggle="handleVideoToggle(this, 'xWAIOgQTsJw')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR8552.jpg" class="paper-image" alt="XR8552 Image">
     </div>
 
     <div class="paper-item" id="XR8822">
@@ -372,10 +372,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">Ink in Motion is an interactive virtual reality dance experience that reimagines classical Eight Sights of Yanjing (ancient Beijing) through embodied ink choreography. Presented as a hybrid panoramic film, the work transforms the dancer’s motion—and the viewer’s gestures—into a shared medium of calligraphic ink. Flowing sleeves generate landscapes in real time, while hand-tracked interaction allows participants to draw ink directly into the virtual space, forming a responsive duet between performer and audience. By combining motion-captured dance, physically based cloth simulation, and gesture-driven ink rendering, the piece explores motion as medium, where cultural memory emerges through bodily movement rather than static representation. Ink in Motion reframes traditional landscape imagery as a living, co-created process, inviting viewers to re-experience heritage through embodied participation. The work demonstrates how immersive XR can transform spectatorship into authorship, offering a poetic model for redrawing cultural memory across past, present, and future.</div>
         </details>
+        <img src="/2026/assets/images/XR8822.jpg" class="paper-image" alt="XR8822 Image">
         <details ontoggle="handleVideoToggle(this, 'ZqnM7AdugJY')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR8822.jpg" class="paper-image" alt="XR8822 Image">
     </div>
 
     <div class="paper-item" id="XR9575">
@@ -384,10 +384,10 @@ details[open] summary::after {
         <details><summary>Abstract</summary>
             <div class="abstract-content">What if your body posture and movement could be read as a sentence? ”Body Oracle” Translator is a handheld mixed reality device that translates human body postures and movement into speculative AI-generated hieroglyphic characters in real time. This computational linguistic speculative design project creates an alternative language system inspired by Chinese Oracle-Bone Inscriptions, promoting cross-cultural collective bodily awareness in an era dominated by language-based communication. Glimpsing through the lens, users inhabit an ”alternative present”—one where these hieroglyphic characters have existed for thousands of years—where this alternative language reshapes our understanding of the body and influences collective body awareness.</div>
         </details>
+        <img src="/2026/assets/images/XR9575.jpg" class="paper-image" alt="XR9575 Image">
         <details ontoggle="handleVideoToggle(this, 'GXeLSfZnXAQ')"><summary>Video</summary>
             <div class="iframe-container"></div>
         </details>
-        <img src="/2026/assets/images/XR9575.jpg" class="paper-image" alt="XR9575 Image">
     </div>
 </div>
 
