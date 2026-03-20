@@ -73,7 +73,7 @@ font-size: 0.7rem;
 	}	
 	
 tbody th { background-color: #f3f3f3 !important; color:#000; font-size: 0.7rem !important; font-weight:300; padding:0; text-align:center}
-.bt_br_01 {border-bottom:1px solid #ccc; height: 2rem}
+.bt_br_01 {border-bottom:1px solid #ccc; height: 1.2rem}
 .category-cell {
 text-align: center;
 }
