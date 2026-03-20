@@ -302,8 +302,7 @@ text-align: center;
       <tr>
         <th>10:00</th>
         <td rowspan="2" colspan="2">Break <br/>
-          (10:00-10:30)<br/>
-          @ Lobby, 3F</td>
+          (10:00-10:30)          @ Lobby, 3F</td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
