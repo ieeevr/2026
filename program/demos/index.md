@@ -533,7 +533,7 @@ td {
 <div class="paper-section">
   <h3 class="session-id-tag">TwinHaus: Digital Twin Design Tool for Sustainable Building Construction</h3>
   <p class="meta-info"><strong>Booth ID: 16</strong></p>
-  <p class="meta-info"><strong>Author</strong><br/><strong>Somang Nam</strong> , <i>Algoma University</i>; <strong>Joel Saji</strong>, <i>Varghese Algoma University</i>; <strong>Aanya Goel</strong> <i>Algoma , University</i>; <strong>Hyunggu Jung</strong> , <i>Seoul National University</i></p>
+  <p class="meta-info"><strong>Author</strong><br/><strong>Somang Nam</strong> , <i>Algoma University</i>; <strong>Joel Saji Varghese</strong>, <i> Algoma University</i>; <strong>Aanya Goel</strong>, <i>Algoma University</i>; <strong>Hyunggu Jung</strong>, <i>Seoul National University</i></p>
   
   <div class="abstract-wrapper">
     <div class="abstract-toggle" onClick="toggleAbstract(this)"><strong>Abstract</strong> <span class="arrow">▼</span></div>
