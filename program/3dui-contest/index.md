@@ -14,7 +14,7 @@ title_separator: "|"
 </div>
         
 <h1>WebGPU-Accelerated Multimodal Content Generation for Immersive XR Presentations (ID: 2824)</h1>
-<p><strong>Mohammad Riasad Huq</strong>, <i>Hong Kong Baptist University</i>; <strong>Martin Man Ting Choy</strong>, <i>Kong Baptist University</i>; <strong>Kenny Kam Kong Cheng</strong>, <i>Hong Kong Baptist University</i></p>
+<p><strong>Mohammad Riasad Huq</strong>, <i>Hong Kong Baptist University</i>; <strong>Martin Man Ting Choy</strong>, <i>Hong Kong Baptist University</i>; <strong>Kenny Kam Kong Cheng</strong>, <i>Hong Kong Baptist University</i></p>
    
 <div class="video-container">             
   
