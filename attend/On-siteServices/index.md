@@ -138,7 +138,7 @@ The Registration Bot will verify your confirmation number and automatically gran
 Please refer to <strong>the shuttle bus timetable and Bus stop information</strong><br>
 <br>
 
-<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="https://drive.google.com/file/d/1PItwHuGPKrQYbLcatokUsVTTxWn1ldqK/view?usp=drive_link" class="btn-large btn-blue" target="_blank">Shuttle bus timetable</a>  <a href="https://drive.google.com/file/d/1FPmItwOZFGHDdsBq_hYoce7Wo44zALKF/view?usp=drive_link" class="btn-large btn-blue" target="_blank">Bus stop information</a></p>
+<p style="width:100%; text-align: center; margin: 2rem 0"> <a href="https://drive.google.com/file/d/1PItwHuGPKrQYbLcatokUsVTTxWn1ldqK/view?usp=drive_link" class="btn-large btn-blue" target="_blank">Shuttle bus timetable</a>  <a href="https://drive.google.com/file/d/1Xgxlueg52EH2kRoiikIv3eYONbI0SuCW/view" class="btn-large btn-blue" target="_blank">Bus stop information</a></p>
 
 
 <h1>Wi-Fi Access </h1>
