@@ -329,7 +329,7 @@ const scheduleMeta = [
   ]},
   { day: "Tuesday, March 24", times: [
       { time: "08:30 - 09:30", ps: "5" },
-      { time: "10:00 - 11:00", ps: "6" },
+      { time: "11:30 - 12:30", ps: "6" },
       { time: "14:00 - 15:00", ps: "7" },
       { time: "15:00 - 16:00", ps: "8" },
       { time: "16:30 - 17:30", ps: "9" }
