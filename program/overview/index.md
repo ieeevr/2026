@@ -652,7 +652,7 @@ text-align: center;
         <td rowspan="2" colspan="2">Break <br/>
           (09:30-10:00)          @ Grand Ballrom</td>
         <td rowspan="2"><a href="/2026/program/demos/">Demos</a>, <a href="/2026/program/3dui-contest/">3DUI</a>, <a href="/2026/program/posters/">Posters</a>, <a href="/2026/program/xrgallery/">XR Gallery</a> <br/>
-          (11:00-11:30)          @ Grand Ballroom</td>
+          (09:30-10:00)          @ Grand Ballroom</td>
       </tr>
       <tr>
         <th class="bt_br_01">　</th>
