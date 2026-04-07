@@ -152,16 +152,10 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
     <li> Soumyajit Chakraborty, Vanderbilt University; Holly C Gagnon, Vanderbilt University; Timothy P McNamara, Vanderbilt University; Bobby Bodenheimer, Vanderbilt University: <strong>Collaborative Navigation Improves Spatial Learning Across Symmetric and Asymmetric Locomotion in Virtual Reality</strong> </li>
     <li> Jiayuan Wen, University College London; Daniele Giunchi, University of Birmingham; Pasquale Cascarano, University of Bologna; Riccardo Bovo, University of Greenwich; Eyal Ofek, University of Birmingham; Anthony Steed, University College London: <strong>Tuning Immersion and Performance with Adaptive Generative Music in VR</strong> </li>
   </ol>
- 
-   <a name="aa6"></a> 
- 
-  <h1>Best XR Gallery Award <img src="/2026/assets/images/award_01.png"></h1>
+  <a name="aa6"></a>
+  <h1 style="margin-top:2.5rem">Best XR Gallery Award <img src="/2026/assets/images/award_01.png"></h1>
   <p><strong>Târoot</strong><br>
     Alma Oskouei, Ronan Gaugne, Valérie Gouranton</p>
- 
- 
- 
- 
   <h1>Best XR Gallery Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
   <p> <strong>Year of Cicadas</strong><br>
     Kimberly Hieftje, Asher M. Marks, Andrew Schartmann<br>
@@ -172,44 +166,26 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
     <br>
     <strong>Smell Like Home: An Olfactory-Driven VR Experience through a Scent-Camera Interface </strong><br>
     Jiaxuan Olivia Yin, Ziyuan Yin </p>
-  
-  
-    <a name="aa5"></a> 
-  
-  <h1>Best Doctoral Consortium Award <img src="/2026/assets/images/award_01.png"></h1>
+  <a name="aa5"></a>
+  <h1 style="margin-top:2.5rem">Best Doctoral Consortium Award <img src="/2026/assets/images/award_01.png"></h1>
   <p><strong>Toward Adaptive and Accessible XR Through User and Context Modeling</strong><br>
     Zhiqing Wu</p>
   <h1>Best Doctoral Consortium Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
   <p><strong>Virtual Reality and Beyond: Exploring the Design and User Experience of Augmented Social Touch in VR</strong><br>
     Sasha Alexdottir</p>
-  
-  
-  
-    <a name="aa3"></a> 
-  
-  <h1>Best Research Demo Award <img src="/2026/assets/images/award_01.png"></h1>
+  <a name="aa3"></a>
+  <h1 style="margin-top:2.5rem">Best Research Demo Award <img src="/2026/assets/images/award_01.png"></h1>
   <p><strong>ChronoShore: Exploring Short- and Long-Term Environmental Time in a Virtual Coastal Ecosystem</strong><br>
     Lucca Troll, Yuen C. Law, Daniel Zielasko</p>
   <h1>Best Research Demo Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
   <p><strong>Fast Digitization in XR of Reality-Linked Gaussian-Splatted Proxies</strong><br>
     Benjamin Yang, Shanying Liu, Kirthana Natarajan, Steven Feiner, </p>
-  
-  
-  
-    <a name="aa4"></a> 
-  
-  <h1>Best 3DUI Contest Award <img src="/2026/assets/images/award_01.png"></h1>
+  <a name="aa4"></a>
+  <h1 style="margin-top:2.5rem">Best 3DUI Contest Award <img src="/2026/assets/images/award_01.png"></h1>
   <p><strong>From Slides to Space: Interactive Scale Navigation for XR Presentations</strong><br>
     Matthew Gallagher, Mason Szczesniak, Francielly Rodrigues, Nakul Kumar, Jasmine Walker, Hamid Tarashiyoun, Doug Bowman</p>
-  
-  
-  
-  
-  
-  <a name="aa2"></a> 
-  
-  
-  <h1>Best Poster Award <img src="/2026/assets/images/award_01.png"></h1>
+  <a name="aa2"></a>
+  <h1 style="margin-top:2.5rem">Best Poster Award <img src="/2026/assets/images/award_01.png"></h1>
   <p><strong>Render-to-Display of Analytic Anti-Aliased Text and Vector Graphics in VR</strong><br>
     Varun Kumar Karuppannan <br>
     <br>
