@@ -119,7 +119,7 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
           </tr>
           <tr>
             <td><a href="#aa4">Best 3DUI Contest Demos</a></td>
-            <td><a href="#aa4">Honorable Mentions</a></td>
+            <td><!--a href="#aa4">Honorable Mentions</a--></td>
           </tr>
           <tr>
             <td><a href="#aa5">Best Doctoral Consortium</a></td>
