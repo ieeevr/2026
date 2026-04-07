@@ -86,72 +86,115 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
     }
 }
 </style>
-
 <div class="award-wrapper">
-<p class="big_title">Conference Awards</p>
-<h1>Awards Chairs
-  <div class="floatRight"><span class="awardsSm"></span></div>
-</h1>
-<ul>
-  <li><strong>Amela Sadagic</strong> – <i>Naval Postgraduate School, USA</i></li>
-  <li><strong>Henning Pohl</strong> – <i>Aalborg University, Denmark</i></li>
-  <li><strong>Christian Wallraven</strong> – <i>Korea University, Republic of Korea</i></li>
-</ul>
-<div id="schedule-tables">
-  <div class="table-scroll">
-    <table class="table-scroll">
-      <thead>
-        <tr>
-          <th colspan="2">Conference Awards - Quick Links</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="#aa1">Best Papers </a></td>
-          <td><a href="#aa1">Honorable Mentions</a></td>
-        </tr>
-        <tr>
-          <td>Best Posters</td>
-          <td>Honorable Mentions </td>
-        </tr>
-        <tr>
-          <td>Best Research Demos </td>
-          <td>Honorable Mentions </td>
-        </tr>
-        <tr>
-          <td>Best 3DUI Contest Demos </td>
-          <td>Honorable Mentions </td>
-        </tr>
-        <tr>
-          <td>Best Doctoral Consortium </td>
-          <td>Honorable Mentions </td>
-        </tr>
-        <tr>
-          <td>Best XR Gallery </td>
-          <td>Honorable Mentions </td>
-        </tr>
-      </tbody>
-    </table>
-   <a name="aa1"></a>
+  <p class="big_title">Conference Awards</p>
+  <h1>Awards Chairs
+    <div class="floatRight"><span class="awardsSm"></span></div>
+  </h1>
+  <ul>
+    <li><strong>Amela Sadagic</strong> – <i>Naval Postgraduate School, USA</i></li>
+    <li><strong>Henning Pohl</strong> – <i>Aalborg University, Denmark</i></li>
+    <li><strong>Christian Wallraven</strong> – <i>Korea University, Republic of Korea</i></li>
+  </ul>
+  <div id="schedule-tables">
+    <div class="table-scroll">
+      <table class="table-scroll">
+        <thead>
+          <tr>
+            <th colspan="2">Conference Awards - Quick Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#aa1">Best Papers </a></td>
+            <td><a href="#aa1">Honorable Mentions</a></td>
+          </tr>
+          <tr>
+            <td><a href="#aa2">Best Posters</a></td>
+            <td><a href="#aa2">Honorable Mentions</a></td>
+          </tr>
+          <tr>
+            <td><a href="#aa3">Best Research Demos</a></td>
+            <td><a href="#aa3">Honorable Mentions</a></td>
+          </tr>
+          <tr>
+            <td><a href="#aa4">Best 3DUI Contest Demos</a></td>
+            <td><!--a href="#aa4">Honorable Mentions</a--></td>
+          </tr>
+          <tr>
+            <td><a href="#aa5">Best Doctoral Consortium</a></td>
+            <td><a href="#aa5">Honorable Mentions</a></td>
+          </tr>
+          <tr>
+            <td><a href="#aa6">Best XR Gallery</a></td>
+            <td><a href="#aa6">Honorable Mentions</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <a name="aa1"></a> </div>
   </div>
-</div>
-<h1>Best Papers <img src="/2026/assets/images/award_01.png"></h1>
-    <ol>
-      <li>Hayeon Kim, Dankook University; In-Kwon Lee, Yonsei University: <strong>How Much Is Too Much? Comfort Envelopes for Distortions in Virtual Reality Interaction </strong> </li>
-      <li> Takahiro Okamoto, University of Osaka; Masaki Takeuchi, University of Osaka; Masataka Sawayama, Hokkaido University; Daisuke Iwai, Osaka University: <strong>Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector </strong> </li>
-      <li> Yin Wang, Beihang university; Zhiying Leng, Beihang University; Haitian Liu, Beihang University; Frederick W. B. Li, University of Durham; Mu Li, Beihang university; Xiaohui Liang, Beihang University: <strong>Dynamic Worlds, Dynamic Humans: Generating Virtual Human-Scene Interaction Motion in Dynamic Scenes </strong> </li>
-      <li> Natalie Hube, University of Stuttgart; Alexander Achberger, University of Stuttgart; Michael Sedlmair, University of Stuttgart: <strong>A Large-Scale Quantitative Analysis of Avatars in VR and AR </strong> </li>
-      <li> Haibo Li, Southwest university; Qingyue Deng, Southwest University; Jijiang Li, Southwest university; Haibin Ling, Westlake University; Bingyao Huang, Southwest University: <strong>Setup-Independent Full Projector Compensation </strong> </li>
-</ol>
-    <h1>Honorable Mentions for Best Papers  <img src="/2026/assets/images/award_02.png"></h1>
-    <ol>
-      <li> Hyunmin Ban. The University of Hong Kong; Wenbin Zhou EEE, The University of Hong Kong; Yifan (Evan) Peng, The University of Hong Kong: <strong>Towards Edge Holography via Implicit Neural Representation and Compression</strong> </li>
-      <li> Chengzhi Tao, Nanjing University; Yiyang Sun, Nanjing University; Jie Guo, Nanjing University; Tao Zhang, NanJing University; Letian Huang; Nanjing University; Junqiu Zhu, Nanjing University; Daoheng Wang, Nanjing University; Yanwen Guo, Nanjing University: <strong>GSReuse: Temporally Adaptive Screen-Space Reuse for Accelerating 3D Gaussian Splatting</strong> </li>
-      <li> Peiyu Zhang, University of Virginia, Charlottesville; Mohamad El Iskandarani, University of Virginia; Sara Riggs, University of Virginia: <strong>Multitasking Across Physical and Virtual Displays: The Effect of Spatial Discontinuity and Task Load </strong> </li>
-      <li> Jonathan Tschanter, University of Würzburg; Christian Merz, University of Würzburg, Würzburg; Carolin Wienrich, University of Würzburg, Würzburg; Marc Erich Latoschik, University of Würzburg: <strong>How Harassment Shapes Embodiment and SelfIdentification in Social VR: Evidence from a Controlled Lab Study </strong> </li>
-      <li> Kotaro Fujimura, University of Osaka; Hiroki Kusuyama University of Osaka; Masaki Takeuchi, University of Osaka; Daisuke Iwai, University of Osaka: <strong>High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array </strong> </li>
-      <li> Ze Wu, Hong Kong University of Science and Technology; Ahmad Alhilal, Aalto University; Yuk Hang Tsui, Hong Kong University of Science and Technology; Wen Jye Chai, Hong Kong University of Science and Technology; Matti Mikael Siekkinen, Aalto University; Pan Hui, Hong Kong University of Science and Technology: <strong>Saliency-Guided Foveated Video Encoding for Low-Latency and Immersive Cloud VR </strong> </li>
-      <li> Soumyajit Chakraborty, Vanderbilt University; Holly C Gagnon, Vanderbilt University; Timothy P McNamara, Vanderbilt University; Bobby Bodenheimer, Vanderbilt University: <strong>Collaborative Navigation Improves Spatial Learning Across Symmetric and Asymmetric Locomotion in Virtual Reality</strong> </li>
-      <li> Jiayuan Wen, University College London; Daniele Giunchi, University of Birmingham; Pasquale Cascarano, University of Bologna; Riccardo Bovo, University of Greenwich; Eyal Ofek, University of Birmingham; Anthony Steed, University College London: <strong>Tuning Immersion and Performance with Adaptive Generative Music in VR</strong> </li>
-    </ol>
+  <h1>Best Papers Award <img src="/2026/assets/images/award_01.png"></h1>
+  <ol>
+    <li>Hayeon Kim, Dankook University; In-Kwon Lee, Yonsei University: <strong>How Much Is Too Much? Comfort Envelopes for Distortions in Virtual Reality Interaction </strong> </li>
+    <li> Takahiro Okamoto, University of Osaka; Masaki Takeuchi, University of Osaka; Masataka Sawayama, Hokkaido University; Daisuke Iwai, Osaka University: <strong>Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector </strong> </li>
+    <li> Yin Wang, Beihang university; Zhiying Leng, Beihang University; Haitian Liu, Beihang University; Frederick W. B. Li, University of Durham; Mu Li, Beihang university; Xiaohui Liang, Beihang University: <strong>Dynamic Worlds, Dynamic Humans: Generating Virtual Human-Scene Interaction Motion in Dynamic Scenes </strong> </li>
+    <li> Natalie Hube, University of Stuttgart; Alexander Achberger, University of Stuttgart; Michael Sedlmair, University of Stuttgart: <strong>A Large-Scale Quantitative Analysis of Avatars in VR and AR </strong> </li>
+    <li> Haibo Li, Southwest university; Qingyue Deng, Southwest University; Jijiang Li, Southwest university; Haibin Ling, Westlake University; Bingyao Huang, Southwest University: <strong>Setup-Independent Full Projector Compensation </strong> </li>
+  </ol>
+  <h1>Best Papers  Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
+  <ol>
+    <li> Hyunmin Ban. The University of Hong Kong; Wenbin Zhou EEE, The University of Hong Kong; Yifan (Evan) Peng, The University of Hong Kong: <strong>Towards Edge Holography via Implicit Neural Representation and Compression</strong> </li>
+    <li> Chengzhi Tao, Nanjing University; Yiyang Sun, Nanjing University; Jie Guo, Nanjing University; Tao Zhang, NanJing University; Letian Huang; Nanjing University; Junqiu Zhu, Nanjing University; Daoheng Wang, Nanjing University; Yanwen Guo, Nanjing University: <strong>GSReuse: Temporally Adaptive Screen-Space Reuse for Accelerating 3D Gaussian Splatting</strong> </li>
+    <li> Peiyu Zhang, University of Virginia, Charlottesville; Mohamad El Iskandarani, University of Virginia; Sara Riggs, University of Virginia: <strong>Multitasking Across Physical and Virtual Displays: The Effect of Spatial Discontinuity and Task Load </strong> </li>
+    <li> Jonathan Tschanter, University of Würzburg; Christian Merz, University of Würzburg, Würzburg; Carolin Wienrich, University of Würzburg, Würzburg; Marc Erich Latoschik, University of Würzburg: <strong>How Harassment Shapes Embodiment and SelfIdentification in Social VR: Evidence from a Controlled Lab Study </strong> </li>
+    <li> Kotaro Fujimura, University of Osaka; Hiroki Kusuyama University of Osaka; Masaki Takeuchi, University of Osaka; Daisuke Iwai, University of Osaka: <strong>High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array </strong> </li>
+    <li> Ze Wu, Hong Kong University of Science and Technology; Ahmad Alhilal, Aalto University; Yuk Hang Tsui, Hong Kong University of Science and Technology; Wen Jye Chai, Hong Kong University of Science and Technology; Matti Mikael Siekkinen, Aalto University; Pan Hui, Hong Kong University of Science and Technology: <strong>Saliency-Guided Foveated Video Encoding for Low-Latency and Immersive Cloud VR </strong> </li>
+    <li> Soumyajit Chakraborty, Vanderbilt University; Holly C Gagnon, Vanderbilt University; Timothy P McNamara, Vanderbilt University; Bobby Bodenheimer, Vanderbilt University: <strong>Collaborative Navigation Improves Spatial Learning Across Symmetric and Asymmetric Locomotion in Virtual Reality</strong> </li>
+    <li> Jiayuan Wen, University College London; Daniele Giunchi, University of Birmingham; Pasquale Cascarano, University of Bologna; Riccardo Bovo, University of Greenwich; Eyal Ofek, University of Birmingham; Anthony Steed, University College London: <strong>Tuning Immersion and Performance with Adaptive Generative Music in VR</strong> </li>
+  </ol>
+  <a name="aa6"></a>
+  <h1 style="margin-top:2.5rem">Best XR Gallery Award <img src="/2026/assets/images/award_01.png"></h1>
+  <p><strong>Târoot</strong><br>
+    Alma Oskouei, Ronan Gaugne, Valérie Gouranton</p>
+  <h1>Best XR Gallery Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
+  <p> <strong>Year of Cicadas</strong><br>
+    Kimberly Hieftje, Asher M. Marks, Andrew Schartmann<br>
+    <br>
+    <strong>Distributed Flânerie: Electronic Orbits of Memory as a Spatial Soft Montage</strong><br>
+    Ying Bing, Angela Chulei Tang, Yuan Zhang, Shuyi Wang, Haoqing Zhang,
+    Ruiyao Zhu<br>
+    <br>
+    <strong>Smell Like Home: An Olfactory-Driven VR Experience through a Scent-Camera Interface </strong><br>
+    Jiaxuan Olivia Yin, Ziyuan Yin </p>
+  <a name="aa5"></a>
+  <h1 style="margin-top:2.5rem">Best Doctoral Consortium Award <img src="/2026/assets/images/award_01.png"></h1>
+  <p><strong>Toward Adaptive and Accessible XR Through User and Context Modeling</strong><br>
+    Zhiqing Wu</p>
+  <h1>Best Doctoral Consortium Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
+  <p><strong>Virtual Reality and Beyond: Exploring the Design and User Experience of Augmented Social Touch in VR</strong><br>
+    Sasha Alexdottir</p>
+  <a name="aa3"></a>
+  <h1 style="margin-top:2.5rem">Best Research Demo Award <img src="/2026/assets/images/award_01.png"></h1>
+  <p><strong>ChronoShore: Exploring Short- and Long-Term Environmental Time in a Virtual Coastal Ecosystem</strong><br>
+    Lucca Troll, Yuen C. Law, Daniel Zielasko</p>
+  <h1>Best Research Demo Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
+  <p><strong>Fast Digitization in XR of Reality-Linked Gaussian-Splatted Proxies</strong><br>
+    Benjamin Yang, Shanying Liu, Kirthana Natarajan, Steven Feiner, </p>
+  <a name="aa4"></a>
+  <h1 style="margin-top:2.5rem">Best 3DUI Contest Award <img src="/2026/assets/images/award_01.png"></h1>
+  <p><strong>From Slides to Space: Interactive Scale Navigation for XR Presentations</strong><br>
+    Matthew Gallagher, Mason Szczesniak, Francielly Rodrigues, Nakul Kumar, Jasmine Walker, Hamid Tarashiyoun, Doug Bowman</p>
+  <a name="aa2"></a>
+  <h1 style="margin-top:2.5rem">Best Poster Award <img src="/2026/assets/images/award_01.png"></h1>
+  <p><strong>Render-to-Display of Analytic Anti-Aliased Text and Vector Graphics in VR</strong><br>
+    Varun Kumar Karuppannan <br>
+    <br>
+    <strong>DodgeUI: An Adaptive Interface for Mitigating Attentional Conflict via Implicit Motion Cues in Mobile AR</strong><br>
+    Yi Zou, Ao Yu, Ziming Li, Hai-Ning Liang, Pan Hui</p>
+  <h1>Best Poster Award (Honorable Mentions) <img src="/2026/assets/images/award_02.png"></h1>
+  <p><strong>Enhancing Accommodative Function in XR via Dynamically Modulated Peripheral Chromatic Blur</strong><br>
+    Chanmin Jeong, Uijong Ju <br>
+    <br>
+    <strong>Perceptually Optimized Chromatic Power Saving in XR Using Binocular Asymmetry</strong><br>
+    Wooyoung Choi, Uijong Ju </p>
 </div>
