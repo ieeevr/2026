@@ -133,7 +133,7 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
       </table>
       <a name="aa1"></a> </div>
   </div>
-  <h1>Best Papers <img src="/2026/assets/images/award_01.png"></h1>
+  <h1>Best Papers Award <img src="/2026/assets/images/award_01.png"></h1>
   <ol>
     <li>Hayeon Kim, Dankook University; In-Kwon Lee, Yonsei University: <strong>How Much Is Too Much? Comfort Envelopes for Distortions in Virtual Reality Interaction </strong> </li>
     <li> Takahiro Okamoto, University of Osaka; Masaki Takeuchi, University of Osaka; Masataka Sawayama, Hokkaido University; Daisuke Iwai, Osaka University: <strong>Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector </strong> </li>
@@ -141,7 +141,7 @@ th { background-color: #262188 ; color: white; font-weight: 600; width: 100%; }
     <li> Natalie Hube, University of Stuttgart; Alexander Achberger, University of Stuttgart; Michael Sedlmair, University of Stuttgart: <strong>A Large-Scale Quantitative Analysis of Avatars in VR and AR </strong> </li>
     <li> Haibo Li, Southwest university; Qingyue Deng, Southwest University; Jijiang Li, Southwest university; Haibin Ling, Westlake University; Bingyao Huang, Southwest University: <strong>Setup-Independent Full Projector Compensation </strong> </li>
   </ol>
-  <h1>Honorable Mentions for Best Papers <img src="/2026/assets/images/award_02.png"></h1>
+  <h1>Best Papers  Award (Honorable Mention) <img src="/2026/assets/images/award_02.png"></h1>
   <ol>
     <li> Hyunmin Ban. The University of Hong Kong; Wenbin Zhou EEE, The University of Hong Kong; Yifan (Evan) Peng, The University of Hong Kong: <strong>Towards Edge Holography via Implicit Neural Representation and Compression</strong> </li>
     <li> Chengzhi Tao, Nanjing University; Yiyang Sun, Nanjing University; Jie Guo, Nanjing University; Tao Zhang, NanJing University; Letian Huang; Nanjing University; Junqiu Zhu, Nanjing University; Daoheng Wang, Nanjing University; Yanwen Guo, Nanjing University: <strong>GSReuse: Temporally Adaptive Screen-Space Reuse for Accelerating 3D Gaussian Splatting</strong> </li>
